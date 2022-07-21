@@ -5,10 +5,11 @@ from pyramid.config import Configurator
 from clld_glottologfamily_plugin import util
 
 from clldutils import svg
-from clld.interfaces import IMapMarker, IValueSet, IValue, IDomainElement, ILanguage, IParameter, IUnit
+from clld.interfaces import IMapMarker, IValueSet, IValue, IDomainElement, ILanguage, IParameter, IUnit, IContributor
 from clldutils.svg import pie, icon, data_url
 from clld.web.adapters.base import adapter_factory
 from clld.web.app import ClldRequest
+from clld import common
 
 # we must make sure custom models are known at database initialization!
 from ooaclld import models
@@ -67,8 +68,9 @@ def main(global_config, **settings):
     config.include('clldmpg')
 
     config.register_resource('featureset', models.OOAFeatureSet, IFeatureSet, with_index=True)
-    config.register_resource('units', models.OOAUnit, IUnit, with_index=True)
-    config.register_resource('units', models.OOAUnit, IUnit, with_index=True)
+    config.register_resource('unit', models.OOAUnit, IUnit, with_index=True)
+    config.register_resource('parameter', models.OOAParameter, IParameter, with_index=True)
+    config.register_resource('contributor', common.Contributor, IContributor, with_index=True)
 
     config.registry.registerUtility(LanguageByFamilyMapMarker(), IMapMarker)
 
