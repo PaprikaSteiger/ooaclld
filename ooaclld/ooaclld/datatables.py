@@ -2,7 +2,6 @@ from sqlalchemy.orm import joinedload, contains_eager, subqueryload
 
 from clld.web import datatables
 from clld.web.datatables.base import Col, LinkCol, DetailsRowLinkCol, IdCol, DataTable
-from clld.web.datatables import Units
 from clld.web.datatables.value import ValueNameCol
 from clld.db.meta import DBSession
 from clld.db.models import common
@@ -57,11 +56,13 @@ class Languages(datatables.Languages):
         ]
 
 
-class Units(Units):
+class Units(datatables.Units):
 
     def base_query(self, query):
         if self.language:
             query = query.join(OOALanguage, self.language_pk == self.language.pk)
+        else:
+            query = query.join(OOAParameter).options(contains_eager(OOAParameter.pk)) #, OOAUnit.parameter_id == OOAUnit.parameter.pk)
         return query
 
     def col_defs(self):

@@ -16,7 +16,7 @@ from clld import interfaces
 from clld.db.meta import Base, CustomModelMixin
 from clld.db.models import common
 
-from ooaclld import interfaces as ooaclld_interfaces
+from ooaclld.interfaces import IFeatureSet
 
 from clld_glottologfamily_plugin.models import HasFamilyMixin
 
@@ -63,7 +63,7 @@ class OOAParameter(CustomModelMixin, common.Parameter):
     visualization = Column(Unicode)
 
 
-@implementer(ooaclld_interfaces.IFeatureSet)
+@implementer(IFeatureSet)
 class OOAFeatureSet(CustomModelMixin, common.UnitDomainElement):
     pk = Column(Unicode, ForeignKey('unitdomainelement.pk'), primary_key=True)
     domains = Column(Unicode)
