@@ -71,6 +71,14 @@ class Units(datatables.Units):
             Col(self, 'parameter_id', model_col=OOAUnit.parameter_id),
             Col(self, 'language_id', model_col=OOAUnit.language_pk)
         ]
+
+class Contributors(datatables.Contributors):
+
+    def col_defs(self):
+        return [
+            IdCol(self, 'Contributor ID', model_col=common.Contributor.id),
+            Col(self, 'Name', model_col=common.Contributor.name)
+        ]
 # class Languages(datatables.Languages):
 #     def base_query(self, query):
 #         return query.join(Genus).join(Family).options(
@@ -101,4 +109,5 @@ def includeme(config):
     config.register_datatable('languages', Languages)
     config.register_datatable('parameters', Features)
     config.register_datatable('featuresets', Featuresets)
+    config.register_datatable('contributors', Contributors)
 
