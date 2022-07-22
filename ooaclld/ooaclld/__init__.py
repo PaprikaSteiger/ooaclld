@@ -69,7 +69,7 @@ def main(global_config, **settings):
 
     config.register_resource('featureset', models.OOAFeatureSet, IFeatureSet, with_index=True)
     config.register_resource('unit', models.OOAUnit, IUnit, with_index=True)
-    config.register_resource('parameter', models.OOAParameter, IParameter, with_index=True)
+    config.register_resource('feature', models.OOAParameter, IParameter, with_index=True)
     config.register_resource('contributor', common.Contributor, IContributor, with_index=True)
 
     config.registry.registerUtility(LanguageByFamilyMapMarker(), IMapMarker)
