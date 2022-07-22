@@ -28,7 +28,7 @@ class Features(datatables.Parameters):
     #     ]
     def col_defs(self):
         return [
-            IdCol(self, 'id', sClass='left'),
+            IdCol(self, 'id', sClass='left', model_col=OOAParameter.id),
             Col(self, 'FeatureSet', model_col=OOAParameter.feature_set),
             Col(self, 'Questions', model_col=OOAParameter.question),
             Col(self, 'Visualization', model_col=OOAParameter.visualization),
@@ -37,9 +37,17 @@ class Features(datatables.Parameters):
 
 
 class Featuresets(datatables.Unitparameters):
+
+    # def base_query(self, query):
+    #     if self.parameter:
+    #         query = query.join(OOAParameter, self.pk == OOAParameter.feature_set)
+    #     else:
+    #         pass
+    #     return query
+
     def col_defs(self):
         return [
-            IdCol(self, 'id', sClass='left'),
+            IdCol(self, 'id', sClass='left', model_col=OOAFeatureSet.pk),
             Col(self, 'Domains', model_col=OOAFeatureSet.domains),
             Col(self, 'Authors', model_col=OOAFeatureSet.authors),
             Col(self, 'Contributors', model_col=OOAFeatureSet.contributors),
@@ -68,9 +76,10 @@ class Units(datatables.Units):
     def col_defs(self):
         return [
             IdCol(self, 'id', sTitle='id'),
-            Col(self, 'parameter_id', model_col=OOAUnit.parameter_id),
+            Col(self, 'parameter_id', model_col=OOAUnit.parameter_pk),
             Col(self, 'language_id', model_col=OOAUnit.language_pk)
         ]
+
 
 class Contributors(datatables.Contributors):
 
@@ -107,7 +116,7 @@ def includeme(config):
     # the name of the datatable must be the same as the name given to the route pattern
     config.register_datatable('units', Units)
     config.register_datatable('languages', Languages)
-    config.register_datatable('parameters', Features)
+    config.register_datatable('features', Features)
     config.register_datatable('featuresets', Featuresets)
     config.register_datatable('contributors', Contributors)
 

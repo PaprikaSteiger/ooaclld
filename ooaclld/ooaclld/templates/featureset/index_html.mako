@@ -4,7 +4,7 @@
 <%block name="title">Codes</%block>
 <h2>Featureseets</h2>
 <p>
-    Those are the OOA Codes
+    Those are the OOA Feature Sets
 </p>
 <div class="clearfix"> </div>
 ${ctx.render()}

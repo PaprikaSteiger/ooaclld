@@ -46,16 +46,39 @@ def main(args):
         data.add(common.Source, ns.id, _obj=ns)
     DBSession.flush()
 
-    for row in tqdm(ds.iter_rows('ParameterTable'), desc="Processing parameters"):
-        data.add(models.OOAParameter, row["ParameterID"],
-                 id=row["ParameterID"],
-                 # parameter_id=row["ParameterID"],
-                 # unitparameter_pk=row["ParameterID"],
-                 feature_set=row["FeatureSet"],
-                 question=row["Question"],
-                 datatype=row["datatype"],
-                 visualization=row["VisualizationOnly"],
+    for c, row in enumerate(tqdm(ds.iter_rows('featuresets.csv'), desc='Processing featuresets')):
+        data.add(models.OOAFeatureSet, row["FeatureSetID"],
+                 unitparameter_pk=c,
+                 featureset_id=row["FeatureSetID"],
+                 name=row['Name'],
+                 domains=row['Domain'],
+                 authors=";".join(row['Authors']),
+                 contributors=";".join(row['Contributors'] or [""]),
+                 filename=row['Filename'] or ""
                  )
+    DBSession.flush()
+
+    for row in tqdm(ds.iter_rows('ParameterTable'), desc="Processing parameters"):
+        try:
+            data.add(models.OOAParameter, row["ParameterID"],
+                     id=row["ParameterID"],
+                     # parameter_id=row["ParameterID"],
+                     # unitparameter_pk=row["ParameterID"],
+                     feature_set=data["OOAFeatureSet"][row["FeatureSet"]].pk,
+                     question=row["Question"],
+                     datatype=row["datatype"],
+                     visualization=row["VisualizationOnly"],
+                     )
+        except KeyError:
+            data.add(models.OOAParameter, row["ParameterID"],
+                     id=row["ParameterID"],
+                     # parameter_id=row["ParameterID"],
+                     # unitparameter_pk=row["ParameterID"],
+                     feature_set=row["FeatureSet"],
+                     question=row["Question"],
+                     datatype=row["datatype"],
+                     visualization=row["VisualizationOnly"],
+                     )
     DBSession.flush()
 
     all_languages = {row["LanguageID"] for row in ds.iter_rows('ValueTable')}
@@ -81,7 +104,7 @@ def main(args):
                  north_america="North_America_25_Sample",
                  noun=row["Noun_Poss_Sample"],
                  )
-        DBSession.flush()
+    DBSession.flush()
 
     for row in tqdm(ds.iter_rows('codes.csv'), desc="Processing codes"):
         data.add(common.DomainElement, row['CodeID'].replace(".", "").replace("]", ""),
@@ -99,9 +122,7 @@ def main(args):
                  # then accessable via self.parameter.(...)
                  id=row["ID"],
                  language_pk=data["OOALanguage"][row["LanguageID"]].pk,
-                 language_id=row["LanguageID"],
-                 # TODO: don't do this, acces language table via language_pk to display languages
-                 parameter_id=data["OOAParameter"][row["ParameterID"].replace(".", "")].pk,
+                 parameter_pk=data["OOAParameter"][row["ParameterID"].replace(".", "")].pk,
                  code_id=row["CodeID"] or "",
                  value=row["Value"],
                  remark=row["Remark"],
@@ -115,17 +136,7 @@ def main(args):
                  id=row['ContributorID'],
                  name=row['Name'],
                  )
-
-    for row in tqdm(ds.iter_rows('featuresets.csv'), desc='Processing featuresets'):
-        data.add(models.OOAFeatureSet, row["FeatureSetID"],
-                 unitparameter_pk=row["FeatureSetID"],
-                 id=row['FeatureSetID'],
-                 name=row['Name'],
-                 domains=row['Domain'],
-                 authors=";".join(row['Authors']),
-                 contributors=";".join(row['Contributors'] or [""]),
-                 filename=row['Filename'] or ""
-                 )
+    DBSession.flush()
 
 
 def prime_cache(args):

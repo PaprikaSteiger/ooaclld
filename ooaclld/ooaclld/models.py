@@ -66,6 +66,7 @@ class OOAParameter(CustomModelMixin, common.Parameter):
 @implementer(IFeatureSet)
 class OOAFeatureSet(CustomModelMixin, common.UnitDomainElement):
     pk = Column(Unicode, ForeignKey('unitdomainelement.pk'), primary_key=True)
+    featureset_id = Column(Unicode)
     domains = Column(Unicode)
     authors = Column(Unicode)
     contributors = Column(Unicode)
@@ -76,8 +77,8 @@ class OOAFeatureSet(CustomModelMixin, common.UnitDomainElement):
 class OOAUnit(CustomModelMixin, common.Unit):
     pk = Column(Unicode, ForeignKey('unit.pk'), primary_key=True)
 
-    language_id = Column(Unicode, ForeignKey('language.pk'))
-    parameter_id = Column(Unicode, ForeignKey('parameter.pk'))
+    #language_pk = Column(Unicode, ForeignKey('language.pk'))
+    parameter_pk = Column(Unicode, ForeignKey('parameter.pk'))
     code_id = Column(Unicode)
     value = Column(Unicode)
     remark = Column(Unicode)
