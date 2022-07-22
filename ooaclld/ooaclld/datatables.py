@@ -47,7 +47,7 @@ class Featuresets(datatables.Unitparameters):
 
     def col_defs(self):
         return [
-            IdCol(self, 'id', sClass='left', model_col=OOAFeatureSet.pk),
+            IdCol(self, 'featureset_id', sClass='left'),
             Col(self, 'Domains', model_col=OOAFeatureSet.domains),
             Col(self, 'Authors', model_col=OOAFeatureSet.authors),
             Col(self, 'Contributors', model_col=OOAFeatureSet.contributors),

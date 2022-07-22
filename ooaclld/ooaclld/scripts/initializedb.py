@@ -49,7 +49,7 @@ def main(args):
     for c, row in enumerate(tqdm(ds.iter_rows('featuresets.csv'), desc='Processing featuresets')):
         data.add(models.OOAFeatureSet, row["FeatureSetID"],
                  unitparameter_pk=c,
-                 featureset_id=row["FeatureSetID"],
+                 id=row["FeatureSetID"],
                  name=row['Name'],
                  domains=row['Domain'],
                  authors=";".join(row['Authors']),
