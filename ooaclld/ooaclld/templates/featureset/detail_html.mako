@@ -2,7 +2,7 @@
 <%namespace name="util" file="../util.mako"/>
 <%! active_menu_item = "parameters" %>
 <%block name="title">${_('Parameter')} ${ctx.name}</%block>
-<%! from ooaclld.models import OOAFeatureSet %>
+<%! from ooaclld.models import OOAParameter %>
 
 
 
@@ -17,4 +17,4 @@
 ${(map_ or request.map).render()}
 % endif
 
-${request.get_datatable('features',OOAFeatureSet, parameter=ctx).render()}
+${request.get_datatable('features',OOAParameter, featureset=ctx).render()}

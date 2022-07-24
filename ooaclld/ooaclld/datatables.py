@@ -14,6 +14,11 @@ from ooaclld.models import OOALanguage, OOAParameter, OOAUnit, OOAFeatureSet
 
 class Features(datatables.Parameters):
 
+    def base_query(self, query):
+        if self.model.featureset:
+            query = query.join(OOAFeatureSet, self.model.feature_set == self.model.featureset.pk)
+        return query
+
     def col_defs(self):
         return [
             IdCol(self, 'id', sClass='left'),
