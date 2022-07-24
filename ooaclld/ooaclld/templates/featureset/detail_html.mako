@@ -6,7 +6,7 @@
 
 
 
-<h2>${_('Parameter')} ${ctx.name}</h2>
+<h2>${_('Feature Set')} ${ctx.name}</h2>
 
 % if ctx.description:
 <p>${ctx.description}</p>
