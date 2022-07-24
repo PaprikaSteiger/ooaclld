@@ -79,8 +79,12 @@ class OOAUnit(CustomModelMixin, common.Unit):
 
     #language_pk = Column(Unicode, ForeignKey('language.pk'))
     parameter_pk = Column(Unicode, ForeignKey('parameter.pk'))
+    parameter = relationship(OOAParameter)
+
     code_id = Column(Unicode)
     value = Column(Unicode)
     remark = Column(Unicode)
     source = Column(Unicode, ForeignKey('source.pk'))
     coder = Column(Unicode)
+
+

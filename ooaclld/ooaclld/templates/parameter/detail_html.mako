@@ -16,5 +16,6 @@
 % if map_ or request.map:
 ${(map_ or request.map).render()}
 % endif
-
 ${request.get_datatable('units', OOAUnit, parameter=ctx).render()}
+${dir(request.get_datatable('units', OOAUnit, parameter=ctx))}
+${dir(request.get_datatable('units', OOAUnit, parameter=ctx).model)}

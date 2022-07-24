@@ -69,9 +69,11 @@ class Units(datatables.Units):
 
     def base_query(self, query):
         if self.language:
-            query = query.join(OOALanguage, self.language_pk == self.language.pk)
+            query = query.join(OOALanguage, self.model.language_pk == self.language.pk)
+        # if self.model.parameter:
+        #     query = query.join(OOAParameter, OOAUnit.parameter_pk == self.model.parameter.pk)
         else:
-            query = query.join(OOAParameter).options(contains_eager(OOAParameter.pk)) #, OOAUnit.parameter_id == OOAUnit.parameter.pk)
+            pass
         return query
 
     def col_defs(self):

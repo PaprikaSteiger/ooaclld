@@ -2,8 +2,8 @@
 <%namespace name="util" file="../util.mako"/>
 <%! active_menu_item = "languages" %>
 <%block name="title">Language ${ctx.name}</%block>
-<%! from wals3.models import OOAUnit %>
-<%! from wals3.datatables import Units %>
+<%! from ooaclld.models import OOAUnit %>
+
 
 <ul class="breadcrumb">
     ## <li>Family: ${h.link(request, ctx.family_name)} <span class="divider">/</span></li>
