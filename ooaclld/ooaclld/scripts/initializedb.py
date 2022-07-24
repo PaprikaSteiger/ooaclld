@@ -62,7 +62,7 @@ def main(args):
         try:
             data.add(models.OOAParameter, row["ParameterID"],
                      id=row["ParameterID"],
-                     # parameter_id=row["ParameterID"],
+                     parameter_id=row["ParameterID"],
                      # unitparameter_pk=row["ParameterID"],
                      feature_set=data["OOAFeatureSet"][row["FeatureSet"]].pk,
                      question=row["Question"],
@@ -72,7 +72,7 @@ def main(args):
         except KeyError:
             data.add(models.OOAParameter, row["ParameterID"],
                      id=row["ParameterID"],
-                     # parameter_id=row["ParameterID"],
+                     parameter_id=row["ParameterID"],
                      # unitparameter_pk=row["ParameterID"],
                      feature_set=row["FeatureSet"],
                      question=row["Question"],

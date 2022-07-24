@@ -56,7 +56,7 @@ class OOAParameter(CustomModelMixin, common.Parameter):
     #__table_args__ = (UniqueConstraint('contribution_pk', 'ordinal_qualifier'),)
 
     pk = Column(Unicode, ForeignKey('parameter.pk'), primary_key=True)
-    #parameter_id = Column(Unicode)
+    parameter_id = Column(Unicode)
     feature_set = Column(Unicode) # Column(Integer, ForeignKey('featureset.pk'))
     question = Column(Unicode)
     datatype = Column(Unicode)

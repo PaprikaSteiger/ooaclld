@@ -28,8 +28,9 @@ class Features(datatables.Parameters):
     #     ]
     def col_defs(self):
         return [
-            IdCol(self, 'id', sClass='left', model_col=OOAParameter.id),
-            Col(self, 'FeatureSet', model_col=OOAParameter.feature_set),
+            IdCol(self, 'id', sClass='left'),
+            LinkCol(self, 'parameter_id', model_col=OOAParameter.parameter_id),
+            LinkCol(self, 'FeatureSet', model_col=OOAParameter.feature_set),
             Col(self, 'Questions', model_col=OOAParameter.question),
             Col(self, 'Visualization', model_col=OOAParameter.visualization),
             Col(self, 'Datatype', model_col=OOAParameter.datatype),
