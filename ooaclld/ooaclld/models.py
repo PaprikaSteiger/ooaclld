@@ -25,12 +25,6 @@ from clld_glottologfamily_plugin.models import HasFamilyMixin
 # specialized common mapper classes
 #-----------------------------------------------------------------------------
 
-# @implementer(interfaces.ILanguage)
-# class Variety(CustomModelMixin, common.Language, HasFamilyMixin):
-#     pk = Column(Integer, ForeignKey('language.pk'), primary_key=True)
-#     glottocode = Column(Unicode)
-
-
 @implementer(interfaces.ILanguage)
 class OOALanguage(CustomModelMixin, common.Language):
     pk = Column(Unicode, ForeignKey('language.pk'), primary_key=True)
@@ -48,21 +42,6 @@ class OOALanguage(CustomModelMixin, common.Language):
     noun = Column(Unicode)
 
 
-@implementer(interfaces.IParameter)
-class OOAParameter(CustomModelMixin, common.Parameter):
-
-    """TODO"""
-
-    #__table_args__ = (UniqueConstraint('contribution_pk', 'ordinal_qualifier'),)
-
-    pk = Column(Unicode, ForeignKey('parameter.pk'), primary_key=True)
-    parameter_id = Column(Unicode)
-    feature_set = Column(Unicode) # Column(Integer, ForeignKey('featureset.pk'))
-    question = Column(Unicode)
-    datatype = Column(Unicode)
-    visualization = Column(Unicode)
-
-
 @implementer(IFeatureSet)
 class OOAFeatureSet(CustomModelMixin, common.UnitDomainElement):
     pk = Column(Unicode, ForeignKey('unitdomainelement.pk'), primary_key=True)
@@ -73,11 +52,24 @@ class OOAFeatureSet(CustomModelMixin, common.UnitDomainElement):
     filename = Column(Unicode)
 
 
+@implementer(interfaces.IParameter)
+class OOAParameter(CustomModelMixin, common.Parameter):
+
+    pk = Column(Unicode, ForeignKey('parameter.pk'), primary_key=True)
+    parameter_id = Column(Unicode)
+
+    feature_set = Column(Unicode, ForeignKey('featureset.pk'))
+    relationship(OOAFeatureSet)
+
+    question = Column(Unicode)
+    datatype = Column(Unicode)
+    visualization = Column(Unicode)
+
+
 @implementer(interfaces.IUnit)
 class OOAUnit(CustomModelMixin, common.Unit):
     pk = Column(Unicode, ForeignKey('unit.pk'), primary_key=True)
 
-    #language_pk = Column(Unicode, ForeignKey('language.pk'))
     parameter_pk = Column(Unicode, ForeignKey('parameter.pk'))
     parameter = relationship(OOAParameter)
 

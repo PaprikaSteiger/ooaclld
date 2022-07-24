@@ -13,19 +13,7 @@ from ooaclld.models import OOALanguage, OOAParameter, OOAUnit, OOAFeatureSet
 
 
 class Features(datatables.Parameters):
-    # def base_query(self, query):
-    #     return query.join(Chapter).join(Area)\
-    #         .options(contains_eager(Feature.chapter, Chapter.area))
 
-    # def col_defs(self):
-    #     return [
-    #         FeatureIdCol(self, 'id', sClass='right'),
-    #         LinkCol(self, 'name'),
-    #         ContributorsCol(self, 'Authors', bSearchable=False, bSortable=False),
-    #         FeatureAreaCol(self, 'area'),
-    #         Col(self, 'Languages', model_col=Feature.representation),
-    #         DetailsRowLinkCol(self, 'd', button_text='Values'),
-    #     ]
     def col_defs(self):
         return [
             IdCol(self, 'id', sClass='left'),
@@ -38,13 +26,6 @@ class Features(datatables.Parameters):
 
 
 class Featuresets(datatables.Unitparameters):
-
-    # def base_query(self, query):
-    #     if self.parameter:
-    #         query = query.join(OOAParameter, self.pk == OOAParameter.feature_set)
-    #     else:
-    #         pass
-    #     return query
 
     def col_defs(self):
         return [
@@ -91,28 +72,6 @@ class Contributors(datatables.Contributors):
             IdCol(self, 'Contributor ID', model_col=common.Contributor.id),
             Col(self, 'Name', model_col=common.Contributor.name)
         ]
-# class Languages(datatables.Languages):
-#     def base_query(self, query):
-#         return query.join(Genus).join(Family).options(
-#             contains_eager(WalsLanguage.genus, Genus.family),
-#             subqueryload(WalsLanguage.countries))
-#
-#     def col_defs(self):
-#         return [
-#             LinkCol(self, 'name'),
-#             IdCol(self, 'id', sTitle='WALS code', sClass='left'),
-#             Col(self, 'iso_codes', sTitle='ISO 639-3', model_col=WalsLanguage.iso_codes),
-#             LinkCol(self, 'genus', model_col=Genus.name, get_object=lambda i: i.genus),
-#             LinkCol(self, 'family',
-#                     model_col=Family.name,
-#                     get_object=lambda i: i.genus.family),
-#             Col(self, 'macroarea',
-#                 model_col=WalsLanguage.macroarea,
-#                 choices=get_distinct_values(WalsLanguage.macroarea)),
-#             Col(self, 'latitude'),
-#             Col(self, 'longitude'),
-#             CountriesCol(self, 'countries'),
-#         ]
 
 
 def includeme(config):
