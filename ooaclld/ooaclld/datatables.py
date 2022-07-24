@@ -70,8 +70,8 @@ class Units(datatables.Units):
     def base_query(self, query):
         if self.language:
             query = query.join(OOALanguage, self.model.language_pk == self.language.pk)
-        # if self.model.parameter:
-        #     query = query.join(OOAParameter, OOAUnit.parameter_pk == self.model.parameter.pk)
+        elif self.model.parameter:
+            query = query.join(OOAParameter, self.model.parameter_pk == self.model.parameter.pk)
         else:
             pass
         return query
