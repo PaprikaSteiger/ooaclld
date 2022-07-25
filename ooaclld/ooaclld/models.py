@@ -60,7 +60,6 @@ class OOAFeatureSet(
     HasDataMixin,
     HasFilesMixin
 ):
-    #pk = Column(Unicode, ForeignKey('unitdomainelement.pk'))
     featureset_id = Column(Unicode)
     domains = Column(Unicode)
     authors = Column(Unicode)
@@ -74,7 +73,6 @@ class OOAParameter(CustomModelMixin, common.Parameter):
     pk = Column(Unicode, ForeignKey('parameter.pk'), primary_key=True)
 
     featureset_pk = Column(Unicode, ForeignKey('ooafeatureset.pk'))
-    featureset = relationship(OOAFeatureSet, backref='ooafeatureset')
 
     question = Column(Unicode)
     datatype = Column(Unicode)
@@ -86,7 +84,6 @@ class OOAUnit(CustomModelMixin, common.Unit):
     pk = Column(Unicode, ForeignKey('unit.pk'), primary_key=True)
 
     parameter_pk = Column(Unicode, ForeignKey('parameter.pk'))
-    parameter = relationship(OOAParameter)
 
     code_id = Column(Unicode)
     value = Column(Unicode)
