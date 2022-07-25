@@ -13,8 +13,8 @@ from sqlalchemy.ext.declarative import declared_attr
 from sqlalchemy.ext.hybrid import hybrid_property
 
 from clld import interfaces
-from clld.db.meta import Base, CustomModelMixin
-from clld.db.models import common
+from clld.db.meta import Base, CustomModelMixin, PolymorphicBaseMixin
+from clld.db.models import common, HasDataMixin, HasFilesMixin, IdNameDescriptionMixin, DataMixin, FilesMixin
 
 from ooaclld.interfaces import IFeatureSet
 
@@ -42,9 +42,25 @@ class OOALanguage(CustomModelMixin, common.Language):
     noun = Column(Unicode)
 
 
+class OOAFeatureSet_data(Base, DataMixin):
+
+    """Associated data mapper."""
+
+
+class OOAFeatureSet_files(Base, FilesMixin):
+
+    """Associated files mapper."""
+
+
 @implementer(IFeatureSet)
-class OOAFeatureSet(CustomModelMixin, common.UnitDomainElement):
-    pk = Column(Unicode, ForeignKey('unitdomainelement.pk'), primary_key=True)
+class OOAFeatureSet(
+    Base,
+    PolymorphicBaseMixin,
+    IdNameDescriptionMixin,
+    HasDataMixin,
+    HasFilesMixin
+):
+    #pk = Column(Unicode, ForeignKey('unitdomainelement.pk'))
     featureset_id = Column(Unicode)
     domains = Column(Unicode)
     authors = Column(Unicode)
@@ -58,8 +74,11 @@ class OOAParameter(CustomModelMixin, common.Parameter):
     pk = Column(Unicode, ForeignKey('parameter.pk'), primary_key=True)
     parameter_id = Column(Unicode)
 
-    feature_set = Column(Unicode, ForeignKey('featureset.pk'))
-    relationship(OOAFeatureSet)
+    #unitdomainelement_pk = Column(Unicode, ForeignKey('unitdomainelement.pk'))
+    #unitdomainelement = relationship(common.UnitDomainElement)
+
+    featureset_pk = Column(Unicode, ForeignKey('ooafeatureset.pk'))
+    featureset = relationship(OOAFeatureSet, backref='ooafeatureset')
 
     question = Column(Unicode)
     datatype = Column(Unicode)

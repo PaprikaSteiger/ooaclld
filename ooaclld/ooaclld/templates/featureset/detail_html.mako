@@ -16,5 +16,6 @@
 % if map_ or request.map:
 ${(map_ or request.map).render()}
 % endif
-
+${dir(request.get_datatable('features',OOAParameter, featureset=ctx))}
+${dir(request.get_datatable('features',OOAParameter, featureset=ctx).model)}
 ${request.get_datatable('features',OOAParameter, featureset=ctx).render()}
