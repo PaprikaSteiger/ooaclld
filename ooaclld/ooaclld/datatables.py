@@ -13,10 +13,11 @@ from ooaclld.models import OOALanguage, OOAParameter, OOAUnit, OOAFeatureSet
 
 
 class Features(datatables.Parameters):
+    __constraints__ = [OOAFeatureSet]
 
     def base_query(self, query):
-        if self.model.featureset:
-            query = query.join(OOAFeatureSet, self.model.feature_set == self.model.featureset.pk)
+        if self.ooafeatureset:
+            query = query.join(OOAFeatureSet, self.model.feature_set == self.ooafeatureset.pk)
         return query
 
     def col_defs(self):
@@ -83,7 +84,7 @@ def includeme(config):
     # the name of the datatable must be the same as the name given to the route pattern
     config.register_datatable('units', Units)
     config.register_datatable('languages', Languages)
-    config.register_datatable('features', Features)
+    config.register_datatable('parameters', Features)
     config.register_datatable('featuresets', Featuresets)
     config.register_datatable('contributors', Contributors)
 
