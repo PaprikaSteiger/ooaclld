@@ -38,7 +38,6 @@ def main(args):
             'license_name': 'Creative Commons Attribution 4.0 International License'},
 
     )
-    #DBSession.add(dataset)
     DBSession.flush()
 
     for rec in tqdm(Database.from_file(ds.bibpath), desc='Processing sources'):
@@ -48,7 +47,6 @@ def main(args):
 
     for c, row in enumerate(tqdm(ds.iter_rows('featuresets.csv'), desc='Processing featuresets')):
         data.add(models.OOAFeatureSet, row["FeatureSetID"],
-                 #unitparameter_pk=c,
                  id=row["FeatureSetID"],
                  name=row['Name'],
                  domains=row['Domain'],
@@ -59,27 +57,15 @@ def main(args):
     DBSession.flush()
 
     for row in tqdm(ds.iter_rows('ParameterTable'), desc="Processing parameters"):
-        try:
-            data.add(models.OOAParameter, row["ParameterID"],
-                     id=row["ParameterID"],
-                     parameter_id=row["ParameterID"],
-                     # unitparameter_pk=row["ParameterID"],
-                     featureset_pk=data["OOAFeatureSet"][row["FeatureSet"]].pk,
-                     question=row["Question"],
-                     datatype=row["datatype"],
-                     visualization=row["VisualizationOnly"],
-                     )
-        except KeyError:
-            data.add(models.OOAParameter, row["ParameterID"],
-                     id=row["ParameterID"],
-                     parameter_id=row["ParameterID"],
-                     # unitparameter_pk=row["ParameterID"],
-                     featureset_pk=row["FeatureSet"],
-                     question=row["Question"],
-                     datatype=row["datatype"],
-                     visualization=row["VisualizationOnly"],
-                     )
+        data.add(models.OOAParameter, row["ParameterID"],
+                 id=row["ParameterID"],
+                 featureset_pk=data["OOAFeatureSet"][row["FeatureSet"]].pk,
+                 question=row["Question"],
+                 datatype=row["datatype"],
+                 visualization=row["VisualizationOnly"],
+                 )
     DBSession.flush()
+
 
     all_languages = {row["LanguageID"] for row in ds.iter_rows('ValueTable')}
 

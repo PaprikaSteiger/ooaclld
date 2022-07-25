@@ -72,10 +72,6 @@ class OOAFeatureSet(
 class OOAParameter(CustomModelMixin, common.Parameter):
 
     pk = Column(Unicode, ForeignKey('parameter.pk'), primary_key=True)
-    parameter_id = Column(Unicode)
-
-    #unitdomainelement_pk = Column(Unicode, ForeignKey('unitdomainelement.pk'))
-    #unitdomainelement = relationship(common.UnitDomainElement)
 
     featureset_pk = Column(Unicode, ForeignKey('ooafeatureset.pk'))
     featureset = relationship(OOAFeatureSet, backref='ooafeatureset')
