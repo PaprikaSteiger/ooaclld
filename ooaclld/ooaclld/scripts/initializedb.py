@@ -60,6 +60,7 @@ def main(args):
         data.add(models.OOAParameter, row["ParameterID"],
                  id=row["ParameterID"],
                  featureset_pk=data["OOAFeatureSet"][row["FeatureSet"]].pk,
+                 featureset_name=row["FeatureSet"],
                  question=row["Question"],
                  datatype=row["datatype"],
                  visualization=row["VisualizationOnly"],

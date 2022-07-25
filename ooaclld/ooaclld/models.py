@@ -73,6 +73,7 @@ class OOAParameter(CustomModelMixin, common.Parameter):
     pk = Column(Unicode, ForeignKey('parameter.pk'), primary_key=True)
 
     featureset_pk = Column(Unicode, ForeignKey('ooafeatureset.pk'))
+    featureset_name = Column(Unicode)
 
     question = Column(Unicode)
     datatype = Column(Unicode)
