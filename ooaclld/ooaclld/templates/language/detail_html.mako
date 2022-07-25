@@ -17,8 +17,8 @@
 <span class="badge">Glotto code: ${ctx.id}</span>
 ${ctx.pk}
 ${ctx.id}
-${request.get_datatable('units', OOAUnit, language=ctx).render()}
-${request.get_datatable('units', OOAUnit, language=ctx).ooalanguage}
+${request.get_datatable('units', OOAUnit, ooalanguage=ctx).render()}
+${request.get_datatable('units', OOAUnit, ooalanguage=ctx).ooalanguage}
 
 <%def name="sidebar()">
     ${util.codes()}

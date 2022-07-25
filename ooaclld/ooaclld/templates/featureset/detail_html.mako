@@ -16,6 +16,6 @@
 % if map_ or request.map:
 ${(map_ or request.map).render()}
 % endif
-${dir(request.get_datatable('parameters',OOAParameter, featureset=ctx))}
-${request.get_datatable('parameters',OOAParameter, featureset=ctx).ooafeatureset}
-${request.get_datatable('parameters',OOAParameter, featureset=ctx).render()}
+${dir(request.get_datatable('parameters',OOAParameter, ooafeatureset=ctx))}
+${request.get_datatable('parameters',OOAParameter, ooafeatureset=ctx).ooafeatureset}
+${request.get_datatable('parameters',OOAParameter, ooafeatureset=ctx).render()}
