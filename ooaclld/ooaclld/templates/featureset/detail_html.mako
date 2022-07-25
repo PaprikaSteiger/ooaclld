@@ -6,16 +6,8 @@
 
 
 
-<h2>${_('Feature Set')} ${ctx.name}</h2>
-
-% if ctx.description:
-<p>${ctx.description}</p>
-% endif
+<h2>Feature Set: ${ctx.name}</h2>
 
 <div style="clear: both"/>
-% if map_ or request.map:
-${(map_ or request.map).render()}
-% endif
-${dir(request.get_datatable('parameters',OOAParameter, ooafeatureset=ctx))}
-${request.get_datatable('parameters',OOAParameter, ooafeatureset=ctx).ooafeatureset}
+${request.get_datatable('parameters',OOAParameter, ooafeatureset=ctx).get_query().first()}
 ${request.get_datatable('parameters',OOAParameter, ooafeatureset=ctx).render()}
