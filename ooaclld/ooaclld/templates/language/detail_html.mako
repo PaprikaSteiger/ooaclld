@@ -5,20 +5,9 @@
 <%! from ooaclld.models import OOAUnit %>
 
 
-<ul class="breadcrumb">
-    ## <li>Family: ${h.link(request, ctx.family_name)} <span class="divider">/</span></li>
-    ## % if ctx.genus.subfamily:
-    ## <li class="active">Subfamily: ${ctx.genus.subfamily} <span class="divider">/</span></li>
-    ## % endif
-    ## <li class="active">Genus: ${h.link(request, ctx.genus)}</li>
-</ul>
-
-<h2>Language ${ctx.name} - ${type(ctx)} - ${h}</h2>
+<h2>Language: ${ctx.name}</h2>
 <span class="badge">Glotto code: ${ctx.id}</span>
-${ctx.pk}
-${ctx.id}
 ${request.get_datatable('units', OOAUnit, ooalanguage=ctx).render()}
-${request.get_datatable('units', OOAUnit, ooalanguage=ctx).ooalanguage}
 
 <%def name="sidebar()">
     ${util.codes()}
