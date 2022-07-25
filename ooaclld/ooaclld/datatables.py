@@ -17,7 +17,8 @@ class Features(datatables.Parameters):
 
     def base_query(self, query):
         if self.ooafeatureset:
-            query = query.join(OOAFeatureSet, self.model.feature_set == self.ooafeatureset.pk)
+            query = query.join(OOAFeatureSet)
+            query = query.filter(OOAParameter.featureset_pk == self.ooafeatureset.pk)
         return query
 
     def col_defs(self):
@@ -53,14 +54,15 @@ class Languages(datatables.Languages):
 
 
 class Units(datatables.Units):
+    __constraints__ = [OOALanguage, OOAParameter]
 
     def base_query(self, query):
-        if self.language:
-            query = query.join(OOALanguage, self.model.language_pk == self.language.pk)
-        elif self.model.parameter:
-            query = query.join(OOAParameter, self.model.parameter_pk == self.model.parameter.pk)
-        else:
-            pass
+        if self.ooalanguage:
+            query = query.join(OOALanguage)
+            return query.filter(OOAUnit.language_pk == self.ooalanguage.pk)
+        elif self.ooaparameter:
+            query = query.join(OOAParameter)
+            return query.filter(OOAUnit.parameter_pk == self.ooaparameter.pk)
         return query
 
     def col_defs(self):
