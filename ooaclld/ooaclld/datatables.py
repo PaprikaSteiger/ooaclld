@@ -24,7 +24,7 @@ class Features(datatables.Parameters):
         return [
             IdCol(self, 'id', sClass='left'),
             LinkCol(self, 'parameter_id', model_col=OOAParameter.parameter_id),
-            LinkCol(self, 'FeatureSet', model_col=OOAParameter.feature_set),
+            LinkCol(self, 'FeatureSet', model_col=OOAParameter.featureset_pk),
             Col(self, 'Questions', model_col=OOAParameter.question),
             Col(self, 'Visualization', model_col=OOAParameter.visualization),
             Col(self, 'Datatype', model_col=OOAParameter.datatype),
