@@ -6,7 +6,7 @@
 
 
 
-<h2>${_('Parameter')} ${ctx.name}</h2>
+<h2>Parameter ${ctx.id}</h2>
 
 % if ctx.description:
 <p>${ctx.description}</p>
@@ -16,6 +16,5 @@
 % if map_ or request.map:
 ${(map_ or request.map).render()}
 % endif
-${request.get_datatable('units', OOAUnit, parameter=ctx).render()}
-${dir(request.get_datatable('units', OOAUnit, parameter=ctx))}
-${dir(request.get_datatable('units', OOAUnit, parameter=ctx).model)}
+${request.get_datatable('units', OOAUnit, ooaparameter=ctx).render()}
+

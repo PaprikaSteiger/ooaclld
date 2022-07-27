@@ -72,8 +72,8 @@ class Units(datatables.Units):
     def col_defs(self):
         return [
             IdCol(self, 'Id', sTitle='id', sClass='left'),
-            Col(self, 'Parameter ID', model_col=OOAUnit.parameter_pk, sClass='left'),
-            Col(self, 'Language ID', model_col=OOAUnit.language_pk, sClass='left'),
+            LinkCol(self, 'Parameter ID', model_col=OOAParameter.id, sClass='left', get_object=lambda i: i.parameter),
+            LinkCol(self, 'Language ID', model_col=OOALanguage.id, sClass='left', get_object=lambda i: i.language),
             Col(self, 'Code ID', model_col=OOAUnit.code_id, sClass='left')
         ]
 
