@@ -70,7 +70,8 @@ class OOAUnit(CustomModelMixin, common.Unit):
     pk = Column(Unicode, ForeignKey('unit.pk'), primary_key=True)
 
     parameter_pk = Column(Unicode, ForeignKey('parameter.pk'))
-
+    # allows foreign key to be empty
+    #code_id = Column(Unicode, ForeignKey('domainelement.pk'), nullable=True)
     code_id = Column(Unicode)
     value = Column(Unicode)
     remark = Column(Unicode)

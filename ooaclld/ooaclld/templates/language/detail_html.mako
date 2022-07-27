@@ -17,21 +17,10 @@ ${request.get_datatable('units', OOAUnit, ooalanguage=ctx).render()}
         ${h.format_coordinates(ctx)}
         ## ${util.dl_table(('Spoken in', h.literal(', '.join(h.link(request, c) for c in ctx.countries))))}
     </%util:well>
-    <%util:well title="Alternative names">
-        ## ${util.dl_table(*[(i.description.capitalize(), i.name) for i in ctx.identifiers if i.type == 'name'])}
-    </%util:well>
     % if ctx.sources:
     <%util:well title="Sources">
         ${util.sources_list(sorted(list(ctx.sources), key=lambda s: s.name))}
         <div style="clear: both;"></div>
     </%util:well>
     % endif
-    ##    <%util:accordion_group eid="acc-names" parent="sidebar-accordion" title="Alternative names">
-    ##        <ul>
-    ##            % for identifier in ctx.identifiers:
-    ##            <li>${identifier.type} ${identifier.id or identifier.name}</li>
-    ##            % endfor
-    ##        </ul>
-    ##    </%util:accordion_group>
-    ##</div>
 </%def>

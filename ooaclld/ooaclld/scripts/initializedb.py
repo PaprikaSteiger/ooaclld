@@ -122,6 +122,8 @@ def main(args):
 
     # read value table
     for row in tqdm(ds.iter_rows('ValueTable'), desc="Processing values"):
+        # TODO: This is just to make the code work, ignore the second code id, see todo below for relationship modelling
+        code_id = row["CodeID"].split(";")[0] if row["CodeID"] else row["CodeID"]
         data.add(models.OOAUnit, row["ID"],
                  # TODO: this would be the way to refer to another resource from a table
                  # parameter = relationship('Parameter', innerjoin=True, backref='valuesets')
@@ -129,11 +131,13 @@ def main(args):
                  id=row["ID"],
                  language_pk=data["OOALanguage"][row["LanguageID"]].pk,
                  parameter_pk=data["OOAParameter"][row["ParameterID"].replace(".", "")].pk,
-                 code_id=row["CodeID"],
+                 # TODO: not all code_ids appear in codes.csv e.g. verb-rel.pr_Attr-01
+                 code_id=code_id,
                  value=row["Value"],
                  remark=row["Remark"],
                  # TODO: Source is not added as a proper foreign key. the csv contains several sources for one entry. This causes problems in sql
-                 # TODO: I don't think this is a proper one-to-many relationship, at least not with two given foreignkeys for one element
+                 # TODO: It's a many to many relationship (a source may have several values and a value may have several sources). This usally requires a separate table.
+                 # TODO: Check if clld offers some predefined table for that
                  source=";".join(row["Source"]),
                  coder=";".join(row["Coder"]),
                  )
