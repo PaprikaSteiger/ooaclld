@@ -7,9 +7,6 @@
     ],
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#StructureDataset",
     "dc:source": "sources.bib",
-    "dc:title": "ooa clld",
-    "dc:license": "fake license",
-    "dc:identifier": "https://ooa.info",
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
@@ -50,6 +47,7 @@
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#codeReference",
                         "required": false,
+                        "separator": ";",
                         "name": "CodeID"
                     },
                     {
@@ -62,9 +60,11 @@
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
                         "required": false,
+                        "separator": ";",
                         "name": "Source"
                     },
                     {
+                        "separator": ";",
                         "name": "Coder"
                     }
                 ],
