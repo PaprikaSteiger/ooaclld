@@ -14,9 +14,7 @@ from sqlalchemy.ext.hybrid import hybrid_property
 
 from clld import interfaces
 from clld.db.meta import Base, CustomModelMixin, PolymorphicBaseMixin
-from clld.db.models import common, HasDataMixin, HasFilesMixin, IdNameDescriptionMixin, DataMixin, FilesMixin
-
-from ooaclld.interfaces import IFeatureSet
+from clld.db.models import common
 
 from clld_glottologfamily_plugin.models import HasFamilyMixin
 
@@ -43,7 +41,7 @@ class OOALanguage(CustomModelMixin, common.Language):
 
 
 @implementer(interfaces.IContribution)
-class OOAFeatureSet(common.Contribution
+class OOAFeatureSet(CustomModelMixin, common.Contribution
 ):
     pk = Column(Unicode, ForeignKey('contribution.pk'), primary_key=True)
     featureset_id = Column(Unicode)

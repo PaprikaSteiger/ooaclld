@@ -13,7 +13,6 @@ from clld import common
 
 # we must make sure custom models are known at database initialization!
 from ooaclld import models
-from ooaclld.interfaces import IFeatureSet
 
 
 def map_marker(ctx, req):
