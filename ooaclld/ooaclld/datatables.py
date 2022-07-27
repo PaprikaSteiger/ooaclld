@@ -23,7 +23,7 @@ class Features(datatables.Parameters):
 
     def col_defs(self):
         return [
-            IdCol(self, 'id', sClass='left'),
+            IdCol(self, 'ID', sClass='left'),
             Col(self, 'FeatureSet', model_col=OOAParameter.featureset_name),
             Col(self, 'Questions', model_col=OOAParameter.question),
             Col(self, 'Visualization', model_col=OOAParameter.visualization),
@@ -40,7 +40,7 @@ class Featuresets(datatables.Contributions):
 
     def col_defs(self):
         return [
-            IdCol(self, 'featureset_id', sClass='left'),
+            IdCol(self, 'Featureset ID', sClass='left'),
             Col(self, 'Domains', model_col=OOAFeatureSet.domains),
             Col(self, 'Authors', model_col=OOAFeatureSet.authors),
             Col(self, 'Contributors', model_col=OOAFeatureSet.contributors),
@@ -51,9 +51,9 @@ class Featuresets(datatables.Contributions):
 class Languages(datatables.Languages):
     def col_defs(self):
         return [
-            IdCol(self, 'id', sTitle='glottocode', sClass='left'),
-            Col(self, 'macroarea', model_col=OOALanguage.macroarea),
-            Col(self, 'family_id', model_col=OOALanguage.family_id)
+            IdCol(self, 'ID', sTitle='Glottocode', sClass='left'),
+            Col(self, 'Macroarea', model_col=OOALanguage.macroarea),
+            Col(self, 'Family ID', model_col=OOALanguage.family_id)
         ]
 
 
@@ -71,9 +71,10 @@ class Units(datatables.Units):
 
     def col_defs(self):
         return [
-            IdCol(self, 'id', sTitle='id'),
-            LinkCol(self, 'parameter_id', model_col=OOAUnit.parameter_pk),
-            LinkCol(self, 'language_id', model_col=OOAUnit.language_pk)
+            IdCol(self, 'Id', sTitle='id'),
+            LinkCol(self, 'Parameter ID', model_col=OOAUnit.parameter_pk),
+            LinkCol(self, 'Language ID', model_col=OOAUnit.language_pk),
+            LinkCol(self, 'Code ID')
         ]
 
 
