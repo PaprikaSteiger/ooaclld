@@ -6,8 +6,6 @@
 <h2>Features</h2>
 <p>
     Those are the OOA parameters
-    Testing that the other fields aren't empty:
-    ${[v.featureset_pk for v in h.DBSession.query(OOAParameter).all()]}
 </p>
 ${type(ctx)}
 <div class="clearfix"> </div>

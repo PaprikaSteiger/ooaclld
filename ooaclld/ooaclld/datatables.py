@@ -31,7 +31,12 @@ class Features(datatables.Parameters):
         ]
 
 
-class Featuresets(datatables.Unitparameters):
+class ContributorsCol(Col):
+    def format(self, item):
+        return linked_contributors(self.dt.req, item.contributor)
+
+
+class Featuresets(datatables.Contributions):
 
     def col_defs(self):
         return [

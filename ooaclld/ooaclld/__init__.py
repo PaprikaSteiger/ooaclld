@@ -5,7 +5,7 @@ from pyramid.config import Configurator
 from clld_glottologfamily_plugin import util
 
 from clldutils import svg
-from clld.interfaces import IMapMarker, IValueSet, IValue, IDomainElement, ILanguage, IParameter, IUnit, IContributor
+from clld.interfaces import IMapMarker, IValueSet, IValue, IDomainElement, ILanguage, IParameter, IUnit, IContributor, IContribution
 from clldutils.svg import pie, icon, data_url
 from clld.web.adapters.base import adapter_factory
 from clld.web.app import ClldRequest
@@ -67,7 +67,8 @@ def main(global_config, **settings):
 
     config.include('clldmpg')
 
-    config.register_resource('featureset', models.OOAFeatureSet, IFeatureSet, with_index=True)
+    #config.add_route('featuresets', '/featuresets')
+    config.register_resource('featureset', models.OOAFeatureSet, IContribution, with_index=True)
 
     #config.registry.registerUtility(LanguageByFamilyMapMarker(), IMapMarker)
 

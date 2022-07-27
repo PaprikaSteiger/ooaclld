@@ -42,27 +42,14 @@ class OOALanguage(CustomModelMixin, common.Language):
     noun = Column(Unicode)
 
 
-class OOAFeatureSet_data(Base, DataMixin):
-
-    """Associated data mapper."""
-
-
-class OOAFeatureSet_files(Base, FilesMixin):
-
-    """Associated files mapper."""
-
-
-@implementer(IFeatureSet)
-class OOAFeatureSet(
-    Base,
-    PolymorphicBaseMixin,
-    IdNameDescriptionMixin,
-    HasDataMixin,
-    HasFilesMixin
+@implementer(interfaces.IContribution)
+class OOAFeatureSet(common.Contribution
 ):
+    pk = Column(Unicode, ForeignKey('contribution.pk'), primary_key=True)
     featureset_id = Column(Unicode)
     domains = Column(Unicode)
     authors = Column(Unicode)
+    #contributor = relationship(common.Contributor, backref="ooafeaturesets")
     contributors = Column(Unicode)
     filename = Column(Unicode)
 

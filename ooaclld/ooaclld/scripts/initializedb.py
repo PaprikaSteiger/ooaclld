@@ -45,8 +45,16 @@ def main(args):
         data.add(common.Source, ns.id, _obj=ns)
     DBSession.flush()
 
+
+    for row in tqdm(ds.iter_rows('contributors.csv'), desc="Processing contributors"):
+        data.add(common.Contributor, row["ContributorID"],
+                 id=row['ContributorID'],
+                 name=row['Name'],
+                 )
+    DBSession.flush()
+
     for c, row in enumerate(tqdm(ds.iter_rows('featuresets.csv'), desc='Processing featuresets')):
-        data.add(models.OOAFeatureSet, row["FeatureSetID"],
+        fset = data.add(models.OOAFeatureSet, row["FeatureSetID"],
                  id=row["FeatureSetID"],
                  name=row['Name'],
                  domains=row['Domain'],
@@ -54,7 +62,18 @@ def main(args):
                  contributors=";".join(row['Contributors'] or [""]),
                  filename=row['Filename'] or ""
                  )
-    DBSession.flush()
+        # cnt = 0
+        # for i, f in enumerate(['Authors', 'Contributors']):
+        #     if row[f]:
+        #         for co in row[f]:
+        #             print(co)
+        #             data.add(common.ContributionContributor, co,
+        #                      contribution=fset,
+        #                      contributor_pk=data['Contributor'][co].pk,
+        #                      primary=(i == 0),
+        #                      ord=cnt)
+        #             cnt += 1
+        DBSession.flush()
 
     for row in tqdm(ds.iter_rows('ParameterTable'), desc="Processing parameters"):
         data.add(models.OOAParameter, row["ParameterID"],
@@ -110,20 +129,16 @@ def main(args):
                  id=row["ID"],
                  language_pk=data["OOALanguage"][row["LanguageID"]].pk,
                  parameter_pk=data["OOAParameter"][row["ParameterID"].replace(".", "")].pk,
-                 code_id=row["CodeID"] or "",
+                 code_id=row["CodeID"],
                  value=row["Value"],
                  remark=row["Remark"],
-                 source=row["Source"],
-                 coder=row["Coder"],
+                 # TODO: Source is not added as a proper foreign key. the csv contains several sources for one entry. This causes problems in sql
+                 # TODO: I don't think this is a proper one-to-many relationship, at least not with two given foreignkeys for one element
+                 source=";".join(row["Source"]),
+                 coder=";".join(row["Coder"]),
                  )
-    DBSession.flush()
+        DBSession.flush()
 
-    for row in tqdm(ds.iter_rows('contributors.csv'), desc="Processing contributors"):
-        data.add(common.Contributor, row["ContributorID"],
-                 id=row['ContributorID'],
-                 name=row['Name'],
-                 )
-    DBSession.flush()
 
 
 def prime_cache(args):
