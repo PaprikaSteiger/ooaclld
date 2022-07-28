@@ -56,13 +56,13 @@ def main(args):
 
     for c, row in enumerate(tqdm(ds.iter_rows('featuresets.csv'), desc='Processing featuresets')):
         desc = None
-        descr_path = cldf_dir / 'docs' / ds.get_row_url('featuresets.csv', row).path
+        descr_path = cldf_dir / 'docs' / (row["Name"]+".html")
         if descr_path.exists():
             desc = open(descr_path).read()
         # 'name' is an uri reference, thus unquote it and transform it back to normal string
         fset = data.add(models.OOAFeatureSet, row["FeatureSetID"],
                  id=row["FeatureSetID"],
-                 name=unquote(row['Name'].path),
+                 name=row['Name'],
                  domains=row['Domain'],
                  authors=";".join(row['Authors']),
                  contributors=";".join(row['Contributors'] or [""]),

@@ -267,7 +267,7 @@
                         "name": "FeatureSetID"
                     },
                     {
-                        "datatype": "anyURI",
+                        "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
                         "required": true,
                         "name": "Name"
