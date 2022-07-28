@@ -66,8 +66,8 @@ def main(global_config, **settings):
 
     config.include('clldmpg')
 
-    #config.add_route('featuresets', '/featuresets')
-    config.register_resource('featureset', models.OOAFeatureSet, IContribution, with_index=True)
+    config.add_route('featuresets', '/contributions')
+    #config.register_resource('contribution', models.OOAFeatureSet, IContribution, with_index=True)
 
     #config.registry.registerUtility(LanguageByFamilyMapMarker(), IMapMarker)
 

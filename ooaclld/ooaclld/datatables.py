@@ -92,6 +92,6 @@ def includeme(config):
     config.register_datatable('units', Units)
     config.register_datatable('languages', Languages)
     config.register_datatable('parameters', Features)
-    config.register_datatable('featuresets', Featuresets)
+    config.register_datatable('contributions', Featuresets)
     config.register_datatable('contributors', Contributors)
 
