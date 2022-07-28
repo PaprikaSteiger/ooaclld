@@ -58,7 +58,7 @@ def main(args):
         desc = None
         descr_path = cldf_dir / 'docs' / (row["Name"]+".html")
         if descr_path.exists():
-            desc = open(descr_path).read()
+            desc = open(descr_path, encoding='utf8').read()
         fset = data.add(models.OOAFeatureSet, row["FeatureSetID"],
                  id=row["FeatureSetID"],
                  name=row['Name'],
