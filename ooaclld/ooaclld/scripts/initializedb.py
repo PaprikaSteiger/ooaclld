@@ -59,7 +59,6 @@ def main(args):
         descr_path = cldf_dir / 'docs' / (row["Name"]+".html")
         if descr_path.exists():
             desc = open(descr_path).read()
-        # 'name' is an uri reference, thus unquote it and transform it back to normal string
         fset = data.add(models.OOAFeatureSet, row["FeatureSetID"],
                  id=row["FeatureSetID"],
                  name=row['Name'],
