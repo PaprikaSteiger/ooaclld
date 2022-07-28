@@ -5,6 +5,7 @@ from collections import defaultdict
 import pycldf
 from tqdm import tqdm
 import sqlalchemy
+from urllib.parse import unquote
 
 from clld.cliutil import Data, slug, bibtex2source, add_language_codes
 from clld.db.meta import DBSession
@@ -54,13 +55,19 @@ def main(args):
     DBSession.flush()
 
     for c, row in enumerate(tqdm(ds.iter_rows('featuresets.csv'), desc='Processing featuresets')):
+        desc = None
+        descr_path = cldf_dir / 'docs' / ds.get_row_url('featuresets.csv', row).path
+        if descr_path.exists():
+            desc = open(descr_path).read()
+        # 'name' is an uri reference, thus unquote it and transform it back to normal string
         fset = data.add(models.OOAFeatureSet, row["FeatureSetID"],
                  id=row["FeatureSetID"],
-                 name=row['Name'],
+                 name=unquote(row['Name'].path),
                  domains=row['Domain'],
                  authors=";".join(row['Authors']),
                  contributors=";".join(row['Contributors'] or [""]),
-                 filename=row['Filename'] or ""
+                 filename=row['Filename'] or "",
+                 description=desc,
                  )
         # cnt = 0
         # for i, f in enumerate(['Authors', 'Contributors']):

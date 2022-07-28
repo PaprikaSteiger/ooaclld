@@ -41,6 +41,7 @@ class Featuresets(datatables.Contributions):
     def col_defs(self):
         return [
             IdCol(self, 'Featureset ID', sClass='left'),
+            LinkCol(self, 'Name', model_col=OOAFeatureSet.name, sClass='left'),
             Col(self, 'Domains', model_col=OOAFeatureSet.domains, sClass='left'),
             Col(self, 'Authors', model_col=OOAFeatureSet.authors, sClass='left'),
             Col(self, 'Contributors', model_col=OOAFeatureSet.contributors, sClass='left'),
@@ -71,7 +72,7 @@ class Units(datatables.Units):
 
     def col_defs(self):
         return [
-            IdCol(self, 'Id', sTitle='id', sClass='left'),
+            IdCol(self, 'Id', sTitle='Vale ID', sClass='left'),
             LinkCol(self, 'Parameter ID', model_col=OOAParameter.id, sClass='left', get_object=lambda i: i.parameter),
             LinkCol(self, 'Language ID', model_col=OOALanguage.id, sClass='left', get_object=lambda i: i.language),
             Col(self, 'Code ID', model_col=OOAUnit.code_id, sClass='left')
