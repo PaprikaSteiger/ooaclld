@@ -1,4 +1,4 @@
-development.ini
+#development.ini
 *.py[cod]
 *.komodoproject
 
