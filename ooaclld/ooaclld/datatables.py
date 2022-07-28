@@ -44,6 +44,7 @@ class Featuresets(datatables.Contributions):
             LinkCol(self, 'Name', model_col=OOAFeatureSet.name, sClass='left'),
             Col(self, 'Domains', model_col=OOAFeatureSet.domains, sClass='left'),
             Col(self, 'Authors', model_col=OOAFeatureSet.authors, sClass='left'),
+            #LinkCol(self, 'Authors', model_col=common.Contributor.id, sClass='left', get_object= lambda i: i.contributor),
             Col(self, 'Contributors', model_col=OOAFeatureSet.contributors, sClass='left'),
             Col(self, 'Filename', model_col=OOAFeatureSet.filename, sClass='left'),
         ]

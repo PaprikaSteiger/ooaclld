@@ -68,17 +68,21 @@ def main(args):
                  filename=row['Filename'] or "",
                  description=desc,
                  )
-        # cnt = 0
-        # for i, f in enumerate(['Authors', 'Contributors']):
-        #     if row[f]:
-        #         for co in row[f]:
-        #             print(co)
-        #             data.add(common.ContributionContributor, co,
-        #                      contribution=fset,
-        #                      contributor_pk=data['Contributor'][co].pk,
-        #                      primary=(i == 0),
-        #                      ord=cnt)
-        #             cnt += 1
+        cnt = 0
+        # TOdo: fix this issue in the data, then remove this part of the code
+        # the problem is that an author cannot be as well a contributor
+        authors = set(row['Authors'])
+        contrib = set(row['Contributors'])
+        row['Contributors'] = list(contrib - authors)
+        for i, f in enumerate(['Authors', 'Contributors']):
+            if row[f]:
+                for co in row[f]:
+                    data.add(common.ContributionContributor, co,
+                             contribution=fset,
+                             contributor_pk=data['Contributor'][co].pk,
+                             primary=(i == 0),
+                             ord=cnt)
+                    cnt += 1
         DBSession.flush()
 
     for row in tqdm(ds.iter_rows('ParameterTable'), desc="Processing parameters"):
