@@ -4,9 +4,7 @@
 <%block name="title">Feature Set ${ctx.name}</%block>
 <%! from ooaclld.models import OOAParameter %>
 
-${ctx.description}
-
 <h2>Feature Set: ${ctx.name}</h2>
-
+${text|n}
 <div style="clear: both"/>
 
