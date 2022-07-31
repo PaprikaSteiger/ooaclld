@@ -39,15 +39,18 @@ class ContributorsCol(Col):
 class Featuresets(datatables.Contributions):
 
     def col_defs(self):
+        cols = datatables.Contributions.col_defs(self)
         return [
             IdCol(self, 'Featureset ID', sClass='left'),
             LinkCol(self, 'Name', model_col=OOAFeatureSet.name, sClass='left'),
             Col(self, 'Domains', model_col=OOAFeatureSet.domains, sClass='left'),
-            Col(self, 'Authors', model_col=OOAFeatureSet.authors, sClass='left'),
-            #LinkCol(self, 'Authors', model_col=common.Contributor.id, sClass='left', get_object= lambda i: i.contributor),
-            Col(self, 'Contributors', model_col=OOAFeatureSet.contributors, sClass='left'),
-            Col(self, 'Filename', model_col=OOAFeatureSet.filename, sClass='left'),
-        ]
+        ] + cols[:-1] + cols[-1:]
+            #Col(self, 'Authors', model_col=OOAFeatureSet.authors, sClass='left'),
+            #ContributorsCol(self, 'Authors', model_col=OOAFeatureSet.authors),
+            #ContributorsCol(self, 'Contributors'),
+            #Col(self, 'Contributors', model_col=OOAFeatureSet.contributors, sClass='left'),
+            #Col(self, 'Filename', model_col=OOAFeatureSet.filename, sClass='left'),
+
 
 
 class Languages(datatables.Languages):

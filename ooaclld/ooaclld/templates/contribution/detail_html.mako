@@ -5,6 +5,8 @@
 <%! from ooaclld.models import OOAParameter %>
 
 <h2>Feature Set: ${ctx.name}</h2>
-${text|n}
+##${text|n}
+${dir(ctx)}
+${ctx.contributors}
 <div style="clear: both"/>
 
