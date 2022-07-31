@@ -35,7 +35,7 @@ def main(args):
         publisher_url="http://www.shh.mpg.de",
         license="http://creativecommons.org/licenses/by/4.0/",
         jsondata={
-            'license_icon': 'cc-by.png',
+            'license_icon': 'cc-by.png', # TODO: replace with custome one
             'license_name': 'Creative Commons Attribution 4.0 International License'},
 
     )
@@ -55,6 +55,7 @@ def main(args):
     DBSession.flush()
 
     for c, row in enumerate(tqdm(ds.iter_rows('featuresets.csv'), desc='Processing featuresets')):
+        # reading the static page content into variable desc
         desc = None
         descr_path = cldf_dir / 'docs' / (row["Name"]+".html")
         if descr_path.exists():
@@ -89,7 +90,7 @@ def main(args):
         data.add(models.OOAParameter, row["ParameterID"],
                  id=row["ParameterID"],
                  featureset_pk=data["OOAFeatureSet"][row["FeatureSet"]].pk,
-                 featureset_name=row["FeatureSet"],
+                 featureset_name=row["FeatureSet"], # TODO: delete that row
                  question=row["Question"],
                  datatype=row["datatype"],
                  visualization=row["VisualizationOnly"],
@@ -148,6 +149,7 @@ def main(args):
                  # TODO: Source is not added as a proper foreign key. the csv contains several sources for one entry. This causes problems in sql
                  # TODO: It's a many to many relationship (a source may have several values and a value may have several sources). This usally requires a separate table.
                  # TODO: Check if clld offers some predefined table for that
+                 # TODO: CHeck how wals does that, i.e. showing the page and the link to the source  table
                  source=";".join(row["Source"]),
                  coder=";".join(row["Coder"]),
                  )

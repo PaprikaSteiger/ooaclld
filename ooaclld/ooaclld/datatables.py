@@ -76,7 +76,8 @@ class Units(datatables.Units):
             IdCol(self, 'Id', sTitle='Vale ID', sClass='left'),
             LinkCol(self, 'Parameter ID', model_col=OOAParameter.id, sClass='left', get_object=lambda i: i.parameter),
             LinkCol(self, 'Language ID', model_col=OOALanguage.id, sClass='left', get_object=lambda i: i.language),
-            Col(self, 'Code ID', model_col=OOAUnit.code_id, sClass='left')
+            Col(self, 'Code ID', model_col=OOAUnit.code_id, sClass='left'),
+            Col(self, 'Source', model_col=OOAUnit.source, sClass='left')
         ]
 
 
