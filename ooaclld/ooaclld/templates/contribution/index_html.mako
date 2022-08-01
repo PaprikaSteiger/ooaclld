@@ -6,8 +6,6 @@
 <h2>Feature Sets</h2>
 <p>
     Those are the OOA Feature Sets. INSERT MORE TEXT HERE.
-    TODO: Somehow the domains and other filds are not displayed
-    ${[v.domains for v in h.DBSession.query(OOAFeatureSet).all()]}
 </p>
 <div class="clearfix"> </div>
 ${ctx.render()}

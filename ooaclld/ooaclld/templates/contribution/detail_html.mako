@@ -5,8 +5,10 @@
 <%! from ooaclld.models import OOAParameter %>
 
 <h2>Feature Set: ${ctx.name}</h2>
-##${text|n}
-${dir(ctx)}
-${ctx.contributors}
+% if text:
+    ${text|n}
+% else:
+    No static page available
+% endif
 <div style="clear: both"/>
 
