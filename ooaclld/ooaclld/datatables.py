@@ -31,9 +31,32 @@ class Features(datatables.Parameters):
         ]
 
 
+class AuthorsCol(Col):
+    def format(self, item):
+        req = self.dt.req
+        contribution = item
+        chunks = []
+        for i, c in enumerate(contribution.primary_contributors):
+            if i > 0:
+                chunks.append(' and ')
+            chunks.append(link(req, c))
+        return HTML.span(*chunks)
+
+
 class ContributorsCol(Col):
     def format(self, item):
-        return linked_contributors(self.dt.req, item.contributor)
+        req = self.dt.req
+        contribution = item
+        chunks = []
+
+        for i, c in enumerate(contribution.secondary_contributors):
+            if i == 0 and contribution.primary_contributors:
+                chunks.append(' with ')
+            if i > 0:
+                chunks.append(' and ')
+            chunks.append(link(req, c))
+        return HTML.span(*chunks)
+
 
 
 class Featuresets(datatables.Contributions):
@@ -44,12 +67,13 @@ class Featuresets(datatables.Contributions):
             IdCol(self, 'Featureset ID', sClass='left'),
             LinkCol(self, 'Name', model_col=OOAFeatureSet.name, sClass='left'),
             Col(self, 'Domains', model_col=OOAFeatureSet.domains, sClass='left'),
-        ] + cols[:-1] + cols[-1:]
+        #] + cols[:-1] + cols[-1:]
             #Col(self, 'Authors', model_col=OOAFeatureSet.authors, sClass='left'),
-            #ContributorsCol(self, 'Authors', model_col=OOAFeatureSet.authors),
-            #ContributorsCol(self, 'Contributors'),
+            AuthorsCol(self, 'Authors', model_col=OOAFeatureSet.authors),
+            ContributorsCol(self, 'Contributors'),
             #Col(self, 'Contributors', model_col=OOAFeatureSet.contributors, sClass='left'),
             #Col(self, 'Filename', model_col=OOAFeatureSet.filename, sClass='left'),
+        ]
 
 
 
