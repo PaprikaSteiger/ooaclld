@@ -113,7 +113,7 @@ class Contributors(datatables.Contributors):
     def col_defs(self):
         return [
             IdCol(self, 'Contributor ID', model_col=common.Contributor.id, sClass='left'),
-            Col(self, 'Name', model_col=common.Contributor.name, sClass='left')
+            LinkCol(self, 'Name', model_col=common.Contributor.name, sClass='left')
         ]
 
 
