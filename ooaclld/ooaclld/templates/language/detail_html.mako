@@ -2,12 +2,14 @@
 <%namespace name="util" file="../util.mako"/>
 <%! active_menu_item = "languages" %>
 <%block name="title">Language ${ctx.name}</%block>
-<%! from ooaclld.models import OOAUnit %>
+<%! from ooaclld.models import OOAValue %>
 
 
 <h2>Language: ${ctx.name}</h2>
 <span class="badge">Glotto code: ${ctx.id}</span>
-${request.get_datatable('units', OOAUnit, ooalanguage=ctx).render()}
+${dir(h.DBSession.query(OOAValue).first().valueset)}
+${dir(request.get_datatable('values', OOAValue))}
+${request.get_datatable('values', OOAValue, ooalanguage=ctx).render()}
 
 <%def name="sidebar()">
     ${util.codes()}
