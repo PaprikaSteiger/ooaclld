@@ -7,7 +7,7 @@
 
 <h2>Language: ${ctx.name}</h2>
 <span class="badge">Glotto code: ${ctx.id}</span>
-${dir(h.DBSession.query(OOAValue).first().valueset)}
+${h.DBSession.query(OOAValue).first().valueset_pk}
 ${dir(request.get_datatable('values', OOAValue))}
 ${request.get_datatable('values', OOAValue, ooalanguage=ctx).render()}
 

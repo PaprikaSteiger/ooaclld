@@ -168,13 +168,12 @@ def main(args):
             DBSession.flush()
         data.add(models.OOAValue, row["ID"],
                  valueset_pk=data["ValueSet"][current_valueset_id].pk,
+                 # TODO: insert real pk here
                  domainelement_pk=row["CodeID"],
                  value=row["Value"],
                  remark=row["Remark"],
                  coder=";".join(row["Coder"]),
         )
-        # # TODO: This is just to make the code work, ignore the second code id, see todo below for relationship modelling
-        # code_id = row["CodeID"].split(";")[0] if row["CodeID"] else row["CodeID"]
         # data.add(models.OOAUnit, row["ID"],
         #          # TODO: this would be the way to refer to another resource from a table
         #          # parameter = relationship('Parameter', innerjoin=True, backref='valuesets')
