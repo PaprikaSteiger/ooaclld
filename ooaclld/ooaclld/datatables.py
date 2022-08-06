@@ -90,23 +90,22 @@ class Values(datatables.Values):
     __constraints__ = [OOALanguage, OOAParameter]
 
     def base_query(self, query):
-        #query = super(Values, self).base_query(query)
         query = query.join(common.ValueSet).options(
             joinedload(
                 OOAValue.valueset
             )
         )
         if self.ooalanguage:
-            query = query.join(OOALanguage, self.ooalanguage.pk == common.ValueSet.language_pk)
-            return query#.filter(common.ValueSet.language_pk == self.ooalanguage.pk)
+            query = query.join(OOALanguage).filter(self.ooalanguage.pk == common.ValueSet.language_pk)
+            return query
         elif self.ooaparameter:
-            query = query.join(OOAParameter)
-            #return query.filter(OOAUnit.parameter_pk == self.ooaparameter.pk)
+            query = query.join(OOAParameter).filter(common.ValueSet.parameter_pk == self.ooaparameter.pk)
+            return query
         return query
 
     def col_defs(self):
         return [
-            IdCol(self, 'Id', sTitle='Vale ID', sClass='left'),
+            IdCol(self, 'Id', sTitle='Value ID', sClass='left'),
             LinkCol(self, 'Parameter ID', model_col=OOAParameter.id, sClass='left', get_object=lambda i: i.parameter),
             LinkCol(self, 'Language ID', model_col=OOALanguage.id, sClass='left', get_object=lambda i: i.language),
             Col(self, 'Code ID', model_col=OOAValue.domainelement_pk, sClass='left'),

@@ -2,7 +2,7 @@
 <%namespace name="util" file="../util.mako"/>
 <%! active_menu_item = "parameters" %>
 <%block name="title">${_('Parameter')} ${ctx.name}</%block>
-<%! from ooaclld.models import OOAUnit %>
+<%! from ooaclld.models import OOAValue %>
 
 
 
@@ -14,7 +14,7 @@
 
 <div style="clear: both"/>
 % if map_ or request.map:
-${(map_ or request.map).render()}
+##${(map_ or request.map).render()}
 % endif
-${request.get_datatable('units', OOAUnit, ooaparameter=ctx).render()}
+${request.get_datatable('values', OOAValue, ooaparameter=ctx).render()}
 
