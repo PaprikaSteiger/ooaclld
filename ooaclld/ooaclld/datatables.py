@@ -87,27 +87,27 @@ class Languages(datatables.Languages):
 
 
 class Values(datatables.Values):
-    __constraints__ = [OOALanguage, OOAParameter]
+    #__constraints__ = [OOALanguage, OOAParameter]
 
-    def base_query(self, query):
-        query = query.join(common.ValueSet).options(
-            joinedload(
-                OOAValue.valueset
-            )
-        )
-        if self.ooalanguage:
-            query = query.join(OOALanguage).filter(self.ooalanguage.pk == common.ValueSet.language_pk)
-            return query
-        elif self.ooaparameter:
-            query = query.join(OOAParameter).filter(common.ValueSet.parameter_pk == self.ooaparameter.pk)
-            return query
-        return query
+    # def base_query(self, query):
+    #     query = query.join(common.ValueSet).options(
+    #         joinedload(
+    #             OOAValue.valueset
+    #         )
+    #     )
+    #     if self.ooalanguage:
+    #         query = query.join(OOALanguage).filter(self.ooalanguage.pk == common.ValueSet.language_pk)
+    #         return query
+    #     elif self.ooaparameter:
+    #         query = query.join(OOAParameter).filter(common.ValueSet.parameter_pk == self.ooaparameter.pk)
+    #         return query
+    #     return query
 
     def col_defs(self):
         return [
             IdCol(self, 'Id', sTitle='Value ID', sClass='left'),
-            LinkCol(self, 'Parameter ID', model_col=OOAParameter.id, sClass='left', get_object=lambda i: i.parameter),
-            LinkCol(self, 'Language ID', model_col=OOALanguage.id, sClass='left', get_object=lambda i: i.language),
+            #LinkCol(self, 'Parameter ID', model_col=OOAParameter.id, sClass='left', get_object=lambda i: i.parameter),
+            #LinkCol(self, 'Language ID', model_col=OOALanguage.id, sClass='left', get_object=lambda i: i.language),
             Col(self, 'Code ID', model_col=OOAValue.domainelement_pk, sClass='left'),
             #Col(self, 'Source', model_col=OOAValue.source, sClass='left')
         ]

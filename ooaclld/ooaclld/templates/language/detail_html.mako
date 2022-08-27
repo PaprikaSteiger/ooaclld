@@ -7,9 +7,9 @@
 
 <h2>Language: ${ctx.name}</h2>
 <span class="badge">Glotto code: ${ctx.id}</span>
-${h.DBSession.query(OOAValue).first().valueset_pk}
+${[v.id for v in h.DBSession.query(OOAValue).all()]}
 ${dir(request.get_datatable('values', OOAValue))}
-${request.get_datatable('values', OOAValue, ooalanguage=ctx).render()}
+${request.get_datatable('values', OOAValue, language=ctx).render()}
 
 <%def name="sidebar()">
     ${util.codes()}
