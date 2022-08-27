@@ -106,8 +106,8 @@ class Values(datatables.Values):
     def col_defs(self):
         return [
             IdCol(self, 'Id', sTitle='Value ID', sClass='left'),
-            #LinkCol(self, 'Parameter ID', model_col=OOAParameter.id, sClass='left', get_object=lambda i: i.parameter),
-            #LinkCol(self, 'Language ID', model_col=OOALanguage.id, sClass='left', get_object=lambda i: i.language),
+            LinkCol(self, 'Parameter ID', model_col=OOAParameter.id, sClass='left', get_object=lambda i: i.valueset.parameter),
+            LinkCol(self, 'Language ID', model_col=OOALanguage.id, sClass='left', get_object=lambda i: i.valueset.language),
             Col(self, 'Code ID', model_col=OOAValue.domainelement_pk, sClass='left'),
             #Col(self, 'Source', model_col=OOAValue.source, sClass='left')
         ]
