@@ -66,18 +66,28 @@ class OOAParameter(CustomModelMixin, common.Parameter):
     visualization = Column(Unicode)
 
 
-@implementer(interfaces.IUnit)
-class OOAUnit(CustomModelMixin, common.Unit):
-    pk = Column(Unicode, ForeignKey('unit.pk'), primary_key=True)
+@implementer(interfaces.IValue)
+class OOAValue(CustomModelMixin, common.Value):
+    pk = Column(Unicode, ForeignKey("value.pk"), primary_key=True)
 
-    parameter_pk = Column(Unicode, ForeignKey('parameter.pk'))
-    parameter = relationship(OOAParameter)
-    # allows foreign key to be empty
-    #code_id = Column(Unicode, ForeignKey('domainelement.pk'), nullable=True)
-    code_id = Column(Unicode)
-    value = Column(Unicode)
     remark = Column(Unicode)
-    source = Column(Unicode, ForeignKey('source.pk'))
+    value = Column(Unicode)
+    # TODO: Maybe add a relationship to contributors
     coder = Column(Unicode)
+
+
+# @implementer(interfaces.IUnit)
+# class OOAUnit(CustomModelMixin, common.Unit):
+#     pk = Column(Unicode, ForeignKey('unit.pk'), primary_key=True)
+#
+#     parameter_pk = Column(Unicode, ForeignKey('parameter.pk'))
+#     parameter = relationship(OOAParameter)
+#     # allows foreign key to be empty
+#     #code_id = Column(Unicode, ForeignKey('domainelement.pk'), nullable=True)
+#     code_id = Column(Unicode)
+#     value = Column(Unicode)
+#     remark = Column(Unicode)
+#     source = Column(Unicode, ForeignKey('source.pk'))
+#     coder = Column(Unicode)
 
 
