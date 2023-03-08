@@ -35,3 +35,7 @@ nosetests.xml
 
 # pycharm
 .idea
+**/.idea/*
+
+# ignore the database
+db.sqlite

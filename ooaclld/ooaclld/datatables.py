@@ -9,7 +9,7 @@ from clld.db.util import get_distinct_values, icontains
 from clld.web.util.helpers import linked_contributors, link, contactmail
 from clld.web.util.htmllib import HTML
 
-from ooaclld.models import OOALanguage, OOAParameter, OOAUnit, OOAFeatureSet
+from ooaclld.models import OOALanguage, OOAParameter, OOAFeatureSet, OOAValue
 
 
 class Features(datatables.Parameters):
@@ -86,25 +86,30 @@ class Languages(datatables.Languages):
         ]
 
 
-class Units(datatables.Units):
-    __constraints__ = [OOALanguage, OOAParameter]
+class Values(datatables.Values):
+    #__constraints__ = [OOALanguage, OOAParameter]
 
-    def base_query(self, query):
-        if self.ooalanguage:
-            query = query.join(OOALanguage)
-            return query.filter(OOAUnit.language_pk == self.ooalanguage.pk)
-        elif self.ooaparameter:
-            query = query.join(OOAParameter)
-            return query.filter(OOAUnit.parameter_pk == self.ooaparameter.pk)
-        return query
+    # def base_query(self, query):
+    #     query = query.join(common.ValueSet).options(
+    #         joinedload(
+    #             OOAValue.valueset
+    #         )
+    #     )
+    #     if self.ooalanguage:
+    #         query = query.join(OOALanguage).filter(self.ooalanguage.pk == common.ValueSet.language_pk)
+    #         return query
+    #     elif self.ooaparameter:
+    #         query = query.join(OOAParameter).filter(common.ValueSet.parameter_pk == self.ooaparameter.pk)
+    #         return query
+    #     return query
 
     def col_defs(self):
         return [
-            IdCol(self, 'Id', sTitle='Vale ID', sClass='left'),
-            LinkCol(self, 'Parameter ID', model_col=OOAParameter.id, sClass='left', get_object=lambda i: i.parameter),
-            LinkCol(self, 'Language ID', model_col=OOALanguage.id, sClass='left', get_object=lambda i: i.language),
-            Col(self, 'Code ID', model_col=OOAUnit.code_id, sClass='left'),
-            Col(self, 'Source', model_col=OOAUnit.source, sClass='left')
+            IdCol(self, 'Id', sTitle='Value ID', sClass='left'),
+            LinkCol(self, 'Parameter ID', model_col=OOAParameter.id, sClass='left', get_object=lambda i: i.valueset.parameter),
+            LinkCol(self, 'Language ID', model_col=OOALanguage.id, sClass='left', get_object=lambda i: i.valueset.language),
+            Col(self, 'Code ID', model_col=OOAValue.domainelement_pk, sClass='left'),
+            #Col(self, 'Source', model_col=OOAValue.source, sClass='left')
         ]
 
 
@@ -119,7 +124,7 @@ class Contributors(datatables.Contributors):
 
 def includeme(config):
     # the name of the datatable must be the same as the name given to the route pattern
-    config.register_datatable('units', Units)
+    config.register_datatable('values', Values)
     config.register_datatable('languages', Languages)
     config.register_datatable('parameters', Features)
     config.register_datatable('contributions', Featuresets)
