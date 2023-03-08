@@ -14,7 +14,7 @@
 
 <div style="clear: both"/>
 % if map_ or request.map:
-##${(map_ or request.map).render()}
+${(map_ or request.map).render()}
 % endif
 ${request.get_datatable('values', OOAValue, ooaparameter=ctx).render()}
 
