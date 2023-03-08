@@ -136,61 +136,60 @@ def main(args):
     current_language = ""
     current_contribution = ""
     current_valueset_id = ""
+    all_contributions_id = set()
+    all_valueset_ids = set()
+    # TODO: this works, but it's suboptimal. We now have a valueset for each value... But I think I cannot group them to real valuesets -> discuss with Natalia and David, which values do belong to the same valueset? So far. we had one valueset per chapter but then only the parameters with id xxxx-01 are accessible.
     for c, row in enumerate(tqdm(ds.iter_rows('ValueTable'), desc="Processing values")):
-        contribution_this_row = row["ID"].split("-")[0].split("_")[1]
-        parameter_this_row = row["ParameterID"]
-        language_this_row = row["LanguageID"]
-        # add first valueset
-        if c == 0:
-            current_parameter = row["ParameterID"]
-            current_language = row["LanguageID"]
-            current_contribution = row["ID"].split("-")[0].split("_")[1]
-            current_valueset_id = row['ID']
-            data.add(common.ValueSet, current_valueset_id,
-                     id=current_valueset_id,
-                     language_pk=data["OOALanguage"][current_language].pk,
-                     parameter_pk=data["OOAParameter"][current_parameter].pk,
-                     contribution_pk=data["OOAFeatureSet"][current_contribution].pk,
-                     #TODO: check that all values in the same valueset have the same source. If not, discuss with david
-                     source="",
-                     )
-            DBSession.flush()
-            data.add(models.OOAValue, row["ID"],
-                     id=row["ID"],
-                     valueset_pk=data["ValueSet"][current_valueset_id].pk,
-                     # TODO: insert real pk here
-                     domainelement_pk=row["CodeID"],
-                     value=row["Value"],
-                     remark=row["Remark"],
-                     coder=";".join(row["Coder"]),
-                     )
-            DBSession.flush()
+        current_contribution = row["ID"].split("-")[0].split("_")[1]
+        data.add(common.ValueSet, row['ID'],
+                 id=row['ID'],
+                 language_pk=data["OOALanguage"][row["LanguageID"]].pk,
+                 parameter_pk=data["OOAParameter"][row["ParameterID"]].pk,
+                 contribution_pk=data["OOAFeatureSet"][current_contribution].pk,
+                 #TODO: check that all values in the same valueset have the same source. If not, discuss with david
+                 source="",
+                 )
+        DBSession.flush()
+        data.add(models.OOAValue, row["ID"],
+                 id=row["ID"],
+                 valueset_pk=data["ValueSet"][row['ID']].pk,
+                 # TODO: insert real pk fore CodeID (Codes never used so far; Code=common.DomainElement)
+                 domainelement_pk=row["CodeID"],
+                 value=row["Value"],
+                 remark=row["Remark"],
+                 coder=";".join(row["Coder"]),
+                 )
+        DBSession.flush()
         # new valueset only if contribution changes
-        elif current_contribution != contribution_this_row:
-            current_parameter = row["ParameterID"]
-            current_language = row["LanguageID"]
-            current_contribution = row["ID"].split("-")[0].split("_")[1]
-            current_valueset_id = row['ID']
-            data.add(common.ValueSet, current_valueset_id,
-                     id=current_valueset_id,
-                     language_pk=data["OOALanguage"][current_language].pk,
-                     parameter_pk=data["OOAParameter"][current_parameter].pk,
-                     contribution_pk=data["OOAFeatureSet"][current_contribution].pk,
-                     # TODO: check that all values in the same valueset have the same source. If not, discuss with david
-                     source="",
-                     )
-            DBSession.flush()
-            data.add(models.OOAValue, row["ID"],
-                     id=row["ID"],
-                     valueset_pk=data["ValueSet"][current_valueset_id].pk,
-                     # TODO: insert real pk here
-                     domainelement_pk=row["CodeID"],
-                     value=row["Value"],
-                     remark=row["Remark"],
-                     coder=";".join(row["Coder"]),
-            )
-            DBSession.flush()
-
+        # elif current_contribution != contribution_this_row:
+        #     current_parameter = row["ParameterID"]
+        #     current_language = row["LanguageID"]
+        #     current_contribution = row["ID"].split("-")[0].split("_")[1]
+        #     all_contributions_id.add(current_contribution)
+        #     current_valueset_id = row['ID']
+        #     all_valueset_ids.add(current_valueset_id)
+        #     data.add(common.ValueSet, current_valueset_id,
+        #              id=current_valueset_id,
+        #              language_pk=data["OOALanguage"][current_language].pk,
+        #              parameter_pk=data["OOAParameter"][current_parameter].pk,
+        #              contribution_pk=data["OOAFeatureSet"][current_contribution].pk,
+        #              # TODO: check that all values in the same valueset have the same source. If not, discuss with david
+        #              source="",
+        #              )
+        #     DBSession.flush()
+        #     data.add(models.OOAValue, row["ID"],
+        #              id=row["ID"],
+        #              valueset_pk=data["ValueSet"][current_valueset_id].pk,
+        #              # TODO: insert real pk here
+        #              domainelement_pk=row["CodeID"],
+        #              value=row["Value"],
+        #              remark=row["Remark"],
+        #              coder=";".join(row["Coder"]),
+        #     )
+        #     DBSession.flush()
+    # print(f"valueset ids: {all_valueset_ids}")
+    # print("\n\n")
+    # print(f"contributions id: {all_contributions_id}")
 
 
 def prime_cache(args):

@@ -13,8 +13,11 @@
 % endif
 
 <div style="clear: both"/>
-% if map_ or request.map:
-${(map_ or request.map).render()}
-% endif
-${request.get_datatable('values', OOAValue, ooaparameter=ctx).render()}
+#% if map_ or request.map:
+#${(map_ or request.map).render()}
+#% endif
+${dir(ctx)}
+${type(ctx)}
+${ctx.id}
+${request.get_datatable('values', OOAValue, parameter=ctx).render()}
 

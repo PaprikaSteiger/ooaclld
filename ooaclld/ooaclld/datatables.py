@@ -5,6 +5,7 @@ from clld.web.datatables.base import Col, LinkCol, DetailsRowLinkCol, IdCol, Dat
 from clld.web.datatables.value import ValueNameCol
 from clld.db.meta import DBSession
 from clld.db.models import common
+from clld.db.models import Value, ValueSet, ValueSetReference, DomainElement, Parameter, Contribution, Language
 from clld.db.util import get_distinct_values, icontains
 from clld.web.util.helpers import linked_contributors, link, contactmail
 from clld.web.util.htmllib import HTML
@@ -87,15 +88,38 @@ class Languages(datatables.Languages):
 
 
 class Values(datatables.Values):
-    __constraints__ = [OOALanguage, OOAParameter]
+
+    __constraints__ = [Parameter, Contribution, Language]
 
     def base_query(self, query):
-        if self.ooalanguage:
-            query = query.join(common.ValueSet)
-            return query.filter(common.ValueSet.language_pk == self.ooalanguage.pk)
-        elif self.ooaparameter:
-            return query.join(common.ValueSet, common.ValueSet.pk == self.model.valueset_pk).filter(common.ValueSet.parameter_pk == self.ooaparameter.pk)
-        #return query
+        query = query.join(ValueSet).options(
+            joinedload(
+                Value.valueset
+            ).joinedload(
+                ValueSet.references
+            ).joinedload(
+                ValueSetReference.source
+            )
+        )
+
+        if self.language:
+            print("language query started")
+            query = query.join(ValueSet.parameter)
+            query = query.filter(ValueSet.language_pk == self.language.pk)
+            print("language query ended")
+            return query
+
+        if self.parameter:
+            query = query.join(ValueSet.language)
+            query = query.outerjoin(DomainElement).options(
+                joinedload(Value.domainelement))
+            return query.filter(ValueSet.parameter_pk == self.parameter.pk)
+
+        if self.contribution:
+            query = query.join(ValueSet.parameter)
+            return query.filter(ValueSet.contribution_pk == self.contribution.pk)
+
+        return query
 
     def col_defs(self):
         return [
