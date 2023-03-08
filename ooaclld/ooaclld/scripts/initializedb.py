@@ -166,9 +166,7 @@ def main(args):
                      )
             DBSession.flush()
         # new valueset only if contribution changes
-        elif current_contribution != contribution_this_row \
-                and current_language != language_this_row \
-                and current_parameter != parameter_this_row:
+        elif current_contribution != contribution_this_row:
             current_parameter = row["ParameterID"]
             current_language = row["LanguageID"]
             current_contribution = row["ID"].split("-")[0].split("_")[1]
