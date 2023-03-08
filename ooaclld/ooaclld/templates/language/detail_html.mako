@@ -9,7 +9,7 @@
 <a href="https://glottolog.org/resource/languoid/id/${ctx.id}"><span class="badge">Glotto code: ${ctx.id}</span></a>
 ##${[v.id for v in h.DBSession.query(OOAValue).all()]}
 ##${dir(request.get_datatable('values', OOAValue))}
-${request.get_datatable('values', OOAValue, language=ctx).render()}
+${request.get_datatable('values', OOAValue, ooalanguage=ctx).render()}
 
 <%def name="sidebar()">
     ${util.codes()}

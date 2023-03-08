@@ -87,21 +87,15 @@ class Languages(datatables.Languages):
 
 
 class Values(datatables.Values):
-    #__constraints__ = [OOALanguage, OOAParameter]
+    __constraints__ = [OOALanguage, OOAParameter]
 
-    # def base_query(self, query):
-    #     query = query.join(common.ValueSet).options(
-    #         joinedload(
-    #             OOAValue.valueset
-    #         )
-    #     )
-    #     if self.ooalanguage:
-    #         query = query.join(OOALanguage).filter(self.ooalanguage.pk == common.ValueSet.language_pk)
-    #         return query
-    #     elif self.ooaparameter:
-    #         query = query.join(OOAParameter).filter(common.ValueSet.parameter_pk == self.ooaparameter.pk)
-    #         return query
-    #     return query
+    def base_query(self, query):
+        if self.ooalanguage:
+            query = query.join(common.ValueSet)
+            return query.filter(common.ValueSet.language_pk == self.ooalanguage.pk)
+        elif self.ooaparameter:
+            return query.join(common.ValueSet, common.ValueSet.pk == self.model.valueset_pk).filter(common.ValueSet.parameter_pk == self.ooaparameter.pk)
+        #return query
 
     def col_defs(self):
         return [
