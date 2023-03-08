@@ -12,4 +12,4 @@ class FeatureMap(ParameterMap):
             'info_query': {'parameter': self.ctx.pk}}
 
 def includeme(config):
-    config.register_map('parameter', FeatureMap)
+    config.register_map('parameter', ParameterMap)

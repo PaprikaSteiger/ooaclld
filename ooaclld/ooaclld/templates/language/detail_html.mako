@@ -6,7 +6,7 @@
 
 
 <h2>Language: ${ctx.name}</h2>
-<span class="badge">Glotto code: ${ctx.id}</span>
+<a href="https://glottolog.org/resource/languoid/id/${ctx.id}"><span class="badge">Glotto code: ${ctx.id}</span></a>
 ##${[v.id for v in h.DBSession.query(OOAValue).all()]}
 ##${dir(request.get_datatable('values', OOAValue))}
 ${request.get_datatable('values', OOAValue, language=ctx).render()}
