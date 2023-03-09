@@ -6,6 +6,6 @@ import ooaclld
 
 
 environment.append_path(
-    Path(ooaclld.__file__).parent.joinpath('static').as_posix(),
-    url='/ooaclld:static/')
+    Path(ooaclld.__file__).parent.joinpath("static").as_posix(), url="/ooaclld:static/"
+)
 environment.load_path = list(reversed(environment.load_path))
