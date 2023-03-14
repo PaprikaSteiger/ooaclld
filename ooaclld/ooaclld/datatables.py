@@ -144,7 +144,7 @@ class Values(datatables.Values):
                 sClass="left",
                 get_object=lambda i: i.valueset.language,
             ),
-            Col(self, "Code ID", model_col=OOAValue.domainelement_pk, sClass="left"),
+            Col(self, "Code ID", model_col=OOAValue.code_id, sClass="left"),
             # Col(self, 'Source', model_col=OOAValue.source, sClass='left')
         ]
 

@@ -163,6 +163,7 @@ def main(args):
             valueset_pk=data["ValueSet"][row["ID"]].pk,
             # Todo: not all values have a code id
             domainelement_pk=None,
+            code_id=row["CodeID"],
             value=row["Value"],
             remark=row["Remark"],
             coder=";".join(row["Coder"]),
