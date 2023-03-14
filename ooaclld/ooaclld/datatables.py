@@ -104,7 +104,7 @@ class Languages(datatables.Languages):
 
 
 class Values(datatables.Values):
-    __constraints__ = [Parameter, Contribution, OOALanguage]
+    __constraints__ = [OOAParameter, Contribution, OOALanguage]
 
     def base_query(self, query):
         query = query.join(ValueSet).options(
@@ -114,15 +114,12 @@ class Values(datatables.Values):
         )
 
         if self.ooalanguage:
-            query = query.join(ValueSet.parameter)
+            query = query.join(ValueSet)
             return query.filter(ValueSet.language_pk == self.ooalanguage.pk)
 
-        if self.parameter:
-            query = query.join(ValueSet.language)
-            query = query.outerjoin(DomainElement).options(
-                joinedload(Value.domainelement)
-            )
-            return query.filter(ValueSet.parameter_pk == self.parameter.pk)
+        if self.ooaparameter:
+            query = query.join(ValueSet)
+            return query.filter(ValueSet.parameter_pk == self.ooaparameter.pk)
 
         if self.contribution:
             query = query.join(ValueSet.parameter)
