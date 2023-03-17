@@ -9,10 +9,6 @@ from clld.db.models import (
     Value,
     ValueSet,
     ValueSetReference,
-    DomainElement,
-    Parameter,
-    Contribution,
-    Language,
 )
 from clld.db.util import get_distinct_values, icontains
 from clld.web.util.helpers import linked_contributors, link, contactmail
@@ -104,7 +100,7 @@ class Languages(datatables.Languages):
 
 
 class Values(datatables.Values):
-    __constraints__ = [OOAParameter, Contribution, OOALanguage]
+    __constraints__ = [OOAParameter, OOALanguage]
 
     def base_query(self, query):
         query = query.join(ValueSet).options(
@@ -121,9 +117,9 @@ class Values(datatables.Values):
             query = query.join(ValueSet)
             return query.filter(ValueSet.parameter_pk == self.ooaparameter.pk)
 
-        if self.contribution:
-            query = query.join(ValueSet.parameter)
-            return query.filter(ValueSet.contribution_pk == self.contribution.pk)
+        # if self.contribution:
+        #     query = query.join(ValueSet.parameter)
+        #     return query.filter(ValueSet.contribution_pk == self.contribution.pk)
 
         return query
 
