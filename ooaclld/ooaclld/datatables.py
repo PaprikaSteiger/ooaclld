@@ -32,7 +32,7 @@ class Features(datatables.Parameters):
             IdCol(self, "ID", sClass="left"),
             LinkCol(
                 self,
-                "FeatureSet",
+                "FeatureSet Name",
                 model_col=OOAFeatureSet.id,
                 sClass="left",
                 get_object=lambda i: i.featureset,
@@ -45,20 +45,20 @@ class Features(datatables.Parameters):
                 get_object=lambda  i: i.featureset
             ),
             Col(self, "Questions", model_col=OOAParameter.question, sClass="left"),
-            Col(
-                self,
-                "Visualization",
-                model_col=OOAParameter.visualization,
-                sClass="left",
-            ),
-            Col(self, "Datatype", model_col=OOAParameter.datatype, sClass="left"),
+            # Col(
+            #     self,
+            #     "Visualization",
+            #     model_col=OOAParameter.visualization,
+            #     sClass="left",
+            # ),
+            #Col(self, "Datatype", model_col=OOAParameter.datatype, sClass="left"),
         ]
 
 
 class AuthorsCol(Col):
     def format(self, item):
         req = self.dt.req
-        contribution = item
+        contribution = self._get_object(item) if self._get_object else item
         chunks = []
         for i, c in enumerate(contribution.primary_contributors):
             if i > 0:
