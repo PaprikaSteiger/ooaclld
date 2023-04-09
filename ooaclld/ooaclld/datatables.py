@@ -10,6 +10,7 @@ from clld.db.models import (
     ValueSet,
     ValueSetReference,
 )
+from sqlalchemy.orm import aliased
 from clld.db.util import get_distinct_values, icontains
 from clld.web.util.helpers import linked_contributors, link, contactmail
 from clld.web.util.htmllib import HTML
@@ -35,6 +36,13 @@ class Features(datatables.Parameters):
                 model_col=OOAFeatureSet.id,
                 sClass="left",
                 get_object=lambda i: i.featureset,
+            ),
+            AuthorsCol(
+                self,
+                "Authors",
+                model_col=OOAFeatureSet.authors,
+                sClass="left",
+                get_object=lambda  i: i.featureset
             ),
             Col(self, "Questions", model_col=OOAParameter.question, sClass="left"),
             Col(
@@ -76,7 +84,7 @@ class ContributorsCol(Col):
 
 class Featuresets(datatables.Contributions):
     def col_defs(self):
-        cols = datatables.Contributions.col_defs(self)
+        #cols = datatables.Contributions.col_defs(self)
         return [
             IdCol(self, "Featureset ID", sClass="left"),
             LinkCol(self, "Name", model_col=OOAFeatureSet.name, sClass="left"),
@@ -103,7 +111,7 @@ class Values(datatables.Values):
     __constraints__ = [OOAParameter, OOALanguage]
 
     def base_query(self, query):
-        query = query.join(ValueSet).options(
+        query = query.join(aliased(ValueSet, flat=True)).options(
             joinedload(Value.valueset)
             .joinedload(ValueSet.references)
             .joinedload(ValueSetReference.source)
