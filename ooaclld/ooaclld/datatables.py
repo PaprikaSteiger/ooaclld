@@ -95,7 +95,7 @@ class Featuresets(datatables.Contributions):
         return [
             IdCol(self, "Featureset ID", sClass="left"),
             LinkCol(self, "Name", model_col=OOAFeatureSet.name, sClass="left"),
-            Col(self, "Domains", model_col=OOAFeatureSet.domains, sClass="left"),
+            #Col(self, "Domains", model_col=OOAFeatureSet.domains, sClass="left"),
             # ] + cols[:-1] + cols[-1:]
             # Col(self, 'Authors', model_col=OOAFeatureSet.authors, sClass='left'),
             AuthorsCol(self, "Authors", model_col=OOAFeatureSet.authors),
@@ -112,8 +112,8 @@ class Languages(datatables.Languages):
             LinkCol(self, "Name", sClass="left", model_col=OOALanguage.name),
             Col(self, "Family ID", model_col=OOALanguage.family_id, sClass="left"),
             Col(self, "Macroarea", model_col=OOALanguage.macroarea, sClass="left"),
-            Col(self, 'Latitude'),
-            Col(self, 'Longitude'),
+            Col(self, 'Latitude', model_col=OOALanguage.latitude),
+            Col(self, 'Longitude', model_col=OOALanguage.longitude),
         ]
 
 
@@ -158,8 +158,9 @@ class Values(datatables.Values):
                 sClass="left",
                 get_object=lambda i: i.valueset.language,
             ),
-            Col(self, "Code ID", model_col=OOAValue.code_id, sClass="left"),
-            # Col(self, 'Source', model_col=OOAValue.source, sClass='left')
+            Col(self, "Value", model_col=OOAValue.value, sClass="left"),
+            Col(self, "Remark", model_col=OOAValue.remark, sClass="left"),
+            Col(self, 'Source', model_col=OOAValue.source, sClass='left')
         ]
 
 
