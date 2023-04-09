@@ -19,7 +19,7 @@ from ooaclld import models
 
 def main(args):
     # assert args.glottolog, 'The --glottolog option is required!'
-    cldf_dir = Path(__file__).parent.parent.parent.parent / "cldf2"
+    cldf_dir = Path(__file__).parent.parent.parent.parent / "cldf"
     # args.log.info('Loading dataset')
     ds = list(pycldf.iter_datasets(cldf_dir))[0]
     data = Data()
@@ -101,7 +101,7 @@ def main(args):
             featureset_name=row["FeatureSet"],  # TODO: delete that row
             question=row["Question"],
             datatype=row["datatype"],
-            visualization=row["VisualizationOnly"],
+            #visualization=row["VisualizationOnly"],
         )
     DBSession.flush()
 
@@ -145,22 +145,51 @@ def main(args):
 
     for c, row in enumerate(tqdm(ds.iter_rows("ValueTable"), desc="Processing values")):
         current_contribution = row["ID"].split("-")[0].split("_")[1]
-        data.add(
-            common.ValueSet,
-            row["ID"],
-            id=row["ID"],
-            language_pk=data["OOALanguage"][row["LanguageID"]].pk,
-            parameter_pk=data["OOAParameter"][row["ParameterID"]].pk,
-            contribution_pk=data["OOAFeatureSet"][current_contribution].pk,
-            # TODO: check that all values in the same valueset have the same source. If not, discuss with david
-            source="",
-        )
-        DBSession.flush()
+        current_language = row["LanguageID"]
+        current_param = row["ParameterID"]
+        current_valueset_id = row["ID"]
+        # add first valueset
+        if c == 0:
+            data.add(
+                common.ValueSet,
+                row["ID"],
+                id=row["ID"],
+                language_pk=data["OOALanguage"][row["LanguageID"]].pk,
+                parameter_pk=data["OOAParameter"][row["ParameterID"]].pk,
+                contribution_pk=data["OOAFeatureSet"][current_contribution].pk,
+                # TODO: check that all values in the same valueset have the same source. If not, discuss with david
+                source="",
+            )
+            DBSession.flush()
+
+            previous_con = current_contribution
+            previous_lan = current_language
+            previous_param = current_param
+            previous_valueset_id = current_valueset_id
+
+        if current_param != previous_param or current_language != previous_lan or current_contribution != previous_con:
+            data.add(
+                common.ValueSet,
+                row["ID"],
+                id=row["ID"],
+                language_pk=data["OOALanguage"][row["LanguageID"]].pk,
+                parameter_pk=data["OOAParameter"][row["ParameterID"]].pk,
+                contribution_pk=data["OOAFeatureSet"][current_contribution].pk,
+                # TODO: check that all values in the same valueset have the same source. If not, discuss with david
+                source="",
+            )
+            DBSession.flush()
+
+            previous_con = current_contribution
+            previous_lan = current_language
+            previous_param = current_param
+            previous_valueset_id = current_valueset_id
+
         data.add(
             models.OOAValue,
             row["ID"],
             id=row["ID"],
-            valueset_pk=data["ValueSet"][row["ID"]].pk,
+            valueset_pk=data["ValueSet"][previous_valueset_id].pk,
             # Todo: not all values have a code id
             domainelement_pk=None,
             code_id=row["CodeID"],

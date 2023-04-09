@@ -112,6 +112,8 @@ class Languages(datatables.Languages):
             LinkCol(self, "Name", sClass="left", model_col=OOALanguage.name),
             Col(self, "Family ID", model_col=OOALanguage.family_id, sClass="left"),
             Col(self, "Macroarea", model_col=OOALanguage.macroarea, sClass="left"),
+            Col(self, 'Latitude'),
+            Col(self, 'Longitude'),
         ]
 
 

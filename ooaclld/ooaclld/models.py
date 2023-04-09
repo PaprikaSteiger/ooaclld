@@ -62,7 +62,7 @@ class OOAParameter(CustomModelMixin, common.Parameter):
 
     question = Column(Unicode)
     datatype = Column(Unicode)
-    visualization = Column(Unicode)
+    #visualization = Column(Unicode)
 
 
 @implementer(interfaces.IValue)
