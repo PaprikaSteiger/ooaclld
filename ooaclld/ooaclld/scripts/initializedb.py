@@ -19,7 +19,7 @@ from ooaclld import models
 
 def main(args):
     # assert args.glottolog, 'The --glottolog option is required!'
-    cldf_dir = Path(__file__).parent.parent.parent.parent / "cldf"
+    cldf_dir = Path(__file__).parent.parent.parent.parent / "cldf2"
     # args.log.info('Loading dataset')
     ds = list(pycldf.iter_datasets(cldf_dir))[0]
     data = Data()

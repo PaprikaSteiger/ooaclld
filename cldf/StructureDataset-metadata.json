@@ -44,9 +44,15 @@
                         "name": "Value"
                     },
                     {
+                        "datatype": "decimal",
+                        "required": true,
+                        "name": "Frequency"
+                    },
+                    {
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#codeReference",
                         "required": false,
+                        "separator": ";",
                         "name": "CodeID"
                     },
                     {
@@ -150,9 +156,14 @@
                         "name": "FeatureSet"
                     },
                     {
-                        "datatype": "boolean",
+                        "datatype": "string",
                         "required": false,
-                        "name": "VisualizationOnly"
+                        "name": "Derived"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Map"
                     },
                     {
                     	"datatype": "json",

@@ -109,8 +109,9 @@ class Languages(datatables.Languages):
     def col_defs(self):
         return [
             IdCol(self, "ID", sTitle="Glottocode", sClass="left"),
-            Col(self, "Macroarea", model_col=OOALanguage.macroarea, sClass="left"),
+            LinkCol(self, "Name", sClass="left", model_col=OOALanguage.name),
             Col(self, "Family ID", model_col=OOALanguage.family_id, sClass="left"),
+            Col(self, "Macroarea", model_col=OOALanguage.macroarea, sClass="left"),
         ]
 
 

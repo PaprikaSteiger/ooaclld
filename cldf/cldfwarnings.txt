@@ -1,498 +1,208 @@
-http://cldf.clld.org/v1.0/terms.rdf#ValueTable http://cldf.clld.org/v1.0/terms.rdf#codeReference must be singlevalued
-values.csv:4169:Source missing source key: bergelson1993
-values.csv:16682:Source missing source key: rose2003emerillon246
-values.csv:17224:Source missing source key: vuillermet2021pc
-values.csv:17594:Source missing source key: pittman1988ethnologue
-values.csv:17595:Source missing source key: pittman1988ethnologue
-values.csv:17742:Source missing source key: costasilva2005yaathe:24-26 desa2000yaathe
-values.csv:17743:Source missing source key: costasilva2005yaathe:24-26 desa2000yaathe
-values.csv:20186:Source missing source key: weidman2014guahibo
-values.csv:20187:Source missing source key: weidman2014guahibo
-values.csv:20188:Source missing source key: weidman2014guahibo
-values.csv:20189:Source missing source key: weidman2014guahibo
-values.csv:20190:Source missing source key: weidman2014guahibo
-values.csv:20191:Source missing source key: weidman2014guahibo
-values.csv:20192:Source missing source key: weidman2014guahibo
-values.csv:20193:Source missing source key: weidman2014guahibo
-values.csv:20194:Source missing source key: weidman2014guahibo
-values.csv:20195:Source missing source key: weidman2014guahibo
-values.csv:20197:Source missing source key: weidman2014guahibo
-values.csv:28679:Source missing source key: hanke1950caingangue
-values.csv:28680:Source missing source key: hanke1950caingangue
-values.csv:28681:Source missing source key: hanke1950caingangue
-values.csv:28682:Source missing source key: hanke1950caingangue
-values.csv:28683:Source missing source key: hanke1950caingangue
-values.csv:28684:Source missing source key: hanke1950caingangue
-values.csv:28685:Source missing source key: hanke1950caingangue
-values.csv:28686:Source missing source key: hanke1950caingangue
-values.csv:28687:Source missing source key: hanke1950caingangue
-values.csv:28688:Source missing source key: hanke1950caingangue
-values.csv:28689:Source missing source key: hanke1950caingangue
-values.csv:28690:Source missing source key: hanke1950caingangue
-values.csv:28691:Source missing source key: hanke1950caingangue
-values.csv:28692:Source missing source key: hanke1950caingangue
-values.csv:28693:Source missing source key: hanke1950caingangue
-values.csv:28694:Source missing source key: hanke1950caingangue
-values.csv:28695:Source missing source key: hanke1950caingangue
-values.csv:28696:Source missing source key: hanke1950caingangue
-values.csv:28697:Source missing source key: hanke1950caingangue
-values.csv:28698:Source missing source key: hanke1950caingangue
-values.csv:28699:Source missing source key: hanke1950caingangue
-values.csv:28700:Source missing source key: hanke1950caingangue
-values.csv:28701:Source missing source key: hanke1950caingangue
-values.csv:28702:Source missing source key: hanke1950caingangue
-values.csv:28703:Source missing source key: hanke1950caingangue
-values.csv:28704:Source missing source key: hanke1950caingangue
-values.csv:28705:Source missing source key: hanke1950caingangue
-values.csv:28706:Source missing source key: hanke1950caingangue
-values.csv:28707:Source missing source key: hanke1950caingangue
-values.csv:28708:Source missing source key: hanke1950caingangue
-values.csv:28709:Source missing source key: hanke1950caingangue
-values.csv:28710:Source missing source key: hanke1950caingangue
-values.csv:28711:Source missing source key: hanke1950caingangue
-values.csv:28712:Source missing source key: hanke1950caingangue
-values.csv:28713:Source missing source key: hanke1950caingangue
-values.csv:28714:Source missing source key: hanke1950caingangue
-values.csv:28715:Source missing source key: hanke1950caingangue
-values.csv:28716:Source missing source key: hanke1950caingangue
-values.csv:28717:Source missing source key: hanke1950caingangue
-values.csv:28718:Source missing source key: hanke1950caingangue
-values.csv:28719:Source missing source key: hanke1950caingangue
-values.csv:28720:Source missing source key: hanke1950caingangue
-values.csv:28721:Source missing source key: hanke1950caingangue
-values.csv:28722:Source missing source key: hanke1950caingangue
-values.csv:28723:Source missing source key: hanke1950caingangue
-values.csv:28724:Source missing source key: hanke1950caingangue
-values.csv:28725:Source missing source key: hanke1950caingangue
-values.csv:28726:Source missing source key: hanke1950caingangue
-values.csv:28727:Source missing source key: hanke1950caingangue
-values.csv:28728:Source missing source key: hanke1950caingangue
-values.csv:28729:Source missing source key: hanke1950caingangue
-values.csv:28730:Source missing source key: hanke1950caingangue
-values.csv:28731:Source missing source key: hanke1950caingangue
-values.csv:28732:Source missing source key: hanke1950caingangue
-values.csv:28733:Source missing source key: hanke1950caingangue
-values.csv:28734:Source missing source key: hanke1950caingangue
-values.csv:28735:Source missing source key: hanke1950caingangue
-values.csv:28736:Source missing source key: hanke1950caingangue
-values.csv:28737:Source missing source key: hanke1950caingangue
-values.csv:29434:Source missing source key: crass2005cabeena
-values.csv:29435:Source missing source key: crass2005cabeena
-values.csv:29436:Source missing source key: crass2005cabeena
-values.csv:29437:Source missing source key: crass2005cabeena
-values.csv:29438:Source missing source key: crass2005cabeena
-values.csv:29439:Source missing source key: crass2005cabeena
-values.csv:29440:Source missing source key: crass2005cabeena
-values.csv:29441:Source missing source key: crass2005cabeena
-values.csv:29442:Source missing source key: crass2005cabeena
-values.csv:29443:Source missing source key: crass2005cabeena
-values.csv:29444:Source missing source key: crass2005cabeena
-values.csv:29445:Source missing source key: crass2005cabeena
-values.csv:32698:Source missing source key: vadja2004ket
-values.csv:32699:Source missing source key: vadja2004ket
-values.csv:32700:Source missing source key: vadja2004ket
-values.csv:32701:Source missing source key: vadja2004ket
-values.csv:32702:Source missing source key: vadja2004ket
-values.csv:32703:Source missing source key: vadja2004ket
-values.csv:32704:Source missing source key: vadja2004ket
-values.csv:32705:Source missing source key: vadja2004ket
-values.csv:32706:Source missing source key: vadja2004ket
-values.csv:32707:Source missing source key: vadja2004ket
-values.csv:32708:Source missing source key: vadja2004ket
-values.csv:32709:Source missing source key: vadja2004ket
-values.csv:33786:Source missing source key: barker1963dictionary
-values.csv:33787:Source missing source key: barker1963dictionary
-values.csv:33788:Source missing source key: barker1963dictionary
-values.csv:33789:Source missing source key: barker1963dictionary
-values.csv:33790:Source missing source key: barker1963dictionary
-values.csv:33791:Source missing source key: barker1963dictionary
-values.csv:33792:Source missing source key: barker1963dictionary
-values.csv:33793:Source missing source key: barker1963dictionary
-values.csv:33794:Source missing source key: barker1963dictionary
-values.csv:33795:Source missing source key: barker1963dictionary
-values.csv:33796:Source missing source key: barker1963dictionary
-values.csv:33797:Source missing source key: barker1963dictionary
-values.csv:34330:Source missing source key: heath1998koroboro
-values.csv:34331:Source missing source key: heath1998koroboro
-values.csv:34332:Source missing source key: heath1998koroboro
-values.csv:34333:Source missing source key: heath1998koroboro
-values.csv:34334:Source missing source key: heath1998koroboro
-values.csv:34335:Source missing source key: heath1998koroboro
-values.csv:34336:Source missing source key: heath1998koroboro
-values.csv:34337:Source missing source key: heath1998koroboro
-values.csv:34338:Source missing source key: heath1998koroboro
-values.csv:34339:Source missing source key: heath1998koroboro
-values.csv:34340:Source missing source key: heath1998koroboro
-values.csv:34341:Source missing source key: heath1998koroboro
-values.csv:36951:Source missing source key: manso2013kwaza
-values.csv:37322:Source missing source key: lionnet2021laal
-values.csv:37323:Source missing source key: lionnet2021laal
-values.csv:37324:Source missing source key: lionnet2021laal
-values.csv:37325:Source missing source key: lionnet2021laal
-values.csv:37326:Source missing source key: lionnet2021laal
-values.csv:37327:Source missing source key: lionnet2021laal
-values.csv:37328:Source missing source key: lionnet2021laal
-values.csv:37329:Source missing source key: lionnet2021laal
-values.csv:37330:Source missing source key: lionnet2021laal
-values.csv:37331:Source missing source key: lionnet2021laal
-values.csv:37332:Source missing source key: lionnet2021laal
-values.csv:37333:Source missing source key: lionnet2021laal
-values.csv:39274:Source missing source key: kerke2002leko
-values.csv:39285:Source missing source key: kerke2002leko
-values.csv:39286:Source missing source key: kerke2002leko
-values.csv:40314:Source missing source key: hollenbach2017dictionary
-values.csv:40315:Source missing source key: hollenbach2017dictionary
-values.csv:40316:Source missing source key: hollenbach2017dictionary
-values.csv:40317:Source missing source key: hollenbach2017dictionary
-values.csv:40318:Source missing source key: hollenbach2017dictionary
-values.csv:40319:Source missing source key: hollenbach2017dictionary
-values.csv:40320:Source missing source key: hollenbach2017dictionary
-values.csv:40321:Source missing source key: hollenbach2017dictionary
-values.csv:40322:Source missing source key: hollenbach2017dictionary
-values.csv:40323:Source missing source key: hollenbach2017dictionary
-values.csv:40324:Source missing source key: hollenbach2017dictionary
-values.csv:40325:Source missing source key: hollenbach2017dictionary
-values.csv:42618:Source missing source key: pittman1988ethnologue
-values.csv:42619:Source missing source key: pittman1988ethnologue
-values.csv:47457:Source missing source key: michael2022pc
-values.csv:47461:Source missing source key: michael2022pc
-values.csv:47462:Source missing source key: michael2022pc
-values.csv:47463:Source missing source key: michael2022pc
-values.csv:47481:Source missing source key: michael2022pc
-values.csv:47482:Source missing source key: michael2022pc
-values.csv:47483:Source missing source key: michael2022pc
-values.csv:47484:Source missing source key: michael2022pc
-values.csv:47485:Source missing source key: michael2022pc
-values.csv:47486:Source missing source key: michael2022pc
-values.csv:47487:Source missing source key: michael2022pc
-values.csv:47489:Source missing source key: michael2022pc
-values.csv:47490:Source missing source key: michael2022pc
-values.csv:47491:Source missing source key: michael2022pc
-values.csv:47492:Source missing source key: michael2022pc
-values.csv:47493:Source missing source key: michael2022pc
-values.csv:47494:Source missing source key: michael2022pc
-values.csv:47495:Source missing source key: michael2022pc
-values.csv:47496:Source missing source key: michael2022pc
-values.csv:47497:Source missing source key: michael2022pc
-values.csv:47498:Source missing source key: michael2022pc
-values.csv:47499:Source missing source key: michael2022pc
-values.csv:47502:Source missing source key: michael2022pc
-values.csv:47503:Source missing source key: michael2022pc
-values.csv:47504:Source missing source key: michael2022pc
-values.csv:47505:Source missing source key: michael2022pc
-values.csv:49042:Source missing source key: michael2001
-values.csv:49044:Source missing source key: michael2001
-values.csv:49045:Source missing source key: michael2001
-values.csv:49046:Source missing source key: michael2001
-values.csv:49047:Source missing source key: michael2001
-values.csv:49048:Source missing source key: michael2001
-values.csv:49049:Source missing source key: michael2001
-values.csv:49050:Source missing source key: michael2001
-values.csv:56658:Source missing source key: green1972palikur
-values.csv:56659:Source missing source key: green1972palikur
-values.csv:56660:Source missing source key: green1972palikur
-values.csv:56661:Source missing source key: green1972palikur
-values.csv:56662:Source missing source key: green1972palikur
-values.csv:56663:Source missing source key: green1972palikur
-values.csv:56664:Source missing source key: green1972palikur
-values.csv:56665:Source missing source key: green1972palikur
-values.csv:57746:Source missing source key: vidal2001guaykuruan
-values.csv:57747:Source missing source key: vidal2001guaykuruan
-values.csv:57748:Source missing source key: vidal2001guaykuruan
-values.csv:57749:Source missing source key: vidal2001guaykuruan
-values.csv:57750:Source missing source key: vidal2001guaykuruan
-values.csv:57751:Source missing source key: vidal2001guaykuruan
-values.csv:57752:Source missing source key: vidal2001guaykuruan
-values.csv:57753:Source missing source key: vidal2001guaykuruan
-values.csv:57754:Source missing source key: vidal2001guaykuruan
-values.csv:57956:Source missing source key: campbell1985pipi
-values.csv:60027:Source missing source key: pittman1988ethnologue
-values.csv:60028:Source missing source key: pittman1988ethnologue
-values.csv:61011:Source missing source key: villacygalucio2001mekens
-values.csv:61012:Source missing source key: villacygalucio2001mekens
-values.csv:61013:Source missing source key: villacygalucio2001mekens
-values.csv:61014:Source missing source key: villacygalucio2001mekens
-values.csv:61015:Source missing source key: villacygalucio2001mekens
-values.csv:61016:Source missing source key: villacygalucio2001mekens
-values.csv:61017:Source missing source key: villacygalucio2001mekens
-values.csv:61018:Source missing source key: villacygalucio2001mekens
-values.csv:61019:Source missing source key: villacygalucio2001mekens
-values.csv:65363:Source missing source key: bruil2017siona
-values.csv:65364:Source missing source key: bruil2017siona
-values.csv:65365:Source missing source key: bruil2017siona
-values.csv:65367:Source missing source key: bruil2017siona
-values.csv:65368:Source missing source key: bruil2017siona
-values.csv:65369:Source missing source key: bruil2017siona
-values.csv:65370:Source missing source key: bruil2017siona
-values.csv:65371:Source missing source key: bruil2017siona
-values.csv:66971:Source missing source key: warner2016mutsun
-values.csv:66972:Source missing source key: warner2016mutsun
-values.csv:66973:Source missing source key: warner2016mutsun
-values.csv:66974:Source missing source key: warner2016mutsun
-values.csv:66975:Source missing source key: warner2016mutsun
-values.csv:66976:Source missing source key: warner2016mutsun
-values.csv:66977:Source missing source key: warner2016mutsun
-values.csv:66978:Source missing source key: warner2016mutsun
-values.csv:66979:Source missing source key: warner2016mutsun
-values.csv:66980:Source missing source key: warner2016mutsun
-values.csv:66981:Source missing source key: warner2016mutsun
-values.csv:66982:Source missing source key: warner2016mutsun
-values.csv:67787:Source missing source key: delitzsch1914dictionary
-values.csv:67788:Source missing source key: delitzsch1914dictionary
-values.csv:67789:Source missing source key: delitzsch1914dictionary
-values.csv:67790:Source missing source key: delitzsch1914dictionary
-values.csv:67791:Source missing source key: delitzsch1914dictionary
-values.csv:67792:Source missing source key: delitzsch1914dictionary
-values.csv:67793:Source missing source key: delitzsch1914dictionary
-values.csv:67794:Source missing source key: delitzsch1914dictionary
-values.csv:67795:Source missing source key: delitzsch1914dictionary
-values.csv:67796:Source missing source key: delitzsch1914dictionary
-values.csv:67797:Source missing source key: delitzsch1914dictionary
-values.csv:67798:Source missing source key: delitzsch1914dictionary
-values.csv:73799:Source missing source key: guirardello1999truma
-values.csv:73801:Source missing source key: guirardello1999truma
-values.csv:73803:Source missing source key: guirardello1999truma
-values.csv:74469:Source missing source key: haas1946
-values.csv:75131:Source missing source key: oliverio1996grammar
-values.csv:75132:Source missing source key: oliverio1996grammar
-values.csv:75133:Source missing source key: oliverio1996grammar
-values.csv:75134:Source missing source key: oliverio1996grammar
-values.csv:75135:Source missing source key: oliverio1996grammar
-values.csv:75136:Source missing source key: oliverio1996grammar
-values.csv:75137:Source missing source key: oliverio1996grammar
-values.csv:75138:Source missing source key: oliverio1996grammar
-values.csv:75139:Source missing source key: oliverio1996grammar
-values.csv:75140:Source missing source key: oliverio1996grammar
-values.csv:75141:Source missing source key: oliverio1996grammar
-values.csv:75142:Source missing source key: oliverio1996grammar
-values.csv:77875:Source missing source key: figueroa1997warao
-values.csv:77876:Source missing source key: figueroa1997warao
-values.csv:77877:Source missing source key: figueroa1997warao
-values.csv:77878:Source missing source key: figueroa1997warao
-values.csv:77879:Source missing source key: figueroa1997warao
-values.csv:77880:Source missing source key: figueroa1997warao
-values.csv:77881:Source missing source key: figueroa1997warao
-values.csv:77882:Source missing source key: figueroa1997warao
-values.csv:77883:Source missing source key: figueroa1997warao
-values.csv:78549:Source missing source key: pc2022inman
-values.csv:78939:Source missing source key: captain2005diccionario
-values.csv:78940:Source missing source key: captain2005diccionario
-values.csv:78941:Source missing source key: captain2005diccionario
-values.csv:78942:Source missing source key: captain2005diccionario
-values.csv:78943:Source missing source key: captain2005diccionario
-values.csv:78944:Source missing source key: captain2005diccionario
-values.csv:78945:Source missing source key: captain2005diccionario
-values.csv:78946:Source missing source key: captain2005diccionario
-values.csv:78947:Source missing source key: captain2005diccionario
-values.csv:78948:Source missing source key: captain2005diccionario
-values.csv:78949:Source missing source key: captain2005diccionario
-values.csv:78950:Source missing source key: captain2005diccionario
-values.csv:79282:Source missing source key: miller1967acoma
-values.csv:79306:Source missing source key: miller1967acoma
-values.csv:79307:Source missing source key: miller1967acoma
-values.csv:79308:Source missing source key: miller1967acoma
-values.csv:79309:Source missing source key: miller1967acoma
-values.csv:79310:Source missing source key: miller1967acoma
-values.csv:79311:Source missing source key: miller1967acoma
-values.csv:79312:Source missing source key: miller1967acoma
-values.csv:79314:Source missing source key: miller1967acoma
-values.csv:79315:Source missing source key: miller1967acoma
-values.csv:79316:Source missing source key: miller1967acoma
-values.csv:79317:Source missing source key: miller1967acoma
-values.csv:79318:Source missing source key: miller1967acoma
-values.csv:79319:Source missing source key: miller1967acoma
-values.csv:79320:Source missing source key: miller1967acoma
-values.csv:79321:Source missing source key: miller1967acoma
-values.csv:79322:Source missing source key: miller1967acoma
-values.csv:79323:Source missing source key: miller1967acoma
-values.csv:79327:Source missing source key: miller1967acoma
-values.csv:79328:Source missing source key: miller1967acoma
-values.csv:79329:Source missing source key: miller1967acoma
-values.csv:79330:Source missing source key: miller1967acoma
-values.csv:80299:Source missing source key: teeter1954wiyot
-values.csv:80300:Source missing source key: teeter1954wiyot
-values.csv:80301:Source missing source key: teeter1954wiyot
-values.csv:80302:Source missing source key: teeter1954wiyot
-values.csv:80303:Source missing source key: teeter1954wiyot
-values.csv:80304:Source missing source key: teeter1954wiyot
-values.csv:80305:Source missing source key: teeter1954wiyot
-values.csv:80306:Source missing source key: teeter1954wiyot
-values.csv:80307:Source missing source key: teeter1954wiyot
-values.csv:80308:Source missing source key: teeter1954wiyot
-values.csv:80309:Source missing source key: teeter1954wiyot
-values.csv:80310:Source missing source key: teeter1954wiyot
-values.csv:80427:Source missing source key: pittman1988ethnologue
-values.csv:80428:Source missing source key: pittman1988ethnologue
-values.csv:80852:Source missing source key: word for ʼthingʼ, doubtfully word for ʼyoungest childʼ, 'noʼ, surprise interjection, items derived from ʼthingʼ and ʼnoʼ
-values.csv:80853:Source missing source key: word for ʼthingʼ, doubtfully word for ʼyoungest childʼ, 'noʼ, surprise interjection, items derived from ʼthingʼ and ʼnoʼ
-values.csv:80906:Source missing source key: NA
-values.csv:80907:Source missing source key: NA
-values.csv:80908:Source missing source key: NA
-values.csv:80909:Source missing source key: NA
-values.csv:80910:Source missing source key: NA
-values.csv:80911:Source missing source key: NA
-values.csv:80912:Source missing source key: NA
-values.csv:80913:Source missing source key: NA
-values.csv:80914:Source missing source key: NA
-values.csv:80915:Source missing source key: NA
-values.csv:80916:Source missing source key: NA
-values.csv:80917:Source missing source key: NA
-values.csv:80918:Source missing source key: NA
-values.csv:80919:Source missing source key: NA
-values.csv:80920:Source missing source key: NA
-values.csv:80921:Source missing source key: NA
-values.csv:80922:Source missing source key: NA
-values.csv:80923:Source missing source key: NA
-values.csv:80924:Source missing source key: NA
-values.csv:80925:Source missing source key: NA
-values.csv:80926:Source missing source key: NA
-values.csv:80927:Source missing source key: NA
-values.csv:80928:Source missing source key: NA
-values.csv:80929:Source missing source key: NA
-values.csv:80930:Source missing source key: NA
-values.csv:80931:Source missing source key: NA
-values.csv:80932:Source missing source key: NA
-values.csv:80933:Source missing source key: NA
-values.csv:80934:Source missing source key: NA
-values.csv:80938:Source missing source key: NA
-values.csv:80939:Source missing source key: NA
-values.csv:80940:Source missing source key: NA
-values.csv:80941:Source missing source key: NA
-values.csv:80942:Source missing source key: NA
-values.csv:80943:Source missing source key: NA
-values.csv:80944:Source missing source key: NA
-values.csv:80945:Source missing source key: NA
-values.csv:80946:Source missing source key: NA
-values.csv:80947:Source missing source key: NA
-values.csv:80948:Source missing source key: NA
-values.csv:80949:Source missing source key: NA
-values.csv:80950:Source missing source key: NA
-values.csv:80951:Source missing source key: NA
-values.csv:80952:Source missing source key: NA
-values.csv:80953:Source missing source key: NA
-values.csv:80954:Source missing source key: NA
-values.csv:80955:Source missing source key: NA
-values.csv:80956:Source missing source key: NA
-values.csv:80957:Source missing source key: NA
-values.csv:80958:Source missing source key: NA
-values.csv:80959:Source missing source key: NA
-values.csv:80960:Source missing source key: NA
-values.csv:80961:Source missing source key: NA
-values.csv:80962:Source missing source key: NA
-values.csv:80992:Source missing source key: lachnitt1987dicionario
-values.csv:80993:Source missing source key: lachnitt1987dicionario
-values.csv:80994:Source missing source key: lachnitt1987dicionario
-values.csv:80995:Source missing source key: lachnitt1987dicionario
-values.csv:80996:Source missing source key: lachnitt1987dicionario
-values.csv:80997:Source missing source key: lachnitt1987dicionario
-values.csv:80998:Source missing source key: lachnitt1987dicionario
-values.csv:80999:Source missing source key: lachnitt1987dicionario
-values.csv:81000:Source missing source key: lachnitt1987dicionario
-values.csv:81001:Source missing source key: lachnitt1987dicionario
-values.csv:81002:Source missing source key: lachnitt1987dicionario
-values.csv:81003:Source missing source key: lachnitt1987dicionario
-values.csv:81004:Source missing source key: lachnitt1987dicionario
-values.csv:81005:Source missing source key: lachnitt1987dicionario
-values.csv:81006:Source missing source key: lachnitt1987dicionario
-values.csv:81007:Source missing source key: lachnitt1987dicionario
-values.csv:81008:Source missing source key: lachnitt1987dicionario
-values.csv:81009:Source missing source key: lachnitt1987dicionario
-values.csv:81010:Source missing source key: lachnitt1987dicionario
-values.csv:81011:Source missing source key: lachnitt1987dicionario
-values.csv:81012:Source missing source key: lachnitt1987dicionario
-values.csv:81013:Source missing source key: lachnitt1987dicionario
-values.csv:81014:Source missing source key: lachnitt1987dicionario
-values.csv:81015:Source missing source key: lachnitt1987dicionario
-values.csv:81016:Source missing source key: lachnitt1987dicionario
-values.csv:82499:Source missing source key: perri2017yanomami
-values.csv:82500:Source missing source key: perri2017yanomami
-values.csv:82501:Source missing source key: perri2017yanomami
-values.csv:82502:Source missing source key: perri2017yanomami
-values.csv:82503:Source missing source key: perri2017yanomami
-values.csv:82504:Source missing source key: perri2017yanomami
-values.csv:82506:Source missing source key: perri2017yanomami
-values.csv:84052:Source missing source key: newman1944northernyokuts
-values.csv:84053:Source missing source key: newman1944northernyokuts
-values.csv:84054:Source missing source key: newman1944northernyokuts
-values.csv:84055:Source missing source key: newman1944northernyokuts
-values.csv:84056:Source missing source key: newman1944northernyokuts
-values.csv:84057:Source missing source key: newman1944northernyokuts
-values.csv:84058:Source missing source key: newman1944northernyokuts
-values.csv:84059:Source missing source key: newman1944northernyokuts
-values.csv:84060:Source missing source key: newman1944northernyokuts
-values.csv:84061:Source missing source key: newman1944northernyokuts
-values.csv:84062:Source missing source key: newman1944northernyokuts
-values.csv:84063:Source missing source key: newman1944northernyokuts
-values.csv:84069:Source missing source key: newman1944northernyokuts
-values.csv:84281:Source missing source key: newman1944northernyokuts
-values.csv:84282:Source missing source key: newman1944northernyokuts
-values.csv:84283:Source missing source key: newman1944northernyokuts
-values.csv:84284:Source missing source key: newman1944northernyokuts
-values.csv:84675:Source missing source key: bohnemeyer2001verbclasses
-values.csv:84676:Source missing source key: vinogradov2018tam
-values.csv:84677:Source missing source key: vinogradov2018tam
-values.csv:84678:Source missing source key: bohnemeyer2001verbclasses
-values.csv:84679:Source missing source key: vinogradov2018tam
-values.csv:84680:Source missing source key: bohnemeyer2001verbclasses
-values.csv:84681:Source missing source key: bohnemeyer2001verbclasses
-values.csv:84682:Source missing source key: vinogradov2018tam
-values.csv:84683:Source missing source key: briceno2007verbos
-values.csv:84722:Source missing source key: bricker1998yucatec
-values.csv:84746:Source missing source key: bricker1998yucatec
-values.csv:84747:Source missing source key: bricker1998yucatec
-values.csv:84748:Source missing source key: bricker1998yucatec
-values.csv:84749:Source missing source key: bricker1998yucatec
-values.csv:84750:Source missing source key: bricker1998yucatec
-values.csv:84751:Source missing source key: bricker1998yucatec
-values.csv:84752:Source missing source key: bricker1998yucatec
-values.csv:84754:Source missing source key: bricker1998yucatec
-values.csv:84755:Source missing source key: bricker1998yucatec
-values.csv:84756:Source missing source key: bricker1998yucatec
-values.csv:84757:Source missing source key: bricker1998yucatec
-values.csv:84758:Source missing source key: bricker1998yucatec
-values.csv:84759:Source missing source key: bricker1998yucatec
-values.csv:84760:Source missing source key: bricker1998yucatec
-values.csv:84761:Source missing source key: bricker1998yucatec
-values.csv:84762:Source missing source key: bricker1998yucatec
-values.csv:84763:Source missing source key: bricker1998yucatec
-values.csv:84764:Source missing source key: bricker1998yucatec
-values.csv:84767:Source missing source key: bricker1998yucatec
-values.csv:84768:Source missing source key: bricker1998yucatec
-values.csv:84769:Source missing source key: bricker1998yucatec
-values.csv:84770:Source missing source key: bricker1998yucatec
-values.csv:85334:Source missing source key: mithun, m., beyond the structural domain
-values.csv:85910:Source missing source key: suppletive morphology attested
-values.csv:86011:Source missing source key: language_project_yurok
-values.csv:86012:Source missing source key: language_project_yurok
-values.csv:86013:Source missing source key: language_project_yurok
-values.csv:86014:Source missing source key: language_project_yurok
-values.csv:86015:Source missing source key: language_project_yurok
-values.csv:86016:Source missing source key: language_project_yurok
-values.csv:86017:Source missing source key: language_project_yurok
-values.csv:86018:Source missing source key: language_project_yurok
-values.csv:86019:Source missing source key: language_project_yurok
-values.csv:86020:Source missing source key: language_project_yurok
-values.csv:86021:Source missing source key: language_project_yurok
-values.csv:86022:Source missing source key: language_project_yurok
-values.csv:86139:Source missing source key: pittman1988ethnologue
-values.csv:86140:Source missing source key: pittman1988ethnologue
-values.csv:6460 Key `UNKNOWN` not found in table codes.csv
-values.csv:10153 Key `UNKNOWN` not found in table codes.csv
-values.csv:24224 Key `UNKNOWN` not found in table codes.csv
-values.csv:31946 Key `UNKNOWN` not found in table codes.csv
-values.csv:33311 Key `UNKNOWN` not found in table codes.csv
-values.csv:48535 Key `UNKNOWN` not found in table codes.csv
-values.csv:48566 Key `UNKNOWN` not found in table codes.csv
-values.csv:54254 Key `UNKNOWN` not found in table codes.csv
-values.csv:58396 Key `UNKNOWN` not found in table codes.csv
-values.csv:61224 Key `UNKNOWN` not found in table codes.csv
-values.csv:71387 Key `UNKNOWN` not found in table codes.csv
-values.csv:74921 Key `UNKNOWN` not found in table codes.csv
-values.csv:74951 Key `UNKNOWN` not found in table codes.csv
-values.csv:74952 Key `UNKNOWN` not found in table codes.csv
-values.csv:74953 Key `UNKNOWN` not found in table codes.csv
-values.csv:76593 Key `UNKNOWN` not found in table codes.csv
-values.csv:80103 Key `UNKNOWN` not found in table codes.csv
-values.csv:80904 Key `UNKNOWN` not found in table codes.csv
-values.csv:80935 Key `UNKNOWN` not found in table codes.csv
-values.csv:82524 Key `UNKNOWN` not found in table codes.csv
+WARNING http://cldf.clld.org/v1.0/terms.rdf#ValueTable http://cldf.clld.org/v1.0/terms.rdf#codeReference must be singlevalued
+WARNING values.csv:41452:Source missing source key: applegate1966ineseno
+WARNING values.csv:41503:Source missing source key: taylor1999
+WARNING values.csv:41555:Source missing source key: hewitt1987georgian
+WARNING values.csv:41776:Source missing source key: applegate1966ineseno
+WARNING values.csv:41827:Source missing source key: taylor1999
+WARNING values.csv:41879:Source missing source key: hewitt1987georgian
+WARNING values.csv:42100:Source missing source key: applegate1966ineseno
+WARNING values.csv:42151:Source missing source key: taylor1999
+WARNING values.csv:42203:Source missing source key: hewitt1987georgian
+WARNING values.csv:42424:Source missing source key: applegate1966ineseno
+WARNING values.csv:42475:Source missing source key: taylor1999
+WARNING values.csv:42527:Source missing source key: hewitt1987georgian
+WARNING values.csv:42748:Source missing source key: applegate1966ineseno
+WARNING values.csv:42799:Source missing source key: taylor1999
+WARNING values.csv:42851:Source missing source key: hewitt1987georgian
+WARNING values.csv:43072:Source missing source key: applegate1966ineseno
+WARNING values.csv:43123:Source missing source key: taylor1999
+WARNING values.csv:43175:Source missing source key: hewitt1987georgian
+WARNING values.csv:43396:Source missing source key: applegate1966ineseno
+WARNING values.csv:43447:Source missing source key: taylor1999
+WARNING values.csv:43499:Source missing source key: hewitt1987georgian
+WARNING values.csv:43720:Source missing source key: applegate1966ineseno
+WARNING values.csv:43771:Source missing source key: taylor1999
+WARNING values.csv:43823:Source missing source key: hewitt1987georgian
+WARNING values.csv:44044:Source missing source key: applegate1966ineseno
+WARNING values.csv:44095:Source missing source key: taylor1999
+WARNING values.csv:44147:Source missing source key: hewitt1987georgian
+WARNING values.csv:44368:Source missing source key: applegate1966ineseno
+WARNING values.csv:44419:Source missing source key: taylor1999
+WARNING values.csv:44471:Source missing source key: hewitt1987georgian
+WARNING values.csv:44692:Source missing source key: applegate1966ineseno
+WARNING values.csv:44743:Source missing source key: taylor1999
+WARNING values.csv:44795:Source missing source key: hewitt1987georgian
+WARNING values.csv:45016:Source missing source key: applegate1966ineseno
+WARNING values.csv:45067:Source missing source key: taylor1999
+WARNING values.csv:45119:Source missing source key: hewitt1987georgian
+WARNING values.csv:45340:Source missing source key: applegate1966ineseno
+WARNING values.csv:45391:Source missing source key: taylor1999
+WARNING values.csv:45443:Source missing source key: hewitt1987georgian
+WARNING values.csv:45664:Source missing source key: applegate1966ineseno
+WARNING values.csv:45715:Source missing source key: taylor1999
+WARNING values.csv:45767:Source missing source key: hewitt1987georgian
+WARNING values.csv:45988:Source missing source key: applegate1966ineseno
+WARNING values.csv:46039:Source missing source key: taylor1999
+WARNING values.csv:46091:Source missing source key: hewitt1987georgian
+WARNING values.csv:46312:Source missing source key: applegate1966ineseno
+WARNING values.csv:46363:Source missing source key: taylor1999
+WARNING values.csv:46415:Source missing source key: hewitt1987georgian
+WARNING values.csv:46636:Source missing source key: applegate1966ineseno
+WARNING values.csv:46687:Source missing source key: taylor1999
+WARNING values.csv:46739:Source missing source key: hewitt1987georgian
+WARNING values.csv:46960:Source missing source key: applegate1966ineseno
+WARNING values.csv:47011:Source missing source key: taylor1999
+WARNING values.csv:47063:Source missing source key: hewitt1987georgian
+WARNING values.csv:47284:Source missing source key: applegate1966ineseno
+WARNING values.csv:47335:Source missing source key: taylor1999
+WARNING values.csv:47387:Source missing source key: hewitt1987georgian
+WARNING values.csv:47608:Source missing source key: applegate1966ineseno
+WARNING values.csv:47659:Source missing source key: taylor1999
+WARNING values.csv:47711:Source missing source key: hewitt1987georgian
+WARNING values.csv:47932:Source missing source key: applegate1966ineseno
+WARNING values.csv:47983:Source missing source key: taylor1999
+WARNING values.csv:48035:Source missing source key: hewitt1987georgian
+WARNING values.csv:48256:Source missing source key: applegate1966ineseno
+WARNING values.csv:48307:Source missing source key: taylor1999
+WARNING values.csv:48359:Source missing source key: hewitt1987georgian
+WARNING values.csv:48580:Source missing source key: applegate1966ineseno
+WARNING values.csv:48631:Source missing source key: taylor1999
+WARNING values.csv:48683:Source missing source key: hewitt1987georgian
+WARNING values.csv:78618:Source missing source key: applegate1966ineseno
+WARNING values.csv:78669:Source missing source key: taylor1999
+WARNING values.csv:78721:Source missing source key: hewitt1987georgian
+WARNING values.csv:78942:Source missing source key: applegate1966ineseno
+WARNING values.csv:78993:Source missing source key: taylor1999
+WARNING values.csv:79045:Source missing source key: hewitt1987georgian
+WARNING values.csv:79266:Source missing source key: applegate1966ineseno
+WARNING values.csv:79317:Source missing source key: taylor1999
+WARNING values.csv:79369:Source missing source key: hewitt1987georgian
+WARNING values.csv:79590:Source missing source key: applegate1966ineseno
+WARNING values.csv:79641:Source missing source key: taylor1999
+WARNING values.csv:79693:Source missing source key: hewitt1987georgian
+WARNING values.csv:79914:Source missing source key: applegate1966ineseno
+WARNING values.csv:79965:Source missing source key: taylor1999
+WARNING values.csv:80017:Source missing source key: hewitt1987georgian
+WARNING values.csv:80238:Source missing source key: applegate1966ineseno
+WARNING values.csv:80289:Source missing source key: taylor1999
+WARNING values.csv:80341:Source missing source key: hewitt1987georgian
+WARNING values.csv:80562:Source missing source key: applegate1966ineseno
+WARNING values.csv:80613:Source missing source key: taylor1999
+WARNING values.csv:80665:Source missing source key: hewitt1987georgian
+WARNING values.csv:80886:Source missing source key: applegate1966ineseno
+WARNING values.csv:80937:Source missing source key: taylor1999
+WARNING values.csv:80989:Source missing source key: hewitt1987georgian
+WARNING values.csv:81210:Source missing source key: applegate1966ineseno
+WARNING values.csv:81261:Source missing source key: taylor1999
+WARNING values.csv:81313:Source missing source key: hewitt1987georgian
+WARNING values.csv:81534:Source missing source key: applegate1966ineseno
+WARNING values.csv:81585:Source missing source key: taylor1999
+WARNING values.csv:81637:Source missing source key: hewitt1987georgian
+WARNING values.csv:81858:Source missing source key: applegate1966ineseno
+WARNING values.csv:81909:Source missing source key: taylor1999
+WARNING values.csv:81961:Source missing source key: hewitt1987georgian
+WARNING values.csv:82182:Source missing source key: applegate1966ineseno
+WARNING values.csv:82233:Source missing source key: taylor1999
+WARNING values.csv:82285:Source missing source key: hewitt1987georgian
+WARNING values.csv:82506:Source missing source key: applegate1966ineseno
+WARNING values.csv:82557:Source missing source key: taylor1999
+WARNING values.csv:82609:Source missing source key: hewitt1987georgian
+WARNING values.csv:82830:Source missing source key: applegate1966ineseno
+WARNING values.csv:82881:Source missing source key: taylor1999
+WARNING values.csv:82933:Source missing source key: hewitt1987georgian
+WARNING values.csv:83154:Source missing source key: applegate1966ineseno
+WARNING values.csv:83205:Source missing source key: taylor1999
+WARNING values.csv:83257:Source missing source key: hewitt1987georgian
+WARNING values.csv:83478:Source missing source key: applegate1966ineseno
+WARNING values.csv:83529:Source missing source key: taylor1999
+WARNING values.csv:83581:Source missing source key: hewitt1987georgian
+WARNING values.csv:83802:Source missing source key: applegate1966ineseno
+WARNING values.csv:83853:Source missing source key: taylor1999
+WARNING values.csv:83905:Source missing source key: hewitt1987georgian
+WARNING values.csv:84126:Source missing source key: applegate1966ineseno
+WARNING values.csv:84177:Source missing source key: taylor1999
+WARNING values.csv:84229:Source missing source key: hewitt1987georgian
+WARNING values.csv:84450:Source missing source key: applegate1966ineseno
+WARNING values.csv:84501:Source missing source key: taylor1999
+WARNING values.csv:84553:Source missing source key: hewitt1987georgian
+WARNING values.csv:84774:Source missing source key: applegate1966ineseno
+WARNING values.csv:84825:Source missing source key: taylor1999
+WARNING values.csv:84877:Source missing source key: hewitt1987georgian
+WARNING values.csv:85098:Source missing source key: applegate1966ineseno
+WARNING values.csv:85149:Source missing source key: taylor1999
+WARNING values.csv:85201:Source missing source key: hewitt1987georgian
+WARNING values.csv:85422:Source missing source key: applegate1966ineseno
+WARNING values.csv:85473:Source missing source key: taylor1999
+WARNING values.csv:85525:Source missing source key: hewitt1987georgian
+WARNING values.csv:85746:Source missing source key: applegate1966ineseno
+WARNING values.csv:85797:Source missing source key: taylor1999
+WARNING values.csv:85849:Source missing source key: hewitt1987georgian
+WARNING parameters.csv:76 Key `IndexAlign` not found in table featuresets.csv
+WARNING parameters.csv:77 Key `IndexAlign` not found in table featuresets.csv
+WARNING parameters.csv:78 Key `IndexAlign` not found in table featuresets.csv
+WARNING parameters.csv:79 Key `IndexAlign` not found in table featuresets.csv
+WARNING parameters.csv:80 Key `IndexAlign` not found in table featuresets.csv
+WARNING parameters.csv:81 Key `IndexAlign` not found in table featuresets.csv
+WARNING parameters.csv:82 Key `IndexAlign` not found in table featuresets.csv
+WARNING parameters.csv:83 Key `IndexAlign` not found in table featuresets.csv
+WARNING parameters.csv:84 Key `IndexAlign` not found in table featuresets.csv
+WARNING parameters.csv:85 Key `IndexAlign` not found in table featuresets.csv
+WARNING parameters.csv:86 Key `IndexAlign` not found in table featuresets.csv
+WARNING parameters.csv:87 Key `IndexAlign` not found in table featuresets.csv
+WARNING parameters.csv:88 Key `IndexAlign` not found in table featuresets.csv
+WARNING parameters.csv:89 Key `IndexAlign` not found in table featuresets.csv
+WARNING parameters.csv:90 Key `IndexAlign` not found in table featuresets.csv
+WARNING parameters.csv:91 Key `IndexAlign` not found in table featuresets.csv
+WARNING parameters.csv:92 Key `IndexAlign` not found in table featuresets.csv
+WARNING parameters.csv:93 Key `IndexAlign` not found in table featuresets.csv
+WARNING parameters.csv:94 Key `IndexAlign` not found in table featuresets.csv
+WARNING parameters.csv:95 Key `IndexAlign` not found in table featuresets.csv
+WARNING parameters.csv:96 Key `IndexAlign` not found in table featuresets.csv
+WARNING parameters.csv:97 Key `IndexAlign` not found in table featuresets.csv
+WARNING parameters.csv:98 Key `IndexAlign` not found in table featuresets.csv
+WARNING parameters.csv:129 Key `NounAlign` not found in table featuresets.csv
+WARNING parameters.csv:130 Key `NounAlign` not found in table featuresets.csv
+WARNING parameters.csv:131 Key `NounAlign` not found in table featuresets.csv
+WARNING parameters.csv:132 Key `NounAlign` not found in table featuresets.csv
+WARNING parameters.csv:133 Key `NounAlign` not found in table featuresets.csv
+WARNING parameters.csv:134 Key `NounAlign` not found in table featuresets.csv
+WARNING parameters.csv:135 Key `NounAlign` not found in table featuresets.csv
+WARNING parameters.csv:136 Key `NounAlign` not found in table featuresets.csv
+WARNING parameters.csv:137 Key `NounAlign` not found in table featuresets.csv
+WARNING parameters.csv:138 Key `NounAlign` not found in table featuresets.csv
+WARNING parameters.csv:139 Key `NounAlign` not found in table featuresets.csv
+WARNING parameters.csv:140 Key `NounAlign` not found in table featuresets.csv
+WARNING parameters.csv:141 Key `NounAlign` not found in table featuresets.csv
+WARNING parameters.csv:142 Key `NounAlign` not found in table featuresets.csv
+WARNING parameters.csv:143 Key `NounAlign` not found in table featuresets.csv
+WARNING parameters.csv:144 Key `NounAlign` not found in table featuresets.csv
+WARNING parameters.csv:145 Key `NounAlign` not found in table featuresets.csv
+WARNING parameters.csv:146 Key `NounAlign` not found in table featuresets.csv
+WARNING parameters.csv:147 Key `NounAlign` not found in table featuresets.csv
+WARNING parameters.csv:148 Key `NounAlign` not found in table featuresets.csv
+WARNING parameters.csv:149 Key `NounAlign` not found in table featuresets.csv
+WARNING parameters.csv:150 Key `NounAlign` not found in table featuresets.csv
+WARNING parameters.csv:151 Key `NounAlign` not found in table featuresets.csv
+WARNING parameters.csv:242 Key `ProAlign` not found in table featuresets.csv
+WARNING parameters.csv:243 Key `ProAlign` not found in table featuresets.csv
+WARNING parameters.csv:244 Key `ProAlign` not found in table featuresets.csv
+WARNING parameters.csv:245 Key `ProAlign` not found in table featuresets.csv
+WARNING parameters.csv:246 Key `ProAlign` not found in table featuresets.csv
+WARNING parameters.csv:247 Key `ProAlign` not found in table featuresets.csv
+WARNING parameters.csv:248 Key `ProAlign` not found in table featuresets.csv
+WARNING parameters.csv:249 Key `ProAlign` not found in table featuresets.csv
+WARNING parameters.csv:250 Key `ProAlign` not found in table featuresets.csv
+WARNING parameters.csv:251 Key `ProAlign` not found in table featuresets.csv
+WARNING parameters.csv:252 Key `ProAlign` not found in table featuresets.csv
+WARNING parameters.csv:253 Key `ProAlign` not found in table featuresets.csv
+WARNING parameters.csv:254 Key `ProAlign` not found in table featuresets.csv
+WARNING parameters.csv:255 Key `ProAlign` not found in table featuresets.csv
+WARNING parameters.csv:256 Key `ProAlign` not found in table featuresets.csv
+WARNING parameters.csv:257 Key `ProAlign` not found in table featuresets.csv
+WARNING parameters.csv:258 Key `ProAlign` not found in table featuresets.csv
+WARNING parameters.csv:259 Key `ProAlign` not found in table featuresets.csv
+WARNING parameters.csv:260 Key `ProAlign` not found in table featuresets.csv
+WARNING parameters.csv:261 Key `ProAlign` not found in table featuresets.csv
+WARNING parameters.csv:262 Key `ProAlign` not found in table featuresets.csv
+WARNING parameters.csv:263 Key `ProAlign` not found in table featuresets.csv
+WARNING parameters.csv:264 Key `ProAlign` not found in table featuresets.csv

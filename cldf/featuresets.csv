@@ -1,6 +1,6 @@
 FeatureSetID,Name,Domain,Authors,Contributors,Filename
 Appr,Apprehensional Morphology,Morphosyntax,MV,MV;DP;KPVD,
-Attr,Attributives,Morphosyntax,,NJM,
+Attr,Attributives,Morphosyntax,DI,NCP;MV;NJM,
 Coarg,Coargument Diathesis,Morphosyntax,DI;BB,DI;BB;NCP;KMB;MV,
 Cor,Coronal Consonants,Phonology,DI;KPVD,,
 CoPart,Co-participation,Morphosyntax,FR;MV,FR;MV;OCD;DI;NJM;KPVD;DP;RL,
