@@ -77,6 +77,7 @@ def main(global_config, **settings):
     config.add_route("featuresets", "/contributions")
     config.register_resource('contribution', models.OOAFeatureSet, IContribution, with_index=True)
 
+    config.add_route("references", "/sources")
     # config.registry.registerUtility(LanguageByFamilyMapMarker(), IMapMarker)
 
     return config.make_wsgi_app()

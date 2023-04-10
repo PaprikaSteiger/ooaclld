@@ -1,9 +1,9 @@
 <%inherit file="../${context.get('request').registry.settings.get('clld.app_template', 'app.mako')}"/>
 <%namespace name="util" file="../util.mako"/>
-<%! active_menu_item = "sources" %>
-<%block name="title">${_('Source')} ${ctx.name}</%block>
+<%! active_menu_item = "references" %>
+<%block name="title">${_('Reference')} ${ctx.name}</%block>
 
-<h2>${ctx.name}</h2>
+<h2>${_('Reference: ')}${ctx.name}</h2>
 ${ctx.coins(request)|n}
 
 <div class="tabbable">
