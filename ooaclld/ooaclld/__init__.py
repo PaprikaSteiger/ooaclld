@@ -63,8 +63,11 @@ def map_marker(ctx, req):
 
 class CtxFactory(CtxFactoryQuery):
     def refined_query(self, query, model, req):
+
         if model == common.Contribution:
             query = query.options()
+        if model == models.OOALanguage:
+            pass
         return query
 
 class LanguageByFamilyMapMarker(util.LanguageByFamilyMapMarker):

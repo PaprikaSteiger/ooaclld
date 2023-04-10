@@ -6,23 +6,25 @@
 
 
 <h2>Language: ${ctx.name}</h2>
-<a href="https://glottolog.org/resource/languoid/id/${ctx.id}"><span class="badge">Glotto code: ${ctx.id}</span></a>
 ##${[v.id for v in h.DBSession.query(OOAValue).all()]}
-##${dir(request.get_datatable('values', OOAValue))}
+${dir(ctx)}
 ${request.get_datatable('values', OOAValue, ooalanguage=ctx).render()}
 
 <%def name="sidebar()">
     ${util.codes()}
     <div style="clear: right;"> </div>
-    <%util:well>
+    <%util:well title="Glottolog">
+        <a href="https://glottolog.org/resource/languoid/id/${ctx.id}"><span class="badge">Glotto code: ${ctx.id}</span></a>
+    </%util:well>
+
+    <%util:well title="Map">
         ${request.map.render()}
         ${h.format_coordinates(ctx)}
         ## ${util.dl_table(('Spoken in', h.literal(', '.join(h.link(request, c) for c in ctx.countries))))}
     </%util:well>
-    % if ctx.sources:
+
     <%util:well title="Sources">
         ${util.sources_list(sorted(list(ctx.sources), key=lambda s: s.name))}
         <div style="clear: both;"></div>
     </%util:well>
-    % endif
 </%def>

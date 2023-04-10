@@ -1,4 +1,6 @@
+import collections
 from pathlib import Path
+import re
 import datetime
 from collections import defaultdict
 
@@ -18,6 +20,8 @@ from ooaclld import models
 
 
 def main(args):
+    # pattern to catch bib reference and optional page
+    srcdescr = re.compile(r'^(.*?)\[(.*?)]$')
     # assert args.glottolog, 'The --glottolog option is required!'
     cldf_dir = Path(__file__).parent.parent.parent.parent / "cldf"
     # args.log.info('Loading dataset')
@@ -38,9 +42,11 @@ def main(args):
         },
     )
     DBSession.flush()
-
+    lrefs = collections.defaultdict(set)
+    all_sources = set()
     for rec in tqdm(Database.from_file(ds.bibpath), desc="Processing sources"):
         ns = bibtex2source(rec, common.Source)
+        all_sources.add(ns.id)
         data.add(common.Source, ns.id, _obj=ns)
     DBSession.flush()
 
@@ -148,18 +154,37 @@ def main(args):
         current_language = row["LanguageID"]
         current_param = row["ParameterID"]
         current_valueset_id = row["ID"]
+        lpk = data["OOALanguage"][row["LanguageID"]].pk
         # add first valueset
         if c == 0:
-            data.add(
+            vs = data.add(
                 common.ValueSet,
                 row["ID"],
                 id=row["ID"],
-                language_pk=data["OOALanguage"][row["LanguageID"]].pk,
+                language_pk=lpk,
                 parameter_pk=data["OOAParameter"][row["ParameterID"]].pk,
                 contribution_pk=data["OOAFeatureSet"][current_contribution].pk,
                 # TODO: check that all values in the same valueset have the same source. If not, discuss with david
-                source=" & ".join(row['Source']),
+                #source=" & ".join(row['Source']),
             )
+
+            if row['Source']:
+                for s in row['Source']:
+                    if s not in all_sources:
+                        continue
+                    try:
+                        s_, descr = srcdescr.search(s).groups()
+                    except AttributeError:
+                        s_ = s
+                        descr = ''
+                    print(s_)
+                    spk = data['Source'][s_].pk
+                    data.add(common.ValueSetReference, s_,
+                             valueset=vs,
+                             description=descr,
+                             source_pk=spk)
+                    if spk not in lrefs[lpk]:
+                        lrefs[lpk].add(spk)
             DBSession.flush()
 
             previous_con = current_contribution
@@ -168,16 +193,34 @@ def main(args):
             previous_valueset_id = current_valueset_id
 
         if current_param != previous_param or current_language != previous_lan or current_contribution != previous_con:
-            data.add(
+            lpk = data["OOALanguage"][row["LanguageID"]].pk
+            vs = data.add(
                 common.ValueSet,
                 row["ID"],
                 id=row["ID"],
-                language_pk=data["OOALanguage"][row["LanguageID"]].pk,
+                language_pk=lpk,
                 parameter_pk=data["OOAParameter"][row["ParameterID"]].pk,
                 contribution_pk=data["OOAFeatureSet"][current_contribution].pk,
                 # TODO: check that all values in the same valueset have the same source. If not, discuss with david
-                source=" & ".join(row['Source']),
+                #source=" & ".join(row['Source']),
             )
+            if row['Source']:
+                for s in row['Source']:
+                    if s not in all_sources:
+                        continue
+                    try:
+                        print(row['ID'])
+                        s_, descr = srcdescr.search(s).groups()
+                    except AttributeError:
+                        s_ = s
+                        descr = ''
+                    spk = data['Source'][s_].pk
+                    data.add(common.ValueSetReference, s_,
+                             valueset=vs,
+                             description=descr,
+                             source_pk=spk)
+                    if spk not in lrefs[lpk]:
+                        lrefs[lpk].add(spk)
             DBSession.flush()
 
             previous_con = current_contribution
@@ -198,7 +241,13 @@ def main(args):
             coder=";".join(row["Coder"]),
         )
         DBSession.flush()
-
+    # add language sources
+    for lpk, spks in lrefs.items():
+        for spk in spks:
+            data.add(common.LanguageSource, lpk,
+                     language_pk=lpk,
+                     source_pk=spk)
+    DBSession.flush()
 
 def prime_cache(args):
     """If data needs to be denormalized for lookup, do that here.
