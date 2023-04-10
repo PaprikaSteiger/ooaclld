@@ -160,7 +160,7 @@ class Values(datatables.Values):
             ),
             Col(self, "Value", model_col=OOAValue.value, sClass="left"),
             Col(self, "Remark", model_col=OOAValue.remark, sClass="left"),
-            Col(self, 'Source', model_col=OOAValue.source, sClass='left')
+            Col(self, 'Source', model_col=ValueSet.source, sClass='left', get_object=lambda i: i.valueset)
         ]
 
 

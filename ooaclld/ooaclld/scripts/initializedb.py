@@ -176,7 +176,7 @@ def main(args):
                 parameter_pk=data["OOAParameter"][row["ParameterID"]].pk,
                 contribution_pk=data["OOAFeatureSet"][current_contribution].pk,
                 # TODO: check that all values in the same valueset have the same source. If not, discuss with david
-                source="",
+                source=" & ".join(row['Source']),
             )
             DBSession.flush()
 
