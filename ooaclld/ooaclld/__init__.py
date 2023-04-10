@@ -15,10 +15,11 @@ from clld.interfaces import (
     IUnit,
     IContributor,
     IContribution,
+    ICtxFactoryQuery,
 )
 from clldutils.svg import pie, icon, data_url
 from clld.web.adapters.base import adapter_factory
-from clld.web.app import ClldRequest
+from clld.web.app import CtxFactoryQuery
 from clld import common
 
 # we must make sure custom models are known at database initialization!
@@ -60,6 +61,12 @@ def map_marker(ctx, req):
             return ""
 
 
+class CtxFactory(CtxFactoryQuery):
+    def refined_query(self, query, model, req):
+        if model == common.Contribution:
+            query = query.options()
+        return query
+
 class LanguageByFamilyMapMarker(util.LanguageByFamilyMapMarker):
     def __call__(self, ctx, req):
         return super(LanguageByFamilyMapMarker, self).__call__(ctx, req)
@@ -76,6 +83,7 @@ def main(global_config, **settings):
 
     config.add_route("featuresets", "/contributions")
     config.register_resource('contribution', models.OOAFeatureSet, IContribution, with_index=True)
+    config.registry.registerUtility(CtxFactory(), ICtxFactoryQuery)
 
     config.add_route("references", "/sources")
     # config.registry.registerUtility(LanguageByFamilyMapMarker(), IMapMarker)
