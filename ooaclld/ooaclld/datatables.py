@@ -2,6 +2,7 @@ from sqlalchemy.orm import joinedload, contains_eager, subqueryload
 
 from clld.web import datatables
 from clld.web.datatables.base import Col, LinkCol, DetailsRowLinkCol, IdCol, DataTable
+from clld.web.datatables.base import RefsCol as BaseRefsCol
 from clld.web.datatables.value import ValueNameCol
 from clld.db.meta import DBSession
 from clld.db.models import common
@@ -89,6 +90,14 @@ class ContributorsCol(Col):
         return HTML.span(*chunks)
 
 
+class RefsCol(BaseRefsCol):
+
+    """Listing sources for the corresponding ValueSet."""
+
+    def get_obj(self, item):
+        return item.valueset
+
+
 class Featuresets(datatables.Contributions):
     def col_defs(self):
         #cols = datatables.Contributions.col_defs(self)
@@ -160,7 +169,7 @@ class Values(datatables.Values):
             ),
             Col(self, "Value", model_col=OOAValue.value, sClass="left"),
             Col(self, "Remark", model_col=OOAValue.remark, sClass="left"),
-            Col(self, 'Source', model_col=ValueSet.source, sClass='left', get_object=lambda i: i.valueset)
+            RefsCol(self, 'Source')
         ]
 
 
