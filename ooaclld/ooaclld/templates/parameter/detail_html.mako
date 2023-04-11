@@ -6,16 +6,24 @@
 
 
 
-<h2>Parameter ${ctx.id}</h2>
+<h2>Parameter_ID: ${ctx.id}</h2>
 
-% if ctx.description:
-<p>${ctx.description}</p>
+## clld.web.util.helpers alt_representation creates download widget with info button
+<div>${h.alt_representations(req, ctx, doc_position='right', exclude=['snippet.html'])|n}</div>
+% if ctx.question:
+<p>Parameter description: ${ctx.question}</p>
 % endif
+<p>
+    This feature is described in featureset ${ctx.featureset}
+    <a class="button btn" href="${request.resource_url(ctx.featureset)}"/>
+    by ${h.linked_contributors(request, ctx.featureset)}
+    ${h.cite_button(request, ctx.featureset)}
+</p>
 
 <div style="clear: both"/>
-% if map_ or request.map:
-    ${(map_ or request.map).render()}
-% endif
+##% if map_ or request.map:
+##    ${(map_ or request.map).render()}
+##% endif
 
 ${request.get_datatable('values', OOAValue, ooaparameter=ctx).render()}
 

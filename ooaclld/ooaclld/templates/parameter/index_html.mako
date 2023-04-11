@@ -7,6 +7,5 @@
 <p>
     Those are the OOA parameters
 </p>
-${type(ctx)}
 <div class="clearfix"> </div>
 ${ctx.render()}

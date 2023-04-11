@@ -3,7 +3,7 @@ from pathlib import Path
 import re
 import datetime
 from collections import defaultdict
-
+from clld.web.util import alt_representations
 import pycldf
 from tqdm import tqdm
 import sqlalchemy
