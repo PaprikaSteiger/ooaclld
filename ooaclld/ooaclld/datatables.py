@@ -19,6 +19,51 @@ from clld.web.util.htmllib import HTML
 from ooaclld.models import OOALanguage, OOAParameter, OOAFeatureSet, OOAValue
 
 
+# special columns
+class CommentCol(Col):
+    __kw__ = {'bSortable': False, 'bSearchable': False, 'sTitle': ''}
+
+    def format(self, item):
+        return contactmail(
+            self.dt.req, item.valueset, title="suggest changes")
+
+
+class AuthorsCol(Col):
+    def format(self, item):
+        req = self.dt.req
+        contribution = self._get_object(item) if self._get_object else item
+        chunks = []
+        for i, c in enumerate(contribution.primary_contributors):
+            if i > 0:
+                chunks.append(" and ")
+            chunks.append(link(req, c))
+        return HTML.span(*chunks)
+
+
+class ContributorsCol(Col):
+    def format(self, item):
+        req = self.dt.req
+        contribution = self._get_object(item) if self._get_object else item
+        chunks = []
+
+        for i, c in enumerate(contribution.secondary_contributors):
+            if i == 0 and contribution.primary_contributors:
+                chunks.append(" with ")
+            if i > 0:
+                chunks.append(" and ")
+            chunks.append(link(req, c))
+        return HTML.span(*chunks)
+
+
+class RefsCol(BaseRefsCol):
+
+    """Listing sources for the corresponding ValueSet."""
+
+    def get_obj(self, item):
+        return item.valueset
+
+
+# personalized tables
 class Features(datatables.Parameters):
     __constraints__ = [OOAFeatureSet]
 
@@ -61,42 +106,6 @@ class Features(datatables.Parameters):
             # ),
             #Col(self, "Datatype", model_col=OOAParameter.datatype, sClass="left"),
         ]
-
-
-class AuthorsCol(Col):
-    def format(self, item):
-        req = self.dt.req
-        contribution = self._get_object(item) if self._get_object else item
-        chunks = []
-        for i, c in enumerate(contribution.primary_contributors):
-            if i > 0:
-                chunks.append(" and ")
-            chunks.append(link(req, c))
-        return HTML.span(*chunks)
-
-
-class ContributorsCol(Col):
-    def format(self, item):
-        req = self.dt.req
-        contribution = self._get_object(item) if self._get_object else item
-        chunks = []
-
-        for i, c in enumerate(contribution.secondary_contributors):
-            if i == 0 and contribution.primary_contributors:
-                chunks.append(" with ")
-            if i > 0:
-                chunks.append(" and ")
-            chunks.append(link(req, c))
-        return HTML.span(*chunks)
-
-
-class RefsCol(BaseRefsCol):
-
-    """Listing sources for the corresponding ValueSet."""
-
-    def get_obj(self, item):
-        return item.valueset
-
 
 class Featuresets(datatables.Contributions):
     def col_defs(self):
@@ -169,7 +178,8 @@ class Values(datatables.Values):
             ),
             Col(self, "Value", model_col=OOAValue.value, sClass="left"),
             Col(self, "Remark", model_col=OOAValue.remark, sClass="left"),
-            RefsCol(self, 'Source')
+            RefsCol(self, 'Source'),
+            CommentCol(self, 'c'),
         ]
 
 
