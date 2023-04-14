@@ -3,7 +3,6 @@ from pathlib import Path
 import re
 import datetime
 from collections import defaultdict
-from clld.web.util import alt_representations
 import pycldf
 from tqdm import tqdm
 import sqlalchemy
@@ -177,7 +176,6 @@ def main(args):
                     except AttributeError:
                         s_ = s
                         descr = ''
-                    print(s_)
                     spk = data['Source'][s_].pk
                     data.add(common.ValueSetReference, s_,
                              valueset=vs,
@@ -209,7 +207,6 @@ def main(args):
                     if s not in all_sources:
                         continue
                     try:
-                        print(row['ID'])
                         s_, descr = srcdescr.search(s).groups()
                     except AttributeError:
                         s_ = s
