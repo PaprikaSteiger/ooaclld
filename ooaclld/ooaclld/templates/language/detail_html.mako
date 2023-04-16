@@ -10,7 +10,7 @@ ${request.get_datatable('values', OOAValue, ooalanguage=ctx).render()}
 ${util.codes}
 <%def name="sidebar()">
 ## util.codes() works if Identifiers are added to db alla wals
-    <a href="https://glottolog.org/resource/languoid/id/${ctx.id}"><span class="badge">Glotto code: ${ctx.id}</span></a>
+    <a href="https://glottolog.org/resource/languoid/id/${ctx.id}"><span class="badge">glottocode: ${ctx.id}</span></a>
     <div style="clear: right;"> </div>
     <%util:well title="Map">
         ${request.map.render()}

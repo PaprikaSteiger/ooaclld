@@ -129,7 +129,7 @@ class Languages(datatables.Languages):
         return [
             IdCol(self, "ID", sTitle="Glottocode", sClass="left"),
             LinkCol(self, "Name", sClass="left", model_col=OOALanguage.name),
-            Col(self, "Family Name", model_col=OOALanguage.family_name, sClass="left"),
+            Col(self, "Family Name", sTitle="Family Name", model_col=OOALanguage.family_name, sClass="left"),
             Col(self, "Macroarea", model_col=OOALanguage.macroarea, sClass="left"),
             Col(self, 'Latitude', model_col=OOALanguage.latitude),
             Col(self, 'Longitude', model_col=OOALanguage.longitude),
@@ -166,6 +166,7 @@ class Values(datatables.Values):
             LinkCol(
                 self,
                 "Feature ID",
+                sTitle="Feature ID",
                 model_col=OOAParameter.id,
                 sClass="left",
                 get_object=lambda i: i.valueset.parameter,
@@ -173,6 +174,7 @@ class Values(datatables.Values):
             LinkCol(
                 self,
                 "Language ID",
+                sTitle="Language ID",
                 model_col=OOALanguage.id,
                 sClass="left",
                 get_object=lambda i: i.valueset.language,
