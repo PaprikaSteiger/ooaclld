@@ -79,6 +79,7 @@ class Features(datatables.Parameters):
             LinkCol(
                 self,
                 "FeatureSet",
+                sTitle="FeatureSet",
                 model_col=OOAFeatureSet.id,
                 sClass="left",
                 get_object=lambda i: i.featureset,
@@ -111,7 +112,7 @@ class Featuresets(datatables.Contributions):
     def col_defs(self):
         #cols = datatables.Contributions.col_defs(self)
         return [
-            IdCol(self, "Featureset ID", sClass="left"),
+            IdCol(self, "FeatureSet ID", sClass="left"),
             LinkCol(self, "Name", model_col=OOAFeatureSet.name, sClass="left"),
             #Col(self, "Domains", model_col=OOAFeatureSet.domains, sClass="left"),
             # ] + cols[:-1] + cols[-1:]
@@ -128,7 +129,7 @@ class Languages(datatables.Languages):
         return [
             IdCol(self, "ID", sTitle="Glottocode", sClass="left"),
             LinkCol(self, "Name", sClass="left", model_col=OOALanguage.name),
-            Col(self, "Family ID", model_col=OOALanguage.family_id, sClass="left"),
+            Col(self, "Family Name", model_col=OOALanguage.family_name, sClass="left"),
             Col(self, "Macroarea", model_col=OOALanguage.macroarea, sClass="left"),
             Col(self, 'Latitude', model_col=OOALanguage.latitude),
             Col(self, 'Longitude', model_col=OOALanguage.longitude),
@@ -164,7 +165,7 @@ class Values(datatables.Values):
             IdCol(self, "Id", sTitle="Value ID", sClass="left"),
             LinkCol(
                 self,
-                "Parameter ID",
+                "Feature ID",
                 model_col=OOAParameter.id,
                 sClass="left",
                 get_object=lambda i: i.valueset.parameter,

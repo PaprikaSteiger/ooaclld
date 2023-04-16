@@ -5,7 +5,7 @@
 <%! from ooaclld.models import OOAParameter %>
 <h2>Features</h2>
 <p>
-    Those are the OOA parameters
+    Those are the OOA features
 </p>
 <div class="clearfix"> </div>
 ${ctx.render()}
