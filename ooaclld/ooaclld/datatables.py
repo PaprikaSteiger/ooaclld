@@ -35,8 +35,10 @@ class AuthorsCol(Col):
         chunks = []
         for i, c in enumerate(contribution.primary_contributors):
             if i > 0:
-                chunks.append(" and ")
+                chunks.append(", ")
             chunks.append(link(req, c))
+        if len(chunks) > 2:
+            chunks[-2] = " and "
         return HTML.span(*chunks)
 
 
@@ -50,8 +52,10 @@ class ContributorsCol(Col):
             if i == 0 and contribution.primary_contributors:
                 chunks.append(" with ")
             if i > 0:
-                chunks.append(" and ")
+                chunks.append(", ")
             chunks.append(link(req, c))
+        if len(chunks) > 2:
+            chunks[-2] = " and "
         return HTML.span(*chunks)
 
 
@@ -112,7 +116,7 @@ class Featuresets(datatables.Contributions):
     def col_defs(self):
         #cols = datatables.Contributions.col_defs(self)
         return [
-            IdCol(self, "FeatureSet ID", sClass="left"),
+            IdCol(self, "FeatureSet ID", sTitle="FeatureSet ID", sClass="left"),
             LinkCol(self, "Name", model_col=OOAFeatureSet.name, sClass="left"),
             #Col(self, "Domains", model_col=OOAFeatureSet.domains, sClass="left"),
             # ] + cols[:-1] + cols[-1:]
