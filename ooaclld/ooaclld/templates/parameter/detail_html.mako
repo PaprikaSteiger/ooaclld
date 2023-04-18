@@ -1,8 +1,10 @@
 <%inherit file="../${context.get('request').registry.settings.get('clld.app_template', 'app.mako')}"/>
 <%namespace name="util" file="../util.mako"/>
-<%! active_menu_item = "parameters" %>
-<%block name="title">${_('Feature')} ${ctx.name}</%block>
+<%! active_menu_item = "features" %>
 <%! from ooaclld.models import OOAValue %>
+<% values_dt = request.get_datatable('values', OOAValue, parameter=ctx) %>
+<%block name="title">${_('Feature')} ${ctx.name}</%block>
+
 
 
 
@@ -24,6 +26,14 @@
 ##% if map_ or request.map:
 ##    ${(map_ or request.map).render()}
 ##% endif
+<div class="span4">
+    <%util:well title="Values">
+        ##${u.value_table(ctx, request)}
+    </%util:well>
+</div>
+${request.get_map('parameter', dt=values_dt).render()}
+${values_dt.render()}
 
-${request.get_datatable('values', OOAValue, ooaparameter=ctx).render()}
+
+
 

@@ -62,8 +62,9 @@ def map_marker(ctx, req):
 
 
 class CtxFactory(CtxFactoryQuery):
-    def refined_query(self, query, model, req):
 
+    def refined_query(self, query, model, req):
+        breakpoint()
         if model == common.Contribution:
             query = query.options()
         if model == models.OOALanguage:
@@ -86,6 +87,10 @@ def main(global_config, **settings):
 
     config.add_route("featuresets", "/contributions")
     config.register_resource('contribution', models.OOAFeatureSet, IContribution, with_index=True)
+
+    config.add_route("features", "/parameters")
+    #config.register_resource('parameter', models.OOAParameter, IParameter, with_index=True)
+
     config.registry.registerUtility(CtxFactory(), ICtxFactoryQuery)
 
     config.add_route("references", "/sources")

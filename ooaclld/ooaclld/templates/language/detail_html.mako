@@ -6,13 +6,13 @@
 
 
 <h2>Language: ${ctx.name}</h2>
-${request.get_datatable('values', OOAValue, ooalanguage=ctx).render()}
-${util.codes}
+${request.get_datatable('values', OOAValue, language=ctx).render()}
 <%def name="sidebar()">
 ## util.codes() works if Identifiers are added to db alla wals
     <a href="https://glottolog.org/resource/languoid/id/${ctx.id}"><span class="badge">glottocode: ${ctx.id}</span></a>
     <div style="clear: right;"> </div>
     <%util:well title="Map">
+        ${type(request.map)}
         ${request.map.render()}
         ${h.format_coordinates(ctx)}
     </%util:well>
