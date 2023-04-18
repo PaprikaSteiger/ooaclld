@@ -24,6 +24,7 @@ from clld import common
 
 # we must make sure custom models are known at database initialization!
 from ooaclld import models
+from ooaclld.interfaces import ApicsMapMarker
 
 
 def map_marker(ctx, req):
@@ -64,7 +65,6 @@ def map_marker(ctx, req):
 class CtxFactory(CtxFactoryQuery):
 
     def refined_query(self, query, model, req):
-        breakpoint()
         if model == common.Contribution:
             query = query.options()
         if model == models.OOALanguage:
@@ -92,7 +92,7 @@ def main(global_config, **settings):
     #config.register_resource('parameter', models.OOAParameter, IParameter, with_index=True)
 
     config.registry.registerUtility(CtxFactory(), ICtxFactoryQuery)
-
+    config.registry.registerUtility(ApicsMapMarker(), IMapMarker)
     config.add_route("references", "/sources")
     # config.registry.registerUtility(LanguageByFamilyMapMarker(), IMapMarker)
 

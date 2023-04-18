@@ -1,7 +1,6 @@
 from clld.web.maps import ParameterMap, FilterLegend, Layer, Legend
 from clld.web.util.helpers import JS, map_marker_img
 from clld.web.util.htmllib import HTML, literal
-
 from ooaclld.adapters import GeoJsonFeature
 
 class FeatureMap(ParameterMap):
@@ -14,7 +13,6 @@ class FeatureMap(ParameterMap):
 
     def get_layers(self):
         #if self.ctx.multivalued:
-        breakpoint()
         yield Layer(
             self.ctx.id,
             self.ctx.name,
