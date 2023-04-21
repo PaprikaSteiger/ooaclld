@@ -1,9 +1,11 @@
+from collections import Counter
+
 from clld.interfaces import IValueSet, IValue, IDomainElement
 from clld.web.icon import MapMarker
 from clldutils import svg
 from clld.interfaces import IIcon
 
-class ApicsMapMarker(MapMarker):
+class OaaMapMarker(MapMarker):
     @staticmethod
     def pie(*slices):
         return svg.data_url(svg.pie(
@@ -15,12 +17,30 @@ class ApicsMapMarker(MapMarker):
         if IValueSet.providedBy(ctx):
             # if req.matched_route.name == 'valueset' and not ctx.parameter.multivalued:
             #     return self.pie((100, ctx.values[0].domainelement.jsondata['color']))
-            # slices = collections.Counter()
+            slices = Counter()
             # for v in ctx.values:
-            #     slices[v.domainelement.jsondata['color']] += v.frequency or 1
-            icon = 'cffffff'
-            return svg.data_url(svg.icon(icon))
-            #return self.pie(*[(v, k) for k, v in slices.most_common()])
+            #
+            #len(ctx.values)
+            for value in ctx.values:
+                if value.value == "no":
+                    icon = 'ffffff'
+                    slices[icon] += value.frequency or 1
+                elif value.value == "yes":
+                    icon = 'ffff00'
+                    slices[icon] += value.frequency or 1
+                elif value.value == "1":
+                    icon = 'dd0000'
+                    slices[icon] += value.frequency or 1
+                elif value.value == "2":
+                    icon = '990099'
+                    slices[icon] += value.frequency or 1
+                elif value.value == "3":
+                    icon = '00ff00'
+                    slices[icon] += value.frequency or 1
+
+            #return svg.data_url(svg.icon(icon))
+            print(slices)
+            return self.pie(*[(v, k) for k, v in slices.most_common()])
 
         if IValue.providedBy(ctx):
             # freq = ctx.frequency or 100
@@ -37,4 +57,4 @@ class ApicsMapMarker(MapMarker):
             icon = 'cffff00'
             return svg.data_url(svg.icon(icon))
 
-        return super(ApicsMapMarker, self).__call__(ctx, req)
+        return super(OaaMapMarker, self).__call__(ctx, req)
