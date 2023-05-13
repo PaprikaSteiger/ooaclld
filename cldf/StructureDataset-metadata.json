@@ -45,11 +45,14 @@
                     },
                     {
                         "datatype": "decimal",
-                        "required": true,
-                        "name": "Frequency"
+                        "required": false,
+                        "name": "Frequency",
                     },
                     {
                         "datatype": "string",
+                        "null": [
+                            ""
+                        ],
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#codeReference",
                         "required": false,
                         "name": "CodeID"
@@ -140,7 +143,7 @@
                     {
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
-                        "required": false,
+                        "required": true,
                         "name": "Name"
                     },
                     {
@@ -148,6 +151,11 @@
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
                         "required": false,
                         "name": "Question"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "PossibleValues"
                     },
                     {
                         "datatype": "string",
@@ -217,7 +225,7 @@
                     {
                         "datatype": "string",
                         "required": false,
-                        "name": "Visualization"
+                        "name": "icons"
                     }
                 ],
                 "foreignKeys": [
