@@ -23,8 +23,10 @@ def main(args):
     srcdescr = re.compile(r'^(.*?)\[(.*?)]$')
     # assert args.glottolog, 'The --glottolog option is required!'
     cldf_dir = Path(__file__).parent.parent.parent.parent / "cldf"
+    print(cldf_dir)
     # args.log.info('Loading dataset')
-    ds = list(pycldf.iter_datasets(cldf_dir))[0]
+    ds = pycldf.Dataset.from_metadata(cldf_dir / "StructureDataset-metadata.json")
+    #ds = list(pycldf.iter_datasets(cldf_dir))[0]
     data = Data()
     data.add(
         common.Dataset,
@@ -98,6 +100,7 @@ def main(args):
         DBSession.flush()
 
     for row in tqdm(ds.iter_rows("ParameterTable"), desc="Processing parameters"):
+        print(row)
         data.add(
             models.OOAParameter,
             row["ParameterID"],
@@ -140,8 +143,8 @@ def main(args):
     for row in tqdm(ds.iter_rows("codes.csv"), desc="Processing codes"):
         data.add(
             common.DomainElement,
-            row["CodeID"].replace(".", "").replace("]", ""),
-            id=row["CodeID"].replace(".", "").replace("]", ""),
+            row["CodeID"],#.replace(".", "").replace("]", ""),
+            id=row["CodeID"],#.replace(".", "").replace("]", ""),
             description=row["Description"],
             jsondata={"Visualization": row["Visualization"]},
             parameter_pk=data["OOAParameter"][row["ParameterID"].replace(".", "")].pk,
@@ -231,7 +234,7 @@ def main(args):
             id=row["ID"],
             valueset_pk=data["ValueSet"][previous_valueset_id].pk,
             # Todo: not all values have a code id
-            domainelement_pk=None,
+            domainelement_pk=data["DomainElement"][row["CodeID"]].pk,
             code_id=row["CodeID"],
             value=row["Value"],
             remark=row["Remark"],

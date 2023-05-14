@@ -14,13 +14,16 @@ class OaaMapMarker(MapMarker):
             stroke_circle=True))
 
     def __call__(self, ctx, req):
-        if IValueSet.providedBy(ctx):
+        #if IValueSet.providedBy(ctx):
+        if IDomainElement.providedBy(ctx):
+            breakpoint()
             # if req.matched_route.name == 'valueset' and not ctx.parameter.multivalued:
             #     return self.pie((100, ctx.values[0].domainelement.jsondata['color']))
             slices = Counter()
             # for v in ctx.values:
             #
             #len(ctx.values)
+            icon = ctx.domainelement
             for value in ctx.values:
                 if value.value == "no":
                     icon = 'ffffff'

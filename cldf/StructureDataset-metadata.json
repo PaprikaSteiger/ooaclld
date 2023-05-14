@@ -44,9 +44,9 @@
                         "name": "Value"
                     },
                     {
-                        "datatype": "decimal",
+                        "datatype": "string",
                         "required": false,
-                        "name": "Frequency",
+                        "name": "Frequency"
                     },
                     {
                         "datatype": "string",
