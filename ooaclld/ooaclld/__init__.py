@@ -89,7 +89,10 @@ def main(global_config, **settings):
     config.register_resource('contribution', models.OOAFeatureSet, IContribution, with_index=True)
 
     config.add_route("features", "/parameters")
-    #config.register_resource('parameter', models.OOAParameter, IParameter, with_index=True)
+    config.register_resource('parameter', models.OOAParameter, IParameter, with_index=True)
+
+    # config.add_route("ooavalues", "/values")
+    # config.register_resource("value", models.OOAValue, IValue, with_index=True)
 
     config.registry.registerUtility(CtxFactory(), ICtxFactoryQuery)
     config.registry.registerUtility(OaaMapMarker(), IMapMarker)

@@ -15,11 +15,14 @@ class GeoJsonFeature(GeoJsonParameter):
 
     def featurecollection_properties(self, ctx, req):
         marker = req.registry.getUtility(interfaces.IMapMarker)
-        return {
+        res = {
             'name': getattr(ctx, 'name', 'Values'),
             'domain': [
-                {'icon': marker(de, req), 'id': de.id, 'name': de.name}
-                for de in getattr(ctx, 'domain', ctx)]}
+                {'icon': marker(ctx, req), 'id': de.id, 'name': de.name}
+                for de in getattr(ctx, 'domain', ctx) if "ERROR" not in str(de) and "UNCODED" not in str(de) and "?" not in str(de)
+            ]
+        }
+        return res
         #HERE it s decided what is passed to the mapmarker as context
 
 def includeme(config):

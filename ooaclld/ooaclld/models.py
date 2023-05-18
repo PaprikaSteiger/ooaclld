@@ -75,6 +75,9 @@ class OOAValue(CustomModelMixin, common.Value):
     # TODO: Maybe add a relationship to contributors
     coder = Column(Unicode)
 
+    def __str__(self):
+        return self.id
+
 
 # @implementer(interfaces.IUnit)
 # class OOAUnit(CustomModelMixin, common.Unit):
