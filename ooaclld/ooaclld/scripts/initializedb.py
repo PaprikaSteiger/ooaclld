@@ -23,7 +23,6 @@ def main(args):
     srcdescr = re.compile(r'^(.*?)\[(.*?)]$')
     # assert args.glottolog, 'The --glottolog option is required!'
     cldf_dir = Path(__file__).parent.parent.parent.parent / "cldf"
-    print(cldf_dir)
     # args.log.info('Loading dataset')
     ds = pycldf.Dataset.from_metadata(cldf_dir / "StructureDataset-metadata.json")
     #ds = list(pycldf.iter_datasets(cldf_dir))[0]
@@ -100,7 +99,6 @@ def main(args):
         DBSession.flush()
 
     for row in tqdm(ds.iter_rows("ParameterTable"), desc="Processing parameters"):
-        print(row)
         data.add(
             models.OOAParameter,
             row["ParameterID"],
@@ -146,13 +144,13 @@ def main(args):
             row["CodeID"],#.replace(".", "").replace("]", ""),
             id=row["CodeID"],#.replace(".", "").replace("]", ""),
             description=row["Description"],
-            jsondata={"Visualization": row["Visualization"]},
-            parameter_pk=data["OOAParameter"][row["ParameterID"].replace(".", "")].pk,
+            jsondata={"icon": row["icons"]},
+            parameter_pk=data["OOAParameter"][row["ParameterID"]].pk,
         )
     DBSession.flush()
 
     for c, row in enumerate(tqdm(ds.iter_rows("ValueTable"), desc="Processing values")):
-        current_contribution = row["ID"].split("-")[0].split("_")[1]
+        current_contribution = row["ID"].replace(".", "-").split("-")[0].split("_")[1]
         current_language = row["LanguageID"]
         current_param = row["ParameterID"]
         current_valueset_id = row["ID"]
@@ -164,7 +162,7 @@ def main(args):
                 row["ID"],
                 id=row["ID"],
                 language_pk=lpk,
-                parameter_pk=data["OOAParameter"][row["ParameterID"]].pk,
+                parameter_pk=data["OOAParameter"][row["ParameterID"].replace(".", "-")].pk,
                 contribution_pk=data["OOAFeatureSet"][current_contribution].pk,
                 # TODO: check that all values in the same valueset have the same source. If not, discuss with david
                 #source=" & ".join(row['Source']),
@@ -200,7 +198,7 @@ def main(args):
                 row["ID"],
                 id=row["ID"],
                 language_pk=lpk,
-                parameter_pk=data["OOAParameter"][row["ParameterID"]].pk,
+                parameter_pk=data["OOAParameter"][row["ParameterID"].replace(".", "-")].pk,
                 contribution_pk=data["OOAFeatureSet"][current_contribution].pk,
                 # TODO: check that all values in the same valueset have the same source. If not, discuss with david
                 #source=" & ".join(row['Source']),
@@ -227,14 +225,13 @@ def main(args):
             previous_lan = current_language
             previous_param = current_param
             previous_valueset_id = current_valueset_id
-
         data.add(
             models.OOAValue,
             row["ID"],
             id=row["ID"],
             valueset_pk=data["ValueSet"][previous_valueset_id].pk,
             # Todo: not all values have a code id
-            domainelement_pk=data["DomainElement"][row["CodeID"]].pk,
+            domainelement_pk=data["DomainElement"][row["CodeID"].replace(".", "-")].pk,
             code_id=row["CodeID"],
             value=row["Value"],
             remark=row["Remark"],
