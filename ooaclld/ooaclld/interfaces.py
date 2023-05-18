@@ -16,32 +16,23 @@ class OaaMapMarker(MapMarker):
     def __call__(self, ctx, req):
         #if IValueSet.providedBy(ctx):
         if IDomainElement.providedBy(ctx):
-            breakpoint()
             # if req.matched_route.name == 'valueset' and not ctx.parameter.multivalued:
             #     return self.pie((100, ctx.values[0].domainelement.jsondata['color']))
             slices = Counter()
             # for v in ctx.values:
             #
             #len(ctx.values)
-            icon = ctx.domainelement
+            icon = ctx.jsondata['icon']
+            # only display on map if color code provided
+            if not icon:
+                return None
+            elif not icon.startswith("#"):
+                return None
+            # create pies
+            icon = icon.strip("#")
             for value in ctx.values:
-                if value.value == "no":
-                    icon = 'ffffff'
-                    slices[icon] += value.frequency or 1
-                elif value.value == "yes":
-                    icon = 'ffff00'
-                    slices[icon] += value.frequency or 1
-                elif value.value == "1":
-                    icon = 'dd0000'
-                    slices[icon] += value.frequency or 1
-                elif value.value == "2":
-                    icon = '990099'
-                    slices[icon] += value.frequency or 1
-                elif value.value == "3":
-                    icon = '00ff00'
-                    slices[icon] += value.frequency or 1
+                slices[icon] += value.frequency or 1
 
-            #return svg.data_url(svg.icon(icon))
             print(slices)
             return self.pie(*[(v, k) for k, v in slices.most_common()])
 
