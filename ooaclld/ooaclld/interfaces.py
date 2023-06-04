@@ -11,7 +11,7 @@ class OaaMapMarker(MapMarker):
         return svg.data_url(svg.pie(
             [float(p[0]) for p in slices],
             [p[1] for p in slices],
-            stroke_circle=True))
+            stroke_circle=False))
 
     def __call__(self, ctx, req):
         #if IValueSet.providedBy(ctx):
@@ -23,27 +23,18 @@ class OaaMapMarker(MapMarker):
             #
             #len(ctx.values)
             icon = ctx.jsondata['icon']
-            # only display on map if color code provided
-            if not icon:
-                return ""
-            elif not icon.startswith("#"):
-                return ""
-            # create pies
-            #icon = icon.strip("#")
-            for value in ctx.values:
-                slices[icon] += value.frequency or 1
+            if icon and icon.startswith("#"):
+                for value in ctx.values:
+                    slices[icon] += value.frequency or 1
 
-            print(slices)
-            return self.pie(*[(v, k) for k, v in slices.most_common()])
+                return self.pie(*[(v, k) for k, v in slices.most_common()])
 
         if IValueSet.providedBy(ctx):
             slices = Counter()
-            breakpoint()
             for value in ctx.values:
                 icon = value.domainelement.jsondata['icon']
-                if icon:
+                if icon and icon.startswith("#"):
                     slices[icon] += value.frequency or 1
-
             return self.pie(*[(v, k) for k, v in slices.most_common()])
 
         if IValue.providedBy(ctx):
@@ -53,12 +44,8 @@ class OaaMapMarker(MapMarker):
             # if freq < 100:
             #     slices.append((100 - freq, 'ffffff'))
             # return self.pie(*slices)
-            icon ='cffffcc'
+            icon ='ffffff'
 
             return svg.data_url(svg.icon(icon))
 
-        # if IDomainElement.providedBy(ctx):
-        #     #return self.pie((100, ctx.jsondata['color']))
-        #     icon = 'cffff00'
-        #     return svg.data_url(svg.icon(icon))
         return super(OaaMapMarker, self).__call__(ctx, req)

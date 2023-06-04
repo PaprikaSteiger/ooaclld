@@ -2,7 +2,6 @@ from clld import interfaces
 from clld.web.adapters import GeoJsonParameter
 
 
-
 class GeoJsonFeature(GeoJsonParameter):
     def feature_iterator(self, ctx, req):
         for vs in ctx.valuesets:
@@ -19,7 +18,7 @@ class GeoJsonFeature(GeoJsonParameter):
             'name': getattr(ctx, 'name', 'Values'),
             'domain': [
                 {'icon': marker(ctx, req), 'id': de.id, 'name': de.name}
-                for de in getattr(ctx, 'domain', ctx) if "ERROR" not in str(de) and "UNCODED" not in str(de) and "?" not in str(de)
+                for de in getattr(ctx, 'domain', ctx)
             ]
         }
         return res
