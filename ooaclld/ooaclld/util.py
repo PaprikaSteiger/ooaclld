@@ -30,7 +30,6 @@ def value_table(ctx, req):
             HTML.td(literal(de.description)),
             HTML.td(str(exclusive), class_='right'),
         ]
-        print(ctx, exclusive, shared)
         cells.append(HTML.td(str(shared), class_='right'))
         cells.append(HTML.td(str(len(de.values)), class_='right'))
         rows.append(HTML.tr(*cells))

@@ -32,14 +32,15 @@ def main(args):
         ooaclld.__name__,
         id=ooaclld.__name__,
         domain="ooaclld",
-        publisher_name="Max Planck Institute for the Science of Human History",
-        publisher_place="Jena",
+        publisher_name="TODO_ PUBLISHER",
+        publisher_place="TODO_ PUBLISHER_ PLace",
         publisher_url="http://www.shh.mpg.de",
         license="http://creativecommons.org/licenses/by/4.0/",
         jsondata={
             "license_icon": "cc-by.png",  # TODO: replace with custome one
             "license_name": "Creative Commons Attribution 4.0 International License",
         },
+        description="TODO: DESCRIPTION AS IN APICS: THE ATLAS OF PIDGIN..."
     )
     DBSession.flush()
     lrefs = collections.defaultdict(set)
