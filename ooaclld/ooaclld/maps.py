@@ -30,7 +30,7 @@ class FeatureMap(ParameterMap):
                 literal(de),
                 style='margin-left: 1em; margin-right: 1em;')
 
-        yield Legend(self, 'values', map(value_li, [self.ctx.question]), label='Legend')
+        yield Legend(self, 'values', map(value_li, self.ctx.domain), label='Legend')
 
         # for legend in super(FeatureMap, self).get_legends():
         #     yield legend
