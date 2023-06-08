@@ -38,14 +38,11 @@ class OaaMapMarker(MapMarker):
             return self.pie(*[(v, k) for k, v in slices.most_common()])
 
         if IValue.providedBy(ctx):
-            breakpoint()
-            # freq = ctx.frequency or 100
-            # slices = [(freq, ctx.domainelement.jsondata['color'])]
-            # if freq < 100:
-            #     slices.append((100 - freq, 'ffffff'))
-            # return self.pie(*slices)
-            icon ='ffffff'
-
-            return svg.data_url(svg.icon(icon))
+            slices = Counter()
+            for value in ctx.values:
+                icon = value.domainelement.jsondata['icon']
+                if icon and icon.startswith("#"):
+                    slices[icon] += value.frequency or 1
+            return self.pie(*[(v, k) for k, v in slices.most_common()])
 
         return super(OaaMapMarker, self).__call__(ctx, req)
