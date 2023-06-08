@@ -13,8 +13,8 @@ from clld.db.models import (
 )
 from sqlalchemy.orm import aliased
 from clld.db.util import get_distinct_values, icontains
-from clld.web.util.helpers import linked_contributors, link, contactmail
-from clld.web.util.htmllib import HTML
+from clld.web.util.helpers import linked_contributors, link, contactmail, external_link, map_marker_img
+from clld.web.util.htmllib import HTML, literal
 
 from ooaclld.models import OOALanguage, OOAParameter, OOAFeatureSet, OOAValue
 
@@ -140,6 +140,12 @@ class Languages(datatables.Languages):
         ]
 
 
+class ApicsValueNameCol(ValueNameCol):
+    def get_attrs(self, item):
+        label = str(item) or 'NO_LABEL'
+        label = HTML.span(map_marker_img(self.dt.req, item), literal('&nbsp;'), label)
+        return {'label': label, 'title': str(item)}
+
 class Values(datatables.Values):
     #__constraints__ = [OOAParameter, OOALanguage]
 
@@ -183,7 +189,7 @@ class Values(datatables.Values):
                 sClass="left",
                 get_object=lambda i: i.valueset.language,
             ),
-            Col(self, "Value", model_col=OOAValue.value, sClass="left"),
+            ApicsValueNameCol(self, "Value", model_col=OOAValue.value, sClass="left"),
             Col(self, "Remark", model_col=OOAValue.remark, sClass="left"),
             RefsCol(self, 'Source'),
             CommentCol(self, 'c'),

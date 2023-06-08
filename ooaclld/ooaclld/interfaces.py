@@ -29,7 +29,7 @@ class OaaMapMarker(MapMarker):
 
                 return self.pie(*[(v, k) for k, v in slices.most_common()])
 
-        if IValueSet.providedBy(ctx):
+        elif IValueSet.providedBy(ctx):
             slices = Counter()
             for value in ctx.values:
                 icon = value.domainelement.jsondata['icon']
@@ -38,11 +38,11 @@ class OaaMapMarker(MapMarker):
             return self.pie(*[(v, k) for k, v in slices.most_common()])
 
         if IValue.providedBy(ctx):
-            slices = Counter()
-            for value in ctx.values:
-                icon = value.domainelement.jsondata['icon']
-                if icon and icon.startswith("#"):
-                    slices[icon] += value.frequency or 1
-            return self.pie(*[(v, k) for k, v in slices.most_common()])
+            # TODO: It seems only the value i want to block land here... (NA, ERROR, ?)
+            freq = ctx.frequency or 100
+            slices = [(freq, ctx.domainelement.jsondata['icon'] or '#ffffff')]
+            if freq < 100:
+                slices.append((100 - freq, 'ffffff'))
+            return self.pie(*slices)
 
         return super(OaaMapMarker, self).__call__(ctx, req)

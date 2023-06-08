@@ -104,6 +104,7 @@ def main(args):
             models.OOAParameter,
             row["ParameterID"],
             id=row["ParameterID"],
+            name=row["ParameterID"],
             featureset_pk=data["OOAFeatureSet"][row["FeatureSet"]].pk,
             featureset_name=row["FeatureSet"],  # TODO: delete that row
             question=row["Question"],
