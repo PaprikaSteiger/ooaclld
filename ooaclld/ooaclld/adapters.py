@@ -18,11 +18,11 @@ class GeoJsonFeature(GeoJsonParameter):
             'name': getattr(ctx, 'name', 'Values'),
             'domain': [
                 {'icon': marker(ctx, req), 'id': de.id, 'name': de.name}
-                for de in getattr(ctx, 'domain', ctx)
+                for de in getattr(ctx, 'domain', [])
             ]
         }
         return res
-        #HERE it s decided what is passed to the mapmarker as context
+        #TODO: HERE it s decided what is passed to the mapmarker as context
 
 def includeme(config):
     config.register_adapter(GeoJsonFeature, interfaces.IParameter)

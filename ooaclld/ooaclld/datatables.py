@@ -18,7 +18,6 @@ from clld.web.util.htmllib import HTML, literal
 
 from ooaclld.models import OOALanguage, OOAParameter, OOAFeatureSet, OOAValue
 
-
 # special columns
 class CommentCol(Col):
     __kw__ = {'bSortable': False, 'bSearchable': False, 'sTitle': ''}

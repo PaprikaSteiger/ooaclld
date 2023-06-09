@@ -36,14 +36,14 @@ def value_table(ctx, req):
 
 
     rows.append(HTML.tr(
-        HTML.td('Representation:', colspan=str(len(cells) - 1), class_='right'),
+        HTML.td('Total Languages:', colspan=str(len(cells) - 1), class_='right'),
         HTML.td('%s' % len(langs), class_='right')))
 
     parts = []
     # if ctx.multivalued:
     parts.append(HTML.thead(
         HTML.tr(*[HTML.th(s, class_='right')
-                  for s in [' ', '             ', 'excl', 'shrd', 'all']]))
+                  for s in [' ', '             ', 'exclusive', 'partial', 'all']]))
     )
     parts.append(HTML.tbody(*rows))
     return HTML.table(*parts, class_='table table-condensed')
