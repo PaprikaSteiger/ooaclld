@@ -141,9 +141,9 @@ class Languages(datatables.Languages):
 
 class ApicsValueNameCol(ValueNameCol):
     def get_attrs(self, item):
-        label = str(item) or 'NO_LABEL'
+        label = str(item.value) or 'NO_LABEL'
         label = HTML.span(map_marker_img(self.dt.req, item), literal('&nbsp;'), label)
-        return {'label': label, 'title': str(item)}
+        return {'label': label, 'title': str(item.value)}
 
 class Values(datatables.Values):
     #__constraints__ = [OOAParameter, OOALanguage]
