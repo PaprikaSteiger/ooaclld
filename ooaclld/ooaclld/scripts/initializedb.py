@@ -172,21 +172,22 @@ def main(args):
 
             if row['Source']:
                 for s in row['Source']:
-                    if s not in all_sources:
+                    sid, desc = pycldf.Sources.parse(s)
+                    if sid not in all_sources:
                         continue
-                    try:
-                        s_, descr = srcdescr.search(s).groups()
-                    except AttributeError:
-                        s_ = s
-                        descr = ''
-                    spk = data['Source'][s_].pk
-                    data.add(common.ValueSetReference, s_,
+                    # try:
+                    #     s_, descr = srcdescr.search(s).groups()
+                    # except AttributeError:
+                    #     s_ = s
+                    #     descr = ''
+                    spk = data['Source'][sid].pk
+                    data.add(common.ValueSetReference, s,
                              valueset=vs,
-                             description=descr,
+                             description=desc,
                              source_pk=spk)
                     if spk not in lrefs[lpk]:
                         lrefs[lpk].add(spk)
-            DBSession.flush()
+                    DBSession.flush()
 
             previous_con = current_contribution
             previous_lan = current_language
@@ -205,28 +206,31 @@ def main(args):
                 # TODO: check that all values in the same valueset have the same source. If not, discuss with david
                 #source=" & ".join(row['Source']),
             )
+            DBSession.flush()
             if row['Source']:
                 for s in row['Source']:
-                    if s not in all_sources:
+                    sid, desc = pycldf.Sources.parse(s)
+                    if sid not in all_sources:
                         continue
-                    try:
-                        s_, descr = srcdescr.search(s).groups()
-                    except AttributeError:
-                        s_ = s
-                        descr = ''
-                    spk = data['Source'][s_].pk
-                    data.add(common.ValueSetReference, s_,
+                    # try:
+                    #     s_, descr = srcdescr.search(s).groups()
+                    # except AttributeError:
+                    #     s_ = s
+                    #     descr = ''
+                    spk = data['Source'][sid].pk
+                    data.add(common.ValueSetReference, s,
                              valueset=vs,
-                             description=descr,
+                             description=desc,
                              source_pk=spk)
                     if spk not in lrefs[lpk]:
                         lrefs[lpk].add(spk)
-            DBSession.flush()
+                DBSession.flush()
 
             previous_con = current_contribution
             previous_lan = current_language
             previous_param = current_param
             previous_valueset_id = current_valueset_id
+
         data.add(
             models.OOAValue,
             row["ID"],
