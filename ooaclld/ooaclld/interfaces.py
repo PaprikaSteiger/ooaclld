@@ -1,6 +1,6 @@
 from collections import Counter
 
-from clld.interfaces import IValueSet, IValue, IDomainElement
+from clld.interfaces import IValueSet, IValue, IDomainElement, IMapMarker
 from clld.web.icon import MapMarker
 from clldutils import svg
 from clld.interfaces import IIcon
@@ -11,7 +11,9 @@ class OaaMapMarker(MapMarker):
         return svg.data_url(svg.pie(
             [float(p[0]) for p in slices],
             [p[1] for p in slices],
-            stroke_circle=False))
+            stroke_circle=False,
+            width=4,
+        ))
 
     def __call__(self, ctx, req):
         #if IValueSet.providedBy(ctx):
@@ -43,10 +45,19 @@ class OaaMapMarker(MapMarker):
             # TODO: It seems only the value i want to block land here... (NA, ERROR, ?)
             print('value')
             slices = Counter()
-            icon = ctx.domainelement.jsondata['icon']
-            if icon and icon.startswith("#"):
+            icon = ctx.domainelement.jsondata['icon'] if ctx.domainelement.jsondata['icon'] and ctx.domainelement.jsondata['icon'].startswith("#") else '#ff6600'
+            if icon:
                 slices[icon] = ctx.frequency or 1
 
                 return self.pie(*[(v, k) for k, v in slices.most_common()])
 
-        return super(OaaMapMarker, self).__call__(ctx, req)
+        else:
+            print('rest')
+            slices = Counter()
+            icon = '#ff6600'
+            slices[icon] = 1
+            return self.pie(*[(v, k) for k, v in slices.most_common()])
+
+
+def includeme(config):
+    config.registerUtility(OaaMapMarker(), IMapMarker)
