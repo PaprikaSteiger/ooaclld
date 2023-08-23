@@ -45,8 +45,8 @@ class OaaMapMarker(MapMarker):
             # TODO: It seems only the value i want to block land here... (NA, ERROR, ?)
             print('value')
             slices = Counter()
-            icon = ctx.domainelement.jsondata['icon'] if ctx.domainelement.jsondata['icon'] and ctx.domainelement.jsondata['icon'].startswith("#") else '#ff6600'
-            if icon:
+            icon = ctx.domainelement.jsondata['icon']
+            if icon and icon.startswith("#"):
                 slices[icon] = ctx.frequency or 1
 
                 return self.pie(*[(v, k) for k, v in slices.most_common()])
