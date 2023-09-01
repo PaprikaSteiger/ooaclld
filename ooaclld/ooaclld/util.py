@@ -16,7 +16,9 @@ def value_table(ctx, req):
     for i, de in enumerate(ctx.domain):
         exclusive = 0
         shared = 0
-
+        icon = de.jsondata['icon']
+        if not icon:
+            continue
         for v in [_v for _v in de.values]:
 
             if len(v.valueset.values) > 1:
