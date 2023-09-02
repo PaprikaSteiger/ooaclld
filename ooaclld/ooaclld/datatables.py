@@ -170,29 +170,54 @@ class Values(datatables.Values):
         return query
 
     def col_defs(self):
-        return [
-            IdCol(self, "Id", sTitle="Value ID", sClass="left"),
-            LinkCol(
-                self,
-                "Feature ID",
-                sTitle="Feature ID",
-                model_col=OOAParameter.id,
-                sClass="left",
-                get_object=lambda i: i.valueset.parameter,
-            ),
-            LinkCol(
-                self,
-                "Language ID",
-                sTitle="Language ID",
-                model_col=OOALanguage.id,
-                sClass="left",
-                get_object=lambda i: i.valueset.language,
-            ),
-            ApicsValueNameCol(self, "Value", model_col=OOAValue.value, sClass="left"),
-            Col(self, "Remark", model_col=OOAValue.remark, sClass="left"),
-            RefsCol(self, 'Source'),
-            CommentCol(self, 'c'),
-        ]
+        if self.parameter:
+            return [
+                IdCol(self, "Id", sTitle="Value ID", sClass="left"),
+                LinkCol(
+                    self,
+                    "Feature ID",
+                    sTitle="Feature ID",
+                    model_col=OOAParameter.id,
+                    sClass="left",
+                    get_object=lambda i: i.valueset.parameter,
+                ),
+                LinkCol(
+                    self,
+                    "Language ID",
+                    sTitle="Language ID",
+                    model_col=OOALanguage.id,
+                    sClass="left",
+                    get_object=lambda i: i.valueset.language,
+                ),
+                ApicsValueNameCol(self, "Value", model_col=OOAValue.value, sClass="left"),
+                Col(self, "Remark", model_col=OOAValue.remark, sClass="left"),
+                RefsCol(self, 'Source'),
+                CommentCol(self, 'c'),
+            ]
+        if self.language:
+            return [
+                #IdCol(self, "Id", sTitle="Value ID", sClass="left"),
+                LinkCol(
+                    self,
+                    "Feature ID",
+                    sTitle="Feature ID",
+                    model_col=OOAParameter.id,
+                    sClass="left",
+                    get_object=lambda i: i.valueset.parameter,
+                ),
+                LinkCol(
+                    self,
+                    "Feature",
+                    sTitle="Feature",
+                    model_col=OOAParameter.name,
+                    sClass="left",
+                    get_object=lambda i: i.valueset.parameter,
+                ),
+                ApicsValueNameCol(self, "Value", model_col=OOAValue.value, sClass="left"),
+                Col(self, "Remark", model_col=OOAValue.remark, sClass="left"),
+                RefsCol(self, 'Source'),
+                CommentCol(self, 'c'),
+            ]
 
 
 class Contributors(datatables.Contributors):
