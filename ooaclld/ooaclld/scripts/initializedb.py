@@ -251,6 +251,7 @@ def main(args):
                      language_pk=lpk,
                      source_pk=spk)
     DBSession.flush()
+    breakpoint()
 
 def prime_cache(args):
     """If data needs to be denormalized for lookup, do that here.
