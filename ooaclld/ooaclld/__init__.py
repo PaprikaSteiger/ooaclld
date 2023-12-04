@@ -22,6 +22,8 @@ from clld.web.adapters.base import adapter_factory
 from clld.web.app import CtxFactoryQuery
 from clld import common
 
+from markdown.extensions.toc import TocExtension
+
 # we must make sure custom models are known at database initialization!
 from ooaclld import models
 from ooaclld.interfaces import OaaMapMarker
@@ -79,9 +81,15 @@ class LanguageByFamilyMapMarker(util.LanguageByFamilyMapMarker):
 def main(global_config, **settings):
     """This function returns a Pyramid WSGI application."""
     settings["route_patterns"] = {}
+    settings['clld_markdown_plugin'] = {
+        'model_map': {'ValueTable': common.ValueSet},
+        'function_map': {},
+        'extensions': [TocExtension(baselevel=2, toc_depth=3)]
+    }
     config = Configurator(settings=settings)
 
     config.include("clld.web.app")
+    config.include('clld_markdown_plugin')
 
     config.include("clldmpg")
 

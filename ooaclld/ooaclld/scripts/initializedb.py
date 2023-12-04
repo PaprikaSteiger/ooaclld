@@ -65,7 +65,7 @@ def main(args):
     ):
         # reading the static page content into variable desc
         desc = None
-        descr_path = cldf_dir / "docs" / (row["Name"] + ".html")
+        descr_path = cldf_dir / "docs" / (row["Name"] + ".md")
         if descr_path.exists():
             desc = open(descr_path, encoding="utf8").read()
         fset = data.add(

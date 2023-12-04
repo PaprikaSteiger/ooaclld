@@ -6,7 +6,8 @@
 
 <h2>Feature Set: ${ctx.name}</h2>
 % if text:
-    ${text|n}
+    <%! from clld_markdown_plugin import markdown %>
+    ${markdown(req, text)|n}
 % else:
     No static page available
 % endif
