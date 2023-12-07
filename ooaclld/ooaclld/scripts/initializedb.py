@@ -22,9 +22,8 @@ def main(args):
     # pattern to catch bib reference and optional page
     srcdescr = re.compile(r'^(.*?)\[(.*?)]$')
     # assert args.glottolog, 'The --glottolog option is required!'
-    cldf_dir = Path(__file__).parent.parent.parent.parent / "cldf"
     # args.log.info('Loading dataset')
-    ds = pycldf.Dataset.from_metadata(cldf_dir / "StructureDataset-metadata.json")
+    ds = args.cldf
     #ds = list(pycldf.iter_datasets(cldf_dir))[0]
     data = Data()
     data.add(
@@ -65,7 +64,7 @@ def main(args):
     ):
         # reading the static page content into variable desc
         desc = None
-        descr_path = cldf_dir / "docs" / (row["Name"] + ".md")
+        descr_path = ds.directory / "docs" / (row["Name"].lower() + ".md")
         if descr_path.exists():
             desc = open(descr_path, encoding="utf8").read()
         fset = data.add(
@@ -251,6 +250,7 @@ def main(args):
                      language_pk=lpk,
                      source_pk=spk)
     DBSession.flush()
+
 
 def prime_cache(args):
     """If data needs to be denormalized for lookup, do that here.

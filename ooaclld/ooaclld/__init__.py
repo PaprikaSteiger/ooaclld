@@ -82,7 +82,10 @@ def main(global_config, **settings):
     """This function returns a Pyramid WSGI application."""
     settings["route_patterns"] = {}
     settings['clld_markdown_plugin'] = {
-        'model_map': {'ValueTable': common.ValueSet},
+        'model_map': {
+            'ValueTable': common.ValueSet,
+            'contributors.csv': common.Contributor,
+        },
         'function_map': {},
         'extensions': [TocExtension(baselevel=2, toc_depth=3)]
     }

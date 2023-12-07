@@ -1,17 +1,17 @@
 Feature set adapted and extended from [Maddieson 2013](Source#cldf:maddieson2013wals8).
 
-**Authors**: [David Inman](../contributors/DI), [Kellen Parker Van Dam](../contributors/KPVD)
+**Authors**: [David Inman](contributors.csv#cldf:DI), [Kellen Parker Van Dam](contributors.csv#cldf:KPVD)
 
-**Acknowledgements**: [Natalia Chousou-Polydouri](../contributors/NCP), [Marine Vuillermet](../contributors/MV), [Anna Graff](../contributors/AG)
+**Acknowledgements**: [Natalia Chousou-Polydouri](contributors.csv#cldf:NCP), [Marine Vuillermet](contributors.csv#cldf:MV), [Anna Graff](contributors.csv#cldf:AG)
 
 
-**Conceptualization**: [David Inman](../contributors/DI), [Kellen Parker Van Dam](../contributors/KPVD)
+**Conceptualization**: [David Inman](contributors.csv#cldf:DI), [Kellen Parker Van Dam](contributors.csv#cldf:KPVD)
 
-**Data collection**: [David Inman](../contributors/DI), [Kellen Parker Van Dam](../contributors/KPVD), [Natalia Chousou-Polydouri](../contributors/NCP), [Marine Vuillermet](../contributors/MV), [Anna Graff](../contributors/AG), [Selma Hardegger](../contributors/SH)
+**Data collection**: [David Inman](contributors.csv#cldf:DI), [Kellen Parker Van Dam](contributors.csv#cldf:KPVD), [Natalia Chousou-Polydouri](contributors.csv#cldf:NCP), [Marine Vuillermet](contributors.csv#cldf:MV), [Anna Graff](contributors.csv#cldf:AG), [Selma Hardegger](contributors.csv#cldf:SH)
 
-**Supervision of data collection**: [David Inman](../contributors/DI), [Kellen Parker Van Dam](../contributors/KPVD), [Marine Vuillermet](../contributors/MV)
+**Supervision of data collection**: [David Inman](contributors.csv#cldf:DI), [Kellen Parker Van Dam](contributors.csv#cldf:KPVD), [Marine Vuillermet](contributors.csv#cldf:MV)
 
-**Computer code**: [David Inman](../contributors/DI)
+**Computer code**: [David Inman](contributors.csv#cldf:DI)
 
 [TOC]
 
@@ -37,7 +37,7 @@ The presence or absence of laterals and lateral obstruents is claimed to cluster
 /ʎ/ stands among the distinctive core phonological features for the Southern Andean core ([Michael et al 2014](Source#cldf:michaeletal2014andean)).
 
 ## How?
-Some of the data for this feature set were obtained directly from the PHOIBLE database version 2.0 ([PHOIBLE](Source#cldf:phoible, accessed January 27, 2020). A custom R script was written to process it. For Lat.01, which considers the allophones of the segment [l], all languages in PHOIBLE that had an inventory without an /l/ phoneme or \[l\] allophone were coded as <no>, and the remainder that did have a lateral liquid present somewhere were marked to be reviewed by hand. The presence or absence of /ɬ/, /tɬ/, /tɬ’/, and /ʎ/ (Lat.03, Lat.04, Lat.05, Lat.06) were extracted and encoded by the binary presence or absence of the relevant segment. Afterwards, 19 extracted languages were checked against grammars for accuracy, which yielded an acceptable error rate. Other discrepancies found in the data or cases where more recent sources have become available were corrected opportunistically while coding for other features. Such corrections are marked by “contra-PHOIBLE” in the remark field of the database.
+Some of the data for this feature set were obtained directly from the PHOIBLE database version 2.0 ([PHOIBLE](Source#cldf:phoible), accessed January 27, 2020). A custom R script was written to process it. For Lat.01, which considers the allophones of the segment [l], all languages in PHOIBLE that had an inventory without an /l/ phoneme or \[l\] allophone were coded as <no>, and the remainder that did have a lateral liquid present somewhere were marked to be reviewed by hand. The presence or absence of /ɬ/, /tɬ/, /tɬ’/, and /ʎ/ (Lat.03, Lat.04, Lat.05, Lat.06) were extracted and encoded by the binary presence or absence of the relevant segment. Afterwards, 19 extracted languages were checked against grammars for accuracy, which yielded an acceptable error rate. Other discrepancies found in the data or cases where more recent sources have become available were corrected opportunistically while coding for other features. Such corrections are marked by “contra-PHOIBLE” in the remark field of the database.
 
 The remaining data were coded by hand from available phonological and phonetic descriptions.
 
@@ -137,7 +137,7 @@ Northern Yukaghir has an palatalized lateral, Romanized as l’, which contrasts
 #### no: Cherokee \[cher1273\] (Iroquoian; United States)
 Despite its other lateral phonemes, Cherokee lacks a palatal lateral ([Montgomery-Anderson 2008](Source#cldf:montgomeryanderson2008cherokee): 33).
 Derived features
-Derived features offer different views of the same data included in the base features. Often, this is done to group together some states of multi-state features, to capture specific similarities. In other cases, derived features are designed so that they are independent from other features used in the same computational analyses that assume feature independence, e.g. the Bayesian software sBayes, which detects areal signal ([Ranacher et al 2021](Source#cldf:ranacher2021sbayes)).
+Derived features offer different views of the same data included in the base features. Often, this is done to group together some states of multi-state features, to capture specific similarities. In other cases, derived features are designed so that they are independent from other features used in the same computational analyses that assume feature independence, e.g. the Bayesian software sBayes, which detects areal signal ([Ranacher et al 2021](Source#ranacher2021sbayes)).
 
 ### Lat.01a Does the language have an allophonic \[l\]?
   **{ yes | no }**
@@ -222,41 +222,5 @@ Following the observations of [Maddieson 2013](Source#cldf:maddieson2013wals8), 
 
 ## References
 
-[Beck 2000](Source#cldf:beck2000nwcoast)
-
-[Campbell 1985](Source#cldf:campbell1985pipil)
-
-[Campbell 1997](Source#cldf:campbell1997america)
-
-[van Eijk 1997](Source#cldf:eijk1997lillooet)
-
-[Golla 1970](Source#cldf:golla1970hupa)
-
-[Haas 1969](Source#cldf:haas1969prehistory)
-
-[Lorimer 1958](Source#cldf:lorimer1958wakhi)
-
-[Maddieson 2013](Source#cldf:maddieson2013wals8)
-
-[Michael 2008](Source#cldf:michael2008nanti)
-
-[Michael et al 2014](Source#cldf:michaeletal2014andean)
-
-[Montgomery-Anderson 2008](Source#cldf:montgomeryanderson2008cherokee)
-
-[Nakayama 2001](Source#cldf:nakayama2001nuuchahnulth)
-
-[Paxalina 1975](Source#cldf:paxalina1975wakhi)
-
-[Moran and McCloy 2019](Source#cldf:phoible)
-
-[Sherzer 1976](Source#cldf:sherzer1976northamerica)
-
-[Thompson and Kinkade 1990](Source#cldf:thompsonkinkade1990pnw)
-
-[Valiquette 1990](Source#cldf:valiquette1990keres)
-
-[Vallejos 2016](Source#cldf:vallejos2016kukama)
-
-[Vuillermet 2012](Source#cldf:vuillermet2012eseejja)
+[References](Source?cited_only#cldf:__all__)
 
