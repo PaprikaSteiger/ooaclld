@@ -24,6 +24,7 @@ from clld.web.app import CtxFactoryQuery
 from clld import common
 
 from markdown.extensions.toc import TocExtension
+from markdown.extensions import footnotes
 
 # we must make sure custom models are known at database initialization!
 from ooaclld import models
@@ -94,7 +95,7 @@ def main(global_config, **settings):
             'ParameterTable': render_parameter,
         },
         'function_map': {},
-        'extensions': [TocExtension(baselevel=2, toc_depth=3)]
+        'extensions': [TocExtension(baselevel=2, toc_depth=3), 'footnotes']
     }
     config = Configurator(settings=settings)
 
