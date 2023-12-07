@@ -19,6 +19,7 @@ from clld.interfaces import (
 )
 from clldutils.svg import pie, icon, data_url
 from clld.web.adapters.base import adapter_factory
+from clld.web.util.helpers import link
 from clld.web.app import CtxFactoryQuery
 from clld import common
 
@@ -46,8 +47,6 @@ def map_marker(ctx, req):
         # hard coded icon
         icon = req.params.get(ctx.id, "c0000dd")
         # icon = req.params.get(ctx.id, ctx.genus.icon)
-    elif isinstance(ctx, Genus):
-        icon = req.params.get(ctx.id, ctx.icon)
 
     if icon:
         if "'" in icon:
@@ -78,6 +77,11 @@ class LanguageByFamilyMapMarker(util.LanguageByFamilyMapMarker):
         return super(LanguageByFamilyMapMarker, self).__call__(ctx, req)
 
 
+def render_parameter(req, objid, table, session, ids=None, **kw):
+    obj = common.Parameter.get(objid)
+    return link(req, obj, label='{}: {}'.format(obj.id, obj.question))
+
+
 def main(global_config, **settings):
     """This function returns a Pyramid WSGI application."""
     settings["route_patterns"] = {}
@@ -85,6 +89,9 @@ def main(global_config, **settings):
         'model_map': {
             'ValueTable': common.ValueSet,
             'contributors.csv': common.Contributor,
+        },
+        'renderer_map': {
+            'ParameterTable': render_parameter,
         },
         'function_map': {},
         'extensions': [TocExtension(baselevel=2, toc_depth=3)]

@@ -43,7 +43,8 @@ The remaining data were coded by hand from available phonological and phonetic d
 
 ## Features
 
-### [Lat.01 Does the language have a lateral approximant phoneme /l/ or an allophone \[l\] and if so, with what other allophones does this /l/ or \[l\] alternate?](ParameterTable#cldf:Lat-01)
+### [](ParameterTable#cldf:Lat-01)
+
   **{ laterals or glides | rhotic | n or d | n or d and rhotic | no }**
 
 The first state <laterals or glides> includes all languages that only have an /l/ as its own phoneme without variation, or that have an /l/ which alternates with other laterals (ʎ, lʲ, ɫ, ɬ, and so on) or glides (w, j, etc). The reason for these allophones being lumped together is that we believe buccalization of /l/ is common for phonetic reasons, as are alternations with other laterals (\[ɬ\] after an aspirated stop, etc). This is the expected state for most languages that are described as having an /l/ in their inventory.
