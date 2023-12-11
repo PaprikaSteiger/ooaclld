@@ -46,8 +46,9 @@ def main(args):
     all_sources = set()
     for rec in tqdm(Database.from_file(ds.bibpath), desc="Processing sources"):
         ns = bibtex2source(rec, common.Source)
-        all_sources.add(ns.id)
-        data.add(common.Source, ns.id, _obj=ns)
+        if ns.id not in all_sources:
+            all_sources.add(ns.id)
+            data.add(common.Source, ns.id, _obj=ns)
     DBSession.flush()
 
     for row in tqdm(ds.iter_rows("contributors.csv"), desc="Processing contributors"):
