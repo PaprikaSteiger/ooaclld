@@ -1,17 +1,17 @@
 Feature set adapted and extended from [Maddieson 2013](Source#cldf:maddieson2013wals8).
 
-**Authors**: [David Inman](contributors.csv#cldf:DI), [Kellen Parker Van Dam](contributors.csv#cldf:KPVD)
+**Authors**: [David Inman](Contributor#cldf:DI), [Kellen Parker Van Dam](Contributor#cldf:KPVD)
 
-**Acknowledgements**: [Natalia Chousou-Polydouri](contributors.csv#cldf:NCP), [Marine Vuillermet](contributors.csv#cldf:MV), [Anna Graff](contributors.csv#cldf:AG)
+**Acknowledgements**: [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Marine Vuillermet](Contributor#cldf:MV), [Anna Graff](Contributor#cldf:AG)
 
 
-**Conceptualization**: [David Inman](contributors.csv#cldf:DI), [Kellen Parker Van Dam](contributors.csv#cldf:KPVD)
+**Conceptualization**: [David Inman](Contributor#cldf:DI), [Kellen Parker Van Dam](Contributor#cldf:KPVD)
 
-**Data collection**: [David Inman](contributors.csv#cldf:DI), [Kellen Parker Van Dam](contributors.csv#cldf:KPVD), [Natalia Chousou-Polydouri](contributors.csv#cldf:NCP), [Marine Vuillermet](contributors.csv#cldf:MV), [Anna Graff](contributors.csv#cldf:AG), [Selma Hardegger](contributors.csv#cldf:SH)
+**Data collection**: [David Inman](Contributor#cldf:DI), [Kellen Parker Van Dam](Contributor#cldf:KPVD), [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Marine Vuillermet](Contributor#cldf:MV), [Anna Graff](Contributor#cldf:AG), [Selma Hardegger](Contributor#cldf:SH)
 
-**Supervision of data collection**: [David Inman](contributors.csv#cldf:DI), [Kellen Parker Van Dam](contributors.csv#cldf:KPVD), [Marine Vuillermet](contributors.csv#cldf:MV)
+**Supervision of data collection**: [David Inman](Contributor#cldf:DI), [Kellen Parker Van Dam](Contributor#cldf:KPVD), [Marine Vuillermet](Contributor#cldf:MV)
 
-**Computer code**: [David Inman](contributors.csv#cldf:DI)
+**Computer code**: [David Inman](Contributor#cldf:DI)
 
 [TOC]
 
@@ -28,7 +28,7 @@ Voiced alveolar (lateral) approximant /l/, and allophonic \[l\] when it alternat
 The survey does not distinguish between two very close places of articulation, namely alveolar and apico-dental, as they rarely stand in phonemic opposition. We also exclude phonemes that occur solely in recent loans.
 
 ## Why?
-The presence or absence of laterals and lateral obstruents is claimed to cluster in geographic regions. [Maddieson 2013](Source#cldf:maddieson2013wals8) notes a cluster of /l/-less languages in northern South America (and New Guinea), and the presence of lateral obstruents in northern and western North America (as well as in the Caucasus and around Lake Chad).
+The presence or absence of laterals and lateral obstruents is claimed to cluster in geographic regions. [](Source#cldf:maddieson2013wals8) notes a cluster of /l/-less languages in northern South America (and New Guinea), and the presence of lateral obstruents in northern and western North America (as well as in the Caucasus and around Lake Chad).
 
 [Maddieson 2013](Source#cldf:maddieson2013wals8) focuses on obstruent vs sonorant laterals. However, the precise type of obstruent is claimed as distinctive in other work, namely /tɬ’/ in the Pacific Northwest, even when a language lacks /tɬ/ ([Sherzer 1976](Source#cldf:sherzer1976northamerica); [Thompson and Kinkade 1990](Source#cldf:thompsonkinkade1990pnw); [Beck 2000](Source#cldf:beck2000nwcoast)). The voiced lateral affricate /dɮ/ is not included in this survey, as [Maddieson 2013](Source#cldf:maddieson2013wals8) only finds one language (Tigak; Austronesian; Papua New Guinea) that has a voiced /dɮ/ without a corresponding voiceless /tɬ/.
 
@@ -45,7 +45,7 @@ The remaining data were coded by hand from available phonological and phonetic d
 
 ### [](ParameterTable#cldf:Lat-01)
 
-  **{ laterals or glides | rhotic | n or d | n or d and rhotic | no }**
+&emsp;**{ laterals or glides | rhotic | n or d | n or d and rhotic | no }**
 
 The first state &lt;laterals or glides&gt; includes all languages that only have an /l/ as its own phoneme without variation, or that have an /l/ which alternates with other laterals (ʎ, lʲ, ɫ, ɬ, and so on) or glides (w, j, etc). The reason for these allophones being lumped together is that we believe buccalization of /l/ is common for phonetic reasons, as are alternations with other laterals (\[ɬ\] after an aspirated stop, etc). This is the expected state for most languages that are described as having an /l/ in their inventory.
 
@@ -80,8 +80,8 @@ Western Keres contains a lateral flap [Valiquette 1990: 14](Source#cldf:valiquet
 #### no: Nanti \[nant1250\] (Arawakan; Peru)
 Nanti only has a flap /ɾ/ as a liquid, and no /l/ [Michael 1008: 221](Source#cldf:michael2008nanti).
 
-### Lat-02 Does the language have a phonemic voiceless lateral approximant /l̥/?
-  **{ yes | no }**
+### [](ParameterTable#cldf:Lat-02)
+&emsp;**{ yes | no }**
 
 /l̥/ signifies a voiceless non-fricative approximant. This differs from Lat-03 /ɬ/, which is a fricative non-approximant lateral.
 
@@ -89,8 +89,8 @@ This feature was actually added after coding was completed for the other feature
 
 We also noted that there are zero inventories in PHOIBLE that showed both a phonemic /l̥/ and /ɬ/.[^1] Therefore, we again automatically coded the state &lt;no&gt; to Lat-02 if the language possesses a /ɬ/ (i.e., &lt;yes&gt; to Lat-03), with the remark "auto". This reduced the number of languages coded by hand after the rest of the features set had been completed.
 
-### Lat-03 Does the language have a phonemic lateral fricative /ɬ/?
-  **{ yes | no }**
+### [](ParameterTable#cldf:Lat-03)
+&emsp;**{ yes | no }**
 
 A phoneme that has \[ɬ\] as a prominent allophone (perhaps alternating with \[θ\]) should be counted as a phonemic /ɬ/, by analogy with Lat-01. However, \[ɬ\] is not considered as a phoneme for this feature if it is in allophonic distribution with \[l\].
 
@@ -100,8 +100,8 @@ Nuuchahnulth has a phonemic /ɬ/ as in the first sound in *łiw̓aḥak* ‘clou
 #### no: Pipil \[pipi1250\] (Uto-Aztecan; El Salvador, Honduras)
 Pipil has an \[ɬ\] alternating  with the main allophone \[l\]. Historically \[ɬ\] was a word final variant of /l/ but it is now present in more contexts. Still, \[l\] is the main realization and thus considered the phoneme ([Campbell 1985](Source#cldf:campbell1985pipil)).
 
-### Lat-04 Does the language have a phonemic alveolar lateral affricate /tɬ/?
-  **{ yes | no }**
+### [](ParameterTable#cldf:Lat-04)
+&emsp;**{ yes | no }**
 
 #### yes: Nuuchahnulth \[nuuc1236\] (Wakashan; Canada)
 Nuuchahnulth has a phonemic /t͡ɬ/ as in the first sound in *ƛaʔuu* ‘other’ and the last sound in *haw̓iiqƛ* ‘hungry’ (Inman, p.c.).
@@ -116,8 +116,8 @@ Therefore it is clear that underlyingly, Oklahoma Cherokee retains these as two 
 #### no: Hupa \[hupa1240\] (Athabaskan-Eyak-Tlingit; United States)
 Though Hupa has both an /l/ and a /ɬ/, it does not have a /t͡ɬ/ ([Golla 1970](Source#cldf:golla1970hupa)).
 
-### Lat-05 Does the language have a phonemic alveolar lateral ejective affricate /tɬ’/?
-  **{ yes | no }**
+### [](ParameterTable#cldf:Lat-05)
+&emsp;**{ yes | no }**
 
 #### yes: Nuuchahnulth \[nuuc1236\] (Wakashan; Canada)
 Nuuchahnulth has a phonemic /t͡ɬ’/ as in the difference between *ƛuł* ‘good’ and *ƛ̓ułšiƛ* ‘touch, feel’ (Inman, p.c.).
@@ -125,8 +125,8 @@ Nuuchahnulth has a phonemic /t͡ɬ’/ as in the difference between *ƛuł* ‘g
 #### no: Cherokee \[cher1273\] (Iroquoian; United States)
 Cherokee has no ejective series and lacks /t͡ɬ’/ ([Montgomery-Anderson 2008](Source#cldf:montgomeryanderson2008cherokee): 33).
 
-### Lat-06 Does the language have a phonemic palatal lateral approximant /ʎ/?
-  **{ yes | no }**
+### [](ParameterTable#cldf:Lat-06)
+&emsp;**{ yes | no }**
 
 NOTE: While the IPA symbol for the palatal lateral is \[ʎ\], this is not always given in grammars. In some grammars, and particularly in Australia, the symbol <ȴ> is used for an alveo-palatal lateral. In other grammars, the symbols <lʸ> or <lʲ> or <l’> indicate a “palatalized” lateral.
 
@@ -138,83 +138,289 @@ Northern Yukaghir has an palatalized lateral, Romanized as l’, which contrasts
 #### no: Cherokee \[cher1273\] (Iroquoian; United States)
 Despite its other lateral phonemes, Cherokee lacks a palatal lateral ([Montgomery-Anderson 2008](Source#cldf:montgomeryanderson2008cherokee): 33).
 
-##Derived features
+## Derived features
 Derived features offer different views of the same data included in the base features. Often, this is done to group together some states of multi-state features, to capture specific similarities. In other cases, derived features are designed so that they are independent from other features used in the same computational analyses that assume feature independence, e.g. the Bayesian software sBayes, which detects areal signal ([Ranacher et al 2021](Source#ranacher2021sbayes)).
 
-### Lat-01a Does the language have an allophonic \[l\]?
-  **{ yes | no }**
+### [](ParameterTable#cldf:Lat-01a)
+
+&emsp;**{ yes | no }**
 	
-	yes	if Lat-01 is &lt;laterals or glides&gt; OR &lt;rhotic&gt; OR &lt;n or d&gt; OR &lt;n or d and rhotic&gt;
-	no 	if Lat-01 is &lt;no&gt;
-	?	if Lat-01 is &lt;?&gt;
+<style type="text/css">
+.tg  {border:none;border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg dconversion">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:bold;font-style:normal;text-decoration:none">yes</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-01 is &lt;laterals or glides&gt; OR &lt;rhotic&gt; OR &lt;n or d&gt; OR &lt;n or d and rhotic&gt;</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:bold">no</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-01 is &lt;no&gt;</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:bold">?</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-01 is &lt;?&gt;</span></td>
+  </tr>
+</tbody>
+</table>
 
 This derived feature groups together all languages with some kind of lateral articulation against those without any.
 
-### Lat-01b Does the language have a phonemic /l/ which only alternates with other laterals or glides?
-  **{ yes | no }**
+### [](ParameterTable#cldf:Lat-01b)
+
+&emsp;**{ yes | no }**
 	
-yes	if Lat-01 is &lt;laterals or glides&gt;
-no	if Lat-01 is &lt;rhotic&gt; OR &lt;n or d&gt; OR &lt;n or d and rhotic&gt; OR &lt;no&gt;
-? 	if Lat-01 is &lt;?&gt;
+<style type="text/css">
+.tg  {border:none;border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg dconversion">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:bold;font-style:normal;text-decoration:none">yes</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-01 is &lt;laterals or glides&gt;</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:bold">no</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-01 is &lt;rhotic&gt; OR &lt;n or d&gt; OR &lt;n or d and rhotic&gt; OR &lt;no&gt;</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:bold">?</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-01 is &lt;?&gt;</span></td>
+  </tr>
+</tbody>
+</table>
 
 This derived feature groups languages with a lateral that is only a lateral against everything else.
 
-### Lat-01c If the language has an allophonic \[l\], what does this allophone alternate with?
-  **{ laterals or glides | rhotic | n or d | NA }**
+### [](ParameterTable#cldf:Lat-01c)
 
-laterals or glides	if Lat-01 is &lt;laterals or glides&gt;
-rhotic 			if Lat-01 is &lt;rhotic&gt;
-n or d	 		if Lat-01 is &lt;n or d&gt;
-NA 			if Lat-01 is &lt;no&gt;
-? 			if Lat-01 is &lt;n or d and rhotic&gt; OR &lt;?&gt;
-	
+&emsp;**{ laterals or glides | rhotic | n or d | NA }**
+
+<style type="text/css">
+.tg  {border:none;border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg dconversion">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">laterals or glides</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-01 is &lt;laterals or glides&gt;</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">rhotic</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-01 is &lt;rhotic&gt;</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">n or d</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-01 is &lt;n or d&gt;</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-01 is &lt;no&gt;</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">?</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-01 is &lt;n or d and rhotic&gt; OR &lt;?&gt;</span></td>
+  </tr>
+</tbody>
+</table>
 
 This derived feature conceptually pairs with Lat-01a, and expresses all the possible allophones of the phonemic \[l\], if there was one.
 
-### Lat-02a Does the language have a phonemic voiceless lateral continuant?
-  **{ yes | no }**
+### [](ParameterTable#cldf:Lat-02a)
+
+&emsp;**{ yes | no }**
 	
-	yes 	if Lat-02 is &lt;yes&gt; (l̥) OR if Lat-03 is &lt;yes&gt; (ɬ)
-	no 	if Lat-02 is &lt;no&gt; AND Lat-03 is &lt;no&gt;
-	? 	if Lat-02 is &lt;?&gt; OR if Lat-03 is &lt;?&gt;
+<style type="text/css">
+.tg  {border:none;border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg dconversion">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">yes</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-02 is &lt;yes&gt; (l̥) OR if Lat-03 is &lt;yes&gt; (ɬ)</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">no</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-02 is &lt;no&gt; AND Lat-03 is &lt;no&gt;</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">?</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-02 is &lt;?&gt; OR if Lat-03 is &lt;?&gt;</span></td>
+  </tr>
+</tbody>
+</table>
 
 This derived feature groups together languages with /l̥/ and /ɬ/ phonemes, on the observation that they are perceptually difficult to distinguish and on the belief that they fulfill the same phonological function.
 
-### Lat-02b If yes to Lat-02a, which voiceless lateral continuant does the language have?
-  **{ l̥ | ɬ | NA }**
+### [](ParameterTable#cldf:Lat-02b)
 
-	l̥ 	if Lat-02 is &lt;yes&gt;
-	ɬ 	if Lat-03 is &lt;yes&gt;
-	NA 	if Lat-02a is &lt;no&gt;
+&emsp;**{ l̥ | ɬ | NA }**
+
+<style type="text/css">
+.tg  {border:none;border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg dconversion">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">l̥</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-02 is &lt;yes&gt;</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">ɬ</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-03 is &lt;yes&gt;</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-02a is &lt;no&gt;</span></td>
+  </tr>
+</tbody>
+</table>
 
 This derived feature recovers the phonetic details of which voiceless lateral a language has.
 
-###nLat-04a Does the language have either a phonemic /tɬ/ or /tɬ’/?
-  **{ yes | no }**
+### [](ParameterTable#cldf:Lat-04a)
 
-	yes	if Lat-04 is &lt;yes&gt; OR Lat-05 is &lt;yes&gt;
-	no	if Lat-04 is &lt;no&gt; AND Lat-05 is &lt;no&gt;
-	? 	if Lat-04 is &lt;?&gt; AND Lat-05 is not &lt;yes&gt; OR if Lat-05 is &lt;?&gt; AND Lat-04 is not &lt;yes&gt;
+&emsp;**{ yes | no }**
+
+<style type="text/css">
+.tg  {border:none;border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg dconversion">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">yes</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-04 is &lt;yes&gt; OR Lat-05 is &lt;yes&gt;</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-1wig">no</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-04 is &lt;no&gt; AND Lat-05 is &lt;no&gt;</span></td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">?</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-04 is &lt;?&gt; AND Lat-05 is not &lt;yes&gt; OR</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-05 is &lt;?&gt; AND Lat-04 is not &lt;yes&gt;</span></td>
+  </tr>
+</tbody>
+</table>
 
 This derived feature asks if there is any phonemic lateral affricate. Many languages of the Pacific Northwest have the ejective affricate, but not the plain one.
 
-### Lat-04b If yes to Lat-04a, does the language have a phonemic /tɬ/?
-  **{ yes | no | NA }**
+### [](ParameterTable#cldf:Lat-04b)
 
-	yes	if Lat-04 is &lt;yes&gt; AND Lat-04a is &lt;yes&gt;
-	no	if Lat-04 is &lt;no&gt; AND Lat-04a is &lt;yes&gt;
-	NA	if Lat-04a is &lt;no&gt;
-	?	if Lat-04a is &lt;?&gt;
+&emsp;**{ yes | no | NA }**
+
+<style type="text/css">
+.tg  {border:none;border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg dconversion">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">yes</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-04 is &lt;yes&gt; AND Lat-04a is &lt;yes&gt;</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-1wig">no</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-04 is &lt;no&gt; AND Lat-04a is &lt;yes&gt;</span></td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">NA</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-04a is &lt;no&gt;</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:bold">?</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-04a is &lt;?&gt;</span></td>
+  </tr>
+</tbody>
+</table>
 
 This derived feature conditions the presence of /tɬ/ on the presence of any lateral affricate.
 
-### Lat-05a If yes to Lat-05a, Does the language have /tɬ’/?
-  **{ yes | no | NA }** 
+### [](ParameterTable#cldf:Lat-05a)
 
-	yes	if Lat-05 is &lt;yes&gt; AND Lat-04a is &lt;yes&gt;
-	no	if Lat-05 is &lt;no&gt; AND Lat-04a is &lt;yes&gt;
-	NA 	if Lat-04a is &lt;no&gt;
-	?	if Lat-05 is &lt;?&gt;
+&emsp;**{ yes | no | NA }** 
+
+<style type="text/css">
+.tg  {border:none;border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg dconversion">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">yes</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-05 is &lt;yes&gt; AND Lat-04a is &lt;yes&gt;</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-1wig">no</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-05 is &lt;no&gt; AND Lat-04a is &lt;yes&gt;</span></td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">NA</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-04a is &lt;no&gt;</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:bold">?</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-05 is &lt;?&gt;</span></td>
+  </tr>
+</tbody>
+</table>
 
 This derived feature conditions the presence of /tɬ’/ on the presence of any lateral affricate.
 

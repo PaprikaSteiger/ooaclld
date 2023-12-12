@@ -89,7 +89,7 @@ def main(global_config, **settings):
     settings['clld_markdown_plugin'] = {
         'model_map': {
             'ValueTable': common.ValueSet,
-            'contributors.csv': common.Contributor,
+            'Contributor': common.Contributor,
         },
         'renderer_map': {
             'ParameterTable': render_parameter,

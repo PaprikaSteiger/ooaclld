@@ -1,13 +1,13 @@
-**Authors**: [David Inman](../contributors/DI), [Natalia Chousou-Polydouri](../contributors/NCP), [Marine Vuillermet](../contributors/MV), [Balthasar Bickel](../contributors/BB)
+**Authors**: [David Inman](Contributor#cldf:DI), [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Marine Vuillermet](Contributor#cldf:MV), [Balthasar Bickel](Contributor#cldf:BB)
 
-**Acknowledgements**: [Selma Hardegger](../contributors/SH)
+**Acknowledgements**: [Selma Hardegger](Contributor#cldf:SH)
 
 
-**Conceptualization**: [David Inman](../contributors/DI), [Natalia Chousou-Polydouri](../contributors/NCP), [Marine Vuillermet](../contributors/MV), [Balthasar Bickel](../contributors/BB)
+**Conceptualization**: [David Inman](Contributor#cldf:DI), [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Marine Vuillermet](Contributor#cldf:MV), [Balthasar Bickel](Contributor#cldf:BB)
 
-**Data collection**: [Kellen Parker van Dam](../contributors/KPVD), [Anna Graff](../contributors/AG), [Selma Hardegger](../contributors/SH), [David Inman](../contributors/DI), [Natalia Chousou-Polydouri](../contributors/NCP), [Nora Muheim](../contributors/NM), [Marine Vuillermet](../contributors/MV)
+**Data collection**: [Kellen Parker van Dam](Contributor#cldf:KPVD), [Anna Graff](Contributor#cldf:AG), [Selma Hardegger](Contributor#cldf:SH), [David Inman](Contributor#cldf:DI), [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Nora Muheim](Contributor#cldf:NJM), [Marine Vuillermet](Contributor#cldf:MV)
 
-**Supervision of data collection**: [David Inman](../contributors/DI), [Marine Vuillermet](../contributors/MV)
+**Supervision of data collection**: [David Inman](Contributor#cldf:DI), [Marine Vuillermet](Contributor#cldf:MV)
 
 [TOC]
 
@@ -65,7 +65,7 @@ The second edge case involves formal predictability. Rather than having a single
 - systems which target the whole lexicon, even with randomly distributed forms,
 - from systems which target specific, semantically random lexemes.
 
-Only the latter is treated as Sg-Pl alternation, while the former is considered to be a monoexponential plural category with irregular lexical classes, akin to the conjugation classes in the Romance language family. A very clear example of a language with such “plural conjugation classes” is Nisga'a \[nisg1240\] (Tsimshianic; Canada), where a series of diachronic changes has led to a synchronic system of many possible plural forms which are **not transparently** distributed across different semantic verb classes ([Tarpent 1983](Source#cldf:tarpent1983morphophonemics)). Note that in addition to its monoexponential plural system, Nisga'a has a subset of verbs whose pluralization is made via suppletion, exactly for the semantics usually targeted by Sg-Pl suppletion (some of its motion and posture verbs). This seems to confirm that these are two distinct phenomena, as they can co-exist within a single language. (In our sample, most languages (15/17) with monoexponential plurals of such a “conjugation class” type also have Sg-Pl stem alternation.) This system is discussed in more detail under MonPl.02 below, which deals with irregular monoexponential plurals.
+Only the latter is treated as Sg-Pl alternation, while the former is considered to be a monoexponential plural category with irregular lexical classes, akin to the conjugation classes in the Romance language family. A very clear example of a language with such “plural conjugation classes” is Nisga'a \[nisg1240\] (Tsimshianic; Canada), where a series of diachronic changes has led to a synchronic system of many possible plural forms which are **not transparently** distributed across different semantic verb classes ([Tarpent 1983](Source#cldf:tarpent1983morphophonemics)). Note that in addition to its monoexponential plural system, Nisga'a has a subset of verbs whose pluralization is made via suppletion, exactly for the semantics usually targeted by Sg-Pl suppletion (some of its motion and posture verbs). This seems to confirm that these are two distinct phenomena, as they can co-exist within a single language. (In our sample, most languages (15/17) with monoexponential plurals of such a “conjugation class” type also have Sg-Pl stem alternation.) This system is discussed in more detail under MonPl-02 below, which deals with irregular monoexponential plurals.
 How?
 
 This survey does not only investigate the presence vs absence of monoexponential plurals, but also which syntactic role the plural targets, and if, in addition, it also can indicate that the event (E) occurs multiple times. Distinguishing between event and argument plurality can be difficult, since multiple transitive events often lead to an interpretation of multiple A or multiple P arguments. However, if a plural marker can truly indicate both event and argument plurality separately, then it will have two possible, separate interpretations. For **argument plurality**, at least one of the following interpretations must be possible for transitive verbs:
@@ -92,7 +92,8 @@ It has been noted by some observers that morphemes marking the plurality of more
 
 ## Features
 
-### MonPl.01. Is there at least one monoexponential verbal plural marker on the verb (or clause), i.e. separate from person marking, that applies to at least one argument?  
+### [](ParameterTable#cldf:MonPl-01)
+
 &emsp;**{ yes | no }**
 
 For the purposes of this survey, we are interested in morphemes that mark event plurality only if the same morpheme is also used for argument plurality, as described in the How? section. Verbal plural markers that indicate event plurality only are excluded.
@@ -248,23 +249,25 @@ Aleut has a suffix -ngis that indicates argument plurality of 3rd person A or P.
 </table>
 
 
-### MonPl.02. If &lt;yes&gt; to MonPl.01, is there at least one monoexponential verbal plural with forms irregularly applied across the entire lexicon, in a manner akin to a conjugation class?  
+### [](ParameterTable#cldf:MonPl-02)
+
 &emsp;**{ yes | no | NA }**
 
 In the vast majority of cases, a monoexponential plural can only be analyzed as a singular morpheme that is applied across the lexicon (perhaps with predictable morphophonemic alternations). However, in some languages the use of one or another form is conditioned entirely by lexical class, membership in which is unpredictable. As mentioned in the What? section above, this grammatical phenomenon is both similar to Sg-Pl suppletion (in that specific plural verb forms have to be memorized), and to monoexponential plurals (in that the set of mutually exclusive markers target all verbs in the lexicon).
 
 #### no: Tapieté (Tupian)
-The plural form in Tapiete is always *-reta*. It has no irregular or lexically-conditioned allomorphy ([González 2005](Source#cldf:gonzalez2005tapiete), as exemplified in detail in (1a-b) in the introduction above and in (6-8) in MonPl.03 below).
+The plural form in Tapiete is always *-reta*. It has no irregular or lexically-conditioned allomorphy ([González 2005](Source#cldf:gonzalez2005tapiete), as exemplified in detail in (1a-b) in the introduction above and in (6-8) in MonPl-03 below).
 
 #### yes: Nisga’a (Tsimshianic)
 There are eight possible shapes that a verbal plural morpheme can take in Nisga’a: Full stem reduplication, *lv-* prefixation, irregular reduplication (with additional consonant codas), *tx̌a·-* prefixation, partial reduplication, full word reduplication, *Cix-* prefixing, and *qa-* prefixing 
 ([Tarpent 1983](Source#cldf:tarpent1983morphophonemics)). All verbs have one of these pluralizing strategies, but which one they use is lexically conditioned and irregular.
 
-### MonPl.03. If &lt;yes&gt; to MonPl.01, is there at least one monoexponential verbal plural dedicated to one argument only, and if so which argument does the monoexponential plural (or each monoexponential plural, if several) index?  
-**{ NA | no | ; separated list of \[ S:\_frequency\_, A:\_frequency\_, P:\_frequency\_ \] }**
+### [](ParameterTable#cldf:MonPl-03)
+
+&emsp;**{ NA | no | ; separated list of \[ S:\_frequency\_, A:\_frequency\_, P:\_frequency\_ \] }**
 
 #### P: Teko \[emer1243\] (Tupian; Guyana)
-Teko has three monoexponential verbal plural morphemes. We are going to discuss one of them here, while the other two will be discussed under question MonPl.05.
+Teko has three monoexponential verbal plural morphemes. We are going to discuss one of them here, while the other two will be discussed under question MonPl-05.
 
 The plural clitic *-kom* has a variety of uses in Teko: it can pluralize nouns, pronouns, demonstratives, and also possessors, objects of postpositions and objects of verbs. It is this last function that is relevant for this questionnaire. When attaching to verbs, *-kom* pluralizes only the P argument (4). The clitic *-kom* is a loan from Cariban languages, where a morpheme komo has been reconstructed with the same range of functions ([Rose 2011](Source#cldf:rose2011emerillon): 111-116).
 
@@ -296,7 +299,6 @@ The plural clitic *-kom* has a variety of uses in Teko: it can pluralize nouns, 
   </tr>
 </tbody>
 </table>
-
 
 #### S: Ese Ejja (Pano-Takanan; Bolivia, Peru)
 Ese Ejja has a morpheme *-ka* that optionally appears only on intransitive verbs when the S argument is 3rd person plural (which we count as monoexponential for the same reasons given for Tapieté). The examples below show that
@@ -519,7 +521,8 @@ As illustrated in examples (6)-(8), the monoexponential verbal plural marker of 
 </tbody>
 </table>
 
-### MonPl.04. If &lt;yes&gt; to MonPl.01, is there a monoexponential verbal plural that marks at least two of S, A, P, and E?  
+### [](ParameterTable#cldf:MonPl-04)
+ 
 &emsp;**{ yes| no | NA }**
 
 In some languages a monoexponential plural marker can be used to mark the plurality of more than one argument (S, A, and P). In addition to argument plurality, a marker can be used to also indicate **event plurality**, i.e. it can indicate that the event (E) occurs multiple times. 
@@ -583,7 +586,7 @@ In Movima, the monoexponential plural marker indicates S or E plurality with int
 </table>
 
 #### yes: Teko (Tupian)
-Apart from the plural marker -kom indicating plurality of the P argument, which was mentioned in (4) under MonPl.03, Teko has two more monoexponential verbal plural markers, both indicating S and A plurality (subject plurality): the verbal clause clitic -(o)ŋ and the morpheme kupa \citep[105-111]{rose2011emerillon}. Examples with both transitive and intransitive verbs for both morphemes are given in (11-14).
+Apart from the plural marker -kom indicating plurality of the P argument, which was mentioned in (4) under MonPl-03, Teko has two more monoexponential verbal plural markers, both indicating S and A plurality (subject plurality): the verbal clause clitic -(o)ŋ and the morpheme kupa \citep[105-111]{rose2011emerillon}. Examples with both transitive and intransitive verbs for both morphemes are given in (11-14).
 
 <style type="text/css">
 .tg  {border:none;border-collapse:collapse;border-spacing:0;}
@@ -638,7 +641,6 @@ Apart from the plural marker -kom indicating plurality of the P argument, which 
   </tr>
 </tbody>
 </table>
-
 
 <style type="text/css">
 .tg  {border:none;border-collapse:collapse;border-spacing:0;}
@@ -734,7 +736,8 @@ Apart from the plural marker -kom indicating plurality of the P argument, which 
 
 Note that this is again the edge case mentioned in the introduction: 1st and 2nd person are **verbal prefixes** expressing both person and number, a slot distinct from the two monoexponential plural morphemes, which appear only with 3rd person (which, like all other person markers, is a prefix).
 
-### MonPl.05. If &lt;yes&gt; to MonPl.04, can the monoexponential verbal plural indicate event (E) plurality?  
+### [](ParameterTable#cldf:MonPl-05)
+
 &emsp;**{ yes | no | NA }**
 
 For this question, it is crucial to establish event (E) plurality in a context with singular arguments, as described in the What? section.
@@ -743,99 +746,241 @@ For this question, it is crucial to establish event (E) plurality in a context w
 
 Nuuchahnulth has a suffix *=ʔał* which may indicate plurality of S (15), A (16) or P (17) arguments ([Inman 2021](Source#cldf:inman2021nuuchahnulth): 118-119). Because this marker can be used for both the A and P roles, its interpretation can be syntactically ambiguous, though in context the interpretation is typically clear.
 
-(15)
-hitasaƛ=!aƛ=weʔin=ʔał
- 
- 
-land.on.beach.PF=NOW=HRSY.3=PL
- 
-‘They landed on the beach.’
+<style type="text/css">
+.tg  {border:none;border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(15)</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">hitasaƛ=!aƛ=weʔin=</span><span style="font-weight:700;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʔał</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">land.on.beach.PF=NOW=HRSY.3=</span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">PL</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘</span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">They</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> landed on the beach.’</span></td>
+  </tr>
+</tbody>
+</table>
 
+<style type="text/css">
+.tg  {border:none;border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(16)</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʔuk̓ʷiic=(m)it=ʔaał=</span><span style="font-weight:700;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʔał</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">č̓apac</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">own.one’s.own=PST=HAB=PL</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">canoe</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘</span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">They</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> had their own canoe.’</span></td>
+  </tr>
+</tbody>
+</table>
 
-(16)
-ʔuk̓ʷiic=(m)it=ʔaał=ʔał
-č̓apac
- 
-own.one’s.own=PST=HAB=PL
-canoe
- 
-‘They had their own canoe.’
-
-
-(17)
-ƛuł-ʔaqƛ=!ap=ʔic=ʔał
- 
- 
-good-FUT=CAUS=STRG.2SG=PL
- 
-‘You (sg) will make them eat well.’
-
+<style type="text/css">
+.tg  {border:none;border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(17)</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ƛuł-ʔaqƛ=!ap=ʔic</span><span style="font-weight:700;font-style:italic;text-decoration:none;color:#000;background-color:transparent">=ʔał</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">good-FUT=CAUS=STRG.2SG</span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">=PL</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘You (sg) will make </span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">them</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> eat well.’</span></td>
+  </tr>
+</tbody>
+</table>
 
 Note also that E plurality exists in the language, but it is done via reduplication and affixation on the verb, and not via the above plural morpheme. 
 
-Yes: Karok \[karo1304\] (isolate; US)
+#### Yes: Karok \[karo1304\] (isolate; US)
 
-Karok has a suffix -va which can target S, P, or E plurality. When used on an intransitive, it can indicate either a plural S (18) or an iterative event (19), while when used on a transitive it may indicate a plural P (20) or an iterative event (21). Data is from Bright (1957:92-93), cited in Mithun \citet[215-216]{mithun1988karok}.
+Karok has a suffix *-va* which can target S, P, or E plurality. When used on an intransitive, it can indicate either a plural S (18) or an iterative event (19), while when used on a transitive it may indicate a plural P (20) or an iterative event (21). Data is from Bright (1957:92-93), cited in [Mithun](Source#cldf:mithun1988karok) (1988: 215-216).
 
-(18)
-a.
-θivrú·htih
- 
-   
-‘(one object) to be floating’
- 
-b.
-θivrú·htih-va
- 
-   
-‘(several objects) to be floating’
+<style type="text/css">
+.tg  {border:none;border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(18)</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">a.</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">θivrú·htih</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">   </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘(one object) to be floating’</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">b.</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">θivrú·htih</span><span style="font-weight:700;font-style:italic;text-decoration:none;color:#000;background-color:transparent">-va</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">   </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘(several objects) to be floating’</span></td>
+  </tr>
+</tbody>
+</table>
+
+<style type="text/css">
+.tg  {border:none;border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(19)</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">a.</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">pasnáp-iš(rih)</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">   </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘to glue down (one)’</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">b.</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">pasnápi’šri·h</span><span style="font-weight:700;font-style:italic;text-decoration:none;color:#000;background-color:transparent">-va</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘to glue down (several)’</span></td>
+  </tr>
+</tbody>
+</table>
+
+<style type="text/css">
+.tg  {border:none;border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;
+  padding:5px 5px;word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(20)</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">a.</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ikre·myáhiš(rih)</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">   </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘to start to blow’</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">b.</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ikre·myáhi’šri·h</span><span style="font-weight:700;font-style:italic;text-decoration:none;color:#000;background-color:transparent">-va</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">   </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘to blow off and on’</span></td>
+  </tr>
+</tbody>
+</table>
+
+<style type="text/css">
+.tg  {border:none;border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(21)</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">a.</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">taknah</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">   </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘to hop’</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">b.</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">takná·h-</span><span style="font-weight:700;font-style:italic;text-decoration:none;color:#000;background-color:transparent">va</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘to play hopscotch’</span></td>
+  </tr>
+</tbody>
+</table>
 
 
-(19)
-a.
-pasnáp-iš(rih)
- 
-   
-‘to glue down (one)’
- 
-b.
-pasnápi’šri·h-va
- 
- 
-‘to glue down (several)’
-
-
-(20)
-a.
-ikre·myáhiš(rih)
- 
-   
-‘to start to blow’
- 
-b.
-ikre·myáhi’šri·h-va
- 
-   
-‘to blow off and on’
-
-
-(21)
-a.
-taknah
- 
-   
-‘to hop’
- 
-b.
-takná·h-va
- 
-
-
-‘to play hopscotch’
-
-
-MonPl.06. If <yes> to MonPl.04 and at least one monoexponential verbal plural does not mark event pluractionality (E), what role alignments do/does the marker(s) have? 
-{ NA | ; separated list of \[ SA:_frequency_, SP:_frequency_, SAP:_frequency_ \] }
+### [](ParameterTable#cldf:MonPl-06)
+  
+&emsp;**{ NA | ; separated list of \[ SA:_frequency_, SP:_frequency_, SAP:_frequency_ \] }**
 
 Note that the AP combination was, as expected, not attested in our sample and is thus not included in the states above.
 
@@ -843,266 +988,645 @@ SAP: Nanti \[nant1250\] (Arawakan; Peru)
 
 In Nanti, there is a plural suffix that can indicate the plurality of either A or P, as well as that of S, as illustrated with a transitive verb in (22) and an intransitive verb in (23) (examples from \citet[260, 317]{michael2008nanti}.
 
-(22)
-i=kamoso-hig-ak-i=ri
- 
-3mS=visit-PL-PERF-REAL.I=3mO
- 
-‘They visited him. / He visited them. / They visited them.’
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(22)</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">i=kamoso</span><span style="font-weight:700;font-style:italic;text-decoration:none;color:#000;background-color:transparent">-hig</span><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">-ak-i=ri</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">3mS=visit</span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">-PL</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">-PERF-REAL.I=3mO</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘</span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">They</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> visited him. / He visited </span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">them</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">. / </span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">They</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> visited </span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">them</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">.’</span></td>
+  </tr>
+</tbody>
+</table>
 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(23)</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">hee,</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">maganiro=ta</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">no=aNtabaget</span><span style="font-weight:700;font-style:italic;text-decoration:none;color:#000;background-color:transparent">-hig</span><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">-ak-i</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">yes</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">all=CNGT</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1S=work-</span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">PL</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">-PERF-REAL.I</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax" colspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘Yes, </span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">we</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> all worked.’</span></td>
+  </tr>
+</tbody>
+</table>
 
-(23)
-hee,
-maganiro=ta
-no=aNtabaget-hig-ak-i
+#### SA: Shipibo-Konibo \[ship1254\] (Pano-Takanan; Peru)
 
+The Shipibo-Konibo plural marker *-kan* marks the plurality of S (24) or A (25), depending on the transitivity of the verb in which it occurs [Valenzuela (2003: 521, 660)]{Source#cldf:valenzuela2003shipibokonibo}.
 
-yes
-all=CNGT
-1S=work-PL-PERF-REAL.I
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(24)</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">Ja</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">bari</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">noka-[a]i-tian</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">joni-bo</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">onitsapi</span><span style="font-weight:700;font-style:italic;text-decoration:none;color:#000;background-color:transparent">-kan</span><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">-a</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">iki.</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">that</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">sun:ABS</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">eclipse-S-DS</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">person-PL:ABS</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">suffer</span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">-PL</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">-PP2</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">AUX</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax" colspan="6"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘Since there was an eclipse of the sun, the people were suffering.</span></td>
+  </tr>
+</tbody>
+</table>
 
-
-‘Yes, we all worked.’
-
-
-SA: Shipibo-Konibo \[ship1254\] (Pano-Takanan; Peru)
-
-The Shipibo-Konibo plural marker -kan marks the plurality of S (24) or A (25), depending on the transitivity of the verb in which it occurs \citep[521, 660]{valenzuela2003shipibokonibo}.
-
-(24)
-Ja
-bari
-noka-[a]i-tian
-joni-bo
-onitsapi-kan-a
- iki.
- 
-that
-sun:ABS
-eclipse-S-DS
-person-PL:ABS
-suffer-PL-PP2
-AUX
- 
-‘Since there was an eclipse of the sun, the people were suffering.
-
-
-(25)
-Ja-tian
-ani
-nonti-n
-westíora
-atsa
-xeati
-chomo
- 
-that-TEMP
-big
-canoe-LOC
-one
-yuca
-drink
-jar:ABS
- 
-
-
-na-yasan-kan-ai…
- 
- 
- 
- 
-
-
-INTERIOR-seat-PL-INC
- 
- 
- 
- 
-‘Then they put a jar of yuca beer in the big canoe.’
-
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(25)</span></th>
+    <th class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">Ja-tian</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ani</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">nonti-n</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">westíora</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">atsa</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">xeati</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">chomo</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">that-TEMP</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">big</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">canoe-LOC</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">one</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">yuca</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">drink</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">jar:ABS</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax" colspan="4"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">na-yasan</span><span style="font-weight:700;font-style:italic;text-decoration:none;color:#000;background-color:transparent">-kan</span><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">-ai</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">…</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax" colspan="4"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">INTERIOR-seat-</span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">PL</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">-INC</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax" colspan="8"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘Then </span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">they</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> put a jar of yuca beer in the big canoe.’</span></td>
+  </tr>
+</tbody>
+</table>
 
 Valenzuela remarks on the peculiarity of a highly ergatively aligned language having a nominatively aligned plural marker.
 
-SP: Pilagá \[pila1245\] (Guaicuruan; Argentina, Paraguay)
+#### SP: Pilagá \[pila1245\] (Guaicuruan; Argentina, Paraguay)
 
-Pilagá has a general plural suffix -lo which marks S/P plurality \citep[164f.]{vidal2001pilaga}.
+Pilagá has a general plural suffix *-lo* which marks S/P plurality [Vidal (2001:164f.)]{Source#cldf:vidal2001pilaga}.
 
-(26)
-Plural S
- 
- 
-a.
-t-a-t-e-ge'-lo
-so'
-siyaca-dipi
- 
- 
-setA.3-go-PROGR-EP.V-DIR-PL
-CL
-woman-COLL
- 
- 
-‘The people are going away.’
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF">(26)</span></th>
+    <th class="tg-0lax" colspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF">Plural S</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF"> </span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF">a.</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:#FFF">t-a-t-e-ge'</span><span style="font-weight:700;font-style:italic;text-decoration:none;color:#333;background-color:#FFF">-lo</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:#FFF">so'</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:#FFF">siyaca-dipi</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF">setA.3-go-PROGR-EP.V-DIR-</span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#333;background-color:#FFF">PL</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF">CL</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF">woman-COLL</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF"> </span></td>
+    <td class="tg-0lax" colspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF">‘The people are going away.</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">’</span></td>
+  </tr>
+</tbody>
+</table>
 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF"> </span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF">b.</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:#FFF">na-yapeg-eg'a-</span><span style="font-weight:700;font-style:italic;text-decoration:none;color:#333;background-color:#FFF">lo</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:#FFF">hen</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#333;background-color:#FFF">ñiyaq-pi</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF">setB.3-run.in.water-DIR-</span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#333;background-color:#FFF">PL</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF">DEM</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF">fish-COLL</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF"> </span></td>
+    <td class="tg-0lax" colspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF">‘The fish run with the flow.</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">’</span></td>
+  </tr>
+</tbody>
+</table>
 
- 
-b.
-na-yapeg-eg'a-lo
-hen
-ñiyaq-pi
- 
- 
-setB.3-run.in.water-DIR-PL
-DEM
-fish-COLL
- 
- 
-‘The fish run with the flow.’
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> (27)</span></th>
+    <th class="tg-0lax" colspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Plural P</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">a.</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">y-i-ketap-i-sem</span><span style="font-weight:700;font-style:italic;text-decoration:none;color:#000;background-color:transparent">-lo</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">so'</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">yawo-dipi</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">setA.3-point-DIR-</span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">PL</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">CL</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">woman-COLL</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax" colspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘He points up at the women.’</span></td>
+  </tr>
+</tbody>
+</table>
 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">b.</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ami'</span></th>
+    <th class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">si-yacana-</span><span style="font-weight:700;font-style:italic;text-decoration:none;color:#000;background-color:transparent">lo</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">PRO.2PL</span></td>
+    <td class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">setA.1-call-</span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">OBJ.PL</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘I will call you (pl.).’</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+  </tr>
+</tbody>
+</table>
 
- (27)
-Plural P
- 
- 
-a.
-y-i-ketap-i-sem-lo
-so'
-yawo-dipi
- 
- 
-setA.3-point-DIR-PL
-CL
-woman-COLL
- 
- 
-‘He points up at the women.’
+### [](ParameterTable#cldf:MonPl-01)
 
+&emsp;**{ ; separated list of morphemes with \[ SAPE & oblique & subordinate clause & noun & pronoun & adjective & demonstrative & numeral & particle & adposition & adverb \] | NA }**
 
- 
-b.
-ami'
-si-yacana-lo
- 
- 
-PRO.2PL
-setA.1-call-OBJ.PL
- 
- 
-‘I will call you (pl.).’
- 
+#### SA; SA; P & NPs & possession & postposition: Teko (Tupian)
+Teko has 3 markers, each separated above by the &lt;;&gt; symbol. One morpheme marks SA plurality, another one also marks SA plurality (borrowed from Cariban), and another morpheme marks P plurality, NP plurality, and plurality on possession or postposition.
 
-
-
-MonPl.07. If <yes> to MonPl.01, where do the monoexponential verbal plural(s) appear in the language? 
-{ ; separated list of morphemes with \[ SAPE & oblique & subordinate clause & noun & pronoun & adjective & demonstrative & numeral & particle & adposition & adverb \] | NA }
-
-SA; SA; P & NPs & possession & postposition: Teko (Tupian)
-Teko has 3 markers, each separated above by the <;> symbol. One morpheme marks SA plurality, another one also marks SA plurality (borrowed from Cariban), and another morpheme marks P plurality, NP plurality, and plurality on possession or postposition.
-
-SAP: Nuuchahnulth (Wakashan)
+#### SAP: Nuuchahnulth (Wakashan)
 Nuuchahnulth just has the one monoexponential plural marker used to mark SAP plurality in the clause, and nothing else.
 
-SAP & noun & pronoun & demonstrative: Tapieté (Tupian)
-The morpheme -reta which is optionally used to mark 3rd person plural on verbs (examples 1a-b and 6-8) is primarily used with nouns as a suffix with plural or collective meaning. It is also sometimes with pronouns and demonstratives \citep{gonzalez2005tapiete}.
-Derived Questions
-Derived questions offer different views of the same data included in the base questions. Often, this is done to group together some states of multi-state questions, to capture specific similarities. In other cases, derived questions are designed so that they are independent from other questions used in the same computational analyses that assume feature independence,  e.g. the Bayesian software sBayes, which detects areal signal \citep{ranacher2021sbayes}.
+#### SAP & noun & pronoun & demonstrative: Tapieté (Tupian)
+The morpheme *-reta* which is optionally used to mark 3rd person plural on verbs (examples 1a-b and 6-8) is primarily used with nouns as a suffix with plural or collective meaning. It is also sometimes with pronouns and demonstratives ([González 2005](Source#cldf:gonzalez2005tapiete)).
 
-MonPl.03a If yes to MonPl.01, is there a monoexponential plural marker that is dedicated to S?
-	{ NA | yes | no }
+## Derived Questions
+Derived questions offer different views of the same data included in the base questions. Often, this is done to group together some states of multi-state questions, to capture specific similarities. In other cases, derived questions are designed so that they are independent from other questions used in the same computational analyses that assume feature independence,  e.g. the Bayesian software sBayes, which detects areal signal [Ranacher et al 2021](ranacher2021sbayes).
 
-	NA	if MonPl.01 is <no>
-	yes 	if MonPl.01 is <yes> and MonPl.03 contains <S>
-	no	if MonPL.01 is <yes> and MonPl.03 does not contain <S>
+### [](ParameterTable#cldf:MonPl-03a)
 
-MonPl.03b If yes to MonPl.01, is there a monoexponential plural marker that is dedicated to A?
-	{ NA | yes | no }
+&emsp;**{ NA | yes | no }**
 
-	NA	if MonPl.01 is <no>
-	yes 	if MonPl.01 is <yes> and MonPl.03 contains <A>
-	no	if MonPL.01 is <yes> and MonPl.03 does not contain <A>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg dconversion">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></th>
+    <th class="tg-0lax">if MonPl-01 is &lt;no&gt;</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">yes</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-03 contains &lt;S&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">no</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-03 does not contain &lt;S&gt;</td>
+  </tr>
+</tbody>
+</table>
+### [](ParameterTable#cldf:MonPl-03b)
 
-MonPl.03c If yes to MonPl.01, is there a monoexponential plural marker that is dedicated to P?
-	{ NA | yes | no }
+&emsp;**{ NA | yes | no }**
 
-	NA	if MonPl.01 is <no>
-	yes 	if MonPl.01 is <yes> and MonPl.03 contains <P>
-	no	if MonPL.01 is <yes> and MonPl.03 does not contain <P>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg dconversion">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></th>
+    <th class="tg-0lax">if MonPl-01 is &lt;no&gt;</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">yes</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-03 contains &lt;A&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">no</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-03 does not contain &lt;A&gt;</td>
+  </tr>
+</tbody>
+</table>
 
-MonPl.06a If yes to MonPl.01, is there a monoexponential plural marker that is dedicated to SA?
-	{ NA | yes | no }
+### [](ParameterTable#cldf:MonPl-03c)
 
-	NA	if MonPl.01 is <no>
-	yes 	if MonPl.01 is <yes> and MonPl.06 contains <SA>
-	no	if MonPL.01 is <yes> and MonPl.06 does not contain <SA>
+&emsp;**{ NA | yes | no }**
 
-MonPl.06b If yes to MonPl.01, is there a monoexponential plural marker that is dedicated to SP?
-	{ NA | yes | no }
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg dconversion">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></th>
+    <th class="tg-0lax">if MonPl-01 is &lt;no&gt;</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">yes</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-03 contains &lt;P&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">no</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-03 does not contain &lt;P&gt;</td>
+  </tr>
+</tbody>
+</table>
 
-	NA	if MonPl.01 is <no>
-	yes 	if MonPl.01 is <yes> and MonPl.06 contains <SP>
-	no	if MonPL.01 is <yes> and MonPl.06 does not contain <SP>
+### [](ParameterTable#cldf:MonPl-06a)
 
-MonPl.06c If yes to MonPl.01, is there a monoexponential plural marker that is dedicated to SAP?
-	{ NA | yes | no }
+&emsp;**{ NA | yes | no }**
 
-	NA	if MonPl.01 is <no>
-	yes 	if MonPl.01 is <yes> and MonPl.06 contains <SAP>
-	no	if MonPL.01 is <yes> and MonPl.06 does not contain <SAP>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg dconversion">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></th>
+    <th class="tg-0lax">if MonPl-01 is &lt;no&gt;</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">yes</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-06 contains &lt;SA&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">no</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-06 does not contain &lt;SA&gt;</td>
+  </tr>
+</tbody>
+</table>
 
-MonPl.07a If there is at least one monoexponential plural, on what other parts of speech can it/they mark plurality (“other” = particle, number, adposition, adverb)?
-	{ NA | None | ; separated list of \[ noun, pronoun, adjective, demonstrative, other \] }
+### [](ParameterTable#cldf:MonPl-06b)
 
-NA	if MonPl.01 is <no>
-None 	if MonPl.01 is <yes> and MonPl.07 does not contain <noun> or <pronoun> or <adjective> or <demonstrative> or <numeral> or <particle> or <adposition> or <adverb>
-noun	if MonPL.01 is <yes> and MonPl.07 contains <noun>
-pronoun	if MonPL.01 is <yes> and MonPl.07 contains <pronoun>
-adjective	if MonPL.01 is <yes> and MonPl.07 contains <adjective>
-demonstrative	if MonPL.01 is <yes> and MonPl.07 contains <demonstrative>
-other	if MonPL.01 is <yes> and MonPl.07 contains <numeral> or <particle> or <adposition> or <adverb>
+&emsp;**{ NA | yes | no }**
 
-MonPl.07b If there is at least one monoexponential verbal plural, what combinations of S, A, and P are targeted by each of the monoexponential verbal plurals in the language, regardless of whether they also mark event plurality?
-	{ NA | ; separated list of \[ S, A, P, SA, SP, SAP \] }
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg dconversion">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></th>
+    <th class="tg-0lax">if MonPl-01 is &lt;no&gt;</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">yes</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-06 contains &lt;SP&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">no</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-06 does not contain &lt;SP&gt;</td>
+  </tr>
+</tbody>
+</table>
 
-	NA	if MonPl.01 is <no>
-	S	if MonPL.01 is <yes> and MonPl.07 contains <S>
-	A	if MonPL.01 is <yes> and MonPl.07 contains <A>
-	P	if MonPL.01 is <yes> and MonPl.07 contains <P>
-	SA	if MonPL.01 is <yes> and MonPl.07 contains <SA>
-	SP	if MonPL.01 is <yes> and MonPl.07 contains <SP>
-	SAP	if MonPL.01 is <yes> and MonPl.07 contains <SAP>
+### [](ParameterTable#cldf:MonPl-06c)
 
-MonPl.06c If there is at least one monoexponential verbal plural, is one of these markers also used to mark plurality on nouns?
-	{ NA | yes | no }
+&emsp;**{ NA | yes | no }**
 
-	NA	if MonPl.01 is <no>
-	yes 	if MonPl.01 is <yes> and MonPl.07 contains <noun>
-	no	if MonPL.01 is <yes> and MonPl.07 does not contain <noun>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg dconversion">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></th>
+    <th class="tg-0lax">if MonPl-01 is &lt;no&gt;</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">yes</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-06 contains &lt;SAP&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">no</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-06 does not contain &lt;SAP&gt;</td>
+  </tr>
+</tbody>
+</table>
 
+### [](ParameterTable#cldf:MonPl-07a)
+
+&emsp;**{ NA | None | ; separated list of \[ noun, pronoun, adjective, demonstrative, other \] }**
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></th>
+    <th class="tg-0lax">if MonPl-01 is &lt;no&gt;</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">None</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-07 does not contain &lt;noun&gt; or &lt;pronoun&gt; or &lt;adjective&gt; or &lt;demonstrative&gt; or &lt;numeral&gt; or &lt;particle&gt; or &lt;adposition&gt; or &lt;adverb&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">noun</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-07 contains &lt;noun&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">pronoun</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-07 contains &lt;pronoun&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">adjective</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-07 contains &lt;adjective&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">demonstrative</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-07 contains &lt;demonstrative&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">other</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-07 contains &lt;numeral&gt; or &lt;particle&gt; or &lt;adposition&gt; or &lt;adverb&gt;</td>
+  </tr>
+</tbody>
+</table>
+
+### [](ParameterTable#cldf:MonPl-07b)
+
+&emsp;**{ NA | ; separated list of \[ S, A, P, SA, SP, SAP \] }**
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></th>
+    <th class="tg-0lax">if MonPl-01 is &lt;no&gt;</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">S</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-07 contains &lt;S&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">A</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-07 contains &lt;A&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">P</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-07 contains &lt;P&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">SA</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-07 contains &lt;SA&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">SP</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-07 contains &lt;SP&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">SAP</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-07 contains &lt;SAP&gt;</td>
+  </tr>
+</tbody>
+</table>
+
+### [](ParameterTable#cldf:MonPl-07c)
+
+&emsp;**{ NA | yes | no }**
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></th>
+    <th class="tg-0lax">if MonPl-01 is &lt;no&gt;</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">yes</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-07 contains &lt;noun&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">no</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-07 does not contain &lt;noun&gt;</td>
+  </tr>
+</tbody>
+</table>
 
 ## Results
 We had two hypotheses which motivated coding for this feature: (1) that these kinds of plural markers are, as a whole, more common inside the Americas than outside; (2) that within the Americas, plural markers with different plurality targets pattern together. This represents the first attempt, to our knowledge, to define and test these questions in a large typological survey.
 
-The first hypothesis was partially confirmed by our data. The overall feature of monoexponential plural marking (MonPl.01) is actually more present in our Australian sample (60%) than in our North American (50%) and South American (45%) samples. However, these three regions had far greater presence of the feature than other macroareas (Africa 24%; Eurasia 26%; Papunesia 24%).
+The first hypothesis was partially confirmed by our data. The overall feature of monoexponential plural marking (MonPl-01) is actually more present in our Australian sample (60%) than in our North American (50%) and South American (45%) samples. However, these three regions had far greater presence of the feature than other macroareas (Africa 24%; Eurasia 26%; Papunesia 24%).
 
-The second hypothesis was also partially confirmed, with S/A/P (but not event) monoexponential plurals clearly clustering along the Peruvian coast and northwestern Australia (MonPl.06c), and S/P monoexponential plurals clustering in Rhondônia (MonPl.06b). The use of monoexponential verbal plurals with nouns is also a clear areal feature of the Pacific Northwest Coast (although this is likely a side-effect of the region’s famously porous verb/noun distinction) and the northern Australian coast (MonPl.07c). However, these apparent clusterings exist alongside fairly widespread distributions of each typological feature around the world. It is possible that further investigation and different typological parameters would confirm hypothesis 2 more strongly.
+The second hypothesis was also partially confirmed, with S/A/P (but not event) monoexponential plurals clearly clustering along the Peruvian coast and northwestern Australia (MonPl-06c), and S/P monoexponential plurals clustering in Rhondônia (MonPl-06b). The use of monoexponential verbal plurals with nouns is also a clear areal feature of the Pacific Northwest Coast (although this is likely a side-effect of the region’s famously porous verb/noun distinction) and the northern Australian coast (MonPl-07c). However, these apparent clusterings exist alongside fairly widespread distributions of each typological feature around the world. It is possible that further investigation and different typological parameters would confirm hypothesis 2 more strongly.
 
-References
-\reference{campbell1985pipil}
-\reference{erickson2013mixteco_magdalena}
-\reference{gonzalez2005tapiete} 
-\reference{haude2006movima}
-\reference{hutchison1981kanuri}
-\reference{inman2021nuuchahnulth}
-\reference{leer1991aleut}
-\reference{michael2008nanti}
-\reference{mithun1988karok}
-\reference{mithun1999northamerica}
-\reference{ranacher2021sbayes}
-\reference{rose2011emerillon}
-\reference{tarpent1983morphophonemics}
-\reference{valenzuela2003shipibokonibo}
-\reference{vidal2001pilaga}
-\reference{vuillermet2012eseejja}
+## References
 
-
+[References](Source?cited_only#cldf:__all__)
 
