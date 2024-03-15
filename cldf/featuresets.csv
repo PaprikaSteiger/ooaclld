@@ -1,6 +1,6 @@
 FeatureSetID,Name,Domain,Authors,Contributors,Filename
 Appr,Apprehensional Morphology,Morphosyntax,MV,MV;DP;KPVD,
-Attr,Attributives,Morphosyntax,DI,NCP;MV;NJM,
+Attr,Attributive Modifiers,Morphosyntax,DI,NCP;MV;NJM,
 Cor,Coronal Consonants,Phonology,DI;KPVD,,
 CoPart,Co-participation,Morphosyntax,FR;MV,FR;MV;OCD;DI;NJM;KPVD;DP;RL,
 Dem,Demonstratives,Morphosyntax,DI;MV,DI;MV;NCP;AG;NJM;KPVD,
@@ -11,7 +11,7 @@ MonPl,Monoexponential Verbal Plurals,Morphosyntax,MV;DI;NCP;BB,MV;DI;NCP;SH;AG;B
 NounPoss,Noun Possession Classes,Moprhosyntax,DI;NCP;BB,DI;NCP;BB;TH;AM,
 Ppron,Personal Pronouns,Moprhosyntax,NCP;DI;MV;BB,NCP;DI;MV;BB;AG;KPVD;NJM,
 SgPl,Singular-Plural Alternation,Morphosyntax,DI;MV,DI;MV;BB;SH;AG,
-SocCaus,Sociative Causative,Morphosyntax,MV;FR,MV;FR;OCD;RL,
+SocCaus,Sociative Causation,Morphosyntax,MV;FR,MV;FR;OCD;RL,
 Syll,Syllable Structure,Phonology,SE,SE;MV;NCP;DI,
 ToneProm,Tone and Prominence,Phonology,KPVD,KPVD;AG,
 VelUv,Velar-Uvular distinction,Phonology,DI,DI;KPVD;NCP;MV;AG,
