@@ -1,21 +1,14 @@
-**Authors**: [David Inman](Contributor#cldf:DI), [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Marine Vuillermet](Contributor#cldf:MV), [Balthasar Bickel](Contributor#cldf:BB)
+**Authors**: [David Inman](Contributor#cldf:DI), [Marine Vuillermet](Contributor#cldf:MV), [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Balthasar Bickel](Contributor#cldf:BB)
 
-**Acknowledgements**: [Selma Hardegger](Contributor#cldf:SH)
-
-
-**Conceptualization**: [David Inman](Contributor#cldf:DI), [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Marine Vuillermet](Contributor#cldf:MV), [Balthasar Bickel](Contributor#cldf:BB)
-
-**Data collection**: [Kellen Parker van Dam](Contributor#cldf:KPVD), [Anna Graff](Contributor#cldf:AG), [Selma Hardegger](Contributor#cldf:SH), [David Inman](Contributor#cldf:DI), [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Nora Muheim](Contributor#cldf:NJM), [Marine Vuillermet](Contributor#cldf:MV)
-
-**Supervision of data collection**: [David Inman](Contributor#cldf:DI), [Marine Vuillermet](Contributor#cldf:MV)
+**Acknowledgements**: [Selma Hardegger](Contributor#cldf:SH), [Nora Muheim](Contributor#cldf:NJM), [Kellen Parker van Dam](Contributor#cldf:KPVD), [Anna Graff](Contributor#cldf:AG)
 
 [TOC]
 
 ## What?
-This questionnaire investigates monoexponential verbal plurals, which we define as plural (and collective) agreement markers that are formally separate or separable from person markers. The presence of these markers, depending on the language, may be restricted to a single syntactic role or may cover a range: the Single argument (S) of an intransitive verb, the Agent (A) of a transitive verb, and/or the Patient (P) of a transitive verb. In addition to marking core argument plurality, it may also mark event plurality (E). The presence of monoexponential verbal plurals may be optional or obligatory, and they may be marked directly on the verb or elsewhere on the clause (through a second-position clitic, a required auxiliary, reduplication, etc.). In some cases, the same monoexponential verbal plural also occurs on other parts of speech, such as (pro)nouns, adjectives, or adpositions. 
+This questionnaire investigates monoexponential verbal plurals, which we define as plural (and collective) agreement markers that are formally separate or separable from person markers. The presence of these markers, depending on the language, may be restricted to a single syntactic role or may cover a range: the Single argument (S) of an intransitive verb, the Agent (A) of a transitive verb, and/or the Patient (P) of a transitive verb. In addition to marking core argument plurality, it may also mark event plurality (E). The presence of monoexponential verbal plurals may be optional or obligatory, and they may be marked directly on the verb or elsewhere on the clause (through a second-position clitic, a required auxiliary, reduplication, etc.). In some cases, the same monoexponential verbal plural also occurs on other parts of speech, such as (pro)nouns, adjectives, or adpositions.[^1]
 
 ### Third person plural separated from the person paradigm
-In order for a verbal plural marker to be considered monoexponential, it needs to indicate only plurality (i.e. no portmanteau markers of person and number are considered). However, there is a complication around the 3rd person plural, as many languages mark a 3rd person singular with a null morpheme and 1st and 2nd persons (singular and plural) overtly. In such a system, a morpheme that indicates 3rd plural could be analyzed as either a joint person-number marker (3pl) or a monoexponential plural, for which an interpretation of 1pl or 2pl is blocked by the presence of separate person markers. To be consistent across language, we have made the following analytical decision: if a plural marker is completely separate from the person marking paradigm (e.g. by appearing in a different slot) and only has a 3rd person plural interpretation, we have considered these as monoexponential plural markers, regardless of the rest of the system, while documenting the peculiarity in the remarks. Tapieté \[tapi1253\] (Tupian; Argentina, Bolivia & Paraguay) exemplifies such a case: the markers indexing person and number are prefixes, while -reta, though it marks only 3rd person plural, is a suffix. (See also Ese Ejja \[esee1248\] (Pano-Tacanan; Bolivia & Peru) further below).
+In order for a verbal plural marker to be considered monoexponential, it needs to indicate only plurality (i.e. no portmanteau markers of person and number are considered).[^2] However, there is a complication around the 3rd person plural, as many languages mark a 3rd person singular with a null morpheme and 1st and 2nd persons (singular and plural) overtly. In such a system, a morpheme that indicates 3rd plural could be analyzed as either a joint person-number marker (3pl) or a monoexponential plural, for which an interpretation of 1pl or 2pl is blocked by the presence of separate person markers. To be consistent across language, we have made the following analytical decision: if a plural marker is completely separate from the person marking paradigm (e.g. by appearing in a different slot) and only has a 3rd person plural interpretation, we have considered these as monoexponential plural markers, regardless of the rest of the system, while documenting the peculiarity in the remarks. Tapieté \[tapi1253\] (Tupian; Argentina, Bolivia & Paraguay) exemplifies such a case: the markers indexing person and number are prefixes, while -reta, though it marks only 3rd person plural, is a suffix. (See also Ese Ejja \[esee1248\] (Pano-Tacanan; Bolivia & Peru) further below).
 
 <style type="text/css">
 .tg  {border:none;border-collapse:collapse;border-spacing:0;}
@@ -60,13 +53,17 @@ There are two edge cases where the phenomena of [Sg-Pl stem alternation](SgPl) a
 
 The first edge case involves semantic predictability. Magdalena Peñasco Mixtec \[magd1235\] (Otomanguean; Mexico) has a semantically restricted plural marker koo, which only appears with motion verbs ([Erickson de Hollenbach 2013](Source#cldf:erickson2013mixtecomagdalena)). Because it is restricted to a semantic class of verbs, language learners don't have to memorize the target verbs, and we consider that it is a monoexponential plural, even if it does not target the whole lexicon. This morpheme is not treated as a regular pattern in Sg-Pl stem alternation, as such plural markers require the language learners to memorize the (randomly) lexically restricted set of verb(s) where they appear.
 
-The second edge case involves formal predictability. Rather than having a single monoexponential marker that encodes plurality, some languages have several, mutually exclusive markers. Because these are synchronically available to the whole lexicon, the set of plural markers as a whole would be a bonafide monoexponential plural construction. But the fact that the set consists of many different forms (e.g. 3 to 8 for Tsimshianic languages, see [Tarpent 1983](Source#cldf:tarpent1983morphophonemics)) makes them akin to [Sg-Pl alternating pairs](SgPl): Each plural form is indeed not transparently distributed across the different verb classes, i.e. there are no semantic criteria to understand their synchronic distribution, and the forms must thus be memorized by the speakers. We chose to typologically separate: 
+The second edge case involves formal predictability. Rather than having a single monoexponential marker that encodes plurality, some languages have several, mutually exclusive markers. Because these are synchronically available to the whole lexicon, the set of plural markers as a whole would be a bonafide monoexponential plural construction. But the fact that the set consists of many different forms (e.g. 3 to 8 for Tsimshian languages, see [Tarpent 1983](Source#cldf:tarpent1983morphophonemics)) makes them akin to [Sg-Pl alternating pairs](SgPl): Each plural form is indeed not transparently distributed across the different verb classes, i.e. there are no semantic criteria to understand their synchronic distribution, and the forms must thus be memorized by the speakers. We chose to typologically separate: 
 
 - systems which target the whole lexicon, even with randomly distributed forms,
-- from systems which target specific, semantically random lexemes.
+- from systems which target specific, semantically random lexemes.[^3]
 
-Only the latter is treated as Sg-Pl alternation, while the former is considered to be a monoexponential plural category with irregular lexical classes, akin to the conjugation classes in the Romance language family. A very clear example of a language with such “plural conjugation classes” is Nisga'a \[nisg1240\] (Tsimshianic; Canada), where a series of diachronic changes has led to a synchronic system of many possible plural forms which are **not transparently** distributed across different semantic verb classes ([Tarpent 1983](Source#cldf:tarpent1983morphophonemics)). Note that in addition to its monoexponential plural system, Nisga'a has a subset of verbs whose pluralization is made via suppletion, exactly for the semantics usually targeted by Sg-Pl suppletion (some of its motion and posture verbs). This seems to confirm that these are two distinct phenomena, as they can co-exist within a single language. (In our sample, most languages (15/17) with monoexponential plurals of such a “conjugation class” type also have Sg-Pl stem alternation.) This system is discussed in more detail under MonPl-02 below, which deals with irregular monoexponential plurals.
-How?
+Only the latter is treated as Sg-Pl alternation, while the former is considered to be a monoexponential plural category with irregular lexical classes, akin to the conjugation classes in the Romance language family. A very clear example of a language with such “plural conjugation classes” is Nisga'a \[nisg1240\] (Tsimshian; Canada), where a series of diachronic changes has led to a synchronic system of many possible plural forms which are **not transparently** distributed across different semantic verb classes ([Tarpent 1983](Source#cldf:tarpent1983morphophonemics)). Note that in addition to its monoexponential plural system, Nisga'a has a subset of verbs whose pluralization is made via suppletion, exactly for the semantics usually targeted by Sg-Pl suppletion (some of its motion and posture verbs). This seems to confirm that these are two distinct phenomena, as they can co-exist within a single language. (In our sample, most languages (15/17) with monoexponential plurals of such a “conjugation class” type also have Sg-Pl stem alternation.) This system is discussed in more detail under MonPl-02 below, which deals with irregular monoexponential plurals.
+
+## Why?
+It has been noted by some observers that morphemes marking the plurality of more than one argument, or ambiguously mark the plurality of either argument of a transitive verb, appear to be relatively more common in North America than in the rest of the world ([Mithun 1999](Source#cldf:mithun1999northamerica): 83-94), or that they form a pattern within an area of the Americas ([Leer 1991](Source#cldf:leer1991aleut)).
+
+## How?
 
 This survey does not only investigate the presence vs absence of monoexponential plurals, but also which syntactic role the plural targets, and if, in addition, it also can indicate that the event (E) occurs multiple times. Distinguishing between event and argument plurality can be difficult, since multiple transitive events often lead to an interpretation of multiple A or multiple P arguments. However, if a plural marker can truly indicate both event and argument plurality separately, then it will have two possible, separate interpretations. For **argument plurality**, at least one of the following interpretations must be possible for transitive verbs:
 
@@ -87,16 +84,13 @@ Once argument plurality was established, to ensure that a marker could also indi
 
 Note that in some grammars, authors explicitly mentioned that the two types of plurality were available, depending on the context.
 
-## Why?
-It has been noted by some observers that morphemes marking the plurality of more than one argument, or ambiguously mark the plurality of either argument of a transitive verb, appear to be relatively more common in North America than in the rest of the world ([Mithun 1999](Source#cldf:mithun1999northamerica): 83-94), or that they form a pattern within an area of the Americas ([Leer 1991](Source#cldf:leer1991aleut)).
-
 ## Features
 
 ### [](ParameterTable#cldf:MonPl-01)
 
 &emsp;**{ yes | no }**
 
-For the purposes of this survey, we are interested in morphemes that mark event plurality only if the same morpheme is also used for argument plurality, as described in the How? section. Verbal plural markers that indicate event plurality only are excluded.
+For the purposes of this survey, we are interested in morphemes that mark event plurality only if the same morpheme is also used for argument plurality, as described in the [How? section](#how). Verbal plural markers that indicate event plurality only are excluded.
 
 #### yes: Pipil \[pipi1250\] (Uto-Aztecan; El Salvador)
 The Pipil person indexation system has a suffix -t which accompanies all plural subjects. It thus has a monoexponential plural marker that is used for the S and A roles [Campbell 1985](campbell1985pipil).
@@ -142,7 +136,7 @@ Table 1. Subject indexation in Pipil.
 </table>
 
 
-#### yes: Tapieté (Tupian)
+#### yes: Tapieté \[tapi1253\] (Tupian; Argentina, Bolivia, Paraguay)
 The morpheme *-reta* in Tapieté exemplifies the edge case mentioned in the introduction where we consider as monoexponential a morpheme which is only used for the 3rd person plural but is distinct from the rest of the person-number paradigm. In Tapieté, the markers indexing person and number are prefixes, while -reta, though it marks only 3rd person plural, is a suffix ([González 2005](Source#cldf:gonzalez2005tapiete): 102,34), as exemplified above in (1a-b). 
 
 #### no: Central Kanuri \[cent2050\] (Saharan; Cameroon, Niger, Nigeria, Sudan, Chad)
@@ -185,7 +179,7 @@ Table 2. Subject indexation for person and number in Central Kanuri
 </table>
 
 
-#### no: Aleut \[aleu1260\] (Eskimo-Aleut; Alaska, US)
+#### no: Aleut \[aleu1260\] (Eskimo-Aleut; United States)
 Aleut has a suffix -ngis that indicates argument plurality of 3rd person A or P. However, it is in a paradigm with other person-number combinations (1sg.A+pl.P), so it does not meet our definition of a monoexponential plural ([Leer 1991](leer1991aleut): 170). 
 
 <style type="text/css">
@@ -251,14 +245,14 @@ Aleut has a suffix -ngis that indicates argument plurality of 3rd person A or P.
 
 ### [](ParameterTable#cldf:MonPl-02)
 
-&emsp;**{ yes | no | NA }**
+&emsp;**{ NA | yes | no }**
 
-In the vast majority of cases, a monoexponential plural can only be analyzed as a singular morpheme that is applied across the lexicon (perhaps with predictable morphophonemic alternations). However, in some languages the use of one or another form is conditioned entirely by lexical class, membership in which is unpredictable. As mentioned in the What? section above, this grammatical phenomenon is both similar to Sg-Pl suppletion (in that specific plural verb forms have to be memorized), and to monoexponential plurals (in that the set of mutually exclusive markers target all verbs in the lexicon).
+In the vast majority of cases, a monoexponential plural can only be analyzed as a singular morpheme that is applied across the lexicon (perhaps with predictable morphophonemic alternations). However, in some languages the use of one or another form is conditioned entirely by lexical class, membership in which is unpredictable. As mentioned in the [What? section](#what) above, this grammatical phenomenon is both similar to Sg-Pl suppletion (in that specific plural verb forms have to be memorized), and to monoexponential plurals (in that the set of mutually exclusive markers target all verbs in the lexicon).
 
-#### no: Tapieté (Tupian)
+#### no: Tapieté \[tapi1253\] (Tupian; Argentina, Bolivia, Paraguay)
 The plural form in Tapiete is always *-reta*. It has no irregular or lexically-conditioned allomorphy ([González 2005](Source#cldf:gonzalez2005tapiete), as exemplified in detail in (1a-b) in the introduction above and in (6-8) in MonPl-03 below).
 
-#### yes: Nisga’a (Tsimshianic)
+#### yes: Nisga’a \[nisg1240\] (Tsimshian; Canada)
 There are eight possible shapes that a verbal plural morpheme can take in Nisga’a: Full stem reduplication, *lv-* prefixation, irregular reduplication (with additional consonant codas), *tx̌a·-* prefixation, partial reduplication, full word reduplication, *Cix-* prefixing, and *qa-* prefixing 
 ([Tarpent 1983](Source#cldf:tarpent1983morphophonemics)). All verbs have one of these pluralizing strategies, but which one they use is lexically conditioned and irregular.
 
@@ -269,7 +263,7 @@ There are eight possible shapes that a verbal plural morpheme can take in Nisga�
 #### P: Teko \[emer1243\] (Tupian; Guyana)
 Teko has three monoexponential verbal plural morphemes. We are going to discuss one of them here, while the other two will be discussed under question MonPl-05.
 
-The plural clitic *-kom* has a variety of uses in Teko: it can pluralize nouns, pronouns, demonstratives, and also possessors, objects of postpositions and objects of verbs. It is this last function that is relevant for this questionnaire. When attaching to verbs, *-kom* pluralizes only the P argument (4). The clitic *-kom* is a loan from Cariban languages, where a morpheme komo has been reconstructed with the same range of functions ([Rose 2011](Source#cldf:rose2011emerillon): 111-116).
+The plural clitic *-kom* has a variety of uses in Teko: it can pluralize nouns, pronouns, demonstratives, and also possessors, objects of postpositions and objects of verbs. It is this last function that is relevant for this questionnaire. When attaching to verbs, *-kom* pluralizes only the P argument[^4] (4). The clitic *-kom* is a loan from Cariban languages, where a morpheme komo has been reconstructed with the same range of functions ([Rose 2011](Source#cldf:rose2011emerillon): 111-116).
 
 <style type="text/css">
 .tg  {border:none;border-collapse:collapse;border-spacing:0;}
@@ -300,7 +294,7 @@ The plural clitic *-kom* has a variety of uses in Teko: it can pluralize nouns, 
 </tbody>
 </table>
 
-#### S: Ese Ejja (Pano-Takanan; Bolivia, Peru)
+#### S: Ese Ejja \[esee1248\] (Pano-Tacanan; Bolivia, Peru)
 Ese Ejja has a morpheme *-ka* that optionally appears only on intransitive verbs when the S argument is 3rd person plural (which we count as monoexponential for the same reasons given for Tapieté). The examples below show that
 the single argument is necessarily plural (and necessarily 3rd person) when *-ka* appears on an intransitive verb (cf. 5a vs. 5b);
 the corresponding form with no *-ka* (in 5b) could still refer to 3rd person plural, but also to any other person and number;
@@ -431,7 +425,7 @@ to mark person (and number), there are (non-obligatory) second position clitics 
 </table>
 
 
-#### no: Tapieté (Tupian)
+#### no: Tapieté \[tapi1253\] (Tupian; Argentina, Bolivia, Paraguay)
 As illustrated in examples (6)-(8), the monoexponential verbal plural marker of Tapieté can indicate plurality of S, A, or P arguments ([González 2005](Source#cldf:gonzalez2005tapiete): 34, 102, 191). 
 
 <style type="text/css">
@@ -523,7 +517,7 @@ As illustrated in examples (6)-(8), the monoexponential verbal plural marker of 
 
 ### [](ParameterTable#cldf:MonPl-04)
  
-&emsp;**{ yes| no | NA }**
+&emsp;**{ NA | yes | no }**
 
 In some languages a monoexponential plural marker can be used to mark the plurality of more than one argument (S, A, and P). In addition to argument plurality, a marker can be used to also indicate **event plurality**, i.e. it can indicate that the event (E) occurs multiple times. 
 
@@ -585,8 +579,8 @@ In Movima, the monoexponential plural marker indicates S or E plurality with int
 </tbody>
 </table>
 
-#### yes: Teko (Tupian)
-Apart from the plural marker -kom indicating plurality of the P argument, which was mentioned in (4) under MonPl-03, Teko has two more monoexponential verbal plural markers, both indicating S and A plurality (subject plurality): the verbal clause clitic -(o)ŋ and the morpheme kupa \citep[105-111]{rose2011emerillon}. Examples with both transitive and intransitive verbs for both morphemes are given in (11-14).
+#### yes: Teko \[emer1243\] (Tupian; French Guiana)
+Apart from the plural marker -kom indicating plurality of the P argument, which was mentioned in (4) under MonPl-03, Teko has two more monoexponential verbal plural markers, both indicating S and A plurality (subject plurality): the verbal clause clitic -(o)ŋ and the morpheme *kupa*[^5] ([Rose 2011](Source#cldf:rose2011emerillon): 105-111). Examples with both transitive and intransitive verbs for both morphemes are given in (11-14).
 
 <style type="text/css">
 .tg  {border:none;border-collapse:collapse;border-spacing:0;}
@@ -729,7 +723,8 @@ Apart from the plural marker -kom indicating plurality of the P argument, which 
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
-    <td class="tg-0lax" colspan="5"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">“Grandmother, loosen (free) our canoe, that we can go”, </span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">they</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> say (the monsters).  \citepRose XXXX p.c.)</span></td>
+    <td class="tg-0lax" colspan="5"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">“Grandmother, loosen (free) our canoe, that we can go”, </span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">they</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> say (the monsters). <a class=”Source” href=”../sources/rose2023pc”>Rose (2023)</a>
+</span></td>
   </tr>
 </tbody>
 </table>
@@ -738,13 +733,13 @@ Note that this is again the edge case mentioned in the introduction: 1st and 2nd
 
 ### [](ParameterTable#cldf:MonPl-05)
 
-&emsp;**{ yes | no | NA }**
+&emsp;**{ NA | yes | no }**
 
-For this question, it is crucial to establish event (E) plurality in a context with singular arguments, as described in the What? section.
+For this question, it is crucial to establish event (E) plurality in a context with singular arguments, as described in the [What? section](#what).
 
-#### no: Nuuchahnulth \[nuuc1236\] (Wakashan; British Columbia, Canada)
+#### no: Nuu-chah-nulth \[nuuc1236\] (Wakashan; Canada)
 
-Nuuchahnulth has a suffix *=ʔał* which may indicate plurality of S (15), A (16) or P (17) arguments ([Inman 2021](Source#cldf:inman2021nuuchahnulth): 118-119). Because this marker can be used for both the A and P roles, its interpretation can be syntactically ambiguous, though in context the interpretation is typically clear.
+Nuu-chah-nulth has a suffix *=ʔał* which may indicate plurality of S (15), A (16) or P (17) arguments ([Inman 2021](Source#cldf:inman2021Nuu-chah-nulth): 118-119).[^6] Because this marker can be used for both the A and P roles, its interpretation can be syntactically ambiguous, though in context the interpretation is typically clear.
 
 <style type="text/css">
 .tg  {border:none;border-collapse:collapse;border-spacing:0;}
@@ -833,9 +828,9 @@ Nuuchahnulth has a suffix *=ʔał* which may indicate plurality of S (15), A (16
 
 Note also that E plurality exists in the language, but it is done via reduplication and affixation on the verb, and not via the above plural morpheme. 
 
-#### Yes: Karok \[karo1304\] (isolate; US)
+#### Yes: Karok \[karo1304\] (isolate; United States)
 
-Karok has a suffix *-va* which can target S, P, or E plurality. When used on an intransitive, it can indicate either a plural S (18) or an iterative event (19), while when used on a transitive it may indicate a plural P (20) or an iterative event (21). Data is from Bright (1957:92-93), cited in [Mithun](Source#cldf:mithun1988karok) (1988: 215-216).
+Karok has a suffix *-va* which can target S, P, or E plurality. When used on an intransitive, it can indicate either a plural S (18) or an iterative event (19), while when used on a transitive it may indicate a plural P (20) or an iterative event (21). Data is from [Bright (1957: 92-93)](Source#cldf:bright1957karok), cited in [Mithun](Source#cldf:mithun1988karok) ([1988](Source#cldf:mithun1988karok): 215-216).
 
 <style type="text/css">
 .tg  {border:none;border-collapse:collapse;border-spacing:0;}
@@ -986,7 +981,7 @@ Note that the AP combination was, as expected, not attested in our sample and is
 
 SAP: Nanti \[nant1250\] (Arawakan; Peru)
 
-In Nanti, there is a plural suffix that can indicate the plurality of either A or P, as well as that of S, as illustrated with a transitive verb in (22) and an intransitive verb in (23) (examples from \citet[260, 317]{michael2008nanti}.
+In Nanti, there is a plural suffix that can indicate the plurality of either A or P, as well as that of S, as illustrated with a transitive verb in (22) and an intransitive verb in (23) (examples from [Michael 2008](Source#cldf:michael2008nanti): 260, 317).
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -1046,9 +1041,9 @@ In Nanti, there is a plural suffix that can indicate the plurality of either A o
 </tbody>
 </table>
 
-#### SA: Shipibo-Konibo \[ship1254\] (Pano-Takanan; Peru)
+#### SA: Shipibo-Konibo \[ship1254\] (Pano-Tacanan; Peru)
 
-The Shipibo-Konibo plural marker *-kan* marks the plurality of S (24) or A (25), depending on the transitivity of the verb in which it occurs [Valenzuela (2003: 521, 660)]{Source#cldf:valenzuela2003shipibokonibo}.
+The Shipibo-Konibo plural marker *-kan* marks the plurality of S (24) or A (25), depending on the transitivity of the verb in which it occurs [Valenzuela (2003: 521, 660)](Source#cldf:valenzuela2003shipibokonibo).
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -1295,15 +1290,15 @@ Pilagá has a general plural suffix *-lo* which marks S/P plurality [Vidal (2001
 
 ### [](ParameterTable#cldf:MonPl-01)
 
-&emsp;**{ ; separated list of morphemes with \[ SAPE & oblique & subordinate clause & noun & pronoun & adjective & demonstrative & numeral & particle & adposition & adverb \] | NA }**
+&emsp;**{ NA | ; separated list of morphemes with \[ SAPE & oblique & subordinate clause & noun & pronoun & adjective & demonstrative & numeral & particle & adposition & adverb \] }**
 
-#### SA; SA; P & NPs & possession & postposition: Teko (Tupian)
+#### SA; SA; P & NPs & possession & postposition: Teko \[emer1243\] (Tupian; French Guiana)
 Teko has 3 markers, each separated above by the &lt;;&gt; symbol. One morpheme marks SA plurality, another one also marks SA plurality (borrowed from Cariban), and another morpheme marks P plurality, NP plurality, and plurality on possession or postposition.
 
-#### SAP: Nuuchahnulth (Wakashan)
-Nuuchahnulth just has the one monoexponential plural marker used to mark SAP plurality in the clause, and nothing else.
+#### SAP: Nuu-chah-nulth (Wakashan)
+Nuu-chah-nulth just has the one monoexponential plural marker used to mark SAP plurality in the clause, and nothing else.
 
-#### SAP & noun & pronoun & demonstrative: Tapieté (Tupian)
+#### SAP & noun & pronoun & demonstrative: Tapieté \[tapi1253\] (Tupian; Argentina, Bolivia, Paraguay)
 The morpheme *-reta* which is optionally used to mark 3rd person plural on verbs (examples 1a-b and 6-8) is primarily used with nouns as a suffix with plural or collective meaning. It is also sometimes with pronouns and demonstratives ([González 2005](Source#cldf:gonzalez2005tapiete)).
 
 ## Derived Questions
@@ -1624,9 +1619,27 @@ We had two hypotheses which motivated coding for this feature: (1) that these ki
 
 The first hypothesis was partially confirmed by our data. The overall feature of monoexponential plural marking (MonPl-01) is actually more present in our Australian sample (60%) than in our North American (50%) and South American (45%) samples. However, these three regions had far greater presence of the feature than other macroareas (Africa 24%; Eurasia 26%; Papunesia 24%).
 
-The second hypothesis was also partially confirmed, with S/A/P (but not event) monoexponential plurals clearly clustering along the Peruvian coast and northwestern Australia (MonPl-06c), and S/P monoexponential plurals clustering in Rhondônia (MonPl-06b). The use of monoexponential verbal plurals with nouns is also a clear areal feature of the Pacific Northwest Coast (although this is likely a side-effect of the region’s famously porous verb/noun distinction) and the northern Australian coast (MonPl-07c). However, these apparent clusterings exist alongside fairly widespread distributions of each typological feature around the world. It is possible that further investigation and different typological parameters would confirm hypothesis 2 more strongly.
+The second hypothesis was also partially confirmed, with S/A/P (but not event) monoexponential plurals clearly clustering along the Peruvian coast and northwestern Australia (MonPl-06c), and S/P monoexponential plurals clustering in Rondônia (MonPl-06b). The use of monoexponential verbal plurals with nouns is also a clear areal feature of the Pacific Northwest Coast (although this is likely a side-effect of the region’s famously porous verb/noun distinction) and the northern Australian coast (MonPl-07c). However, these apparent clusterings exist alongside fairly widespread distributions of each typological feature around the world. It is possible that further investigation and different typological parameters would confirm hypothesis 2 more strongly.
+
+## Contributions
+**Conceptualization**: [David Inman](Contributor#cldf:DI), [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Marine Vuillermet](Contributor#cldf:MV), [Balthasar Bickel](Contributor#cldf:BB)
+
+**Data collection**: [Kellen Parker van Dam](Contributor#cldf:KPVD), [Anna Graff](Contributor#cldf:AG), [Selma Hardegger](Contributor#cldf:SH), [David Inman](Contributor#cldf:DI), [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Nora Muheim](Contributor#cldf:NJM), [Marine Vuillermet](Contributor#cldf:MV)
+
+**Supervision of data collection**: [David Inman](Contributor#cldf:DI), [Marine Vuillermet](Contributor#cldf:MV)
 
 ## References
 
 [References](Source?cited_only#cldf:__all__)
 
+[^1]: A more exact term for monoexponential verbal plurals would be monoexponential non-NP plurals or even monoexponential non-exclusively NP plurals. We will use the term “monoexponential (verbal) plurals” for the sake of conciseness in this questionnaire.
+
+[^2]: Note that all targeted morphemes are not strictly monoexponential, as most encode one (or several) particular syntactic role(s). We nevertheless consider them “monoexponential plurals” because the additional information about role is purely syntactic, while in the semantic domain, only number is specified.
+
+[^3]: By “random” here, we mean that the systems do not exhaustively target semantic classes of verbs, for instance only some members of the posture or the motion semantic classes.
+
+[^4]: Rose notes that the use of *-kom* with verbs is rare in her corpus, but it is common in elicitation (when the object is animate). In her corpus there are isolated uses of -kom with verbs where it seems to pluralize the S argument for some persons (1st inclusive and generic).
+
+[^5]: According to Rose, *kupa* seems to be an independent word and it appears at the end of the clause. It seems to have been borrowed from the closely related language Wayampi \[waya1270\] (Tupian; Brazil, French Guiana). It is much rarer than *-(o)ŋ*.
+
+[^6]: Glosses absent from the Leipzig glossing rules in the following examples: 0: semantically empty; PSSB: possible mood, i.e. an “if” clause; NOW: now or then, i.e. the next event in a sequence; STRG: strong mood, i.e. strong claim to factuality.

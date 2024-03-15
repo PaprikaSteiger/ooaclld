@@ -2,16 +2,7 @@ Feature set adapted and extended from [Maddieson 2013](Source#cldf:maddieson2013
 
 **Authors**: [David Inman](Contributor#cldf:DI), [Kellen Parker Van Dam](Contributor#cldf:KPVD)
 
-**Acknowledgements**: [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Marine Vuillermet](Contributor#cldf:MV), [Anna Graff](Contributor#cldf:AG)
-
-
-**Conceptualization**: [David Inman](Contributor#cldf:DI), [Kellen Parker Van Dam](Contributor#cldf:KPVD)
-
-**Data collection**: [David Inman](Contributor#cldf:DI), [Kellen Parker Van Dam](Contributor#cldf:KPVD), [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Marine Vuillermet](Contributor#cldf:MV), [Anna Graff](Contributor#cldf:AG), [Selma Hardegger](Contributor#cldf:SH)
-
-**Supervision of data collection**: [David Inman](Contributor#cldf:DI), [Kellen Parker Van Dam](Contributor#cldf:KPVD), [Marine Vuillermet](Contributor#cldf:MV)
-
-**Computer code**: [David Inman](Contributor#cldf:DI)
+**Acknowledgements**: [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Marine Vuillermet](Contributor#cldf:MV), [Anna Graff](Contributor#cldf:AG), [Selma Hardegger](Contributor#cldf:SH)
 
 [TOC]
 
@@ -28,9 +19,9 @@ Voiced alveolar (lateral) approximant /l/, and allophonic \[l\] when it alternat
 The survey does not distinguish between two very close places of articulation, namely alveolar and apico-dental, as they rarely stand in phonemic opposition. We also exclude phonemes that occur solely in recent loans.
 
 ## Why?
-The presence or absence of laterals and lateral obstruents is claimed to cluster in geographic regions. [](Source#cldf:maddieson2013wals8) notes a cluster of /l/-less languages in northern South America (and New Guinea), and the presence of lateral obstruents in northern and western North America (as well as in the Caucasus and around Lake Chad).
+The presence or absence of laterals and lateral obstruents is claimed to cluster in geographic regions. [Maddieson (2013)](Source#cldf:maddieson2013wals8) notes a cluster of /l/-less languages in northern South America (and New Guinea), and the presence of lateral obstruents in northern and western North America (as well as in the Caucasus and around Lake Chad).
 
-[Maddieson 2013](Source#cldf:maddieson2013wals8) focuses on obstruent vs sonorant laterals. However, the precise type of obstruent is claimed as distinctive in other work, namely /tɬ’/ in the Pacific Northwest, even when a language lacks /tɬ/ ([Sherzer 1976](Source#cldf:sherzer1976northamerica); [Thompson and Kinkade 1990](Source#cldf:thompsonkinkade1990pnw); [Beck 2000](Source#cldf:beck2000nwcoast)). The voiced lateral affricate /dɮ/ is not included in this survey, as [Maddieson 2013](Source#cldf:maddieson2013wals8) only finds one language (Tigak; Austronesian; Papua New Guinea) that has a voiced /dɮ/ without a corresponding voiceless /tɬ/.
+[Maddieson (2013)](Source#cldf:maddieson2013wals8) focuses on obstruent vs sonorant laterals. However, the precise type of obstruent is claimed as distinctive in other work, namely /tɬ’/ in the Pacific Northwest, even when a language lacks /tɬ/ ([Sherzer 1976](Source#cldf:sherzer1976northamerica); [Thompson and Kinkade 1990](Source#cldf:thompsonkinkade1990pnw); [Beck 2000](Source#cldf:beck2000nwcoast)). The voiced lateral affricate /dɮ/ is not included in this survey, as [Maddieson (2013)](Source#cldf:maddieson2013wals8) only finds one language (Tigak; Austronesian; Papua New Guinea) that has a voiced /dɮ/ without a corresponding voiceless /tɬ/.
 
 /ɬ/ as a feature is common in North America in Maddieson’s survey, and has also been claimed to be prominent in the North American Southeast ([Haas 1969](Source#cldf:haas1969prehistory); [Campbell 1997](Source#cldf:campbell1997america)), and in the Southern Andean core ([Michael et al 2014: 33](Source#cldf:michaeletal2014andean)). It’s unclear whether these represent truly distinct areas, or if a high frequency of the /ɬ/ phoneme is part of a broader American west coast pattern.
 
@@ -63,7 +54,7 @@ In the case where the language only has a lateral flap, as is the case in Cavine
 St’at’imcets or Lillooet contains a phonemic /l/ which does not appear to alternate with other phonemes, as in words like *lóləm’* ‘jealous in love’ ([Eijk 1997: 2, 11](Source#cldf:eijk1997lillooet)
 
 #### laterals or glides: Cherokee \[cher1273\] (Iroquoian; United States)
-Cherokee contains a phonemic /l/, as in words like *aaliíyo* ‘sock’ ([Montgomery-Anderson 2008](Source#cldf:montgomeryanderson2008cherokee): 33, 41).
+Cherokee contains a phonemic /l/, as in words like *aaliíyo* ‘sock’ ([Montgomery-Anderson 2008: 33, 41](Source#cldf:montgomeryanderson2008cherokee)).
 
 #### n or d: Ese Ejja \[esee1248\] (Pano-Tacanan; Peru, Bolivia)
 Ese Ejja has a \[d\]/\[n\]/\[l\] phonemic alternation [Vuillermet 2012: 165](Source#cldf:vuillermet2012eseejja). \[l\] is only heard in the speech of older people, with the other allophones being more common in other speakers (Vuillermet, p.c.).
@@ -71,8 +62,8 @@ Ese Ejja has a \[d\]/\[n\]/\[l\] phonemic alternation [Vuillermet 2012: 165](Sou
 #### rhotic: Cocama-Cocamilla \[coca1259\] (Tupian; Peru)
 Cocama-Cocamilla has a phoneme that alternates between \[l\] and \[ɾ\] with completely free variation [Vallejos 2016: 47](Source#cldf:vallejos2016kukama). According to Vallejos, it is possible that this developed from an older system that had just /l/.
 
-#### no: Nuuchahnulth \[nuuc1236\] (Wakashan; Canada)
-Nuuchahnulth contains no \[l\] sound, despite having /ɬ/, /t͡ɬ/, and /t͡ɬ’/ [Nakayama 2001: 7](Source#cldf:nakayama2001nuuchahnulth). This is even visible in loanwords, where a borrowed /l/ becomes /n/, as in *taana*, ultimately from English ‘dollar’ (Inman, p.c.).
+#### no: Nuu-chah-nulth \[nuuc1236\] (Wakashan; Canada)
+Nuu-chah-nulth contains no \[l\] sound, despite having /ɬ/, /t͡ɬ/, and /t͡ɬ’/ [Nakayama 2001: 7](Source#cldf:nakayama2001Nuu-chah-nulth). This is even visible in loanwords, where a borrowed /l/ becomes /n/, as in *taana*, ultimately from English ‘dollar’ (Inman, p.c.).
 
 #### ?: Western Keres \[west2632\] (Keresan; United States)
 Western Keres contains a lateral flap [Valiquette 1990: 14](Source#cldf:valiquette1990keres), described as “something of a combination of a Spanish flapped /r/ and a lateral.”
@@ -94,8 +85,8 @@ We also noted that there are zero inventories in PHOIBLE that showed both a phon
 
 A phoneme that has \[ɬ\] as a prominent allophone (perhaps alternating with \[θ\]) should be counted as a phonemic /ɬ/, by analogy with Lat-01. However, \[ɬ\] is not considered as a phoneme for this feature if it is in allophonic distribution with \[l\].
 
-#### yes: Nuuchahnulth \[nuuc1236\] (Wakashan; Canada)
-Nuuchahnulth has a phonemic /ɬ/ as in the first sound in *łiw̓aḥak* ‘cloudy’ and the last sound in *ƛuł* ‘good’ (Inman, personal knowledge).
+#### yes: Nuu-chah-nulth \[nuuc1236\] (Wakashan; Canada)
+Nuu-chah-nulth has a phonemic /ɬ/ as in the first sound in *łiw̓aḥak* ‘cloudy’ and the last sound in *ƛuł* ‘good’ (Inman, personal knowledge).
 
 #### no: Pipil \[pipi1250\] (Uto-Aztecan; El Salvador, Honduras)
 Pipil has an \[ɬ\] alternating  with the main allophone \[l\]. Historically \[ɬ\] was a word final variant of /l/ but it is now present in more contexts. Still, \[l\] is the main realization and thus considered the phoneme ([Campbell 1985](Source#cldf:campbell1985pipil)).
@@ -103,8 +94,8 @@ Pipil has an \[ɬ\] alternating  with the main allophone \[l\]. Historically \[�
 ### [](ParameterTable#cldf:Lat-04)
 &emsp;**{ yes | no }**
 
-#### yes: Nuuchahnulth \[nuuc1236\] (Wakashan; Canada)
-Nuuchahnulth has a phonemic /t͡ɬ/ as in the first sound in *ƛaʔuu* ‘other’ and the last sound in *haw̓iiqƛ* ‘hungry’ (Inman, p.c.).
+#### yes: Nuu-chah-nulth \[nuuc1236\] (Wakashan; Canada)
+Nuu-chah-nulth has a phonemic /t͡ɬ/ as in the first sound in *ƛaʔuu* ‘other’ and the last sound in *haw̓iiqƛ* ‘hungry’ (Inman, p.c.).
 
 #### yes: Cherokee \[cher1273\] (Iroquoian; United States)
 An underlying /t͡ɬ/ in Cherokee has shifted to \[ɬ\] in the Oklahoma variety. This is an ongoing change. Phonetically, the language appears to have merged this phoneme with /ɬ/, however according to [Montgomery-Anderson 2008](Source#cldf:montgomeryanderson2008cherokee),
@@ -119,11 +110,11 @@ Though Hupa has both an /l/ and a /ɬ/, it does not have a /t͡ɬ/ ([Golla 1970]
 ### [](ParameterTable#cldf:Lat-05)
 &emsp;**{ yes | no }**
 
-#### yes: Nuuchahnulth \[nuuc1236\] (Wakashan; Canada)
-Nuuchahnulth has a phonemic /t͡ɬ’/ as in the difference between *ƛuł* ‘good’ and *ƛ̓ułšiƛ* ‘touch, feel’ (Inman, p.c.).
+#### yes: Nuu-chah-nulth \[nuuc1236\] (Wakashan; Canada)
+Nuu-chah-nulth has a phonemic /t͡ɬ’/ as in the difference between *ƛuł* ‘good’ and *ƛ̓ułšiƛ* ‘touch, feel’ (Inman, p.c.).
 
 #### no: Cherokee \[cher1273\] (Iroquoian; United States)
-Cherokee has no ejective series and lacks /t͡ɬ’/ ([Montgomery-Anderson 2008](Source#cldf:montgomeryanderson2008cherokee): 33).
+Cherokee has no ejective series and lacks /t͡ɬ’/ ([Montgomery-Anderson 2008: 33](Source#cldf:montgomeryanderson2008cherokee)).
 
 ### [](ParameterTable#cldf:Lat-06)
 &emsp;**{ yes | no }**
@@ -165,10 +156,6 @@ Derived features offer different views of the same data included in the base fea
     <td class="tg-0lax"><span style="font-weight:bold">no</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-01 is &lt;no&gt;</span></td>
   </tr>
-  <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">?</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-01 is &lt;?&gt;</span></td>
-  </tr>
 </tbody>
 </table>
 
@@ -198,10 +185,6 @@ This derived feature groups together all languages with some kind of lateral art
     <td class="tg-0lax"><span style="font-weight:bold">no</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-01 is &lt;rhotic&gt; OR &lt;n or d&gt; OR &lt;n or d and rhotic&gt; OR &lt;no&gt;</span></td>
   </tr>
-  <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">?</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-01 is &lt;?&gt;</span></td>
-  </tr>
 </tbody>
 </table>
 
@@ -209,7 +192,7 @@ This derived feature groups languages with a lateral that is only a lateral agai
 
 ### [](ParameterTable#cldf:Lat-01c)
 
-&emsp;**{ laterals or glides | rhotic | n or d | NA }**
+&emsp;**{ NA | laterals or glides | rhotic | n or d }**
 
 <style type="text/css">
 .tg  {border:none;border-collapse:collapse;border-spacing:0;}
@@ -238,10 +221,6 @@ This derived feature groups languages with a lateral that is only a lateral agai
   <tr>
     <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-01 is &lt;no&gt;</span></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">?</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-01 is &lt;n or d and rhotic&gt; OR &lt;?&gt;</span></td>
   </tr>
 </tbody>
 </table>
@@ -272,10 +251,6 @@ This derived feature conceptually pairs with Lat-01a, and expresses all the poss
     <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">no</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-02 is &lt;no&gt; AND Lat-03 is &lt;no&gt;</span></td>
   </tr>
-  <tr>
-    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">?</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-02 is &lt;?&gt; OR if Lat-03 is &lt;?&gt;</span></td>
-  </tr>
 </tbody>
 </table>
 
@@ -283,7 +258,7 @@ This derived feature groups together languages with /l̥/ and /ɬ/ phonemes, on 
 
 ### [](ParameterTable#cldf:Lat-02b)
 
-&emsp;**{ l̥ | ɬ | NA }**
+&emsp;**{ NA | l̥ | ɬ }**
 
 <style type="text/css">
 .tg  {border:none;border-collapse:collapse;border-spacing:0;}
@@ -339,10 +314,6 @@ This derived feature recovers the phonetic details of which voiceless lateral a 
     <td class="tg-1wig">no</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-04 is &lt;no&gt; AND Lat-05 is &lt;no&gt;</span></td>
   </tr>
-  <tr>
-    <td class="tg-1wig">?</td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-04 is &lt;?&gt; AND Lat-05 is not &lt;yes&gt; OR</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-05 is &lt;?&gt; AND Lat-04 is not &lt;yes&gt;</span></td>
-  </tr>
 </tbody>
 </table>
 
@@ -350,7 +321,7 @@ This derived feature asks if there is any phonemic lateral affricate. Many langu
 
 ### [](ParameterTable#cldf:Lat-04b)
 
-&emsp;**{ yes | no | NA }**
+&emsp;**{ NA | yes | no }**
 
 <style type="text/css">
 .tg  {border:none;border-collapse:collapse;border-spacing:0;}
@@ -377,10 +348,6 @@ This derived feature asks if there is any phonemic lateral affricate. Many langu
     <td class="tg-1wig">NA</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-04a is &lt;no&gt;</span></td>
   </tr>
-  <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">?</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-04a is &lt;?&gt;</span></td>
-  </tr>
 </tbody>
 </table>
 
@@ -388,7 +355,7 @@ This derived feature conditions the presence of /tɬ/ on the presence of any lat
 
 ### [](ParameterTable#cldf:Lat-05a)
 
-&emsp;**{ yes | no | NA }** 
+&emsp;**{ NA | yes | no }** 
 
 <style type="text/css">
 .tg  {border:none;border-collapse:collapse;border-spacing:0;}
@@ -415,10 +382,6 @@ This derived feature conditions the presence of /tɬ/ on the presence of any lat
     <td class="tg-1wig">NA</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-04a is &lt;no&gt;</span></td>
   </tr>
-  <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">?</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-05 is &lt;?&gt;</span></td>
-  </tr>
 </tbody>
 </table>
 
@@ -426,6 +389,15 @@ This derived feature conditions the presence of /tɬ’/ on the presence of any 
 
 ## Results
 Following the observations of [Maddieson 2013](Source#cldf:maddieson2013wals8), the Greater Amazon is overwhelmingly characterized by an absence of /l/ phonemes altogether (Lat-01). The presence of an /l～ɾ/ phoneme is most common in Papunesia and parts of Southern and Central America, however even in these regions it is a minority pattern. As expected, the Pacific Northwest of North America is characterized by /tɬ/ and /tɬ’/ phonemes (Lat-04, Lat-05), while the presence of /ɬ/ is somewhat more widespread, characterizing the Pacific Northwest, but also the North American Pueblos, the American Southeast, and the Gran Chaco. The presence of a phonemic voiceless /l̥/ (Lat-02) is extremely rare, without apparent areal patterns. The palatal lateral /ʎ/ (Lat-06) is characteristic of the west coast of South America and the northwest coast of Australia. Our sample is not dense enough to demonstrate it, but the Eurasian sample suggests that palatal lateral phonemes are also especially present in northern Eurasia.
+
+## Contributions
+**Conceptualization**: [David Inman](Contributor#cldf:DI), [Kellen Parker Van Dam](Contributor#cldf:KPVD)
+
+**Data collection**: [David Inman](Contributor#cldf:DI), [Kellen Parker Van Dam](Contributor#cldf:KPVD), [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Marine Vuillermet](Contributor#cldf:MV), [Anna Graff](Contributor#cldf:AG), [Selma Hardegger](Contributor#cldf:SH)
+
+**Supervision of data collection**: [David Inman](Contributor#cldf:DI), [Kellen Parker Van Dam](Contributor#cldf:KPVD), [Marine Vuillermet](Contributor#cldf:MV)
+
+**Computer code**: [David Inman](Contributor#cldf:DI)
 
 
 ## References

@@ -1,327 +1,326 @@
-"Glottocode","Name","Macroarea","Latitude","Longitude","ISO639P3code","Family_ID","Language_ID","Family_Name","Isolates_Balanced_Sample","Isolates_Sample","American_Sample","Worldwide_Sample","North_America_25_Sample","Noun_Poss_Sample"
-"bert1248","Berta","Africa",10.6474,34.7042,"wti","","",,"1","1",,"1",,"1"
-"sius1254","Siuslaw","North America",42.5111,-124.379,"sis","","",,"1","1","1",,,
-"taia1239","Taiap","Papunesia",-4.05047,144.506,"gpn","","",,"1","1",,"1",,"1"
-"tabo1241","Tabo","Papunesia",-8.09387,143.305,"knv","","",,"1","1",,"1",,
-"kano1245","Kanoê","South America",-12.1789,-64.5812,"kxo","","",,"1","1","1",,,
-"mose1249","Mosetén-Chimané","South America",-14.64448,-67.83756,"cas","","",,,"1","1",,,
-"niha1238","Nihali","Eurasia",21.1886,76.3318,"nll","","",,"1","1",,"1",,
-"seri1257","Seri","North America",28.9877,-112.384,"sei","","",,,"1","1",,"1",
-"duna1248","Duna","Papunesia",-5.41439,142.475,"duc","","",,"1","1",,"1",,"1"
-"shab1252","Shabo","Africa",7.64407,35.223,"sbf","","",,"1","1",,"1",,
-"sali1253","Salinan","North America",37.6646,-121.718,"sln","","",,"1","1","1",,,
-"coah1252","Coahuilteco","North America",28.2589,-97.89,"xcw","","",,,"1","1",,"1",
-"bilu1245","Bilua","Papunesia",-7.92388,156.663,"blb","","",,"1","1",,"1",,"1"
-"muni1258","Muniche","South America",-5.7441796,-76.426712,"myr","","",,,"1","1",,,
-"cand1248","Candoshi-Shapra","South America",-4.23835,-76.9347,"cbu","","",,,,"1",,,
-"ando1256","Andoque","South America",-0.53751,-72.0869,"ano","","",,,,"1",,,
-"kari1254","Kariri","South America",-7.434628,-40.487275,"","","",,"1","1","1",,,
-"savo1255","Savosavo","Papunesia",-9.12853,159.814,"svs","","",,"1","1",,"1",,"1"
-"buru1296","Burushaski","Eurasia",36.2161,74.8236,"bsk","","",,"1","1",,"1",,
-"kwaz1243","Kwaza","South America",-11.6667,-61.1833,"xwa","","",,,"1","1",,,
-"yuch1247","Yuchi","North America",35.75,-86.75,"yuc","","",,,"1","1",,,
-"siam1242","Siamou","Africa",10.998,-4.92143,"sif","","",,"1","1",,"1",,"1"
-"wara1303","Warao","South America",7.50851,-59.3528,"wba","","",,,"1","1",,,
-"abun1252","Abun","Papunesia",-0.57073,132.416,"kgr","","",,"1","1",,"1",,"1"
-"nara1262","Nara","Africa",15.3251,37.499,"nrb","","",,"1","1",,"1",,"1"
-"urar1246","Urarina","South America",-4.44006,-75.4211,"ura","","",,"1","1","1",,,
-"trum1247","Trumai","South America",-11.8119,-53.5717,"tpy","","",,,"1","1",,,
-"sume1241","Sumerian","Eurasia",31.3,45.6667,"sux","","",,"1","1",,"1",,
-"leco1242","Leco","South America",-15.0092,-67.8818,"lec","","",,"1","1","1",,,
-"hatt1246","Hattic","Eurasia",40.4,34.6,"xht","","",,"1","1",,"1",,"1"
-"lavu1241","Lavukaleve","Papunesia",-9.05569,159.119,"lvk","","",,"1","1",,"1",,"1"
-"take1257","Takelma","North America",42.423,-123.452,"tkm","","",,,"1","1",,,
-"klam1254","Klamath-Modoc","North America",42.5861,-121.704,"kla","","",,,"1","1",,,
-"yana1271","Yana","North America",39.2769,-121.608,"ynn","","",,"1","1","1",,"1",
-"iran1263","Irántxe-Münkü","South America",-12.7178,-57.9806,"irn","","",,"1","1","1",,,
-"cofa1242","Cofán","South America",0.276675,-77.0643,"con","","",,,,"1",,,
-"kute1249","Kutenai","North America",48.7892,-115.065,"kut","","",,,"1","1",,,
-"fuln1247","Fulniô","South America",-9.02591,-37.1402,"fun","","",,"1","1","1",,,
-"cuit1236","Cuitlatec","North America",18.1,-100.5,"cuy","","",,"1","1","1",,,"1"
-"sand1273","Sandawe","Africa",-5.26918,35.4808,"sad","","",,"1","1",,"1",,"1"
-"movi1243","Movima","South America",-13.8115,-65.6348,"mzp","","",,"1","1","1",,,
-"gaga1251","Gaagudju","Australia",-12.5176,132.643,"gbu","","",,"1","1",,"1",,"1"
-"tuni1252","Tunica","North America",30.9888,-92.5403,"tun","","",,"1","1","1",,"1",
-"wash1253","Washo","North America",38.8184,-119.64,"was","","",,,"1","1",,,
-"kusu1250","Kusunda","Eurasia",28.33,82.6,"kgg","","",,"1","1",,"1",,"1"
-"hadz1240","Hadza","Africa",-3.83115,35.0458,"hts","","",,"1","1",,"1",,"1"
-"pira1253","Pirahã","South America",-6.77713,-61.8167,"myp","","",,,"1","1",,,"1"
-"zuni1245","Zuni","North America",35.0056,-108.782,"zun","","",,"1","1","1",,"1",
-"cams1241","Camsá","South America",1.14537,-76.8931,"kbh","","",,,,"1",,,
-"tonk1249","Tonkawa","North America",30.25,-96.75,"tqw","","",,,"1","1",,,
-"alse1251","Alsea-Yaquina","North America",44.408,-123.94,"aes","","",,"1","1","1",,,"1"
-"bang1363","Bangime","Africa",14.8116,-3.77092,"dba","","",,"1","1",,"1",,"1"
-"yura1255","Yuracaré","South America",-16.7479,-65.1224,"yuz","","",,,"1","1",,,"1"
-"laal1242","Laal","Africa",10.0063,17.6143,"gdm","","",,"1","1",,"1",,
-"puin1248","Puinave","South America",3.92974,-67.6886,"pui","","",,"1","1","1",,,
-"chim1301","Chimariko","North America",41,-123,"cid","","",,,"1","1",,,"1"
-"natc1249","Natchez","North America",31.75,-91.33,"ncz","","",,,"1","1",,,
-"tiwi1244","Tiwi","Australia",-11.6308,130.949,"tiw","","",,"1","1",,"1",,
-"esse1238","Esselen","North America",36.5473,-121.867,"esq","","",,,,"1",,,
-"guat1253","Guató","South America",-17.8696,-57.2897,"gta","","",,,"1","1",,,"1"
-"kuot1243","Kuot","Papunesia",-3.06952,151.537,"kto","","",,"1","1",,"1",,"1"
-"timu1245","Timucua","North America",30.3027,-82.3132,"tjm","","",,"1","1","1",,"1",
-"iton1250","Itonama","South America",-12.80431,-64.35748,"ito","","",,,"1","1",,,
-"maib1239","Maybrat-Karon","Papunesia",-1.3679,132.591,"ayz","","",,"1","1",,"1",,"1"
-"moch1259","Mochica","South America",-8.01667,-79,"omc","","",,,,"1",,,
-"cayu1262","Cayubaba","South America",-13.2482,-65.4822,"cyb","","",,"1","1","1",,,"1"
-"basq1248","Basque","Eurasia",43.2787,-1.31622,"eus","","",,"1","1",,"1",,"1"
-"paez1247","Páez","South America",2.61516,-76.31254,"pbb","","",,"1","1","1",,,
-"mola1238","Molale","North America",44.556,-122.857,"mbe","","",,,"1","1",,"1",
-"sulk1246","Sulka","Papunesia",-5.03471,151.891,"sua","","",,"1","1",,"1",,"1"
-"karo1304","Karok","North America",41.8228,-123.315,"kyh","","",,"1","1","1",,"1",
-"kuna1268","Kunama","Africa",14.5879,37.5292,"kun","","",,"1","1",,"1",,"1"
-"wage1238","Wageman","Australia",-13.8627,131.893,"waq","","",,"1","1",,"1",,"1"
-"benc1235","Bench","Africa",7.04682,35.7673,"bcq","gong1255","","Ta-Ne-Omotic","1","1",,"1",,"1"
-"sout2982","Southeastern Pomo","North America",38.9354,-122.599,"pom","pomo1273","","Pomoan",,"1","1",,,
-"ward1246","Wardaman","Australia",-15.4155,132.604,"wrr","yang1287","","Yangmanic","1","1",,"1",,"1"
-"wint1259","Wintu","North America",39.7176,-122.445,"wit","wint1258","","Wintuan",,"1","1",,"1",
-"mull1237","Mullukmulluk","Australia",-13.427,130.664,"mpb","nort1547","","Northern Daly","1","1",,"1",,"1"
-"bell1243","Bella Coola","North America",52.3448,-126.689,"blc","sali1255","","Salishan",,"1","1",,,
-"kala1400","Central Kalapuya","North America",44.9861,-123.925,"kyl","kala1402","","Kalapuyan","1","1","1",,,
-"bora1263","Bora","South America",-2.000259,-72.257066,"boa","bora1262","","Boran",,"1","1",,,"1"
-"miri1266","Miriwung","Australia",-16.3596,128.889,"mep","jarr1235","","Jarrakan",,,,"1",,"1"
-"kitj1240","Kitja","Australia",-17.5758,127.392,"gia","jarr1235","","Jarrakan","1","1",,"1",,"1"
-"murr1258","Murriny Patha","Australia",-14.74852,129.70152,"mwf","sout2772","","Southern Daly","1","1",,"1",,"1"
-"gily1242","Amur Nivkh","Eurasia",52.59,140.681,"niv","nivk1234","","Nivkh","1","1","1",,,"1"
-"pure1242","Purepecha","North America",19.2467,-101.631,"tsz","tara1323","","Tarascan","1","1","1",,,
-"chay1248","Shawi","South America",-5.63764,-76.8252,"cbt","cahu1265","","Cahuapanan",,"1","1",,,
-"amar1274","Amarakaeri","South America",-12.4931,-70.5533,"amr","hara1260","","Harakmbut",,"1","1",,,"1"
-"chiq1248","Lomeriano-Ignaciano Chiquitano","South America",-16.769554,-61.817795,"cax","chiq1253","","Chiquitano",,"1","1",,,"1"
-"gara1269","Garrwa","Australia",-17.4504,137.72014,"wrk","garr1260","","Garrwan","1","1",,"1",,"1"
-"nort2951","Northwest Maidu","North America",39.6721,-121.368,"mjd","maid1262","","Maiduan",,"1","1",,,
-"cher1273","Cherokee","North America",35.4664,-83.163,"chr","iroq1247","","Iroquoian",,,"1",,"1",
-"kara1500","Karajá","South America",-11.1881,-50.3492,"kpj","nucl1710","","Nuclear-Macro-Je",,,"1",,,
-"ofay1240","Ofayé","South America",-22.278,-53.7227,"opy","nucl1710","","Nuclear-Macro-Je",,,"1",,,
-"rikb1245","Rikbaktsa","South America",-11.1887,-58.1942,"rkb","nucl1710","","Nuclear-Macro-Je",,,"1",,,
-"cadd1256","Caddo","North America",33.33,-93.5,"cad","cadd1255","","Caddoan","1","1","1",,"1",
-"kamu1258","Kamu","Australia",-13.5393,131.098,"xmu","east2374","","Eastern Daly","1","1",,"1",,
-"kiow1266","Kiowa","North America",34.9403,-98.9042,"kio","kiow1265","","Kiowa-Tanoan",,,"1",,,
-"west2632","Western Keres","North America",34.9733,-107.517,"kjq","kere1287","","Keresan",,"1","1",,"1",
-"mang1381","Mangarrayi","Australia",-14.8,133.5,"mpc","mang1423","","Mangarrayi-Maran","1","1",,"1",,"1"
-"sali1298","Sáliba","South America",5.30115,-69.3843,"slc","sali1297","","Saliban","1","1","1",,,
-"cree1270","Creek","North America",31,-87.5,"mus","musk1252","","Muskogean","1","1","1",,,
-"nucl1633","Nimboran","Papunesia",-2.5803,140.179,"nir","nimb1257","","Nimboranic","1","1",,"1",,"1"
-"nucl1327","Limilngan","Australia",-12.4294,131.845,"lmc","limi1242","","Limilngan-Wulna","1","1",,"1",,"1"
-"coos1249","Hanis","North America",43.4413,-124.16,"csz","coos1248","","Coosan",,"1","1",,,"1"
-"high1242","Highland Oaxaca Chontal","North America",16.1849,-95.7301,"chd","tequ1244","","Tequistlatecan","1","1","1",,"1","1"
-"agua1253","Aguaruna","South America",-5.30044,-77.9218,"agr","jiva1245","","Chicham","1","1","1",,,"1"
-"ticu1245","Ticuna","South America",-3.66289,-69.8723,"tca","ticu1244","","Ticuna-Yuri",,"1","1",,,
-"misk1235","Mískito","North America",15.1576,-84.2942,"miq","misu1242","","Misumalpan",,"1","1",,,
-"yagu1244","Yagua","South America",-3.42913,-72.2186,"yad","peba1241","","Peba-Yagua",,"1","1",,,
-"tlin1245","Tlingit","North America",59.4447,-135.29,"tli","atha1245","","Athabaskan-Eyak-Tlingit",,,"1",,,
-"chip1262","Chipaya","South America",-18.73951,-67.89633,"cap","uruc1242","","Uru-Chipaya","1","1","1",,,"1"
-"wapp1239","Wappo","North America",38.25,-122.5,"wao","yuki1242","","Yuki-Wappo","1","1","1",,,
-"yuki1243","Northern Yukian","North America",39.8389,-123.296,"yuk","yuki1242","","Yuki-Wappo",,,"1",,,
-"kana1291","Katukína-Kanamarí","South America",-6.45399,-68.7678,"knm","katu1274","","Katukinan",,"1","1",,,
-"ngar1284","Ngarinyin","Australia",-16.4006,126.433,"ung","worr1236","","Worrorran","1","1",,"1",,"1"
-"cacu1241","Kakua","South America",0.88778,-69.5659,"cbv","kaku1242","","Kakua-Nukak",,"1","1",,,"1"
-"sout2956","Southern Haida","North America",53.2616,-132.008,"hax","haid1248","","Haida",,"1","1",,,
-"quil1240","Quileute","North America",47.9106,-124.603,"qui","chim1311","","Chimakuan",,"1","1",,,"1"
-"pali1279","Palikúr","South America",3.63993,-51.6246,"plu","araw1281","","Arawakan",,,"1",,,
-"chol1284","Cholón","South America",-9.23129,-75.9621,"cht","hibi1242","","Hibito-Cholon","1","1","1",,,
-"achu1247","Achumawi","North America",41.0979,-121.191,"acv","pala1350","","Palaihnihan","1","1","1",,,"1"
-"nucl1649","Southern-Coastal Tsimshian","North America",52.59103,-128.544545,"tsi","tsim1258","","Tsimshian",,,"1",,,
-"goon1238","Gooniyandi","Australia",-18.4073,126.351,"gni","buna1274","","Bunaban","1","1",,"1",,"1"
-"mapu1245","Mapudungun","South America",-38.7392,-71.277,"arn","arau1255","","Araucanian","1","1","1",,,
-"shek1245","Sheko","Africa",7.05022,35.2826,"she","dizo1235","","Dizoid","1","1",,"1",,"1"
-"pech1241","Pech","North America",15.8033,-85.558,"pay","chib1249","","Chibchan",,,"1",,,"1"
-"nort2745","Northern Yukaghir","Eurasia",70.498,157.853,"ykg","yuka1259","","Yukaghir",,,"1",,,
-"toll1241","Tol","North America",14.6686,-87.0372,"jic","jica1245","","Jicaquean",,"1","1",,"1",
-"maun1240","Mawng","Australia",-11.66,133.376,"mph","iwai1246","","Iwaidjan Proper","1","1",,"1",,"1"
-"yuro1248","Yurok","North America",41.3262,-123.824,"yur","algi1248","","Algic",,,"1",,,
-"wiyo1248","Wiyot","North America",39.2492,-122.952,"wiy","algi1248","","Algic",,,"1",,,
-"xinc1242","Xinca-Chiquimulilla","North America",14.083301,-90.380259,"","xinc1237","","Xincan","1","1","1",,"1",
-"juru1256","Jurúna","South America",-10.9354,-53.3472,"jur","tupi1275","","Tupian",,,"1",,,
-"mund1330","Mundurukú","South America",-8.41095,-57.691,"myu","tupi1275","","Tupian",,,"1",,,
-"kari1311","Karitiâna","South America",-9.37937,-64.1522,"ktn","tupi1275","","Tupian",,,"1",,,
-"djam1255","Jaminjung-Ngaliwurru","Australia",-15.0558,130.06,"djd","mirn1241","","Mirndi","1","1",,"1",,"1"
-"naka1260","Nakara","Australia",-12.07653,134.32729,"nck","mani1293","","Maningrida","1","1",,"1",,
-"cata1286","Catawba","North America",34.9685,-80.8857,"chc","siou1252","","Siouan",,,"1",,,
-"shas1239","Shasta","North America",41.7587,-122.738,"sht","shas1238","","Shastan",,"1","1",,,
-"wyan1247","Huron-Wyandot","North America",44.33,-77.5,"wya","iroq1247","","Iroquoian",,,"1",,,
-"djeo1235","Djeoromitxí","South America",-12.038,-64.6694,"jbt","nucl1710","","Nuclear-Macro-Je",,,"1",,,
-"kren1239","Krenak","South America",-18.9988,-41.2299,"kqq","nucl1710","","Nuclear-Macro-Je",,,"1",,,
-"kett1243","Ket","Eurasia",63.7551,87.5466,"ket","yeni1252","","Yeniseian","1","1","1",,,"1"
-"hopi1249","Hopi","North America",35.7653,-110.535,"hop","utoa1244","","Uto-Aztecan",,,"1",,"1",
-"wich1260","Wichita","North America",35.0665,-98.1831,"wic","cadd1255","","Caddoan",,,"1",,,"1"
-"ayor1240","Ayoreo","South America",-19.220055,-60.217495,"ayo","zamu1243","","Zamucoan","1","1","1",,,
-"ariz1237","Arizona Tewa","North America",35.836667,-110.381389,"","kiow1265","","Kiowa-Tanoan","1","1","1",,,"1"
-"tehu1242","Tehuelche","South America",-47.5796,-68.3235,"teh","chon1288","","Chonan","1","1","1",,,
-"tomm1242","Tommo So Dogon","Africa",14.756,-3.28,"dto","dogo1299","","Dogon","1","1",,"1",,"1"
-"ainu1240","Hokkaido Ainu","Eurasia",43.633654,142.46167,"ain","ainu1252","","Ainu","1","1","1",,,"1"
-"choc1276","Choctaw","North America",32.25,-88.5,"cho","musk1252","","Muskogean",,,"1",,,
-"koas1236","Koasati","North America",30.4096,-92.709,"cku","musk1252","","Muskogean",,,"1",,,
-"sout2986","Southern Costanoan","North America",36.787073,-121.487098,"","miwo1274","","Miwok-Costanoan",,,"1",,,
-"cavi1250","Cavineña","South America",-13.3544,-66.6277,"cav","pano1259","","Pano-Tacanan",,,"1",,,"1"
-"jama1261","Madi","South America",-7.62223,-66.5662,"jaa","araw1282","","Arawan","1","1","1",,,
-"urni1239","Urningangg","Australia",-13.4766,133.023,"urc","giim1238","","Giimbiyu","1","1",,"1",,"1"
-"huas1242","Huastec","North America",21.6153,-98.5028,"hus","maya1287","","Mayan",,,"1",,,
-"nuuc1236","Nuu-chah-nulth","North America",49.67,-126.67,"nuk","waka1280","","Wakashan","1","1","1",,,"1"
-"zapa1253","Záparo","South America",-1.99871,-76.364,"zro","zapa1251","","Zaparoan",,"1","1",,,
-"eyak1241","Eyak","North America",60.4232,-144.762,"eya","atha1245","","Athabaskan-Eyak-Tlingit",,,"1",,,
-"yecu1235","Yecuatla Totonac","North America",20.1765,-96.8741,"tlc","toto1251","","Totonacan",,,"1",,,
-"hueh1236","Huehuetla Tepehua","North America",20.6189,-97.9347,"tee","toto1251","","Totonacan",,"1","1",,,
-"brah1256","Brahui","Eurasia",29.04,66.56,"brh","drav1251","","Dravidian",,,,"1",,
-"abkh1244","Abkhaz","Eurasia",43.056218,41.159115,"abk","abkh1242","","Abkhaz-Adyge","1","1",,"1",,"1"
-"sana1298","Sanapaná","South America",-22.49,-58.38,"spn","leng1261","","Lengua-Mascoy",,"1","1",,,
-"koyr1242","Koyraboro Senni Songhai","Africa",16.9634,-0.55187,"ses","song1307","","Songhay","1","1",,"1",,"1"
-"boro1282","Bororo","South America",-16.6029,-55.2004,"bor","boro1281","","Bororoan","1","1","1",,,"1"
-"awac1239","Awa-Cuaiquer","South America",1.21652,-78.3401,"kwi","barb1265","","Barbacoan","1","1","1",,,"1"
-"chin1286","Clatsop-Shoalwater Chinook","North America",45.1729,-119.166,"chh","chin1490","","Chinookan","1","1","1",,,"1"
-"nisg1240","Nisga'a","North America",55.199,-129.192,"ncg","tsim1258","","Tsimshian","1","1","1",,,
-"akab1249","Akabea","Eurasia",12.3782,92.7818,"abj","grea1241","","Great Andamanese","1","1",,"1",,"1"
-"juho1239","South-Eastern Ju","Africa",-19.688,20.7673,"ktz","kxaa1236","","Kxa","1","1",,"1",,"1"
-"olut1240","Oluta Popoluca","North America",17.8937,-94.8863,"plo","mixe1284","","Mixe-Zoque",,,"1",,,
-"roto1249","Rotokas","Papunesia",-5.94339,155.154,"roo","nort2933","","North Bougainville","1","1",,"1",,
-"sand1278","San Dionisio del Mar Huave","North America",16.3514,-94.7001,"hve","huav1256","","Huavean",,"1","1",,,"1"
-"aleu1260","Aleut","North America",52.1228,-174.29,"ale","eski1264","","Eskimo-Aleut",,,"1",,,
-"sout2750","Southern Yukaghir","Eurasia",64.218,154.375,"yux","yuka1259","","Yukaghir","1","1","1",,,"1"
-"waim1253","Waimiri-Atroari","South America",-0.61832,-60.4259,"atr","cari1283","","Cariban",,,"1",,,
-"jaqa1244","Jaqaru","South America",-12.741939,-75.809231,"jqr","ayma1253","","Aymaran",,,"1",,,
-"sout2996","Southern Aymara","South America",-17.1417,-70.3442,"ayc","ayma1253","","Aymaran",,"1","1",,,
-"niva1238","Nivaclé","South America",-22.8557,-61.7606,"cag","mata1289","","Matacoan",,,"1",,,
-"itel1242","West Itelmen","Eurasia",56.046173,156.30704,"itl","chuk1271","","Chukotko-Kamchatkan",,,"1",,,"1"
-"chuk1273","Chukchi","Eurasia",68.6436,170.045,"ckt","chuk1271","","Chukotko-Kamchatkan","1","1","1",,,
-"siks1238","Siksika","North America",49.0669,-113.109,"bla","algi1248","","Algic",,,"1",,"1",
-"qawa1238","Qawasqar","South America",-49.303195,-74.707536,"alc","kawe1237","","Kawesqar","1","1","1",,,
-"mari1424","Marithiel","Australia",-13.8818,130.237,"mfr","west2434","","Western Daly","1","1",,"1",,"1"
-"halk1245","Halkomelem","North America",49.250402,-122.443668,"hur","sali1255","","Salishan",,,"1",,,
-"lill1248","Lillooet","North America",50.7272,-122.04,"lil","sali1255","","Salishan",,,"1",,"1",
-"awet1244","Awetí","South America",-12.381944,-53.391944,"awe","tupi1275","","Tupian",,,"1",,,
-"karo1305","Karo (Brazil)","South America",-10.3342,-61.5691,"arr","tupi1275","","Tupian",,,"1",,,
-"alam1246","Alamblak","Papunesia",-4.66307,143.316,"amp","sepi1257","","Sepik","1","1",,"1",,"1"
-"hupd1244","Hup","South America",0.58622,-69.8359,"jup","nada1235","","Naduhup",,"1","1",,,
-"tute1247","Tutelo","North America",37.67,-78.75,"tta","siou1252","","Siouan",,,"1",,,
-"hida1246","Hidatsa","North America",47.33,-102,"hid","siou1252","","Siouan",,,"1",,"1",
-"imon1245","Imonda","Papunesia",-3.31228,141.171,"imn","bord1247","","Border","1","1",,"1",,"1"
-"muru1274","Murui Huitoto","South America",-1.13669,-73.8331,"huu","huit1251","","Huitotoan",,"1","1",,,
-"moha1258","Mohawk","North America",43.72,-74.66836,"moh","iroq1247","","Iroquoian","1","1","1",,,"1"
-"tusc1257","Tuscarora","North America",43.1303,-79.4214,"tus","iroq1247","","Iroquoian",,,"1",,,
-"wara1302","Bauni","Papunesia",-3.07263,142.012,"bpe","skoo1245","","Sko","1","1",,"1",,"1"
-"xava1240","Xavánte","South America",-14.3017,-52.4367,"xav","nucl1710","","Nuclear-Macro-Je",,,"1",,,
-"maxa1247","Maxakalí","South America",-16.9402,-40.7891,"mbl","nucl1710","","Nuclear-Macro-Je",,,"1",,,
-"yaqu1251","Yaqui","North America",29.9446,-110.681,"yaq","utoa1244","","Uto-Aztecan",,,"1",,,
-"meny1245","Menya","Papunesia",-7.17425,146.071,"mcr","anga1289","","Angan","1","1",,"1",,"1"
-"bard1255","Bardi","Australia",-16.6274,122.906,"bcj","nyul1248","","Nyulnyulan","1","1",,"1",,"1"
-"guah1255","Guahibo","South America",5.81736,-68.9839,"guh","guah1252","","Guahiboan",,"1","1",,,"1"
-"nucl1622","Marind","Papunesia",-8.15651,140.009,"mrz","anim1240","","Anim","1","1",,"1",,"1"
-"embe1260","Emberá-Catío","South America",7.52721,-76.7476,"cto","choc1280","","Chocoan",,"1","1",,,
-"kyon1247","Kyongsangdo","Eurasia",35.3,128.3,"","kore1284","kore1280","Koreanic","1","1",,"1",,"1"
-"yauy1235","Yauyos Quechua","South America",-12.62,-75.7,"qux","quec1387","","Quechuan",,,"1",,,
-"manc1252","Manchu","Eurasia",47.31225,126.55713,"mnc","tung1282","","Tungusic",,,"1",,,
-"negi1245","Negidal","Eurasia",52.96584,139.20575,"neg","tung1282","","Tungusic","1","1","1",,,"1"
-"lake1258","Lake Miwok","North America",39.0021,-122.621,"lmw","miwo1274","","Miwok-Costanoan",,,"1",,,
-"esee1248","Ese Ejja","South America",-11.7268,-67.515,"ese","pano1259","","Pano-Tacanan","1","1","1",,,
-"iumi1238","Iu Mien","Eurasia",20.83,101.17,"ium","hmon1336","","Hmong-Mien","1","1",,"1",,"1"
-"kron1241","Krongo","Africa",10.514,30.003,"kgo","kadu1256","","Kadugli-Krongo","1","1",,"1",,"1"
-"ingu1240","Ingush","Eurasia",43.11,45.03,"inh","nakh1245","","Nakh-Daghestanian","1","1",,"1",,"1"
-"gras1249","Grass Koiari","Papunesia",-9.51218,147.437,"kbk","koia1260","","Koiarian","1","1",,"1",,"1"
-"kwak1269","Kwak'wala","North America",50.9269,-127.308,"kwk","waka1280","","Wakashan",,,"1",,,
-"maya1285","Mayangna","North America",14.1259,-84.3439,"yan","misu1242","","Misumalpan",,,"1",,,
-"yima1243","Yimas","Papunesia",-4.71731,143.572,"yee","lowe1437","","Lower Sepik-Ramu","1","1",,"1",,"1"
-"madi1260","Ma'di","Africa",3.62499,31.8471,"mhi","cent2225","","Central Sudanic","1","1",,"1",,"1"
-"yaki1237","Northwest Sahaptin","North America",46.2655,-120.756,"yak","saha1239","","Sahaptian","1","1","1",,,
-"nung1290","Wubuy","Australia",-14.2623,135.753,"nuy","gunw1250","","Gunwinyguan","1","1",,"1",,"1"
-"kaya1319","Kayardild","Australia",-17.0695,139.489,"gyd","tang1340","","Tangkic","1","1",,"1",,"1"
-"yane1238","Yanesha'","South America",-10.5454,-75.315,"ame","araw1281","","Arawakan",,,"1",,,
-"wayu1243","Wayuu","South America",11.395566,-72.199791,"guc","araw1281","","Arawakan",,,"1",,,
-"pare1272","Parecís","South America",-14.5929,-57.4059,"pab","araw1281","","Arawakan",,,"1",,,
-"nucl1302","Georgian","Eurasia",41.850397,43.78613,"kat","kart1248","","Kartvelian","1","1",,"1",,"1"
-"nucl1632","Sentani","Papunesia",-2.6013,140.512,"set","sent1261","","Sentanic","1","1",,"1",,
-"yoku1256","Northern Yokuts","North America",36.3167,-119.721,"yok","yoku1255","","Yokutsan",,"1","1",,,
-"high1276","Highland Popoluca","North America",18.198,-94.9109,"poi","mixe1284","","Mixe-Zoque",,,"1",,,"1"
-"toto1305","Totontepec Mixe","North America",17.2157,-96.0179,"mto","mixe1284","","Mixe-Zoque",,"1","1",,,
-"rama1270","Rama","North America",11.5007,-83.8571,"rma","chib1249","","Chibchan","1","1","1",,"1",
-"cent2127","Central Alaskan Yupik","North America",60.3062,-161.486,"esu","eski1264","","Eskimo-Aleut","1","1","1",,,
-"tido1248","Tidore","Papunesia",0.02461,127.746,"tvo","nort2923","","North Halmahera","1","1",,"1",,
-"ines1240","Ineseño","North America",34.6169,-120.08,"inz","chum1262","","Chumashan",,"1","1",,,
-"kuik1246","Kuikúro-Kalapálo","South America",-12.3035,-53.2261,"kui","cari1283","","Cariban",,,"1",,,
-"enap1235","Panare","South America",6.95035,-65.8483,"pbh","cari1283","","Cariban",,,"1",,,
-"hixk1239","Hixkaryána","South America",-0.16265,-58.80153,"hix","cari1283","","Cariban","1","1","1",,,"1"
-"ikpe1245","Ikpeng","South America",-11.37822,-53.49553,"txi","cari1283","","Cariban",,,"1",,,
-"yukp1241","Yukpa","South America",9.67534,-73.0557,"yup","cari1283","","Cariban",,,"1",,,
-"daga1275","Daga","Papunesia",-9.9747,149.263,"dgz","daga1274","","Dagan","1","1",,"1",,"1"
-"wang1291","Ngiyambaa","Australia",-30.6481,146.18,"wyb","pama1250","","Pama-Nyungan",,,,"1",,
-"wich1262","Wichí Lhamtés Nocten","South America",-21.988,-63.5971,"mtp","mata1289","","Matacoan","1","1","1",,,
-"kash1280","Kashaya","North America",38.5424,-123.08,"kju","pomo1273","","Pomoan",,,"1",,,
-"uppe1439","Upper Chehalis","North America",46.7981,-123.169,"cjh","sali1255","","Salishan",,,"1",,,
-"gavi1246","Gavião Do Jiparaná","South America",-10.7235,-61.6752,"gvo","tupi1275","","Tupian",,,"1",,,
-"saki1248","Mekens","South America",-13.054,-62.0927,"skf","tupi1275","","Tupian",,,"1",,,
-"cent2050","Central Kanuri","Africa",11.8,13.13,"knc","saha1256","","Saharan","1","1",,"1",,"1"
-"toho1245","Tohono O'odham","North America",31.7973,-111.995,"ood","utoa1244","","Uto-Aztecan",,,"1",,,
-"nort2954","Northern Paiute","North America",40.0799,-119.536,"pao","utoa1244","","Uto-Aztecan",,,"1",,,
-"coma1245","Comanche","North America",34,-101,"com","utoa1244","","Uto-Aztecan",,,"1",,,"1"
-"yaum1237","Yau-Nungon","Papunesia",-6.08274,146.841,"yuw","nucl1709","","Nuclear Trans New Guinea","1","1",,"1",,
-"murl1244","Murle","Africa",6.69756,33.988,"mur","surm1244","","Surmic","1","1",,"1",,"1"
-"nort1550","Taos Northern Tiwa","North America",36.4277,-105.604,"twf","kiow1265","","Kiowa-Tanoan",,,"1",,,
-"nort2980","North Junín Quechua","South America",-11.2132,-75.8128,"qvn","quec1387","","Quechuan",,,"1",,,
-"hual1241","Huallaga Huánuco Quechua","South America",-9.57135,-75.594,"qub","quec1387","","Quechuan",,,"1",,,"1"
-"mari1440","Maricopa","North America",33.5123,-111.749,"mrc","coch1271","","Cochimi-Yuman","1","1","1",,,"1"
-"sout2985","Southern Sierra Miwok","North America",38.2363,-120.507,"skd","miwo1274","","Miwok-Costanoan","1","1","1",,"1","1"
-"nama1264","Nama (Namibia)","Africa",-25.0747,17.9767,"naq","khoe1240","","Khoe-Kwadi","1","1",,"1",,
-"kenu1243","Kenuzi","Africa",24.09,32.9,"xnz","nubi1251","kenu1236","Nubian","1","1",,"1",,"1"
-"maba1277","Maba (Chad)","Africa",12.89147,20.8889,"mde","maba1274","","Maban","1","1",,"1",,"1"
-"yuca1254","Yucatec Maya","North America",18.7757,-88.9567,"yua","maya1287","","Mayan",,,"1",,,
-"cube1242","Cubeo","South America",1.32382,-70.1939,"cub","tuca1253","","Tucanoan",,,"1",,,"1"
-"lako1248","Lakondê","South America",-13.2,-60.5,"lkd","namb1299","","Nambiquaran","1","1","1",,,
-"pila1245","Pilagá","South America",-25.0058,-60.1537,"plg","guai1249","","Guaicuruan","1","1","1",,,
-"apur1254","Apurinã","South America",-8.21692,-66.7714,"apu","araw1281","","Arawakan",,,"1",,,"1"
-"teri1250","Teribe","North America",9.067,-82.9631,"tfr","chib1249","","Chibchan",,,"1",,,
-"chim1309","Chimila","South America",10.1902,-74.2559,"cbg","chib1249","","Chibchan",,,"1",,,"1"
-"yano1262","Yanomám","South America",2.48999,-62.8522,"wca","yano1268","","Yanomamic",,"1","1",,,
-"kala1399","Kalaallisut","North America",69.3761,-52.864,"kal","eski1264","","Eskimo-Aleut",,,"1",,"1",
-"nene1249","Tundra Nenets","Eurasia",66.1775,71.0234,"yrk","ural1272","","Uralic","1","1",,"1",,"1"
-"trio1238","Trió","South America",2.53616,-55.7599,"tri","cari1283","","Cariban",,,"1",,,
-"thay1249","Thayore","Australia",-14.8159,142.034,"thd","pama1250","","Pama-Nyungan",,,,"1",,"1"
-"miam1252","Miami","North America",40,-90,"mia","algi1248","","Algic",,,"1",,,
-"male1292","Malecite-Passamaquoddy","North America",45.494475,-67.40805,"pqm","algi1248","","Algic",,,"1",,,
-"halh1238","Halh Mongolian","Eurasia",48.32397,106.28874,"khk","mong1349","","Mongolic-Khitan","1","1","1",,,"1"
-"wari1268","Wari'","South America",-10.69948,-64.56152,"pav","chap1271","","Chapacuran",,"1","1",,,
-"lako1247","Lakota","North America",46.3699,-103.95,"lkt","siou1252","","Siouan","1","1","1",,,
-"kain1272","Kaingang","South America",-27.7671,-52.5394,"kgp","nucl1710","","Nuclear-Macro-Je",,"1","1",,,
-"pipi1250","Pipil","North America",13.8931,-89.443,"ppl","utoa1244","","Uto-Aztecan",,,"1",,,
-"cahu1264","Cahuilla","North America",33.5324,-116.691,"chl","utoa1244","","Uto-Aztecan",,"1","1",,,
-"sant1432","Santiago del Estero Quichua","South America",-27.821,-63.2466,"qus","quec1387","","Quechuan","1","1","1",,,
-"lang1324","Lango (Uganda)","Africa",2.13867,33.0553,"laj","nilo1247","","Nilotic","1","1",,"1",,"1"
-"mats1244","Matsés","South America",-5.73914,-72.6281,"mcf","pano1259","","Pano-Tacanan",,,"1",,,
-"sion1247","Siona-Tetete","South America",0.31733,-76.0237,"snn","tuca1253","","Tucanoan","1","1","1",,,
-"guan1269","Kotiria","South America",1.07554,-69.5705,"gvc","tuca1253","","Tucanoan",,,"1",,,
-"hupa1239","Hupa-Chilula","North America",41.0982,-123.68,"hup","atha1245","","Athabaskan-Eyak-Tlingit",,,"1",,,
-"miya1260","Miyako-Jima","Eurasia",24.7564,125.363,"","japo1237","miya1259","Japonic","1","1",,"1",,
-"trin1274","Trinitario-Javeriano-Loretano","South America",-15.3331,-65.4096,"trn","araw1281","","Arawakan",,,"1",,,
-"wapi1253","Wapishana","South America",2.58744,-59.8021,"wap","araw1281","","Arawakan",,,"1",,,
-"gari1256","Garifuna","North America",15.3529,-86.9091,"cab","araw1281","","Arawakan",,,"1",,,
-"tari1256","Tariana","South America",0.440205,-68.9042,"tae","araw1281","","Arawakan",,,"1",,,
-"buki1249","Bukiyip","Papunesia",-3.47169,143.111,"ape","nucl1708","","Nuclear Torricelli","1","1",,"1",,"1"
-"mart1255","Martuthunira","Australia",-20.9294,116.607,"vma","pama1250","","Pama-Nyungan","1","1",,"1",,
-"swam1239","Swampy Cree","North America",56,-95,"csw","algi1248","","Algic","1","1","1",,,
-"tupi1273","Tupinambá","South America",-22.807778,-42.106389,"tpn","tupi1275","","Tupian",,,"1",,,
-"cane1242","Canela-Krahô","South America",-6.10712,-45.1299,"ram","nucl1710","","Nuclear-Macro-Je",,,"1",,,
-"mali1285","Malinaltepec Me'phaa","North America",17.2122,-98.6322,"tcf","otom1299","","Otomanguean",,"1","1",,,
-"tete1251","Tetelcingo Nahuatl","North America",18.8854,-98.893,"nhg","utoa1244","","Uto-Aztecan",,,"1",,,
-"ship1254","Shipibo-Conibo","South America",-7.17105,-74.8219,"shp","pano1259","","Pano-Tacanan",,,"1",,,
-"kich1262","K'iche'","North America",14.5278,-91.1696,"quc","maya1287","","Mayan","1","1","1",,,
-"popt1235","Popti'","North America",15.6609,-91.6633,"jac","maya1287","","Mayan",,,"1",,"1",
-"chol1282","Chol","North America",17.4897,-92.4698,"ctu","maya1287","","Mayan",,,"1",,,"1"
-"dukh1234","Dukha","Eurasia",51.9307,98.9318,"","turk1311","kara1462","Turkic","1","1",,"1",,"1"
-"nort2942","North Slavey","North America",63.5,-125.67,"scs","atha1245","","Athabaskan-Eyak-Tlingit","1","1","1",,,"1"
-"nava1243","Navajo","North America",36.33,-109.38,"nav","atha1245","","Athabaskan-Eyak-Tlingit",,,"1",,"1",
-"nant1250","Nanti","South America",-12.1018,-72.3507,"cox","araw1281","","Arawakan",,"1",,"1",,
-"bulo1242","Bulo Stieng","Eurasia",11.9777,106.798,"sti","aust1305","","Austroasiatic","1","1",,"1",,
-"galo1242","Galo","Eurasia",27.9805586,94.6884956,"adl","sino1245","","Sino-Tibetan","1","1",,"1",,"1"
-"otta1242","Ottawa","North America",44.5988,-83.226,"otw","algi1248","","Algic",,,"1",,,
-"coca1259","Cocama-Cocamilla","South America",-4.5,-74,"cod","tupi1275","","Tupian",,,"1",,,
-"emer1243","Teko","South America",3.23694,-52.3699,"eme","tupi1275","","Tupian","1","1","1",,,"1"
-"magd1235","Magdalena Peñasco Mixtec","North America",17.2837,-97.5413,"xtm","otom1299","","Otomanguean",,,"1",,"1",
-"quer1236","Querétaro Otomi","North America",20.1396,-100.115,"otq","otom1299","","Otomanguean",,,"1",,,
-"imba1240","Imbabura Highland Quichua","South America",0.31776,-78.3729,"qvi","quec1387","","Quechuan",,,"1",,,
-"kamb1316","Kambaata","Africa",7.37582,37.9088,"ktb","afro1255","","Afro-Asiatic","1","1",,"1",,
-"para1311","Paraguayan Guaraní","South America",-25.60551,-57.08816,"gug","tupi1275","","Tupian",,,"1",,,
-"iris1253","Irish","Eurasia",53.2186,-7.61509,"gle","indo1319","","Indo-European","1","1",,"1",,"1"
-"mezo1235","Mezontla Popoloca","North America",18.1442,-97.5879,"pbe","otom1299","","Otomanguean",,,"1",,,
-"sier1250","Sierra de Juárez Zapotec","North America",17.4219,-96.6191,"zaa","otom1299","","Otomanguean",,,"1",,,
-"tuka1248","Tukang Besi North","Papunesia",-5.30994,123.578,"khc","aust1307","","Austronesian","1","1",,"1",,"1"
-"bamb1269","Bambara","Africa",12.9,-7.65,"bam","mand1469","","Mande","1","1",,"1",,
-"laoo1244","Lao","Eurasia",19,102.46,"lao","taik1256","","Tai-Kadai","1","1",,"1",,
-"yoru1245","Yoruba","Africa",7.15345,3.67225,"yor","atla1278","","Atlantic-Congo","1","1",,"1",,"1"
+"Glottocode","Name","Macroarea","Latitude","Longitude","ISO639P3code","Level","Family_ID","Language_ID","Is_Isolate","Family_Name","Isolates_Balanced_Sample","Isolates_Sample","American_Sample","Worldwide_Sample","North_American_Split_Sample","South_American_Split_Sample","North_American_Universal_Sample","South_American_Universal_Sample","North_America_25_SALSA_Sample","Noun_Poss_Sample"
+"fuln1247","Fulniô","South America",-9.02591,-37.1402,"fun","language","","","true",,"1","1","1",,,"1",,,,
+"tonk1249","Tonkawa","North America",30.25,-96.75,"tqw","language","","","true",,,"1","1",,"1",,,,,
+"klam1254","Klamath-Modoc","North America",42.5861,-121.704,"kla","language","","","true",,,"1","1",,"1",,,,,
+"natc1249","Natchez","North America",31.75,-91.33,"ncz","language","","","true",,,"1","1",,"1",,,,,
+"cams1241","Camsá","South America",1.14537,-76.8931,"kbh","language","","","true",,,,"1",,,"1",,,,
+"muni1258","Muniche","South America",-5.7441796,-76.426712,"myr","language","","","true",,,"1","1",,,"1",,"1",,
+"trum1247","Trumai","South America",-11.8119,-53.5717,"tpy","language","","","true",,,"1","1",,,"1",,,,
+"niha1238","Nihali","Eurasia",21.1886,76.3318,"nll","language","","","true",,"1","1",,"1",,,,,,
+"cofa1242","Cofán","South America",0.276675,-77.0643,"con","language","","","true",,,,"1",,,"1",,,,
+"shab1252","Shabo","Africa",7.64407,35.223,"sbf","language","","","true",,"1","1",,"1",,,,,,
+"cuit1236","Cuitlatec","North America",18.1,-100.5,"cuy","language","","","true",,"1","1","1",,"1","1",,,,"1"
+"sand1273","Sandawe","Africa",-5.26918,35.4808,"sad","language","","","true",,"1","1",,"1",,,,,,"1"
+"kusu1250","Kusunda","Eurasia",28.33,82.6,"kgg","language","","","true",,"1","1",,"1",,,,,,"1"
+"tabo1241","Tabo","Papunesia",-8.09387,143.305,"knv","language","","","true",,"1","1",,"1",,,,,,
+"duna1248","Duna","Papunesia",-5.41439,142.475,"duc","language","","","true",,"1","1",,"1",,,,,,"1"
+"zuni1245","Zuni","North America",35.0056,-108.782,"zun","language","","","true",,"1","1","1",,"1",,,,"1",
+"puin1248","Puinave","South America",3.92974,-67.6886,"pui","language","","","true",,"1","1","1",,,"1",,"1",,
+"chim1301","Chimariko","North America",41,-123,"cid","language","","","true",,,"1","1",,"1",,"1",,,"1"
+"kuot1243","Kuot","Papunesia",-3.06952,151.537,"kto","language","","","true",,"1","1",,"1",,,,,,"1"
+"yuch1247","Yuchi","North America",35.75,-86.75,"yuc","language","","","true",,,"1","1",,"1",,"1",,,
+"paez1247","Páez","South America",2.61516,-76.31254,"pbb","language","","","true",,"1","1","1",,,"1",,,,
+"tiwi1244","Tiwi","Australia",-11.6308,130.949,"tiw","language","","","true",,"1","1",,"1",,,,,,
+"leco1242","Leco","South America",-15.0092,-67.8818,"lec","language","","","true",,"1","1","1",,,"1",,,,
+"guat1253","Guató","South America",-17.8696,-57.2897,"gta","language","","","true",,,"1","1",,,"1",,,,"1"
+"buru1296","Burushaski","Eurasia",36.2161,74.8236,"bsk","language","","","true",,"1","1",,"1",,,,,,
+"nara1262","Nara","Africa",15.3251,37.499,"nrb","language","","","true",,"1","1",,"1",,,,,,"1"
+"sume1241","Sumerian","Eurasia",31.3,45.6667,"sux","language","","","true",,"1","1",,"1",,,,,,
+"esse1238","Esselen","North America",36.5473,-121.867,"esq","language","","","true",,,,"1",,"1",,,,,
+"iton1250","Itonama","South America",-12.80431,-64.35748,"ito","language","","","true",,,"1","1",,,"1",,,,
+"hadz1240","Hadza","Africa",-3.83115,35.0458,"hts","language","","","true",,"1","1",,"1",,,,,,"1"
+"moch1259","Mochica","South America",-8.01667,-79,"omc","language","","","true",,,,"1",,,"1",,,,
+"sius1254","Siuslaw","North America",42.5111,-124.379,"sis","language","","","true",,"1","1","1",,"1",,"1",,,
+"tuni1252","Tunica","North America",30.9888,-92.5403,"tun","language","","","true",,"1","1","1",,"1",,"1",,"1",
+"lavu1241","Lavukaleve","Papunesia",-9.05569,159.119,"lvk","language","","","true",,"1","1",,"1",,,,,,"1"
+"timu1245","Timucua","North America",30.3027,-82.3132,"tjm","language","","","true",,"1","1","1",,"1",,"1",,"1",
+"sulk1246","Sulka","Papunesia",-5.03471,151.891,"sua","language","","","true",,"1","1",,"1",,,,,,"1"
+"maib1239","Maybrat-Karon","Papunesia",-1.3679,132.591,"ayz","language","","","true",,"1","1",,"1",,,,,,"1"
+"bert1248","Berta","Africa",10.6474,34.7042,"wti","language","","","true",,"1","1",,"1",,,,,,"1"
+"yura1255","Yuracaré","South America",-16.7479,-65.1224,"yuz","language","","","true",,,"1","1",,,"1",,,,"1"
+"basq1248","Basque","Eurasia",43.2787,-1.31622,"eus","language","","","true",,"1","1",,"1",,,,,,"1"
+"wage1238","Wageman","Australia",-13.8627,131.893,"waq","language","","","true",,"1","1",,"1",,,,,,"1"
+"cayu1262","Cayubaba","South America",-13.2482,-65.4822,"cyb","language","","","true",,"1","1","1",,,"1",,,,"1"
+"iran1263","Irántxe-Münkü","South America",-12.7178,-57.9806,"irn","language","","","true",,"1","1","1",,,"1",,,,
+"taia1239","Taiap","Papunesia",-4.05047,144.506,"gpn","language","","","true",,"1","1",,"1",,,,,,"1"
+"kari1254","Kariri","South America",-7.434628,-40.487275,"","language","","","true",,"1","1","1",,,"1",,"1",,
+"pira1253","Pirahã","South America",-6.77713,-61.8167,"myp","language","","","true",,,"1","1",,,"1",,"1",,"1"
+"bang1363","Bangime","Africa",14.8116,-3.77092,"dba","language","","","true",,"1","1",,"1",,,,,,"1"
+"coah1252","Coahuilteco","North America",28.2589,-97.89,"xcw","language","","","true",,,"1","1",,"1",,"1",,"1",
+"hatt1246","Hattic","Eurasia",40.4,34.6,"xht","language","","","true",,"1","1",,"1",,,,,,"1"
+"mose1249","Mosetén-Chimané","South America",-14.64448,-67.83756,"cas","language","","","true",,,"1","1",,,"1",,"1",,
+"take1257","Takelma","North America",42.423,-123.452,"tkm","language","","","true",,,"1","1",,"1",,,,,
+"sali1253","Salinan","North America",37.6646,-121.718,"sln","language","","","true",,"1","1","1",,"1",,,,,
+"seri1257","Seri","North America",28.9877,-112.384,"sei","language","","","true",,,"1","1",,"1",,,,"1",
+"movi1243","Movima","South America",-13.8115,-65.6348,"mzp","language","","","true",,"1","1","1",,,"1",,,,
+"mola1238","Molale","North America",44.556,-122.857,"mbe","language","","","true",,,"1","1",,"1",,,,"1",
+"siam1242","Siamou","Africa",10.998,-4.92143,"sif","language","","","true",,"1","1",,"1",,,,,,"1"
+"ando1256","Andoque","South America",-0.53751,-72.0869,"ano","language","","","true",,,,"1",,,"1",,,,
+"urar1246","Urarina","South America",-4.44006,-75.4211,"ura","language","","","true",,"1","1","1",,,"1",,"1",,
+"karo1304","Karuk","North America",41.8228,-123.315,"kyh","language","","","true",,"1","1","1",,"1",,"1",,"1",
+"wara1303","Warao","South America",7.50851,-59.3528,"wba","language","","","true",,,"1","1",,,"1",,"1",,
+"savo1255","Savosavo","Papunesia",-9.12853,159.814,"svs","language","","","true",,"1","1",,"1",,,,,,"1"
+"kwaz1243","Kwaza","South America",-11.6667,-61.1833,"xwa","language","","","true",,,"1","1",,,"1",,,,
+"kute1249","Kutenai","North America",48.7892,-115.065,"kut","language","","","true",,,"1","1",,"1",,,,,
+"kuna1268","Kunama","Africa",14.5879,37.5292,"kun","language","","","true",,"1","1",,"1",,,,,,"1"
+"abun1252","Abun","Papunesia",-0.57073,132.416,"kgr","language","","","true",,"1","1",,"1",,,,,,"1"
+"wash1253","Washo","North America",38.8184,-119.64,"was","language","","","true",,,"1","1",,"1",,,,,
+"kano1245","Kanoê","South America",-12.1789,-64.5812,"kxo","language","","","true",,"1","1","1",,,"1",,,,
+"bilu1245","Bilua","Papunesia",-7.92388,156.663,"blb","language","","","true",,"1","1",,"1",,,,,,"1"
+"laal1242","Laal","Africa",10.0063,17.6143,"gdm","language","","","true",,"1","1",,"1",,,,,,
+"alse1251","Alsea-Yaquina","North America",44.408,-123.94,"aes","language","","","true",,"1","1","1",,"1",,,,,"1"
+"yana1271","Yana","North America",39.2769,-121.608,"ynn","language","","","true",,"1","1","1",,"1",,,,"1",
+"gaga1251","Gaagudju","Australia",-12.5176,132.643,"gbu","language","","","true",,"1","1",,"1",,,,,,"1"
+"pech1241","Pech","North America",15.8033,-85.558,"pay","language","chib1249","","false","Chibchan",,,"1",,"1","1",,,,"1"
+"nucl1633","Nimboran","Papunesia",-2.5803,140.179,"nir","language","nimb1257","","false","Nimboranic","1","1",,"1",,,,,,"1"
+"goon1238","Gooniyandi","Australia",-18.4073,126.351,"gni","language","buna1274","","false","Bunaban","1","1",,"1",,,,,,"1"
+"agua1253","Aguaruna","South America",-5.30044,-77.9218,"agr","language","jiva1245","","false","Chicham","1","1","1",,,"1",,,,"1"
+"ward1246","Wardaman","Australia",-15.4155,132.604,"wrr","language","yang1287","","false","Yangmanic","1","1",,"1",,,,,,"1"
+"nucl1327","Limilngan","Australia",-12.4294,131.845,"lmc","language","limi1242","","false","Limilngan-Wulna","1","1",,"1",,,,,,"1"
+"yagu1244","Yagua","South America",-3.42913,-72.2186,"yad","language","peba1241","","false","Peba-Yagua",,"1","1",,,"1",,,,
+"chip1262","Chipaya","South America",-18.73951,-67.89633,"cap","language","uruc1242","","false","Uru-Chipaya","1","1","1",,,"1",,"1",,"1"
+"kitj1240","Kitja","Australia",-17.5758,127.392,"gia","language","jarr1235","","false","Jarrakan","1","1",,"1",,,,,,"1"
+"chiq1248","Lomeriano-Ignaciano Chiquitano","South America",-16.769554,-61.817795,"cax","language","chiq1253","","false","Chiquitano",,"1","1",,,"1",,"1",,"1"
+"kala1400","Central Kalapuya","North America",44.9861,-123.925,"kyl","language","kala1402","","false","Kalapuyan","1","1","1",,"1",,"1",,,
+"wint1259","Wintu","North America",39.7176,-122.445,"wit","language","wint1258","","false","Wintuan",,"1","1",,"1",,,,"1",
+"ngar1284","Ngarinyin","Australia",-16.4006,126.433,"ung","language","worr1236","","false","Worrorran","1","1",,"1",,,,,,"1"
+"gara1269","Garrwa","Australia",-17.4504,137.72014,"wrk","language","garr1260","","false","Garrwan","1","1",,"1",,,,,,"1"
+"bell1243","Bella Coola","North America",52.3448,-126.689,"blc","language","sali1255","","false","Salishan",,"1","1",,"1",,,,,
+"wiyo1248","Wiyot","North America",39.2492,-122.952,"wiy","language","algi1248","","false","Algic",,,"1",,"1",,,,,
+"yuro1248","Yurok","North America",41.3262,-123.824,"yur","language","algi1248","","false","Algic",,,"1",,"1",,"1",,,
+"cadd1256","Caddo","North America",33.33,-93.5,"cad","language","cadd1255","","false","Caddoan","1","1","1",,"1",,"1",,"1",
+"nort2951","Northwest Maidu","North America",39.6721,-121.368,"mjd","language","maid1262","","false","Maiduan",,"1","1",,"1",,,,,
+"maun1240","Mawng","Australia",-11.66,133.376,"mph","language","iwai1246","","false","Iwaidjan Proper","1","1",,"1",,,,,,"1"
+"sout2982","Southeastern Pomo","North America",38.9354,-122.599,"pom","language","pomo1273","","false","Pomoan",,"1","1",,"1",,"1",,,
+"tlin1245","Tlingit","North America",59.4447,-135.29,"tli","language","atha1245","","false","Athabaskan-Eyak-Tlingit",,,"1",,"1",,,,,
+"cacu1241","Kakua","South America",0.88778,-69.5659,"cbv","language","kaku1242","","false","Kakua-Nukak",,"1","1",,,"1",,,,"1"
+"chay1248","Shawi","South America",-5.63764,-76.8252,"cbt","language","cahu1265","","false","Cahuapanan",,"1","1",,,"1",,,,
+"nort2745","Northern Yukaghir","Eurasia",70.498,157.853,"ykg","language","yuka1259","","false","Yukaghir",,,"1",,,,,,,
+"kana1291","Katukína-Kanamarí","South America",-6.45399,-68.7678,"knm","language","katu1274","","false","Katukinan",,"1","1",,,"1",,,,
+"murr1258","Murriny Patha","Australia",-14.74852,129.70152,"mwf","language","sout2772","","false","Southern Daly","1","1",,"1",,,,,,"1"
+"gily1242","Amur Nivkh","Eurasia",52.59,140.681,"niv","language","nivk1234","","false","Nivkh","1","1","1",,,,,,,"1"
+"amar1274","Amarakaeri","South America",-12.4931,-70.5533,"amr","language","hara1260","","false","Harakmbut",,"1","1",,,"1",,"1",,"1"
+"kamu1258","Kamu","Australia",-13.5393,131.098,"xmu","language","east2374","","false","Eastern Daly","1","1",,"1",,,,,,
+"pure1242","Purepecha","North America",19.2467,-101.631,"tsz","language","tara1323","","false","Tarascan","1","1","1",,"1","1",,,,
+"sout2956","Southern Haida","North America",53.2616,-132.008,"hax","language","haid1248","","false","Haida",,"1","1",,"1",,"1",,,
+"wapp1239","Wappo","North America",38.25,-122.5,"wao","language","yuki1242","","false","Yuki-Wappo","1","1","1",,"1",,,,,
+"yuki1243","Northern Yukian","North America",39.8389,-123.296,"yuk","language","yuki1242","","false","Yuki-Wappo",,,"1",,"1",,,,,
+"shek1245","Sheko","Africa",7.05022,35.2826,"she","language","dizo1235","","false","Dizoid","1","1",,"1",,,,,,"1"
+"misk1235","Mískito","North America",15.1576,-84.2942,"miq","language","misu1242","","false","Misumalpan",,"1","1",,"1","1",,,,
+"achu1247","Achumawi","North America",41.0979,-121.191,"acv","language","pala1350","","false","Palaihnihan","1","1","1",,"1",,"1",,,"1"
+"chol1284","Cholón","South America",-9.23129,-75.9621,"cht","language","hibi1242","","false","Hibito-Cholon","1","1","1",,,"1",,"1",,
+"benc1235","Bench","Africa",7.04682,35.7673,"bcq","language","gong1255","","false","Ta-Ne-Omotic","1","1",,"1",,,,,,"1"
+"coos1249","Hanis","North America",43.4413,-124.16,"csz","language","coos1248","","false","Coosan",,"1","1",,"1",,,,,"1"
+"mull1237","Mullukmulluk","Australia",-13.427,130.664,"mpb","language","nort1547","","false","Northern Daly","1","1",,"1",,,,,,"1"
+"cher1273","Cherokee","North America",35.4664,-83.163,"chr","language","iroq1247","","false","Iroquoian",,,"1",,"1",,,,"1",
+"kiow1266","Kiowa","North America",34.9403,-98.9042,"kio","language","kiow1265","","false","Kiowa-Tanoan",,,"1",,"1",,"1",,,
+"toll1241","Tol","North America",14.6686,-87.0372,"jic","language","jica1245","","false","Jicaquean",,"1","1",,"1","1",,,"1",
+"quil1240","Quileute","North America",47.9106,-124.603,"qui","language","chim1311","","false","Chimakuan",,"1","1",,"1",,,,,"1"
+"ticu1245","Ticuna","South America",-3.66289,-69.8723,"tca","language","ticu1244","","false","Ticuna-Yuri",,"1","1",,,"1",,"1",,
+"nucl1649","Southern-Coastal Tsimshian","North America",52.59103,-128.544545,"tsi","language","tsim1258","","false","Tsimshian",,,"1",,"1",,,,,
+"ofay1240","Ofayé","South America",-22.278,-53.7227,"opy","language","nucl1710","","false","Nuclear-Macro-Je",,,"1",,,"1",,,,
+"rikb1245","Rikbaktsa","South America",-11.1887,-58.1942,"rkb","language","nucl1710","","false","Nuclear-Macro-Je",,,"1",,,"1",,,,
+"kara1500","Karajá","South America",-11.1881,-50.3492,"kpj","language","nucl1710","","false","Nuclear-Macro-Je",,,"1",,,"1",,,,
+"mapu1245","Mapudungun","South America",-38.7392,-71.277,"arn","language","arau1255","","false","Araucanian","1","1","1",,,"1",,"1",,
+"cree1270","Creek","North America",31,-87.5,"mus","language","musk1252","","false","Muskogean","1","1","1",,"1",,"1",,,
+"bora1263","Bora","South America",-2.000259,-72.257066,"boa","language","bora1262","","false","Boran",,"1","1",,,"1",,,,"1"
+"high1242","Highland Oaxaca Chontal","North America",16.1849,-95.7301,"chd","language","tequ1244","","false","Tequistlatecan","1","1","1",,"1","1",,,"1","1"
+"mang1381","Mangarrayi","Australia",-14.8,133.5,"mpc","language","mang1423","","false","Mangarrayi-Maran","1","1",,"1",,,,,,"1"
+"west2632","Western Keres","North America",34.9733,-107.517,"kjq","language","kere1287","","false","Keresan",,"1","1",,"1",,"1",,"1",
+"sali1298","Sáliba","South America",5.30115,-69.3843,"slc","language","sali1297","","false","Saliban","1","1","1",,,"1",,,,
+"olut1240","Oluta Popoluca","North America",17.8937,-94.8863,"plo","language","mixe1284","","false","Mixe-Zoque",,,"1",,"1","1",,,,
+"nuuc1236","Nuu-chah-nulth","North America",49.67,-126.67,"nuk","language","waka1280","","false","Wakashan","1","1","1",,"1",,,,,"1"
+"zapa1253","Záparo","South America",-1.99871,-76.364,"zro","language","zapa1251","","false","Zaparoan",,"1","1",,,"1",,"1",,
+"ainu1240","Hokkaido Ainu","Eurasia",43.633654,142.46167,"ain","language","ainu1252","","false","Ainu","1","1","1",,,,,,,"1"
+"sand1278","San Dionisio del Mar Huave","North America",16.3514,-94.7001,"hve","language","huav1256","","false","Huavean",,"1","1",,"1","1",,,,"1"
+"boro1282","Bororo","South America",-16.6029,-55.2004,"bor","language","boro1281","","false","Bororoan","1","1","1",,,"1",,,,"1"
+"koyr1242","Koyraboro Senni Songhai","Africa",16.9634,-0.55187,"ses","language","song1307","","false","Songhay","1","1",,"1",,,,,,"1"
+"waim1253","Waimiri-Atroari","South America",-0.61832,-60.4259,"atr","language","cari1283","","false","Cariban",,,"1",,,"1",,"1",,
+"shas1239","Shasta","North America",41.7587,-122.738,"sht","language","shas1238","","false","Shastan",,"1","1",,"1",,"1",,,
+"xinc1242","Xinca-Chiquimulilla","North America",14.083301,-90.380259,"","language","xinc1237","","false","Xincan","1","1","1",,"1","1",,,"1",
+"huas1242","Huastec","North America",21.6153,-98.5028,"hus","language","maya1287","","false","Mayan",,,"1",,"1","1",,,,
+"miri1266","Miriwung","Australia",-16.3596,128.889,"mep","language","jarr1235","","false","Jarrakan",,,,"1",,,,,,"1"
+"qawa1238","Qawasqar","South America",-49.303195,-74.707536,"alc","language","kawe1237","","false","Kawesqar","1","1","1",,,"1",,,,
+"jaqa1244","Jaqaru","South America",-12.741939,-75.809231,"jqr","language","ayma1253","","false","Aymaran",,,"1",,,"1",,,,
+"sout2996","Southern Aymara","South America",-17.1417,-70.3442,"ayc","language","ayma1253","","false","Aymaran",,"1","1",,,"1",,,,
+"tomm1242","Tommo So Dogon","Africa",14.756,-3.28,"dto","language","dogo1299","","false","Dogon","1","1",,"1",,,,,,"1"
+"akab1249","Akabea","Eurasia",12.3782,92.7818,"abj","language","grea1241","","false","Great Andamanese","1","1",,"1",,,,,,"1"
+"hopi1249","Hopi","North America",35.7653,-110.535,"hop","language","utoa1244","","false","Uto-Aztecan",,,"1",,"1",,,,"1",
+"chin1286","Clatsop-Shoalwater Chinook","North America",45.1729,-119.166,"chh","language","chin1490","","false","Chinookan","1","1","1",,"1",,"1",,,"1"
+"urni1239","Urningangg","Australia",-13.4766,133.023,"urc","language","giim1238","","false","Giimbiyu","1","1",,"1",,,,,,"1"
+"aleu1260","Aleut","North America",52.1228,-174.29,"ale","language","eski1264","","false","Eskimo-Aleut",,,"1",,"1",,,,,
+"pali1279","Palikúr","South America",3.63993,-51.6246,"plu","language","araw1281","","false","Arawakan",,,"1",,,"1",,,,
+"siks1238","Siksika","North America",49.0669,-113.109,"bla","language","algi1248","","false","Algic",,,"1",,"1",,,,"1",
+"djam1255","Jaminjung-Ngaliwurru","Australia",-15.0558,130.06,"djd","language","mirn1241","","false","Mirndi","1","1",,"1",,,,,,"1"
+"wich1260","Wichita","North America",35.0665,-98.1831,"wic","language","cadd1255","","false","Caddoan",,,"1",,"1",,,,,"1"
+"roto1249","Rotokas","Papunesia",-5.94339,155.154,"roo","language","nort2933","","false","North Bougainville","1","1",,"1",,,,,,
+"niva1238","Nivaclé","South America",-22.8557,-61.7606,"cag","language","mata1289","","false","Matacoan",,,"1",,,"1",,,,
+"cata1286","Catawba","North America",34.9685,-80.8857,"chc","language","siou1252","","false","Siouan",,,"1",,"1",,,,,
+"juho1239","South-Eastern Ju","Africa",-19.688,20.7673,"ktz","language","kxaa1236","","false","Kxa","1","1",,"1",,,,,,"1"
+"kett1243","Ket","Eurasia",63.7551,87.5466,"ket","language","yeni1252","","false","Yeniseian","1","1","1",,,,,,,"1"
+"awac1239","Awa-Cuaiquer","South America",1.21652,-78.3401,"kwi","language","barb1265","","false","Barbacoan","1","1","1",,,"1",,,,"1"
+"eyak1241","Eyak","North America",60.4232,-144.762,"eya","language","atha1245","","false","Athabaskan-Eyak-Tlingit",,,"1",,"1",,,,,
+"sout2750","Southern Yukaghir","Eurasia",64.218,154.375,"yux","language","yuka1259","","false","Yukaghir","1","1","1",,,,,,,"1"
+"tehu1242","Tehuelche","South America",-47.5796,-68.3235,"teh","language","chon1288","","false","Chonan","1","1","1",,,"1",,,,
+"cavi1250","Cavineña","South America",-13.3544,-66.6277,"cav","language","pano1259","","false","Pano-Tacanan",,,"1",,,"1",,,,"1"
+"naka1260","Nakara","Australia",-12.07653,134.32729,"nck","language","mani1293","","false","Maningrida","1","1",,"1",,,,,,
+"yecu1235","Yecuatla Totonac","North America",20.1765,-96.8741,"tlc","language","toto1251","","false","Totonacan",,,"1",,"1","1",,,,
+"hueh1236","Huehuetla Tepehua","North America",20.6189,-97.9347,"tee","language","toto1251","","false","Totonacan",,"1","1",,"1","1",,,,
+"yima1243","Yimas","Papunesia",-4.71731,143.572,"yee","language","lowe1423","","false","Lower Sepik","1","1",,"1",,,,,,"1"
+"sana1298","Sanapaná","South America",-22.49,-58.38,"spn","language","leng1261","","false","Lengua-Mascoy",,"1","1",,,"1",,"1",,
+"itel1242","West Itelmen","Eurasia",56.046173,156.30704,"itl","language","chuk1271","","false","Chukotko-Kamchatkan",,,"1",,,,,,,"1"
+"chuk1273","Chukchi","Eurasia",68.6436,170.045,"ckt","language","chuk1271","","false","Chukotko-Kamchatkan","1","1","1",,,,,,,
+"jama1261","Madi","South America",-7.62223,-66.5662,"jaa","language","araw1282","","false","Arawan","1","1","1",,,"1",,,,
+"ayor1240","Ayoreo","South America",-19.220055,-60.217495,"ayo","language","zamu1243","","false","Zamucoan","1","1","1",,,"1",,,,
+"wyan1247","Huron-Wyandot","North America",44.33,-77.5,"wya","language","iroq1247","","false","Iroquoian",,,"1",,"1",,,,,
+"abkh1244","Abkhaz","Eurasia",43.056218,41.159115,"abk","language","abkh1242","","false","Abkhaz-Adyge","1","1",,"1",,,,,,"1"
+"ariz1237","Arizona Tewa","North America",35.836667,-110.381389,"","language","kiow1265","","false","Kiowa-Tanoan","1","1","1",,"1",,,,,"1"
+"nisg1240","Nisga'a","North America",55.199,-129.192,"ncg","language","tsim1258","","false","Tsimshian","1","1","1",,"1",,,,,
+"djeo1235","Djeoromitxí","South America",-12.038,-64.6694,"jbt","language","nucl1710","","false","Nuclear-Macro-Je",,,"1",,,"1",,,,
+"kren1239","Borum","South America",-18.9988,-41.2299,"kqq","language","nucl1710","","false","Nuclear-Macro-Je",,,"1",,,"1",,,,
+"koas1236","Koasati","North America",30.4096,-92.709,"cku","language","musk1252","","false","Muskogean",,,"1",,"1",,,,,
+"choc1276","Choctaw","North America",32.25,-88.5,"cho","language","musk1252","","false","Muskogean",,,"1",,"1",,,,,
+"brah1256","Brahui","Eurasia",29.04,66.56,"brh","language","drav1251","","false","Dravidian",,,,"1",,,,,,
+"high1276","Highland Popoluca","North America",18.198,-94.9109,"poi","language","mixe1284","","false","Mixe-Zoque",,,"1",,"1","1",,,,"1"
+"toto1305","Totontepec Mixe","North America",17.2157,-96.0179,"mto","language","mixe1284","","false","Mixe-Zoque",,"1","1",,"1","1",,,,
+"tido1248","Tidore","Papunesia",0.02461,127.746,"tvo","language","nort2923","","false","North Halmahera","1","1",,"1",,,,,,
+"rama1270","Rama","North America",11.5007,-83.8571,"rma","language","chib1249","","false","Chibchan","1","1","1",,"1","1",,,"1",
+"nucl1622","Marind","Papunesia",-8.15651,140.009,"mrz","language","anim1240","","false","Anim","1","1",,"1",,,,,,"1"
+"kwak1269","Kwak'wala","North America",50.9269,-127.308,"kwk","language","waka1280","","false","Wakashan",,,"1",,"1",,"1",,,
+"kaya1319","Kayardild","Australia",-17.0695,139.489,"gyd","language","tang1340","","false","Tangkic","1","1",,"1",,,,,,"1"
+"kron1241","Krongo","Africa",10.514,30.003,"kgo","language","kadu1256","","false","Kadugli-Krongo","1","1",,"1",,,,,,"1"
+"karo1305","Karo (Brazil)","South America",-10.3342,-61.5691,"arr","language","tupi1275","","false","Tupian",,,"1",,,"1",,,,
+"kari1311","Karitiâna","South America",-9.37937,-64.1522,"ktn","language","tupi1275","","false","Tupian",,,"1",,,"1",,,,
+"mund1330","Mundurukú","South America",-8.41095,-57.691,"myu","language","tupi1275","","false","Tupian",,,"1",,,"1",,,,
+"juru1256","Jurúna","South America",-10.9354,-53.3472,"jur","language","tupi1275","","false","Tupian",,,"1",,,"1",,,,
+"ikpe1245","Ikpeng","South America",-11.37822,-53.49553,"txi","language","cari1283","","false","Cariban",,,"1",,,"1",,,,
+"kuik1246","Kuikúro-Kalapálo","South America",-12.3035,-53.2261,"kui","language","cari1283","","false","Cariban",,,"1",,,"1",,,,
+"enap1235","Panare","South America",6.95035,-65.8483,"pbh","language","cari1283","","false","Cariban",,,"1",,,"1",,,,
+"yukp1241","Yukpa","South America",9.67534,-73.0557,"yup","language","cari1283","","false","Cariban",,,"1",,,"1",,,,
+"hixk1239","Hixkaryána","South America",-0.16265,-58.80153,"hix","language","cari1283","","false","Cariban","1","1","1",,,"1",,,,"1"
+"yoku1256","Northern Yokuts","North America",36.3167,-119.721,"yok","language","yoku1255","","false","Yokutsan",,"1","1",,"1",,"1",,,
+"muts1243","Mutsun","North America",36.84721,-121.44911,"css","language","miwo1274","","false","Miwok-Costanoan",,,"1",,"1",,,,,
+"lake1258","Lake Miwok","North America",39.0021,-122.621,"lmw","language","miwo1274","","false","Miwok-Costanoan",,,"1",,"1",,"1",,,
+"yaki1237","Northwest Sahaptin","North America",46.2655,-120.756,"yak","language","saha1239","","false","Sahaptian","1","1","1",,"1",,,,,
+"madi1260","Ma'di","Africa",3.62499,31.8471,"mhi","language","cent2225","","false","Central Sudanic","1","1",,"1",,,,,,"1"
+"wang1291","Ngiyambaa","Australia",-30.6481,146.18,"wyb","language","pama1250","","false","Pama-Nyungan",,,,"1",,,,,,
+"iumi1238","Iu Mien","Eurasia",20.83,101.17,"ium","language","hmon1336","","false","Hmong-Mien","1","1",,"1",,,,,,"1"
+"yaqu1251","Yaqui","North America",29.9446,-110.681,"yaq","language","utoa1244","","false","Uto-Aztecan",,,"1",,"1",,,,,
+"ines1240","Ineseño","North America",34.6169,-120.08,"inz","language","chum1262","","false","Chumashan",,"1","1",,"1",,,,,
+"manc1252","Manchu","Eurasia",47.31225,126.55713,"mnc","language","tung1282","","false","Tungusic",,,"1",,,,,,,
+"lill1248","Lillooet","North America",50.7272,-122.04,"lil","language","sali1255","","false","Salishan",,,"1",,"1",,,,"1",
+"cent2127","Central Alaskan Yupik","North America",60.3062,-161.486,"esu","language","eski1264","","false","Eskimo-Aleut","1","1","1",,"1",,,,,
+"wayu1243","Wayuu","South America",11.395566,-72.199791,"guc","language","araw1281","","false","Arawakan",,,"1",,,"1",,,,
+"yane1238","Yanesha'","South America",-10.5454,-75.315,"ame","language","araw1281","","false","Arawakan",,,"1",,,"1",,,,
+"wich1262","Wichí Lhamtés Nocten","South America",-21.988,-63.5971,"mtp","language","mata1289","","false","Matacoan","1","1","1",,,"1",,,,
+"muru1274","Murui Huitoto","South America",-1.13669,-73.8331,"huu","language","huit1251","","false","Huitotoan",,"1","1",,,"1",,,,
+"wara1302","Bauni","Papunesia",-3.07263,142.012,"bpe","language","skoo1245","","false","Sko","1","1",,"1",,,,,,"1"
+"hida1246","Hidatsa","North America",47.33,-102,"hid","language","siou1252","","false","Siouan",,,"1",,"1",,,,"1",
+"tute1247","Tutelo","North America",37.67,-78.75,"tta","language","siou1252","","false","Siouan",,,"1",,"1",,,,,
+"kyon1247","Kyongsangdo","Eurasia",35.3,128.3,"","dialect","kore1284","kore1280","","Koreanic","1","1",,"1",,,,,,"1"
+"imon1245","Imonda","Papunesia",-3.31228,141.171,"imn","language","bord1247","","false","Border","1","1",,"1",,,,,,"1"
+"nung1290","Wubuy","Australia",-14.2623,135.753,"nuy","language","gunw1250","","false","Gunwinyguan","1","1",,"1",,,,,,"1"
+"esee1248","Ese Ejja","South America",-11.7268,-67.515,"ese","language","pano1259","","false","Pano-Tacanan","1","1","1",,,"1",,"1",,
+"kenu1243","Kenuzi","Africa",24.09,32.9,"xnz","dialect","nubi1251","kenu1236","","Nubian","1","1",,"1",,,,,,"1"
+"gras1249","Grass Koiari","Papunesia",-9.51218,147.437,"kbk","language","koia1260","","false","Koiarian","1","1",,"1",,,,,,"1"
+"alam1246","Alamblak","Papunesia",-4.66307,143.316,"amp","language","sepi1257","","false","Sepik","1","1",,"1",,,,,,"1"
+"mari1424","Marithiel","Australia",-13.8818,130.237,"mfr","language","west2434","","false","Western Daly","1","1",,"1",,,,,,"1"
+"hupd1244","Hup","South America",0.58622,-69.8359,"jup","language","nada1235","","false","Naduhup",,"1","1",,,"1",,,,
+"yauy1235","Yauyos Quechua","South America",-12.62,-75.7,"qux","language","quec1387","","false","Quechuan",,,"1",,,"1",,,,
+"maya1285","Mayangna","North America",14.1259,-84.3439,"yan","language","misu1242","","false","Misumalpan",,,"1",,"1","1",,,,
+"bard1255","Bardi","Australia",-16.6274,122.906,"bcj","language","nyul1248","","false","Nyulnyulan","1","1",,"1",,,,,,"1"
+"tusc1257","Tuscarora","North America",43.1303,-79.4214,"tus","language","iroq1247","","false","Iroquoian",,,"1",,"1",,"1",,,
+"moha1258","Mohawk","North America",43.72,-74.66836,"moh","language","iroq1247","","false","Iroquoian","1","1","1",,"1",,,,,"1"
+"nucl1632","Sentani","Papunesia",-2.6013,140.512,"set","language","sent1261","","false","Sentanic","1","1",,"1",,,,,,
+"xava1240","Xavánte","South America",-14.3017,-52.4367,"xav","language","nucl1710","","false","Nuclear-Macro-Je",,,"1",,,"1",,,,
+"nucl1302","Georgian","Eurasia",41.850397,43.78613,"kat","language","kart1248","","false","Kartvelian","1","1",,"1",,,,,,"1"
+"daga1275","Daga","Papunesia",-9.9747,149.263,"dgz","language","daga1274","","false","Dagan","1","1",,"1",,,,,,"1"
+"meny1245","Menya","Papunesia",-7.17425,146.071,"mcr","language","anga1289","","false","Angan","1","1",,"1",,,,,,"1"
+"embe1260","Emberá-Catío","South America",7.52721,-76.7476,"cto","language","choc1280","","false","Chocoan",,"1","1",,,"1",,"1",,
+"ingu1240","Ingush","Eurasia",43.11,45.03,"inh","language","nakh1245","","false","Nakh-Daghestanian","1","1",,"1",,,,,,"1"
+"chim1309","Chimila","South America",10.1902,-74.2559,"cbg","language","chib1249","","false","Chibchan",,,"1",,,"1",,"1",,"1"
+"teri1250","Teribe","North America",9.067,-82.9631,"tfr","language","chib1249","","false","Chibchan",,,"1",,"1","1",,,,
+"cent2050","Central Kanuri","Africa",11.8,13.13,"knc","language","saha1256","","false","Saharan","1","1",,"1",,,,,,"1"
+"murl1244","Murle","Africa",6.69756,33.988,"mur","language","surm1244","","false","Surmic","1","1",,"1",,,,,,"1"
+"guah1255","Sikuani","South America",5.81736,-68.9839,"guh","language","guah1252","","false","Guahiboan",,"1","1",,,"1",,"1",,"1"
+"gavi1246","Gavião Do Jiparaná","South America",-10.7235,-61.6752,"gvo","language","tupi1275","","false","Tupian",,,"1",,,"1",,,,
+"awet1244","Awetí","South America",-12.381944,-53.391944,"awe","language","tupi1275","","false","Tupian",,,"1",,,"1",,,,
+"trio1238","Trió","South America",2.53616,-55.7599,"tri","language","cari1283","","false","Cariban",,,"1",,,"1",,,,
+"yuca1254","Yucatec Maya","North America",18.7757,-88.9567,"yua","language","maya1287","","false","Mayan",,,"1",,"1","1",,,,
+"pila1245","Pilagá","South America",-25.0058,-60.1537,"plg","language","guai1249","","false","Guaicuruan","1","1","1",,,"1",,"1",,
+"sout2985","Southern Sierra Miwok","North America",38.2363,-120.507,"skd","language","miwo1274","","false","Miwok-Costanoan","1","1","1",,"1",,,,"1","1"
+"thay1249","Thayore","Australia",-14.8159,142.034,"thd","language","pama1250","","false","Pama-Nyungan",,,,"1",,,,,,"1"
+"toho1245","Tohono O'odham","North America",31.7973,-111.995,"ood","language","utoa1244","","false","Uto-Aztecan",,,"1",,"1",,,,,
+"coma1245","Comanche","North America",34,-101,"com","language","utoa1244","","false","Uto-Aztecan",,,"1",,"1",,,,,"1"
+"nort2954","Northern Paiute","North America",40.0799,-119.536,"pao","language","utoa1244","","false","Uto-Aztecan",,,"1",,"1",,,,,
+"negi1245","Negidal","Eurasia",52.96584,139.20575,"neg","language","tung1282","","false","Tungusic","1","1","1",,,,,,,"1"
+"halk1245","Halkomelem","North America",49.250402,-122.443668,"hur","language","sali1255","","false","Salishan",,,"1",,"1",,,,,
+"uppe1439","Upper Chehalis","North America",46.7981,-123.169,"cjh","language","sali1255","","false","Salishan",,,"1",,"1",,,,,
+"nama1264","Nama (Namibia)","Africa",-25.0747,17.9767,"naq","language","khoe1240","","false","Khoe-Kwadi","1","1",,"1",,,,,,
+"kala1399","Kalaallisut","North America",69.3761,-52.864,"kal","language","eski1264","","false","Eskimo-Aleut",,,"1",,"1",,"1",,"1",
+"apur1254","Apurinã","South America",-8.21692,-66.7714,"apu","language","araw1281","","false","Arawakan",,,"1",,,"1",,,,"1"
+"miam1252","Miami","North America",40,-90,"mia","language","algi1248","","false","Algic",,,"1",,"1",,,,,
+"kash1280","Kashaya","North America",38.5424,-123.08,"kju","language","pomo1273","","false","Pomoan",,,"1",,"1",,,,,
+"cube1242","Cubeo","South America",1.32382,-70.1939,"cub","language","tuca1253","","false","Tucanoan",,,"1",,,"1",,,,"1"
+"yano1262","Yanomám","South America",2.48999,-62.8522,"wca","language","yano1268","","false","Yanomamic",,"1","1",,,"1",,,,
+"yaum1237","Yau-Nungon","Papunesia",-6.08274,146.841,"yuw","language","nucl1709","","false","Nuclear Trans New Guinea","1","1",,"1",,,,,,
+"nene1249","Tundra Nenets","Eurasia",66.1775,71.0234,"yrk","language","ural1272","","false","Uralic","1","1",,"1",,,,,,"1"
+"maba1277","Maba (Chad)","Africa",12.89147,20.8889,"mde","language","maba1274","","false","Maban","1","1",,"1",,,,,,"1"
+"imba1240","Imbabura Highland Quichua","South America",0.31776,-78.3729,"qvi","language","quec1387","","false","Quechuan",,,"1",,,"1",,,,
+"sant1432","Santiago del Estero Quichua","South America",-27.821,-63.2466,"qus","language","quec1387","","false","Quechuan","1","1","1",,,"1",,,,
+"nort2980","North Junín Quechua","South America",-11.2132,-75.8128,"qvn","language","quec1387","","false","Quechuan",,,"1",,,"1",,,,
+"hual1241","Huallaga Huánuco Quechua","South America",-9.57135,-75.594,"qub","language","quec1387","","false","Quechuan",,,"1",,,"1",,,,"1"
+"lako1248","Lakondê","South America",-13.2,-60.5,"lkd","language","namb1299","","false","Nambiquaran","1","1","1",,,"1",,"1",,
+"nort1550","Taos Northern Tiwa","North America",36.4277,-105.604,"twf","language","kiow1265","","false","Kiowa-Tanoan",,,"1",,"1",,,,,
+"maxa1247","Maxakalí","South America",-16.9402,-40.7891,"mbl","language","nucl1710","","false","Nuclear-Macro-Je",,,"1",,,"1",,"1",,
+"mari1440","Maricopa","North America",33.5123,-111.749,"mrc","language","coch1271","","false","Cochimi-Yuman","1","1","1",,"1",,"1",,,"1"
+"saki1248","Mekens","South America",-13.054,-62.0927,"skf","language","tupi1275","","false","Tupian",,,"1",,,"1",,,,
+"buki1249","Bukiyip","Papunesia",-3.47169,143.111,"ape","language","nucl1708","","false","Nuclear Torricelli","1","1",,"1",,,,,,"1"
+"wari1268","Wari'","South America",-10.69948,-64.56152,"pav","language","chap1271","","false","Chapacuran",,"1","1",,,"1",,"1",,
+"mart1255","Martuthunira","Australia",-20.9294,116.607,"vma","language","pama1250","","false","Pama-Nyungan","1","1",,"1",,,,,,
+"cahu1264","Cahuilla","North America",33.5324,-116.691,"chl","language","utoa1244","","false","Uto-Aztecan",,"1","1",,"1",,,,,
+"miya1260","Miyako-Jima","Eurasia",24.7564,125.363,"","dialect","japo1237","miya1259","","Japonic","1","1",,"1",,,,,,
+"gari1256","Garifuna","North America",15.3529,-86.9091,"cab","language","araw1281","","false","Arawakan",,,"1",,"1","1",,,,
+"tari1256","Tariana","South America",0.440205,-68.9042,"tae","language","araw1281","","false","Arawakan",,,"1",,,"1",,,,
+"wapi1253","Wapishana","South America",2.58744,-59.8021,"wap","language","araw1281","","false","Arawakan",,,"1",,,"1",,,,
+"trin1274","Trinitario-Javeriano-Loretano","South America",-15.3331,-65.4096,"trn","language","araw1281","","false","Arawakan",,,"1",,,"1",,,,
+"pare1272","Parecís","South America",-14.5929,-57.4059,"pab","language","araw1281","","false","Arawakan",,,"1",,,"1",,,,
+"swam1239","Swampy Cree","North America",56,-95,"csw","language","algi1248","","false","Algic","1","1","1",,"1",,,,,
+"lako1247","Lakota","North America",46.3699,-103.95,"lkt","language","siou1252","","false","Siouan","1","1","1",,"1",,"1",,,
+"hupa1239","Hupa-Chilula","North America",41.0982,-123.68,"hup","language","atha1245","","false","Athabaskan-Eyak-Tlingit",,,"1",,"1",,,,,
+"sion1247","Siona-Tetete","South America",0.31733,-76.0237,"snn","language","tuca1253","","false","Tucanoan","1","1","1",,,"1",,,,
+"guan1269","Kotiria","South America",1.07554,-69.5705,"gvc","language","tuca1253","","false","Tucanoan",,,"1",,,"1",,,,
+"mats1244","Matsés","South America",-5.73914,-72.6281,"mcf","language","pano1259","","false","Pano-Tacanan",,,"1",,,"1",,,,
+"lang1324","Lango (Uganda)","Africa",2.13867,33.0553,"laj","language","nilo1247","","false","Nilotic","1","1",,"1",,,,,,"1"
+"kain1272","Kaingang","South America",-27.7671,-52.5394,"kgp","language","nucl1710","","false","Nuclear-Macro-Je",,"1","1",,,"1",,,,
+"halh1238","Halh Mongolian","Eurasia",48.32397,106.28874,"khk","language","mong1349","","false","Mongolic-Khitan","1","1","1",,,,,,,"1"
+"dukh1234","Dukha","Eurasia",51.9307,98.9318,"","dialect","turk1311","kara1462","","Turkic","1","1",,"1",,,,,,"1"
+"kich1262","K'iche'","North America",14.5278,-91.1696,"quc","language","maya1287","","false","Mayan","1","1","1",,"1","1",,,,
+"chol1282","Chol","North America",17.4897,-92.4698,"ctu","language","maya1287","","false","Mayan",,,"1",,"1","1",,,,"1"
+"popt1235","Popti'","North America",15.6609,-91.6633,"jac","language","maya1287","","false","Mayan",,,"1",,"1","1",,,"1",
+"tete1251","Tetelcingo Nahuatl","North America",18.8854,-98.893,"nhg","language","utoa1244","","false","Uto-Aztecan",,,"1",,"1","1",,,,
+"pipi1250","Pipil","North America",13.8931,-89.443,"ppl","language","utoa1244","","false","Uto-Aztecan",,,"1",,"1","1",,,,
+"nant1250","Nanti","South America",-12.1018,-72.3507,"cox","language","araw1281","","false","Arawakan",,"1","1",,,"1",,,,
+"otta1242","Ottawa","North America",44.5988,-83.226,"otw","language","algi1248","","false","Algic",,,"1",,"1",,,,,
+"nava1243","Navajo","North America",36.33,-109.38,"nav","language","atha1245","","false","Athabaskan-Eyak-Tlingit",,,"1",,"1",,,,"1",
+"nort2942","North Slavey","North America",63.5,-125.67,"scs","language","atha1245","","false","Athabaskan-Eyak-Tlingit","1","1","1",,"1",,,,,"1"
+"mali1285","Malinaltepec Me'phaa","North America",17.2122,-98.6322,"tcf","language","otom1299","","false","Otomanguean",,"1","1",,"1","1",,,,
+"ship1254","Shipibo-Conibo","South America",-7.17105,-74.8219,"shp","language","pano1259","","false","Pano-Tacanan",,,"1",,,"1",,,,
+"galo1242","Galo","Eurasia",27.9805586,94.6884956,"adl","language","sino1245","","false","Sino-Tibetan","1","1",,"1",,,,,,"1"
+"cane1242","Canela-Krahô","South America",-6.10712,-45.1299,"ram","language","nucl1710","","false","Nuclear-Macro-Je",,,"1",,,"1",,,,
+"bulo1242","Bulo Stieng","Eurasia",11.9777,106.798,"sti","language","aust1305","","false","Austroasiatic","1","1",,"1",,,,,,
+"tupi1273","Tupinambá","South America",-22.807778,-42.106389,"tpn","language","tupi1275","","false","Tupian",,,"1",,,"1",,,,
+"kamb1316","Kambaata","Africa",7.37582,37.9088,"ktb","language","afro1255","","false","Afro-Asiatic","1","1",,"1",,,,,,
+"male1292","Malecite-Passamaquoddy","North America",45.494475,-67.40805,"pqm","language","algi1248","","false","Algic",,,"1",,"1",,,,,
+"quer1236","Querétaro Otomi","North America",20.1396,-100.115,"otq","language","otom1299","","false","Otomanguean",,,"1",,"1","1",,,,
+"emer1243","Teko","South America",3.23694,-52.3699,"eme","language","tupi1275","","false","Tupian","1","1","1",,,"1",,"1",,"1"
+"coca1259","Cocama-Cocamilla","South America",-4.5,-74,"cod","language","tupi1275","","false","Tupian",,,"1",,,"1",,,,
+"iris1253","Irish","Eurasia",53.2186,-7.61509,"gle","language","indo1319","","false","Indo-European","1","1",,"1",,,,,,"1"
+"magd1235","Magdalena Peñasco Mixtec","North America",17.2837,-97.5413,"xtm","language","otom1299","","false","Otomanguean",,,"1",,"1","1",,,"1",
+"para1311","Paraguayan Guaraní","South America",-25.60551,-57.08816,"gug","language","tupi1275","","false","Tupian",,,"1",,,"1",,,,
+"bamb1269","Bambara","Africa",12.9,-7.65,"bam","language","mand1469","","false","Mande","1","1",,"1",,,,,,
+"mezo1235","Mezontla Popoloca","North America",18.1442,-97.5879,"pbe","language","otom1299","","false","Otomanguean",,,"1",,"1","1",,,,
+"sier1250","Sierra de Juárez Zapotec","North America",17.4219,-96.6191,"zaa","language","otom1299","","false","Otomanguean",,,"1",,"1","1",,,,
+"tuka1248","Tukang Besi North","Papunesia",-5.30994,123.578,"khc","language","aust1307","","false","Austronesian","1","1",,"1",,,,,,"1"
+"laoo1244","Lao","Eurasia",19,102.46,"lao","language","taik1256","","false","Tai-Kadai","1","1",,"1",,,,,,
+"yoru1245","Yoruba","Africa",7.15345,3.67225,"yor","language","atla1278","","false","Atlantic-Congo","1","1",,"1",,,,,,"1"
