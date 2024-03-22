@@ -95,6 +95,7 @@ def main(global_config, **settings):
             'ParameterTable': render_parameter,
         },
         'function_map': {},
+        'keep_link_labels': True,
         'extensions': [TocExtension(baselevel=2, toc_depth=3), 'footnotes']
     }
     config = Configurator(settings=settings)
