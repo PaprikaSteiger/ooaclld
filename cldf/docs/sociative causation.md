@@ -53,11 +53,16 @@ The three subtypes are illustrated in (1), where the basic causative in Japanese
     <td class="tg-0pky"></td>
     <td class="tg-0pky" colspan="5">‘Mother is making the child play (playing with her).’</td>
   </tr>
+</tbody>
+</table>
+<table class="tg">
+<thead>
   <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">b.</td>
-    <td class="tg-0pky" colspan="5">Sociative causation: assistive</td>
+    <th class="tg-0pky">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th class="tg-0pky">b.</th>
+    <th class="tg-0pky" colspan="5">Sociative causation: assistive</th>
   </tr>
+</thead>
   <tr>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
@@ -81,11 +86,16 @@ The three subtypes are illustrated in (1), where the basic causative in Japanese
     <td class="tg-0pky"></td>
     <td class="tg-0pky" colspan="5">‘Mother is making the child pee.’</td>
   </tr>
+</tbody>
+</table>
+<table class="tg">
+<thead>
   <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">c.</td>
-    <td class="tg-0pky" colspan="5">Sociative causation: supervision</td>
+    <th class="tg-0pky">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th class="tg-0pky">c.</th>
+    <th class="tg-0pky" colspan="5">Sociative causation: supervision</th>
   </tr>
+</thead>
   <tr>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
@@ -151,11 +161,17 @@ The three subtypes are illustrated in (1), where the basic causative in Japanese
     <td class="tg-0lax"></td>
     <td class="tg-0lax" colspan="3"><span style="font-weight:400;font-style:normal">‘He caused them to enter (something) by entering with them.’</span></td>
   </tr>
+</tbody>
+</table>
+<table class="tg">
+<thead>
   <tr>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax">b.</td>
-    <td class="tg-0lax" colspan="3">Direct causation</td>
+    <th class="tg-0lax">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th class="tg-0lax">b.</th>
+    <th class="tg-0lax" colspan="3">Direct causation</th>
   </tr>
+</thead>
+<tbody>
   <tr>
     <td class="tg-8zwo"></td>
     <td class="tg-8zwo"></td>
@@ -175,11 +191,17 @@ The three subtypes are illustrated in (1), where the basic causative in Japanese
     <td class="tg-0lax"></td>
     <td class="tg-0lax" colspan="3"><span style="font-weight:400;font-style:normal">‘He caused them to enter (something) by physically taking them.’</span></td>
   </tr>
+</tbody>
+</table>
+<table class="tg">
+<thead>
   <tr>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">c.</span></td>
-    <td class="tg-0lax" colspan="3"><span style="font-weight:400;font-style:normal">Indirect causation</span></td>
+    <th class="tg-0lax">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal">c.</span></th>
+    <th class="tg-0lax" colspan="3"><span style="font-weight:400;font-style:normal">Indirect causation</span></th>
   </tr>
+</thead>
+<tbody>
   <tr>
     <td class="tg-8zwo"></td>
     <td class="tg-8zwo"></td>
@@ -282,8 +304,12 @@ Example (1) above shows that the marker *se-* can express the three semantic sub
     <td class="tg-0lax"></td>
     <td class="tg-0lax" colspan="4">‘Taro had/made Jiro run.’</td>
   </tr>
+</tbody>
+</table>
+<table class="tg">
+<tbody>
   <tr>
-    <td class="tg-0lax"></td>
+    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td class="tg-0lax">b.</td>
     <td class="tg-8zwo">Taroo-ga</td>
     <td class="tg-8zwo">Ziroo-ni</td>
@@ -370,11 +396,17 @@ The sociative causative is conveyed by the regular causative marker, but the cau
     <td class="tg-0lax"></td>
     <td class="tg-0lax" colspan="6">‘He made the porter lift (his) luggage.’</td>
   </tr>
+</tbody>
+</table>
+<table class="tg">
+<thead>
   <tr>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax">b.</td>
-    <td class="tg-0lax" colspan="6"><span style="font-weight:400;font-style:normal">accusative/dative case: sociative causative meaning</span></td>
+    <th class="tg-0lax">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th class="tg-0lax">b.</th>
+    <th class="tg-0lax" colspan="6"><span style="font-weight:400;font-style:normal">accusative/dative case: sociative causative meaning</span></th>
   </tr>
+</thead>
+<tbody>
   <tr>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
@@ -443,11 +475,17 @@ Sociative causation is conveyed by a combination of the direct causative marker 
     <td class="tg-0lax"></td>
     <td class="tg-0lax" colspan="3">‘He is feeding the child.’</td>
   </tr>
+</tbody>
+</table>
+<table class="tg">
+<thead>
   <tr>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax">b.</td>
-    <td class="tg-0lax" colspan="3">Causative 2: indirect causative meaning</td>
+    <th class="tg-0lax">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th class="tg-0lax">b.</th>
+    <th class="tg-0lax" colspan="3">Causative 2: indirect causative meaning</th>
   </tr>
+</thead>
+<tbody>
   <tr>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
@@ -467,11 +505,17 @@ Sociative causation is conveyed by a combination of the direct causative marker 
     <td class="tg-0lax"></td>
     <td class="tg-0lax" colspan="3">‘He caused (him) to leave.’</td>
   </tr>
+</tbody>
+</table>
+<table class="tg">
+<thead>
   <tr>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax">c.</td>
-    <td class="tg-0lax" colspan="3">Causative 1 + Causative 2: sociative causative meaning (supervision)</td>
+    <th class="tg-0lax">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th class="tg-0lax">c.</th>
+    <th class="tg-0lax" colspan="3">Causative 1 + Causative 2: sociative causative meaning (supervision)</th>
   </tr>
+</thead>
+<tbody>
   <tr>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
@@ -531,50 +575,57 @@ Ese Ejja expresses sociative causation with the transparent combination of the c
     <td class="tg-0pky"></td>
     <td class="tg-0pky" colspan="2">‘Make the children go collect (the banana)!’ (<a class=”Source” href=”../sources/vuillermet2012eseejja”>Vuillermet 2012: 509</a>)</td>
   </tr>
+</tbody>
+</table>
+<table class="tg">
+<thead>
   <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">b.</td>
-    <td class="tg-0pky">Comitative applicative only</td>
-    <td class="tg-0pky"></td>
+    <th class="tg-0pky">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th class="tg-0pky">b.</th>
+    <th class="tg-0pky">Comitative applicative only</th>
   </tr>
+</thead>
+<tbody>
   <tr>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">Poki-<span style="font-weight:bold">sawa</span>-naje.</td>
-    <td class="tg-0pky"></td>
   </tr>
   <tr>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">go-<span style="font-weight:bold">COM.APPL</span>-PST</td>
-    <td class="tg-0pky"></td>
   </tr>
   <tr>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky" colspan="2">'(I) went with you'. (Context: the addressee had decided to go for a walk to try to get her baby asleep <br>and the speaker had offered to accompany them.) (Vuillermet's fieldnotes)</td>
+    <td class="tg-0pky">'(I) went with you'. (Context: the addressee had decided to go for a walk to try to get her baby asleep <br>and the speaker had offered to accompany them.) (Vuillermet's fieldnotes)</td>
   </tr>
+</tbody>
+</table>
+<table class="tg">
+<thead>
   <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">c.</td>
-    <td class="tg-0pky" colspan="2">CAUS + COM.APPL systematically expressing sociative causation</td>
+    <th class="tg-0pky">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th class="tg-0pky">c.</th>
+    <th class="tg-0pky" colspan="2">CAUS + COM.APPL systematically expressing sociative causation</th>
   </tr>
+</thead>
+<tbody>
   <tr>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">Jja-aja-<span style="font-weight:bold">mee</span>-ki-<span style="font-weight:bold">sawa</span>-ka-naje</td>
-    <td class="tg-0pky"></td>
   </tr>
   <tr>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal">VBZ-healthy-</span><span style="font-weight:bold;font-style:normal">CAUS</span><span style="font-weight:400;font-style:normal">-VBZ-</span><span style="font-weight:bold;font-style:normal">COM.APPL</span><span style="font-weight:400;font-style:normal">-PST</span></td>
-    <td class="tg-0pky"></td>
   </tr>
   <tr>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky" colspan="2">'(God) helped (her) to get healthy.' (<a class="Source" href="../sources/shoemaker1983discurso">Shoemaker and Shoemaker 1983: 70</a>)</td>
+    <td class="tg-0pky">'(God) helped (her) to get healthy.' (<a class="Source" href="../sources/shoemaker1983discurso">Shoemaker and Shoemaker 1983: 70</a>)</td>
   </tr>
 </tbody>
 </table>
@@ -839,11 +890,17 @@ Sociative causation can be conveyed by a reciprocal marker, as in Bedja ([Roper 
     <td class="tg-0lax"></td>
     <td class="tg-0lax" colspan="2">Kill each other!</td>
   </tr>
+</tbody>
+</table>
+<table class="tg">
+<thead>
   <tr>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">b.</span></td>
-    <td class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal">Sociative causation (assistive)</span></td>
+    <th class="tg-0lax">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th class="tg-0lax">b.</th>
+    <th class="tg-0lax" colspan="2">Sociative causation (assistive)</th>
   </tr>
+</thead>
+<tbody>
   <tr>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
@@ -906,18 +963,23 @@ Sociative causation can be conveyed by an applicative marker. In (12a), the Siku
     <td class="tg-0lax"></td>
     <td class="tg-0lax" colspan="4">‘Mahalu wrote these stories with the computer.’</td>
   </tr>
+</tbody>
+</table>
+<table class="tg">
+<thead>
   <tr>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax">b.</td>
-    <td class="tg-0lax" colspan="4">Sociative causative meaning</td>
+    <th class="tg-0lax">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th class="tg-0lax">b.</th>
+    <th class="tg-0lax" colspan="3">Sociative causative meaning</th>
   </tr>
+</thead>
+<tbody>
   <tr>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
     <td class="tg-8zwo">Kuwainü</td>
     <td class="tg-8zwo">Ø-<span style="font-weight:bold">ka</span>-nawiata-Ø</td>
     <td class="tg-8zwo">pihawa</td>
-    <td class="tg-8zwo"></td>
   </tr>
   <tr>
     <td class="tg-0lax"></td>
@@ -925,12 +987,11 @@ Sociative causation can be conveyed by an applicative marker. In (12a), the Siku
     <td class="tg-0lax">God</td>
     <td class="tg-0lax">3OBJ-<span style="font-weight:bold">APPL</span>-go.back-3SUBJ</td>
     <td class="tg-0lax">his.wife</td>
-    <td class="tg-0lax"></td>
   </tr>
   <tr>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
-    <td class="tg-0lax" colspan="4">‘God took his wife back home.’</td>
+    <td class="tg-0lax" colspan="3">‘God took his wife back home.’</td>
   </tr>
 </tbody>
 </table>

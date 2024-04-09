@@ -270,11 +270,11 @@ Derived questions offer different views of the same data included in the base qu
 </table>
 
 ## Results
-As noted in [Mithun (2001: 56)](Source#cldf:mithun2001languages), the use of the verb category for attributives (Attr-01) is especially common in North America, but we find that this is to the exclusion of Central America. Verbal attributives are also common in the Amazon, and possibly in East Asia, although our sampling is not dense enough to confirm the latter. The use of the noun category for attributives is most frequent in Australia and in Peru, the latter of which includes the Quechuan and Aymaran families.
+As noted in [Mithun (2001: 56)](Source#cldf:mithun2001languages), the use of the verb category for attributives ([Attr-01](../parameters/Attr-01)) is especially common in North America, but we find that this is to the exclusion of Central America. Verbal attributives are also common in the Amazon, and possibly in East Asia, although our sampling is not dense enough to confirm the latter. The use of the noun category for attributives is most frequent in Australia and in Peru, the latter of which includes the Quechuan and Aymaran families.
 
-The presence of a closed class of adjectives (Attr-02) is common on the eastern side of the Andes. Two classes of syntactically distinct adjectives, one open and one closed, are uncommon in our sample, but occur most often in Central America and in the Uto-Aztecan family.
+The presence of a closed class of adjectives ([Attr-02](../parameters/Attr-02)) is common on the eastern side of the Andes. Two classes of syntactically distinct adjectives, one open and one closed, are uncommon in our sample, but occur most often in Central America and in the Uto-Aztecan family.
 
-We did not uncover any relationship between part of speech categories (Attr-01) and the ordering of noun and attributive (WO-02).
+We did not uncover any relationship between part of speech categories ([Attr-01](../parameters/Attr-01)) and the ordering of noun and attributive ([WO-02](../parameters/WO-02)).
 
 ## Contributions
 **Conceptualization**: [David Inman](Contributor#cldf:DI)
