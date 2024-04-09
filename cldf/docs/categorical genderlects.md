@@ -206,11 +206,17 @@ This last case is much rarer. In Yana \[yana1271\] (isolate; United States; [Sap
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
   </tr>
+</tbody>
+</table>
+<table class="tg">
+<thead>
   <tr>
-    <td class="tg-0lax"></td>
+    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">b.</span></td>
     <td class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">All other cases</span></td>
   </tr>
+</thead>
+<tbody>
   <tr>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
@@ -244,8 +250,7 @@ We added a fourth type, where different items participate in different types of 
   <tr>
     <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(8)</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">a.</span></th>
-    <th class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Depending on the gender of the speaker</span></th>
-    <th class="tg-0lax"></th>
+    <th class="tg-0lax" colspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Depending on the gender of the speaker</span></th>
   </tr>
 </thead>
 <tbody>
@@ -263,32 +268,27 @@ We added a fourth type, where different items participate in different types of 
     <td class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">rá</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘truthfully  ♀ / ♂’</span></td>
   </tr>
+</tbody>
+</table>
+<table class="tg">
+<thead>
   <tr>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax"></td>
+    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">b.</span></td>
     <td class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Men speakers to men addressees only</span></td>
-    <td class="tg-0lax"></td>
   </tr>
+</thead>
   <tr>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">hẽ</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘olá, oh!’</span></td>
-    <td class="tg-0lax"></td>
   </tr>
   <tr>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ahẽ</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘he, this one, someone’</span></td>
-    <td class="tg-0lax"></td>
   </tr>
 </tbody>
 </table>

@@ -341,7 +341,7 @@ to mark person (and number), there are (non-obligatory) second position clitics 
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0lax"></th>
+    <th class="tg-0lax">&nbsp;&nbsp;&nbsp;&nbsp;</th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">b.</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">Kwaji-kwaji-ani.</span></th>
   </tr>
@@ -371,7 +371,7 @@ to mark person (and number), there are (non-obligatory) second position clitics 
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0lax"></th>
+    <th class="tg-0lax">&nbsp;&nbsp;&nbsp;&nbsp;</th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">c.</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">Majoya=</span><span style="font-weight:700;font-style:italic;text-decoration:none;color:#000;background-color:transparent">se</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">poki-ani.</span></th>
@@ -403,7 +403,7 @@ to mark person (and number), there are (non-obligatory) second position clitics 
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0lax"></th>
+    <th class="tg-0lax">&nbsp;&nbsp;&nbsp;&nbsp;</th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">d.</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">A'a=</span><span style="font-weight:700;font-style:italic;text-decoration:none;color:#000;background-color:transparent">mi</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">poki-ani?</span></th>
@@ -1193,7 +1193,7 @@ Pilagá has a general plural suffix *-lo* which marks S/P plurality [Vidal (2001
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF"> </span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#333;background-color:#FFF">b.</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:#FFF">na-yapeg-eg'a-</span><span style="font-weight:700;font-style:italic;text-decoration:none;color:#333;background-color:#FFF">lo</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:#FFF">hen</span></th>
@@ -1266,7 +1266,7 @@ Pilagá has a general plural suffix *-lo* which marks S/P plurality [Vidal (2001
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">b.</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ami'</span></th>
     <th class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">si-yacana-</span><span style="font-weight:700;font-style:italic;text-decoration:none;color:#000;background-color:transparent">lo</span></th>
@@ -1617,9 +1617,9 @@ Derived questions offer different views of the same data included in the base qu
 ## Results
 We had two hypotheses which motivated coding for this feature: (1) that these kinds of plural markers are, as a whole, more common inside the Americas than outside; (2) that within the Americas, plural markers with different plurality targets pattern together. This represents the first attempt, to our knowledge, to define and test these questions in a large typological survey.
 
-The first hypothesis was partially confirmed by our data. The overall feature of monoexponential plural marking (MonPl-01) is actually more present in our Australian sample (60%) than in our North American (50%) and South American (45%) samples. However, these three regions had far greater presence of the feature than other macroareas (Africa 24%; Eurasia 26%; Papunesia 24%).
+The first hypothesis was partially confirmed by our data. The overall feature of monoexponential plural marking ([MonPl-01](../parameters/MonPl-01)) is actually more present in our Australian sample (60%) than in our North American (50%) and South American (45%) samples. However, these three regions had far greater presence of the feature than other macroareas (Africa 24%; Eurasia 26%; Papunesia 24%).
 
-The second hypothesis was also partially confirmed, with S/A/P (but not event) monoexponential plurals clearly clustering along the Peruvian coast and northwestern Australia (MonPl-06c), and S/P monoexponential plurals clustering in Rondônia (MonPl-06b). The use of monoexponential verbal plurals with nouns is also a clear areal feature of the Pacific Northwest Coast (although this is likely a side-effect of the region’s famously porous verb/noun distinction) and the northern Australian coast (MonPl-07c). However, these apparent clusterings exist alongside fairly widespread distributions of each typological feature around the world. It is possible that further investigation and different typological parameters would confirm hypothesis 2 more strongly.
+The second hypothesis was also partially confirmed, with S/A/P (but not event) monoexponential plurals clearly clustering along the Peruvian coast and northwestern Australia ([MonPl-06c](../parameters/MonPl-06c)), and S/P monoexponential plurals clustering in Rondônia ([MonPl-06b](../parameters/MonPl-06b)). The use of monoexponential verbal plurals with nouns is also a clear areal feature of the Pacific Northwest Coast (although this is likely a side-effect of the region’s famously porous verb/noun distinction) and the northern Australian coast ([MonPl-07c](../parameters/MonPl-07c)). However, these apparent clusterings exist alongside fairly widespread distributions of each typological feature around the world. It is possible that further investigation and different typological parameters would confirm hypothesis 2 more strongly.
 
 ## Contributions
 **Conceptualization**: [David Inman](Contributor#cldf:DI), [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Marine Vuillermet](Contributor#cldf:MV), [Balthasar Bickel](Contributor#cldf:BB)

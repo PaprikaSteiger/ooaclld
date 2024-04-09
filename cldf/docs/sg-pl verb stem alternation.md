@@ -58,7 +58,7 @@
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></th>
+    <th class="tg-0lax">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">b.</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">hu-me</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">čuʔu-m</span></th>
@@ -805,7 +805,7 @@ Ainu has two verb pairs expressing Posture ([Nakagawa 2022](Source#cldf:nakagawa
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">b.</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">as</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> ~</span><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent"> roski-</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘stood’</span></td>
@@ -835,7 +835,7 @@ Kwaza has two verb pairs expressing Posture ([van der Voort 2004](Source#cldf:vo
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">b.</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ũi</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- ~</span><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent"> u'mũi- </span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘to lie down, sleep’</span></td>
@@ -992,7 +992,7 @@ According to [van der Voort (2004: 384f)](Source#cldf:voort2004kwaza), the other
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0lax"></th>
+    <th class="tg-0lax">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">b.</span></th>
     <th class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Other</span></th>
   </tr>
@@ -1143,7 +1143,7 @@ In Imonda, either A or P arguments may be pluralized, depending on the verb pair
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">b.</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ma-pu-∅</span></th>
   </tr>
@@ -1173,7 +1173,7 @@ In Imonda, either A or P arguments may be pluralized, depending on the verb pair
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">c.</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">mii-∅=w</span></th>
   </tr>
@@ -1408,7 +1408,7 @@ Nuu-chah-nulth has clear Sg-Pl alternation for several of its verbs, and without
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">fire-at.eyes.PF=NOW</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">bird</span></td>
@@ -1427,7 +1427,7 @@ Nuu-chah-nulth has clear Sg-Pl alternation for several of its verbs, and without
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></th>
     <th class="tg-0lax"></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">saya=ʔii</span></th>
     <th class="tg-0lax"><span style="font-weight:700;font-style:italic;text-decoration:none;color:#000;background-color:transparent">mat</span><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">-aa</span></th>
@@ -1457,7 +1457,7 @@ Nuu-chah-nulth has clear Sg-Pl alternation for several of its verbs, and without
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></th>
     <th class="tg-0lax"></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʔink-R&lt;c&gt;L.sawiƛ=!aƛ=qa</span></th>
   </tr>
@@ -1481,7 +1481,7 @@ Nuu-chah-nulth has clear Sg-Pl alternation for several of its verbs, and without
 <table class="tg">
 <thead>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
     <td class="tg-0lax" colspan="4"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘The birds, blinded by the fires, were unable to fly far.’</span></td>
   </tr>
@@ -1764,15 +1764,15 @@ Nuu-chah-nulth has a restricted set of adjectives that have singular and plural 
 ## Results
 This section is a summary of our findings for the survey on the ATLAs sample, (for more detailed information, see Inman & Vuillermet, submitted). 
 
-**Distribution**: Our data show that the phenomenon is fairly frequent around the world, in about a third of the languages. Confirming previous studies, SgPl stem alternation (SgPl-01) is overwhelmingly present in North America, in over half (52%) of the 115 North American languages in our sample. Less expectedly, South America is the macroregion with the lowest percentage of cases (17%), but a cluster of languages around the Brazilian state of Rondônia (part of the proposed Guaporé-Mamoré linguistic area ([Crevels and van der Voort (2008)](Source#cldf:crevels2008guaporemamore))) stands out as a hotspot of Sg-Pl alternation. Coastal eastern Papunesia is another strong language cluster displaying the phenomenon.
+**Distribution**: Our data show that the phenomenon is fairly frequent around the world, in about a third of the languages. Confirming previous studies, SgPl stem alternation ([SgPl-01](../parameters/SgPl-01)) is overwhelmingly present in North America, in over half (52%) of the 115 North American languages in our sample. Less expectedly, South America is the macroregion with the lowest percentage of cases (17%), but a cluster of languages around the Brazilian state of Rondônia (part of the proposed Guaporé-Mamoré linguistic area ([Crevels and van der Voort (2008)](Source#cldf:crevels2008guaporemamore)) stands out as a hotspot of Sg-Pl alternation. Coastal eastern Papunesia is another strong language cluster displaying the phenomenon.
 
-**Typological tendencies**: Most languages displaying the phenomenon have a handful of alternating verb pairs (SgPl-02 & 04), and their number distinction overwhelmingly contrasts singular vs plural (SgPl-19). (Individual vs collective semantics are however plausibly underrepresented in existing grammatical descriptions.) The data confirmed previous works ([Kinkade 1981](Source#cldf:kinkade1981salish); [Booker 1982](Source#cldf:booker1982karok); [Durie 1986](Source#cldf:durie1986number); [Mithun 1988](Source#cldf:mithun1988karok); [Veselinova 2006](Source#cldf:veselinova2006suppletion), [Veselinova 2013](Source#cldf:veselinova2013wals); [Krasnoukhova 2022](Source#cldf:krasnoukhova2022number)) that the verb pair semantics primarily target Motion Events ([Talmy 1972](Source#cldf:talmy1972semantic)) and the following five verbs ‘die’, ‘kill’, ‘cry’, ‘sleep’ and ‘eat’ (SgPl-06; only six languages do not). Our detailed investigation further showed that semantically specific verbs spread across close neighboring languages, and reveal highly local areas of SgPl alternation across North America, as well the two local areas mentioned above in South America and Papunesia (SgPl-06, 08, 10 & 12). 
+**Typological tendencies**: Most languages displaying the phenomenon have a handful of alternating verb pairs ([SgPl-02](../parameters/SgPl-02) & [04](../parameters/SgPl-04)), and their number distinction overwhelmingly contrasts singular vs plural ([SgPl-19](../parameters/SgPl-19)). (Individual vs collective semantics are however plausibly underrepresented in existing grammatical descriptions.) The data confirmed previous works ([Kinkade 1981](Source#cldf:kinkade1981salish); [Booker 1982](Source#cldf:booker1982karok); [Durie 1986](Source#cldf:durie1986number); [Mithun 1988](Source#cldf:mithun1988karok); [Veselinova 2006](Source#cldf:veselinova2006suppletion), [Veselinova 2013](Source#cldf:veselinova2013wals); [Krasnoukhova 2022](Source#cldf:krasnoukhova2022number)) that the verb pair semantics primarily target Motion Events ([Talmy 1972](Source#cldf:talmy1972semantic)) and the following five verbs ‘die’, ‘kill’, ‘cry’, ‘sleep’ and ‘eat’ ([SgPl-06](../parameters/SgPl-06); only six languages do not). Our detailed investigation further showed that semantically specific verbs spread across close neighboring languages, and reveal highly local areas of SgPl alternation across North America, as well the two local areas mentioned above in South America and Papunesia ([SgPl-06](../parameters/SgPl-07), [08](../parameters/SgPl-09), [10](../parameters/SgPl-10) & [12](../parameters/SgPl-12)). 
 
-Most languages have alternating intransitive verb pairs only, or both intransitive and transitive ones (SgPl-07). If the verb pair is transitive, its number value targets the P argument (SgPl-18). Often described as impossible in the literature, we still found five languages with transitive-only verb pairs, and also five (almost non-overlapping) languages whose number value targets the A argument.
+Most languages have alternating intransitive verb pairs only, or both intransitive and transitive ones ([SgPl-07](../parameters/SgPl-07)). If the verb pair is transitive, its number value targets the P argument ([SgPl-18](../parameters/SgPl-18)). Often described as impossible in the literature, we still found five languages with transitive-only verb pairs, and also five (almost non-overlapping) languages whose number value targets the A argument.
 
-We (wrongly) expected that languages which lack Sg-Pl stem alternation would also lack such alternating suffixes (SgPl-20). One reason for this is that we thought that such suffixes would be grammaticalized from Sg-Pl stems. However, this feature was coded for all languages, irrespective of their state in SgPl-01, and the results show that these two phenomena are not as intertwined as we expected.
+We (wrongly) expected that languages which lack Sg-Pl stem alternation would also lack such alternating suffixes ([SgPl-20](../parameters/SgPl-20)). One reason for this is that we thought that such suffixes would be grammaticalized from Sg-Pl stems. However, this feature was coded for all languages, irrespective of their state in SgPl-01, and the results show that these two phenomena are not as intertwined as we expected.
 
-Similarly, much of the literature expects a correlation between participant number and event number. However, we did not find very many languages in which the same form was used to mark both participant number and aspect (SgPl-21).
+Similarly, much of the literature expects a correlation between participant number and event number. However, we did not find very many languages in which the same form was used to mark both participant number and aspect ([SgPl-21](../parameters/SgPl-21)).
 
 ## Contributions
 **Conceptualization**: [David Inman](Contributor#cldf:DI), [Marine Vuillermet](Contributor#cldf:MV)
