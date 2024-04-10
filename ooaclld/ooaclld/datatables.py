@@ -79,29 +79,8 @@ class Features(datatables.Parameters):
     def col_defs(self):
         return [
             IdCol(self, "ID", sTitle="ID", sClass="left"),
-            Col(self, "Name", model_col=OOAParameter.name, sClass="left"),
-            #AuthorsCol(
-            #    self,
-            #    "Authors",
-            #    model_col=OOAFeatureSet.authors,
-            #    sClass="left",
-            #    get_object=lambda  i: i.featureset
-            #),
-            #ContributorsCol(
-            #    self,
-            #    "Contributors",
-            #    model_col=OOAFeatureSet.contributors,
-            #    sClass="left",
-            #    get_object=lambda i: i.featureset
-            #),
+            LinkCol(self, "Name", model_col=OOAParameter.name, sClass="left"),
             Col(self, "Question", model_col=OOAParameter.question, sClass="left"),
-            # Col(
-            #     self,
-            #     "Visualization",
-            #     model_col=OOAParameter.visualization,
-            #     sClass="left",
-            # ),
-            #Col(self, "Datatype", model_col=OOAParameter.datatype, sClass="left"),
             LinkCol(
                 self,
                 "FeatureSet",
@@ -131,7 +110,7 @@ class Featuresets(datatables.Contributions):
 class Languages(datatables.Languages):
     def col_defs(self):
         return [
-            IdCol(self, "ID", sTitle="Glottocode", sClass="left", model_col=OOALanguage.id),
+            LinkCol(self, "ID", sTitle="Glottocode", sClass="left", model_col=OOALanguage.id),
             LinkCol(self, "Name", sClass="left", model_col=OOALanguage.name),
             Col(self, "Family", sTitle="Family Name", model_col=OOALanguage.family_name, sClass="left"),
             Col(self, "Macroarea", model_col=OOALanguage.macroarea, sClass="left"),
