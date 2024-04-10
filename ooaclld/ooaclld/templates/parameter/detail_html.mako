@@ -3,17 +3,14 @@
 <%! active_menu_item = "parameters" %>
 <%! from ooaclld.models import OOAValue %>
 <% values_dt = request.get_datatable('values', OOAValue, parameter=ctx) %>
-<%block name="title">${_('Feature')} ${ctx.name}</%block>
+<%block name="title">${ctx.name}</%block>
 
 
 <div class="row-fluid">
     <div class="span8">
-        <h1>${ctx.id}</h1>
-
-        ## clld.web.util.helpers alt_representation creates download widget with info button
-        <div>${h.alt_representations(req, ctx, doc_position='right', exclude=['snippet.html'])|n}</div>
+        <h1>${ctx.name}</h1>
         % if ctx.question:
-        <h2>${ctx.question}</h2>
+        <h2 class="question">${ctx.id}: ${ctx.question}</h2>
         % endif
         <p>
             This feature is described in the feature set 
@@ -23,6 +20,8 @@
             It is authored by ${h.linked_contributors(request, ctx.featureset)}.
             ${h.cite_button(request, ctx.featureset)}
         </p>
+        ## clld.web.util.helpers alt_representation creates download widget with info button
+        <div>${h.alt_representations(req, ctx, doc_position='right', exclude=['snippet.html'])|n}</div>
     </div>
     <p></p>
     <div class="span4">

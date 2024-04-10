@@ -756,9 +756,13 @@ h2 {
   font-size: 31.5px;
   color: #002199;
 }
+h2.question {
+  font-size: 22px !important;
+  line-height: 28px;
+  color: #011769;
+}
 h3 {
   font-size: 24.5px;
-  padding-top: 25px;
   color: #002199;
 }
 h4 {

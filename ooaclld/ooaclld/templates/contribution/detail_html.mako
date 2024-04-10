@@ -3,6 +3,10 @@
 <%! active_menu_item = "featuresets" %>
 <%block name="title">${ctx.name}</%block>
 <%! from ooaclld.models import OOAParameter %>
+<style>
+h3 { padding-top: 25px; }
+</style>
+
 
 <h1>${ctx.name}</h1>
 % if text:

@@ -79,28 +79,21 @@ class Features(datatables.Parameters):
     def col_defs(self):
         return [
             IdCol(self, "ID", sTitle="ID", sClass="left"),
-            LinkCol(
-                self,
-                "FeatureSet",
-                sTitle="Feature Set",
-                model_col=OOAFeatureSet.id,
-                sClass="left",
-                get_object=lambda i: i.featureset,
-            ),
-            AuthorsCol(
-                self,
-                "Authors",
-                model_col=OOAFeatureSet.authors,
-                sClass="left",
-                get_object=lambda  i: i.featureset
-            ),
-            ContributorsCol(
-                self,
-                "Contributors",
-                model_col=OOAFeatureSet.contributors,
-                sClass="left",
-                get_object=lambda i: i.featureset
-            ),
+            Col(self, "Name", model_col=OOAParameter.name, sClass="left"),
+            #AuthorsCol(
+            #    self,
+            #    "Authors",
+            #    model_col=OOAFeatureSet.authors,
+            #    sClass="left",
+            #    get_object=lambda  i: i.featureset
+            #),
+            #ContributorsCol(
+            #    self,
+            #    "Contributors",
+            #    model_col=OOAFeatureSet.contributors,
+            #    sClass="left",
+            #    get_object=lambda i: i.featureset
+            #),
             Col(self, "Question", model_col=OOAParameter.question, sClass="left"),
             # Col(
             #     self,
@@ -109,14 +102,22 @@ class Features(datatables.Parameters):
             #     sClass="left",
             # ),
             #Col(self, "Datatype", model_col=OOAParameter.datatype, sClass="left"),
+            LinkCol(
+                self,
+                "FeatureSet",
+                sTitle="Feature Set",
+                model_col=OOAFeatureSet.id,
+                sClass="left",
+                get_object=lambda i: i.featureset,
+            ),
         ]
 
 class Featuresets(datatables.Contributions):
     def col_defs(self):
         #cols = datatables.Contributions.col_defs(self)
         return [
-            LinkCol(self, "Name", model_col=OOAFeatureSet.name, sClass="left"),
-            IdCol(self, "FeatureSet ID", sTitle="ID", sClass="left"),
+            IdCol(self, "FeatureSet ID", sTitle="ID", model_col=OOAFeatureSet.id, sClass="left"),
+            LinkCol(self, "Name", sTitle="Name", model_col=OOAFeatureSet.name, sClass="left"),
             #Col(self, "Domains", model_col=OOAFeatureSet.domains, sClass="left"),
             # ] + cols[:-1] + cols[-1:]
             # Col(self, 'Authors', model_col=OOAFeatureSet.authors, sClass='left'),
@@ -132,14 +133,14 @@ class Languages(datatables.Languages):
         return [
             IdCol(self, "ID", sTitle="Glottocode", sClass="left", model_col=OOALanguage.id),
             LinkCol(self, "Name", sClass="left", model_col=OOALanguage.name),
-            Col(self, "Family Name", sTitle="Family Name", model_col=OOALanguage.family_name, sClass="left"),
+            Col(self, "Family", sTitle="Family Name", model_col=OOALanguage.family_name, sClass="left"),
             Col(self, "Macroarea", model_col=OOALanguage.macroarea, sClass="left"),
-            Col(self, 'Latitude', model_col=OOALanguage.latitude),
-            Col(self, 'Longitude', model_col=OOALanguage.longitude),
+            #Col(self, 'Latitude', model_col=OOALanguage.latitude),
+            #Col(self, 'Longitude', model_col=OOALanguage.longitude),
         ]
 
 
-class ApicsValueNameCol(ValueNameCol):
+class AtlasValueNameCol(ValueNameCol):
     def get_attrs(self, item):
         label = str(item.value) or 'NO_LABEL'
         label = HTML.span(map_marker_img(self.dt.req, item), literal('&nbsp;'), label)
@@ -189,7 +190,7 @@ class Values(datatables.Values):
                     sClass="left",
                     get_object=lambda i: i.valueset.language,
                 ),
-                ApicsValueNameCol(self, "Value", model_col=OOAValue.value, sClass="left"),
+                AtlasValueNameCol(self, "Value", model_col=OOAValue.value, sClass="left"),
                 Col(self, "Remark", model_col=OOAValue.remark, sClass="left"),
                 RefsCol(self, 'Source'),
                 CommentCol(self, 'c'),
@@ -205,7 +206,7 @@ class Values(datatables.Values):
                     sClass="left",
                     get_object=lambda i: i.valueset.parameter,
                 ),
-                ApicsValueNameCol(self, "Value", model_col=OOAValue.value, sClass="left"),
+                AtlasValueNameCol(self, "Value", model_col=OOAValue.value, sClass="left"),
                 Col(self, "Remark", model_col=OOAValue.remark, sClass="left"),
                 RefsCol(self, 'Source'),
                 CommentCol(self, 'c'),
@@ -215,9 +216,9 @@ class Values(datatables.Values):
 class Contributors(datatables.Contributors):
     def col_defs(self):
         return [
-            IdCol(
-                self, "Contributor ID", model_col=common.Contributor.id, sClass="left"
-            ),
+            #IdCol(
+            #    self, "Contributor ID", sTitle="Contributor ID", model_col=common.Contributor.id, sClass="left"
+            #),
             LinkCol(self, "Name", model_col=common.Contributor.name, sClass="left"),
         ]
 
