@@ -130,7 +130,7 @@ class Featuresets(datatables.Contributions):
 class Languages(datatables.Languages):
     def col_defs(self):
         return [
-            IdCol(self, "ID", sTitle="Glottocode", sClass="left"),
+            IdCol(self, "ID", sTitle="Glottocode", sClass="left", model_col=OOALanguage.id),
             LinkCol(self, "Name", sClass="left", model_col=OOALanguage.name),
             Col(self, "Family Name", sTitle="Family Name", model_col=OOALanguage.family_name, sClass="left"),
             Col(self, "Macroarea", model_col=OOALanguage.macroarea, sClass="left"),
