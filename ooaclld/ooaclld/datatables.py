@@ -78,11 +78,11 @@ class Features(datatables.Parameters):
 
     def col_defs(self):
         return [
-            IdCol(self, "ID", sClass="left"),
+            IdCol(self, "ID", sTitle="ID", sClass="left"),
             LinkCol(
                 self,
                 "FeatureSet",
-                sTitle="FeatureSet",
+                sTitle="Feature Set",
                 model_col=OOAFeatureSet.id,
                 sClass="left",
                 get_object=lambda i: i.featureset,
@@ -101,7 +101,7 @@ class Features(datatables.Parameters):
                 sClass="left",
                 get_object=lambda i: i.featureset
             ),
-            Col(self, "Questions", model_col=OOAParameter.question, sClass="left"),
+            Col(self, "Question", model_col=OOAParameter.question, sClass="left"),
             # Col(
             #     self,
             #     "Visualization",
@@ -115,8 +115,8 @@ class Featuresets(datatables.Contributions):
     def col_defs(self):
         #cols = datatables.Contributions.col_defs(self)
         return [
-            IdCol(self, "FeatureSet ID", sTitle="FeatureSet ID", sClass="left"),
             LinkCol(self, "Name", model_col=OOAFeatureSet.name, sClass="left"),
+            IdCol(self, "FeatureSet ID", sTitle="ID", sClass="left"),
             #Col(self, "Domains", model_col=OOAFeatureSet.domains, sClass="left"),
             # ] + cols[:-1] + cols[-1:]
             # Col(self, 'Authors', model_col=OOAFeatureSet.authors, sClass='left'),
@@ -172,19 +172,19 @@ class Values(datatables.Values):
     def col_defs(self):
         if self.parameter:
             return [
-                IdCol(self, "Id", sTitle="Value ID", sClass="left"),
-                LinkCol(
-                    self,
-                    "Feature ID",
-                    sTitle="Feature ID",
-                    model_col=OOAParameter.id,
-                    sClass="left",
-                    get_object=lambda i: i.valueset.parameter,
-                ),
+                #IdCol(self, "Id", sTitle="Value ID", sClass="left"),
+                #LinkCol(
+                #    self,
+                #    "Feature ID",
+                #    sTitle="Feature ID",
+                #    model_col=OOAParameter.id,
+                #    sClass="left",
+                #    get_object=lambda i: i.valueset.parameter,
+                #),
                 LinkCol(
                     self,
                     "Language ID",
-                    sTitle="Language ID",
+                    sTitle="Language",
                     model_col=OOALanguage.id,
                     sClass="left",
                     get_object=lambda i: i.valueset.language,
@@ -202,14 +202,6 @@ class Values(datatables.Values):
                     "Feature ID",
                     sTitle="Feature ID",
                     model_col=OOAParameter.id,
-                    sClass="left",
-                    get_object=lambda i: i.valueset.parameter,
-                ),
-                LinkCol(
-                    self,
-                    "Feature",
-                    sTitle="Feature",
-                    model_col=OOAParameter.name,
                     sClass="left",
                     get_object=lambda i: i.valueset.parameter,
                 ),
