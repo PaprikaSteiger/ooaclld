@@ -1,6 +1,6 @@
 <%inherit file="../${context.get('request').registry.settings.get('clld.app_template', 'app.mako')}"/>
 <%namespace name="util" file="../util.mako"/>
-<%! active_menu_item = "features" %>
+<%! active_menu_item = "parameters" %>
 <%! from ooaclld.models import OOAValue %>
 <% values_dt = request.get_datatable('values', OOAValue, parameter=ctx) %>
 <%block name="title">${_('Feature')} ${ctx.name}</%block>

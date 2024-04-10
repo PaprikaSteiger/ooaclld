@@ -1,4 +1,5 @@
 import collections
+import functools
 
 from pyramid.config import Configurator
 
@@ -20,7 +21,7 @@ from clld.interfaces import (
 from clldutils.svg import pie, icon, data_url
 from clld.web.adapters.base import adapter_factory
 from clld.web.util.helpers import link
-from clld.web.app import CtxFactoryQuery
+from clld.web.app import CtxFactoryQuery, menu_item
 from clld import common
 
 from markdown.extensions.toc import TocExtension
@@ -118,5 +119,13 @@ def main(global_config, **settings):
     config.registry.registerUtility(OaaMapMarker(), IMapMarker)
     config.add_route("references", "/sources")
     # config.registry.registerUtility(LanguageByFamilyMapMarker(), IMapMarker)
+    config.register_menu(
+        ('dataset', functools.partial(menu_item, 'dataset', label='Home')),
+        ('featuresets', functools.partial(menu_item, 'featuresets', label='Feature Sets')),
+        ('parameters', functools.partial(menu_item, 'features', label='Features')),
+        ('languages', functools.partial(menu_item, 'languages', label='Languages')),
+        ('contributors', functools.partial(menu_item, 'contributors', label='Contributors')),
+        ('references', functools.partial(menu_item, 'references', label='References')),
+    )
 
     return config.make_wsgi_app()
