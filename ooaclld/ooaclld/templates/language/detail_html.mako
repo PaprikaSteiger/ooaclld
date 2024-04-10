@@ -5,7 +5,7 @@
 <%! from ooaclld.models import OOAValue %>
 
 
-<h2>Language: ${ctx.name}</h2>
+<h2>${ctx.name} (${ctx.family_name})</h2>
 ${request.get_datatable('values', OOAValue, language=ctx).render()}
 <%def name="sidebar()">
 ## util.codes() works if Identifiers are added to db alla wals

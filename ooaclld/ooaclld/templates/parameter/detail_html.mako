@@ -1,40 +1,31 @@
 <%inherit file="../${context.get('request').registry.settings.get('clld.app_template', 'app.mako')}"/>
 <%namespace name="util" file="../util.mako"/>
-<%! active_menu_item = "features" %>
+<%! active_menu_item = "parameters" %>
 <%! from ooaclld.models import OOAValue %>
 <% values_dt = request.get_datatable('values', OOAValue, parameter=ctx) %>
-<%block name="title">${_('Feature')} ${ctx.name}</%block>
+<%block name="title">${ctx.name}</%block>
 
 
 <div class="row-fluid">
     <div class="span8">
-        <h2>Feature ID: ${ctx.id}</h2>
-
-        ## clld.web.util.helpers alt_representation creates download widget with info button
-        <div>${h.alt_representations(req, ctx, doc_position='right', exclude=['snippet.html'])|n}</div>
+        <h1>${ctx.name}</h1>
         % if ctx.question:
-        <p>Feature description: ${ctx.question}</p>
+        <h2 class="question">${ctx.id}: ${ctx.question}</h2>
         % endif
         <p>
-            This feature is described in featureset ${ctx.featureset}
-            <a class="button btn" href="${request.resource_url(ctx.featureset)}"/>
-            by ${h.linked_contributors(request, ctx.featureset)}
+            This feature is described in the feature set 
+            <a href="${request.resource_url(ctx.featureset)}">${ctx.featureset}</a>.
+        </p>
+        <p> 
+            It is authored by ${h.linked_contributors(request, ctx.featureset)}.
             ${h.cite_button(request, ctx.featureset)}
         </p>
-
+        ## clld.web.util.helpers alt_representation creates download widget with info button
+        <div>${h.alt_representations(req, ctx, doc_position='right', exclude=['snippet.html'])|n}</div>
     </div>
     <p></p>
-    % if ctx.featureset:
-        <div class="span4">
-            <%util:well title="Authors">
-                <span>${h.linked_contributors(request, ctx.featureset)}</span>
-                ${h.cite_button(request, ctx.featureset)}
-            </%util:well>
-        </div>
-    % endif
     <div class="span4">
         <%util:well title="Values">
-        <p>Feature description: ${ctx.question}</p>
             ${u.value_table(ctx, request)}
         </%util:well>
     </div>
