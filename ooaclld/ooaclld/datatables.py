@@ -180,7 +180,8 @@ class Values(datatables.Values):
                     sClass="left",
                     get_object=lambda i: i.valueset.parameter,
                 ),
-                AtlasValueNameCol(self, "Value", model_col=OOAValue.value, sClass="left"),
+                AtlasValueNameCol(
+                    self, "Value", model_col=OOAValue.value, sClass="left", bSortable=False, bSearchable=False),
                 Col(self, "Remark", model_col=OOAValue.remark, sClass="left"),
                 RefsCol(self, 'Source'),
                 CommentCol(self, 'c'),

@@ -1,10 +1,15 @@
 from clld import interfaces
 from clld.web.adapters import GeoJsonParameter
+from clld.db.meta import DBSession
+from clld.db.models import common
+from sqlalchemy.orm import joinedload
 
 
 class GeoJsonFeature(GeoJsonParameter):
     def feature_iterator(self, ctx, req):
-        for vs in ctx.valuesets:
+        for vs in DBSession.query(common.ValueSet).filter(common.ValueSet.parameter_pk == ctx.pk).options(
+                #joinedload(common.ValueSet.values),
+                joinedload(common.ValueSet.language)):
             yield vs
 
     def feature_properties(self, ctx, req, valueset):

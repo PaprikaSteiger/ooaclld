@@ -26,7 +26,7 @@ from clld_glottologfamily_plugin.models import HasFamilyMixin
 
 @implementer(interfaces.ILanguage)
 class OOALanguage(CustomModelMixin, common.Language):
-    pk = Column(Unicode, ForeignKey("language.pk"), primary_key=True)
+    pk = Column(Integer, ForeignKey("language.pk"), primary_key=True)
     glottocode = Column(Unicode)
     macroarea = Column(Unicode)
     iso = Column(Unicode)
@@ -43,7 +43,7 @@ class OOALanguage(CustomModelMixin, common.Language):
 
 @implementer(interfaces.IContribution)
 class OOAFeatureSet(CustomModelMixin, common.Contribution):
-    pk = Column(Unicode, ForeignKey("contribution.pk"), primary_key=True)
+    pk = Column(Integer, ForeignKey("contribution.pk"), primary_key=True)
     featureset_id = Column(Unicode)
     domains = Column(Unicode)
     authors = Column(Unicode)
@@ -54,9 +54,9 @@ class OOAFeatureSet(CustomModelMixin, common.Contribution):
 
 @implementer(interfaces.IParameter)
 class OOAParameter(CustomModelMixin, common.Parameter):
-    pk = Column(Unicode, ForeignKey("parameter.pk"), primary_key=True)
+    pk = Column(Integer, ForeignKey("parameter.pk"), primary_key=True)
 
-    featureset_pk = Column(Unicode, ForeignKey("contribution.pk"))
+    featureset_pk = Column(Integer, ForeignKey("contribution.pk"))
     featureset_name = Column(Unicode)
     featureset = relationship(common.Contribution)
 
@@ -67,7 +67,7 @@ class OOAParameter(CustomModelMixin, common.Parameter):
 
 @implementer(interfaces.IValue)
 class OOAValue(CustomModelMixin, common.Value):
-    pk = Column(Unicode, ForeignKey("value.pk"), primary_key=True)
+    pk = Column(Integer, ForeignKey("value.pk"), primary_key=True)
 
     remark = Column(Unicode)
     value = Column(Unicode)
@@ -77,18 +77,3 @@ class OOAValue(CustomModelMixin, common.Value):
 
     def __str__(self):
         return self.id
-
-
-# @implementer(interfaces.IUnit)
-# class OOAUnit(CustomModelMixin, common.Unit):
-#     pk = Column(Unicode, ForeignKey('unit.pk'), primary_key=True)
-#
-#     parameter_pk = Column(Unicode, ForeignKey('parameter.pk'))
-#     parameter = relationship(OOAParameter)
-#     # allows foreign key to be empty
-#     #code_id = Column(Unicode, ForeignKey('domainelement.pk'), nullable=True)
-#     code_id = Column(Unicode)
-#     value = Column(Unicode)
-#     remark = Column(Unicode)
-#     source = Column(Unicode, ForeignKey('source.pk'))
-#     coder = Column(Unicode)
