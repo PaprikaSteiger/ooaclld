@@ -1,7 +1,7 @@
 from sqlalchemy.orm import joinedload, contains_eager, subqueryload
 
 from clld.web import datatables
-from clld.web.datatables.base import Col, LinkCol, DetailsRowLinkCol, IdCol, DataTable
+from clld.web.datatables.base import Col, LinkCol, DetailsRowLinkCol, DataTable
 from clld.web.datatables.base import RefsCol as BaseRefsCol
 from clld.web.datatables.value import ValueNameCol
 from clld.db.meta import DBSession
@@ -39,6 +39,16 @@ class AuthorsCol(Col):
         if len(chunks) > 2:
             chunks[-2] = " and "
         return HTML.span(*chunks)
+
+class AtlasIdCol(LinkCol):
+    __kw__ = {'sClass': 'right', 'input_size': 'mini'}
+    
+    def get_attrs(self, item):
+        return {'label': self.get_obj(item).id}
+    
+    def search(self, qs):
+        if self.model_col:
+            return icontains(self.model_col, qs)
 
 
 class ContributorsCol(Col):
@@ -78,7 +88,7 @@ class Features(datatables.Parameters):
 
     def col_defs(self):
         return [
-            IdCol(self, "ID", sTitle="ID", sClass="left"),
+            AtlasIdCol(self, "ID", sTitle="ID", model_col=OOAParameter.id, sClass="left"),
             LinkCol(self, "Name", model_col=OOAParameter.name, sClass="left"),
             Col(self, "Question", model_col=OOAParameter.question, sClass="left"),
             LinkCol(
@@ -95,7 +105,7 @@ class Featuresets(datatables.Contributions):
     def col_defs(self):
         #cols = datatables.Contributions.col_defs(self)
         return [
-            IdCol(self, "FeatureSet ID", sTitle="ID", model_col=OOAFeatureSet.id, sClass="left"),
+            AtlasIdCol(self, "FeatureSet ID", sTitle="ID", model_col=OOAFeatureSet.id, sClass="left"),
             LinkCol(self, "Name", sTitle="Name", model_col=OOAFeatureSet.name, sClass="left"),
             #Col(self, "Domains", model_col=OOAFeatureSet.domains, sClass="left"),
             # ] + cols[:-1] + cols[-1:]
@@ -110,7 +120,7 @@ class Featuresets(datatables.Contributions):
 class Languages(datatables.Languages):
     def col_defs(self):
         return [
-            LinkCol(self, "ID", sTitle="Glottocode", sClass="left", model_col=OOALanguage.id),
+            AtlasIdCol(self, "ID", sTitle="Glottocode", sClass="left", model_col=OOALanguage.id),
             LinkCol(self, "Name", sClass="left", model_col=OOALanguage.name),
             Col(self, "Family", sTitle="Family Name", model_col=OOALanguage.family_name, sClass="left"),
             Col(self, "Macroarea", model_col=OOALanguage.macroarea, sClass="left"),
