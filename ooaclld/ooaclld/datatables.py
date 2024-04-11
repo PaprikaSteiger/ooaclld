@@ -76,13 +76,21 @@ class RefsCol(BaseRefsCol):
         return item.valueset
 
 
+class FeaturesetCol(LinkCol):
+    def search(self, qs):
+        return icontains(OOAFeatureSet.name, qs)
+
+    def order(self):
+        return OOAParameter.featureset_pk
+
+
 # personalized tables
 class Features(datatables.Parameters):
     __constraints__ = [OOAFeatureSet]
 
     def base_query(self, query):
+        query = query.join(OOAFeatureSet)
         if self.ooafeatureset:
-            query = query.join(OOAFeatureSet)
             query = query.filter(OOAParameter.featureset_pk == self.ooafeatureset.pk)
         return query
 
@@ -91,13 +99,13 @@ class Features(datatables.Parameters):
             AtlasIdCol(self, "ID", sTitle="ID", model_col=OOAParameter.id, sClass="left"),
             LinkCol(self, "Name", model_col=OOAParameter.name, sClass="left"),
             Col(self, "Question", model_col=OOAParameter.question, sClass="left"),
-            LinkCol(
+            FeaturesetCol(
                 self,
                 "FeatureSet",
                 sTitle="Feature Set",
-                model_col=OOAFeatureSet.id,
                 sClass="left",
                 get_object=lambda i: i.featureset,
+                choices=get_distinct_values(OOAFeatureSet.name),
             ),
         ]
 
