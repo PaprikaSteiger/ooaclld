@@ -40,6 +40,7 @@ class AuthorsCol(Col):
             chunks[-2] = " and "
         return HTML.span(*chunks)
 
+
 class AtlasIdCol(LinkCol):
     __kw__ = {'sClass': 'right', 'input_size': 'mini'}
     
@@ -117,7 +118,6 @@ class Featuresets(datatables.Contributions):
             LinkCol(self, "Name", sTitle="Name", model_col=OOAFeatureSet.name, sClass="left"),
             #Col(self, "Domains", model_col=OOAFeatureSet.domains, sClass="left"),
             # ] + cols[:-1] + cols[-1:]
-            # Col(self, 'Authors', model_col=OOAFeatureSet.authors, sClass='left'),
             AuthorsCol(self, "Authors", model_col=OOAFeatureSet.authors),
             ContributorsCol(self, "Contributors"),
             # Col(self, 'Contributors', model_col=OOAFeatureSet.contributors, sClass='left'),

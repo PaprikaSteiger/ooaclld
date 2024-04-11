@@ -21,7 +21,6 @@ def main(args):
     # assert args.glottolog, 'The --glottolog option is required!'
     # args.log.info('Loading dataset')
     ds = args.cldf
-    #ds = list(pycldf.iter_datasets(cldf_dir))[0]
     data = Data()
     data.add(
         common.Dataset,
@@ -71,8 +70,8 @@ def main(args):
             id=row["FeatureSetID"],
             name=row["Name"],
             domains=row["Domain"],
-            authors=";".join(row["Authors"]),
-            contributors=";".join(row["Contributors"] or [""]),
+            authors=";".join(data['Contributor'][cid].name for cid in row["Authors"]),
+            contributors=";".join(data['Contributor'][cid].name for cid in row["Contributors"]),
             filename=row["Filename"] or "",
             description=desc,
         )
