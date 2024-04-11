@@ -40,6 +40,7 @@ class AuthorsCol(Col):
             chunks[-2] = " and "
         return HTML.span(*chunks)
 
+
 class AtlasIdCol(LinkCol):
     __kw__ = {'sClass': 'right', 'input_size': 'mini'}
     
@@ -76,13 +77,21 @@ class RefsCol(BaseRefsCol):
         return item.valueset
 
 
+class FeaturesetCol(LinkCol):
+    def search(self, qs):
+        return icontains(OOAFeatureSet.name, qs)
+
+    def order(self):
+        return OOAParameter.featureset_pk
+
+
 # personalized tables
 class Features(datatables.Parameters):
     __constraints__ = [OOAFeatureSet]
 
     def base_query(self, query):
+        query = query.join(OOAFeatureSet)
         if self.ooafeatureset:
-            query = query.join(OOAFeatureSet)
             query = query.filter(OOAParameter.featureset_pk == self.ooafeatureset.pk)
         return query
 
@@ -91,13 +100,13 @@ class Features(datatables.Parameters):
             AtlasIdCol(self, "ID", sTitle="ID", model_col=OOAParameter.id, sClass="left"),
             LinkCol(self, "Name", model_col=OOAParameter.name, sClass="left"),
             Col(self, "Question", model_col=OOAParameter.question, sClass="left"),
-            LinkCol(
+            FeaturesetCol(
                 self,
                 "FeatureSet",
                 sTitle="Feature Set",
-                model_col=OOAFeatureSet.id,
                 sClass="left",
                 get_object=lambda i: i.featureset,
+                choices=get_distinct_values(OOAFeatureSet.name),
             ),
         ]
 
@@ -109,7 +118,6 @@ class Featuresets(datatables.Contributions):
             LinkCol(self, "Name", sTitle="Name", model_col=OOAFeatureSet.name, sClass="left"),
             #Col(self, "Domains", model_col=OOAFeatureSet.domains, sClass="left"),
             # ] + cols[:-1] + cols[-1:]
-            # Col(self, 'Authors', model_col=OOAFeatureSet.authors, sClass='left'),
             AuthorsCol(self, "Authors", model_col=OOAFeatureSet.authors),
             ContributorsCol(self, "Contributors"),
             # Col(self, 'Contributors', model_col=OOAFeatureSet.contributors, sClass='left'),
@@ -135,42 +143,19 @@ class AtlasValueNameCol(ValueNameCol):
         label = HTML.span(map_marker_img(self.dt.req, item), literal('&nbsp;'), label)
         return {'label': label, 'title': str(item.value)}
 
+
 class Values(datatables.Values):
     #__constraints__ = [OOAParameter, OOALanguage]
 
     def base_query(self, query):
-        query = query.join(aliased(ValueSet, flat=True)).options(
-            joinedload(Value.valueset)
-            .joinedload(ValueSet.references)
-            .joinedload(ValueSetReference.source)
-        )
-
-        if self.language:
-            query = query.join(ValueSet)
-            return query.filter(ValueSet.language_pk == self.language.pk)
-
+        query = datatables.Values.base_query(self, query)
         if self.parameter:
-            query = query.join(ValueSet)
-            return query.filter(ValueSet.parameter_pk == self.parameter.pk)
-
-        # if self.contribution:
-        #     query = query.join(ValueSet.parameter)
-        #     return query.filter(ValueSet.contribution_pk == self.contribution.pk)
-
+            query = query.options(joinedload(Value.valueset).joinedload(common.ValueSet.language))
         return query
 
     def col_defs(self):
         if self.parameter:
             return [
-                #IdCol(self, "Id", sTitle="Value ID", sClass="left"),
-                #LinkCol(
-                #    self,
-                #    "Feature ID",
-                #    sTitle="Feature ID",
-                #    model_col=OOAParameter.id,
-                #    sClass="left",
-                #    get_object=lambda i: i.valueset.parameter,
-                #),
                 LinkCol(
                     self,
                     "Language ID",
@@ -179,7 +164,7 @@ class Values(datatables.Values):
                     sClass="left",
                     get_object=lambda i: i.valueset.language,
                 ),
-                AtlasValueNameCol(self, "Value", model_col=OOAValue.value, sClass="left"),
+                AtlasValueNameCol(self, "Value", sClass="left", choices=[de.name for de in self.parameter.domain]),
                 Col(self, "Remark", model_col=OOAValue.remark, sClass="left"),
                 RefsCol(self, 'Source'),
                 CommentCol(self, 'c'),
@@ -195,7 +180,8 @@ class Values(datatables.Values):
                     sClass="left",
                     get_object=lambda i: i.valueset.parameter,
                 ),
-                AtlasValueNameCol(self, "Value", model_col=OOAValue.value, sClass="left"),
+                AtlasValueNameCol(
+                    self, "Value", model_col=OOAValue.value, sClass="left", bSortable=False, bSearchable=False),
                 Col(self, "Remark", model_col=OOAValue.remark, sClass="left"),
                 RefsCol(self, 'Source'),
                 CommentCol(self, 'c'),

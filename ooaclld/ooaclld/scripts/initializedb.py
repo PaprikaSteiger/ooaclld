@@ -1,12 +1,9 @@
-import collections
-from pathlib import Path
 import re
-import datetime
-from collections import defaultdict
+import itertools
+import collections
+
 import pycldf
 from tqdm import tqdm
-import sqlalchemy
-from urllib.parse import unquote
 
 from clld.cliutil import Data, slug, bibtex2source, add_language_codes
 from clld.db.meta import DBSession
@@ -24,7 +21,6 @@ def main(args):
     # assert args.glottolog, 'The --glottolog option is required!'
     # args.log.info('Loading dataset')
     ds = args.cldf
-    #ds = list(pycldf.iter_datasets(cldf_dir))[0]
     data = Data()
     data.add(
         common.Dataset,
@@ -74,8 +70,8 @@ def main(args):
             id=row["FeatureSetID"],
             name=row["Name"],
             domains=row["Domain"],
-            authors=";".join(row["Authors"]),
-            contributors=";".join(row["Contributors"] or [""]),
+            authors=";".join(data['Contributor'][cid].name for cid in row["Authors"]),
+            contributors=";".join(data['Contributor'][cid].name for cid in row["Contributors"]),
             filename=row["Filename"] or "",
             description=desc,
         )
@@ -97,7 +93,7 @@ def main(args):
                         ord=cnt,
                     )
                     cnt += 1
-        DBSession.flush()
+    DBSession.flush()
 
     for row in tqdm(ds.iter_rows("ParameterTable"), desc="Processing parameters"):
         data.add(
@@ -113,11 +109,7 @@ def main(args):
         )
     DBSession.flush()
 
-    all_languages = {row["LanguageID"] for row in ds.iter_rows("ValueTable")}
-
     for row in tqdm(ds.iter_rows("LanguageTable"), desc="Processing languages"):
-        if row["Glottocode"] not in all_languages:
-            continue
         data.add(
             models.OOALanguage,
             row["Glottocode"],
@@ -140,36 +132,40 @@ def main(args):
         )
     DBSession.flush()
 
-    for row in tqdm(ds.iter_rows("codes.csv"), desc="Processing codes"):
-        data.add(
-            common.DomainElement,
-            row["CodeID"],#.replace(".", "").replace("]", ""),
-            id=row["CodeID"],#.replace(".", "").replace("]", ""),
-            description=row["Description"],
-            jsondata={"icon": row["icons"]},
-            parameter_pk=data["OOAParameter"][row["ParameterID"]].pk,
-        )
+    for pid, rows in tqdm(itertools.groupby(
+        sorted(ds.iter_rows("codes.csv"), key=lambda r: r['ParameterID']),
+        lambda r: r['ParameterID']
+    ), desc="Processing codes"):
+        for i, row in enumerate(rows, start=1):
+            data.add(
+                common.DomainElement,
+                row["CodeID"],#.replace(".", "").replace("]", ""),
+                id=row["CodeID"],#.replace(".", "").replace("]", ""),
+                description=row["Description"],
+                name=row['Description'],
+                number=i,
+                jsondata={"icon": row["icons"]},
+                parameter_pk=data["OOAParameter"][pid].pk,
+            )
     DBSession.flush()
 
-    for c, row in enumerate(tqdm(ds.iter_rows("ValueTable"), desc="Processing values")):
-        current_contribution = row["ID"].replace(".", "-").split("-")[0].split("_")[1]
-        current_language = row["LanguageID"]
-        current_param = row["ParameterID"]
-        current_valueset_id = row["ID"]
-        lpk = data["OOALanguage"][row["LanguageID"]].pk
+    for (lid, pid), rows in tqdm(itertools.groupby(
+        sorted(ds.iter_rows('ValueTable'), key=lambda r: (r['LanguageID'], r['ParameterID'])),
+        lambda r: (r['LanguageID'], r['ParameterID'])
+    )):
+        current_contribution = pid.split("-")[0]
+        lpk = data["OOALanguage"][lid].pk
         # add first valueset
-        if c == 0:
-            vs = data.add(
-                common.ValueSet,
-                row["ID"],
-                id=row["ID"],
-                language_pk=lpk,
-                parameter_pk=data["OOAParameter"][row["ParameterID"].replace(".", "-")].pk,
-                contribution_pk=data["OOAFeatureSet"][current_contribution].pk,
-                # TODO: check that all values in the same valueset have the same source. If not, discuss with david
-                #source=" & ".join(row['Source']),
-            )
-
+        vs = common.ValueSet(
+            id='{}-{}'.format(lid, pid),
+            language_pk=lpk,
+            parameter_pk=data["OOAParameter"][pid.replace(".", "-")].pk,
+            contribution_pk=data["OOAFeatureSet"][current_contribution].pk,
+            # TODO: check that all values in the same valueset have the same source. If not, discuss with david
+            #source=" & ".join(row['Source']),
+        )
+        vsrefs = set()
+        for row in rows:
             if row['Source']:
                 for s in row['Source']:
                     sid, desc = pycldf.Sources.parse(s)
@@ -181,69 +177,30 @@ def main(args):
                     #     s_ = s
                     #     descr = ''
                     spk = data['Source'][sid].pk
-                    data.add(common.ValueSetReference, s,
-                             valueset=vs,
-                             description=desc,
-                             source_pk=spk)
-                    if spk not in lrefs[lpk]:
-                        lrefs[lpk].add(spk)
-                    DBSession.flush()
-
-            previous_con = current_contribution
-            previous_lan = current_language
-            previous_param = current_param
-            previous_valueset_id = current_valueset_id
-
-        if current_param != previous_param or current_language != previous_lan or current_contribution != previous_con:
-            lpk = data["OOALanguage"][row["LanguageID"]].pk
-            vs = data.add(
-                common.ValueSet,
-                row["ID"],
-                id=row["ID"],
-                language_pk=lpk,
-                parameter_pk=data["OOAParameter"][row["ParameterID"].replace(".", "-")].pk,
-                contribution_pk=data["OOAFeatureSet"][current_contribution].pk,
-                # TODO: check that all values in the same valueset have the same source. If not, discuss with david
-                #source=" & ".join(row['Source']),
-            )
-            DBSession.flush()
-            if row['Source']:
-                for s in row['Source']:
-                    sid, desc = pycldf.Sources.parse(s)
-                    if sid not in all_sources:
-                        continue
-                    # try:
-                    #     s_, descr = srcdescr.search(s).groups()
-                    # except AttributeError:
-                    #     s_ = s
-                    #     descr = ''
-                    spk = data['Source'][sid].pk
-                    data.add(common.ValueSetReference, s,
-                             valueset=vs,
-                             description=desc,
-                             source_pk=spk)
+                    if spk not in vsrefs:
+                        data.add(
+                            common.ValueSetReference, s,
+                            valueset=vs,
+                            description=desc,
+                            source_pk=spk)
+                        vsrefs.add(spk)
                     if spk not in lrefs[lpk]:
                         lrefs[lpk].add(spk)
                 DBSession.flush()
 
-            previous_con = current_contribution
-            previous_lan = current_language
-            previous_param = current_param
-            previous_valueset_id = current_valueset_id
+            data.add(
+                models.OOAValue,
+                row["ID"],
+                id=row["ID"],
+                valueset=vs,
+                # Todo: not all values have a code id
+                domainelement_pk=data["DomainElement"][row["CodeID"].replace(".", "-")].pk,
+                code_id=row["CodeID"],
+                value=row["Value"],
+                remark=row["Remark"],
+                coder=";".join(row["Coder"]),
+            )
 
-        data.add(
-            models.OOAValue,
-            row["ID"],
-            id=row["ID"],
-            valueset_pk=data["ValueSet"][previous_valueset_id].pk,
-            # Todo: not all values have a code id
-            domainelement_pk=data["DomainElement"][row["CodeID"].replace(".", "-")].pk,
-            code_id=row["CodeID"],
-            value=row["Value"],
-            remark=row["Remark"],
-            coder=";".join(row["Coder"]),
-        )
-        DBSession.flush()
     # add language sources
     for lpk, spks in lrefs.items():
         for spk in spks:

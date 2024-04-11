@@ -1,5 +1,10 @@
+import itertools
+
 from clld.web.util.htmllib import HTML, literal
 from clld.web.util.helpers import map_marker_img, get_adapter, external_link
+from clld.db.meta import DBSession
+from clld.db.models import common
+from sqlalchemy.orm import joinedload
 
 
 def contribution_detail_html(context=None, request=None, **kw):
@@ -13,15 +18,22 @@ def value_table(ctx, req):
     rows = []
     langs = {}
 
-    for i, de in enumerate(ctx.domain):
+    domain = {de.pk: de for de in ctx.domain}
+    q = DBSession.query(common.Value)\
+        .filter(common.Value.domainelement_pk.in_(list(domain)))\
+        .order_by(common.Value.domainelement_pk, common.Value.valueset_pk)\
+        .options(joinedload(common.Value.valueset)).all()
+    vspks = [v.valueset_pk for v in q]
+
+    for depk, vals in itertools.groupby(q, lambda v: v.domainelement_pk):
+        de = domain[depk]
         exclusive = 0
         shared = 0
         icon = de.jsondata['icon']
         if not icon:
             continue
-        for v in [_v for _v in de.values]:
-
-            if len(v.valueset.values) > 1:
+        for v in vals:
+            if vspks.count(v.valueset_pk) > 1:
                 shared += 1
             else:
                 exclusive += 1
