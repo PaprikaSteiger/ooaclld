@@ -56,9 +56,9 @@ class OOAFeatureSet(CustomModelMixin, common.Contribution):
 class OOAParameter(CustomModelMixin, common.Parameter):
     pk = Column(Unicode, ForeignKey("parameter.pk"), primary_key=True)
 
-    featureset_pk = Column(Unicode, ForeignKey("ooafeatureset.pk"))
+    featureset_pk = Column(Unicode, ForeignKey("contribution.pk"))
     featureset_name = Column(Unicode)
-    featureset = relationship(OOAFeatureSet)
+    featureset = relationship(common.Contribution)
 
     question = Column(Unicode)
     datatype = Column(Unicode)

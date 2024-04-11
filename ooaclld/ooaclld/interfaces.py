@@ -3,7 +3,7 @@ from collections import Counter
 from clld.interfaces import IValueSet, IValue, IDomainElement, IMapMarker
 from clld.web.icon import MapMarker
 from clldutils import svg
-from clld.interfaces import IIcon
+
 
 class OaaMapMarker(MapMarker):
     @staticmethod
@@ -18,7 +18,6 @@ class OaaMapMarker(MapMarker):
     def __call__(self, ctx, req):
         #if IValueSet.providedBy(ctx):
         if IDomainElement.providedBy(ctx):
-            print('domain')
             # if req.matched_route.name == 'valueset' and not ctx.parameter.multivalued:
             #     return self.pie((100, ctx.values[0].domainelement.jsondata['color']))
             slices = Counter()
@@ -33,7 +32,6 @@ class OaaMapMarker(MapMarker):
                 return self.pie(*[(v, k) for k, v in slices.most_common()])
 
         elif IValueSet.providedBy(ctx):
-            print('valueset')
             slices = Counter()
             for value in ctx.values:
                 icon = value.domainelement.jsondata['icon']
@@ -43,7 +41,6 @@ class OaaMapMarker(MapMarker):
 
         if IValue.providedBy(ctx):
             # TODO: It seems only the value i want to block land here... (NA, ERROR, ?)
-            print('value')
             slices = Counter()
             icon = ctx.domainelement.jsondata['icon']
             if icon and icon.startswith("#"):
@@ -52,7 +49,6 @@ class OaaMapMarker(MapMarker):
                 return self.pie(*[(v, k) for k, v in slices.most_common()])
 
         else:
-            print('rest')
             slices = Counter()
             icon = '#ff6600'
             slices[icon] = 1
