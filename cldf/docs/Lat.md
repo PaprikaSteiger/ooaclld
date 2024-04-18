@@ -130,7 +130,7 @@ Northern Yukaghir has an palatalized lateral, Romanized as l’, which contrasts
 Despite its other lateral phonemes, Cherokee lacks a palatal lateral ([Montgomery-Anderson 2008](Source#cldf:montgomeryanderson2008cherokee): 33).
 
 ## Derived features
-Derived features offer different views of the same data included in the base features. Often, this is done to group together some states of multi-state features, to capture specific similarities. In other cases, derived features are designed so that they are independent from other features used in the same computational analyses that assume feature independence, e.g. the Bayesian software sBayes, which detects areal signal ([Ranacher et al 2021](Source#ranacher2021sbayes)).
+Derived features offer different views of the same data included in the base features. Often, this is done to group together some states of multi-state features, to capture specific similarities. In other cases, derived features are designed so that they are independent from other features used in the same computational analyses that assume feature independence, e.g. the Bayesian software sBayes, which detects areal signal ([Ranacher et al 2021](Source#cldf:ranacher2021sbayes)).
 
 ### [](ParameterTable#cldf:Lat-01a)
 

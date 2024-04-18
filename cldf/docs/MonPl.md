@@ -739,7 +739,7 @@ For this feature, it is crucial to establish event (E) plurality in a context wi
 
 #### no: Nuu-chah-nulth \[nuuc1236\] (Wakashan; Canada)
 
-Nuu-chah-nulth has a suffix *=ʔał* which may indicate plurality of S (15), A (16) or P (17) arguments ([Inman 2021](Source#cldf:inman2021Nuu-chah-nulth): 118-119).[^6] Because this marker can be used for both the A and P roles, its interpretation can be syntactically ambiguous, though in context the interpretation is typically clear.
+Nuu-chah-nulth has a suffix *=ʔał* which may indicate plurality of S (15), A (16) or P (17) arguments ([Inman 2021](Source#cldf:inman2021nuuchahnulth): 118-119).[^6] Because this marker can be used for both the A and P roles, its interpretation can be syntactically ambiguous, though in context the interpretation is typically clear.
 
 <style type="text/css">
 .tg  {border:none;border-collapse:collapse;border-spacing:0;}
@@ -1141,7 +1141,7 @@ Valenzuela remarks on the peculiarity of a highly ergatively aligned language ha
 
 #### SP: Pilagá \[pila1245\] (Guaicuruan; Argentina, Paraguay)
 
-Pilagá has a general plural suffix *-lo* which marks S/P plurality [Vidal (2001:164f.)]{Source#cldf:vidal2001pilaga}.
+Pilagá has a general plural suffix *-lo* which marks S/P plurality [Vidal (2001:164f.)](Source#cldf:vidal2001pilaga).
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -1302,7 +1302,7 @@ Nuu-chah-nulth just has the one monoexponential plural marker used to mark SAP p
 The morpheme *-reta* which is optionally used to mark 3rd person plural on verbs (examples 1a-b and 6-8) is primarily used with nouns as a suffix with plural or collective meaning. It is also sometimes with pronouns and demonstratives ([González 2005](Source#cldf:gonzalez2005tapiete)).
 
 ## Derived Features
-Derived features offer different views of the same data included in the main features. Often, this is done to group together some states of multi-state features, to capture specific similarities. In other cases, derived features are designed so that they are independent from other features used in the same computational analyses that assume feature independence, e.g. the Bayesian software sBayes, which detects areal signal [Ranacher et al 2021](ranacher2021sbayes).
+Derived features offer different views of the same data included in the main features. Often, this is done to group together some states of multi-state features, to capture specific similarities. In other cases, derived features are designed so that they are independent from other features used in the same computational analyses that assume feature independence, e.g. the Bayesian software sBayes, which detects areal signal [Ranacher et al 2021](Source#cldf:ranacher2021sbayes).
 
 ### [](ParameterTable#cldf:MonPl-03a)
 

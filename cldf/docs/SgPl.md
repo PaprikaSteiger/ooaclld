@@ -82,7 +82,7 @@
 </table>
 
 ### Form: (root) suppletion & (limited) regular pattern
-We chose the term **singular-plural verbal *stem* alternation** because formally our definition encompasses two types of *lexically restricted* alternation: **root suppletion**, and **limited regular patterns**. Both patterns are exemplified in Wari’ \[wari1268\] (Chapacuran; Brazil; [Birchal et al 2023](Source#cldf:birchalletal2024wari)), where some verbal alternations are **suppletive** (14 pairs) and some use a **(lexically) restricted morpheme** (27 pairs), as illustrated in Table 1.
+We chose the term **singular-plural verbal *stem* alternation** because formally our definition encompasses two types of *lexically restricted* alternation: **root suppletion**, and **limited regular patterns**. Both patterns are exemplified in Wari’ \[wari1268\] (Chapacuran; Brazil; [Birchall et al in review](Source#cldf:birchalletal2024wari)), where some verbal alternations are **suppletive** (14 pairs) and some use a **(lexically) restricted morpheme** (27 pairs), as illustrated in Table 1.
 
 Table 1: Some verbal pairs formed by suppletion and by limited regular pattern in Wari’ (Chapacuran)
 <style type="text/css">
@@ -471,7 +471,7 @@ According to [Valenzuela (2003: 150)](Source#cldf:valenzuela2003shipibokonibo), 
 Yuracaré has an atypical regular formation: 4 (out of 11) plural roots are built from the reduplication of the first syllable: *letu ~ lele* ‘sit down’, *chittu ~ chitchi* ‘cross’, *wita ~ wiwi* ‘arrive’, *sheta ~ sheshe* ‘sit down’. 
 
 #### yes: Ingush \[ingu1240\] (Nakh-Daghestanian; Georgia, Russia) 
-Nichols ([Nichols 2011](Source#cldf:nichols2011ingush): 313) describes 23 Sg-Pl pairs whose "main formations are suppletion, ablaut of stem vowel, and change of stem-final *-ll* to *-xk*". 
+Nichols ([2011](Source#cldf:nichols2011ingush): 313) describes 23 Sg-Pl pairs whose "main formations are suppletion, ablaut of stem vowel, and change of stem-final *-ll* to *-xk*". 
 
 ### [](ParameterTable#cldf:SgPl-03)
 &emsp;**{ NA | \_number\_ }**
@@ -524,7 +524,7 @@ For four verb pairs, [van der Voort (2004: 384)](Source#cldf:voort2004kwaza) not
 </table>
 
 #### 18: Ingush \[ingu1240\] (Nakh-Daghestanian; Georgia, Russia)  
-Nichols ([Nichols 2011](Source#cldf:nichols2011ingush): 313f) describes a total of 23 Sg-Pl alternating pairs among the present, nominalized and converb verbal forms. We only considered the forms in the present and ignored the other, non-verbal derivations, resulting in 21 pairs. Out of these 21 pairs, 18 display regular patterns, distributed over 8 distinct stem modifications, as illustrated in Table 5, which includes ablaut, changes in stem-final consonants, and sometimes both. Three pairs, given at the end of the table, are suppletive.
+Nichols ([2011](Source#cldf:nichols2011ingush): 313f) describes a total of 23 Sg-Pl alternating pairs among the present, nominalized and converb verbal forms. We only considered the forms in the present and ignored the other, non-verbal derivations, resulting in 21 pairs. Out of these 21 pairs, 18 display regular patterns, distributed over 8 distinct stem modifications, as illustrated in Table 5, which includes ablaut, changes in stem-final consonants, and sometimes both. Three pairs, given at the end of the table, are suppletive.
 
 Table 5. Ingush alternating verb stems for Present
 <style type="text/css">
@@ -1609,7 +1609,7 @@ The imperfective narrative has a Sg and a Pl form, *nĩgnĩ ~ nỹgnĩ* ([Gonça
 For [Mithun (1988: 214)](Source#cldf:mithun1988karok), “the primary function of stem alternation is not to enumerate entities, but to quantify the effect of actions, states, and events” (see also [Durie 1986](Source#cldf:durie1986number) and [Veselinova 2013](Source#cldf:veselinova2013wals)). Consequently, we expected the marking of Sg-Pl alternation to sometimes also mark iterativity and event repetition.
 
 #### yes: Wari’ \[wari1268\] (Chapacuran)
-The verbal pairs that alternate via regular pattern sometimes can indicate event repetition, although proper suppletion only signifies participant number ([Birchal et al 2023](Source#cldf:birchalletal2024wari)).
+The verbal pairs that alternate via regular pattern sometimes can indicate event repetition, although proper suppletion only signifies participant number ([Birchall et al in review](Source#cldf:birchalletal2024wari)).
 
 #### no: Shipibo-Conibo \[ship1254\] (Pano-Tacanan; Peru)
 The verbal pairs in Shipibo-Conibo only signify the number of participants involved and transitivity ([Valenzuela 2003](Source#cldf:valenzuela2003shipibokonibo): 150).
@@ -1785,7 +1785,7 @@ Similarly, much of the literature expects a correlation between participant numb
 ## References
 [References](Source?cited_only#cldf:__all__)
 
-[^1]: At least in Magdalena Peñasco Mixtec, this semantic restriction appears to be motivated by the historical origin of koo from koyo ‘pour’, or metaphorically ‘movement in a group, pouring out’ ([Erickson de Hollenbach 2013](Source#cldf:erickson2013mixtecomagdalena): 151).
+[^1]: At least in Magdalena Peñasco Mixtec, this semantic restriction appears to be motivated by the historical origin of *koo* from *koyo* ‘pour’, or metaphorically ‘movement in a group, pouring out’ ([Erickson de Hollenbach 2013](Source#cldf:erickson2013mixtecomagdalena): 151).
 
 [^2]: Note that in Table 2, suffixes encode both participant and event number. In Table 3, suffixes again encode both participant and event number, but root alternation encodes participant number only.
 

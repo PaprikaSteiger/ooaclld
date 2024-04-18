@@ -40,7 +40,7 @@ In languages where no personal pronouns are attested, we consider the indexation
 Special cases arise for languages in which a dual number or dual forms exist. Those are addressed below, as needed for each feature, in special “Dual notes” sections and examples.
 
 ## Features (preliminary)
-The features in this feature set are categorized into preliminary, main, and derived ones. The main role of the preliminary features is to establish which paradigm has been coded for the main features. They also distinguish the few languages without personal pronouns (Ppron-001), and evaluate our assumption that pronouns encode the most distinctions available in any person paradigm (Ppron-002 and Pron.003).
+The features in this feature set are categorized into preliminary, main, and derived ones. The main role of the preliminary features is to establish which paradigm has been coded for the main features. They also distinguish the few languages without personal pronouns (Ppron-001), and evaluate our assumption that pronouns encode the most distinctions available in any person paradigm (Ppron-002 and Pron-003).
 
 ### [](ParameterTable#cldf:Ppron-001)
 &emsp;**{ yes | no }**
@@ -48,7 +48,7 @@ The features in this feature set are categorized into preliminary, main, and der
 Personal pronouns are a person paradigm that cannot co-occur with a noun phrase that refers to the same argument. If the language has one, then this paradigm is used to code for the main features of this feature set. If it does not have any, then indexation of active intransitive verbs is used instead.
 
 #### yes: Kwak’wala \[kwak1269\] (Wakashan; Canada)
-Kwak’wala pronouns are enclitics (see Table 1) and they cannot co-occur with a noun phrase having the same referent [Littell (2016)](Source#cldf:littell2016kwakwala:558).
+Kwak’wala pronouns are enclitics (see Table 1) and they cannot co-occur with a noun phrase having the same referent [Littell (2016: 558)](Source#cldf:littell2016kwakwala).
 
 Table 1: Kwak’wala pronominal enclitics.
 
@@ -176,7 +176,7 @@ Table 2: Independent (simple) pronouns and verbal indexation in Seri ([Marlett 2
 #### yes: Highland Popoluca \[high1276\] (Mixe-Zoque; Mexico)
 The Highland Popoluca pronoun paradigm consists of three forms, one for each person (see Table 3), while the indexing paradigm of intransitive verbs consists of four forms, with an additional inclusive person (1+2) (see Table 4). The language has no plural marker for any of the grammatical persons. 
 
-Table 3: Pronouns in Highland Popoluca ([de Jong Boudreault 2009](Source#cldf:boudreault2009popoluca:155): 155) 
+Table 3: Pronouns in Highland Popoluca ([de Jong Boudreault 2009](Source#cldf:boudreault2009popoluca): 155) 
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -457,7 +457,7 @@ Table 7: Jaqaru independent pronouns ([Hardman 2000](Source#cldf:hardman2000jaqa
 </table>
 
 #### no: Kwak’wala \[kwak1269\] (Wakashan; Canada)
-As can be seen in Table 1 in the [Kwak’wala example](#yes-kwakwala-kwak1269-wakashan-canada) in Ppron-001, there are distinct forms for 1sg and 1pl exclusive, namely *=ən* and *=ənuʔx̌ʷ* respectively ([Littell 2016](Source#cldf:littell2016kwakwala:558)).
+As can be seen in Table 1 in the [Kwak’wala example](#yes-kwakwala-kwak1269-wakashan-canada) in Ppron-001, there are distinct forms for 1sg and 1pl exclusive, namely *=ən* and *=ənuʔx̌ʷ* respectively ([Littell 2016: 558](Source#cldf:littell2016kwakwala)).
 
 ### [](ParameterTable#cldf:Ppron-03)
 &emsp;**{ NA | yes | no }**
@@ -995,9 +995,9 @@ Table 18: Karitiâna pronouns
 As can be seen in Table 16 [above](#no-ngarinyin-ngar1284-worrorran-australia), there is no morphological relationship between the 1sg form *ŋin* and the 1excl form *njarun*.
 
 #### ?: Garrwa \[gara1269\] (Garrwan; Australia)
-The nominative stem of Garrwa pronouns can be seen in Table 19 ([Mushin 2012](Source#cldf:mushin2012garrwa:85): 85). The 1st singular pronoun *nga-yu* (the root is *nga-* according to the source) is partially included in the 1excl dual form *ngali(ya)*, while the 1excl plural form *nurru* seems morphologically unrelated. Since dual and plural follow different patterns here, we code this language as &lt;?&gt; following the Dual note above.
+The nominative stem of Garrwa pronouns can be seen in Table 19 ([Mushin 2012](Source#cldf:mushin2012garrwa): 85). The 1st singular pronoun *nga-yu* (the root is *nga-* according to the source) is partially included in the 1excl dual form *ngali(ya)*, while the 1excl plural form *nurru* seems morphologically unrelated. Since dual and plural follow different patterns here, we code this language as &lt;?&gt; following the Dual note above.
 
-Table 19: nominative stem of Garrwa pronouns ([Mushin 2012](Source#cldf:mushin2012garrwa:85): 85)
+Table 19: nominative stem of Garrwa pronouns ([Mushin 2012](Source#cldf:mushin2012garrwa): 85)
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -1374,5 +1374,5 @@ Finally, in terms of number distinctions, the Americas stand out as having many 
 ## References
 [References](Source?cited_only#cldf:__all__)
 
-[^1]: Examining all examples in several souces on Pirahã (\citealt{everett1986piraha, sheldon1988piraha, everett1993piraha}) didn’t uncover any case where the 1st person pronoun was used and then interpreted/translated as “we” (1+3). Also, no cases of “I and him” or “I with him” were found.
+[^1]: Examining all examples in several souces on Pirahã (Everett [1986](Source#cldf:everett1986piraha), [1993](Source#cldf:everett1993piraha); [Sheldon 1988](Source#cldf:sheldon1988piraha) didn’t uncover any case where the 1st person pronoun was used and then interpreted/translated as “we” (1+3). Also, no cases of “I and him” or “I with him” were found.
 [^2]: Making Ppron-07 applicable to minimal-augmented systems is not trivial, as it is not clear what forms should be compared. We considered three options: (i) Ppron-07 is not applicable for minimal-augmented systems, the option we ultimately chose, (ii) the forms compared are 1 (minimal exclusive) and 1+2 (minimal inclusive), (iii) the forms compared are 1+2 (minimal inclusive) and 1+2+3 (augmented inclusive). Option (ii) is appealing for comparing the “same” forms as in a singular-plural system. However, the conceptualization of 1+2(+3) (1st plural inclusive) is arguably different from 1+2 (minimal inclusive), since the last one is a basic person of the system. Option (iii) retains the symmetry of the plural/augmented relationship between the two forms being compared, but loses the connection to the arguably more basic 1 (sg or minimal exclusive) form. Thus, we opt for Option (i), the most conservative in a sense, since it remains agnostic.
