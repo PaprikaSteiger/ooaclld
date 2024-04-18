@@ -5,7 +5,7 @@
 [TOC]
 
 ## What?
-This questionnaire investigates monoexponential verbal plurals, which we define as plural (and collective) agreement markers that are formally separate or separable from person markers. The presence of these markers, depending on the language, may be restricted to a single syntactic role or may cover a range: the Single argument (S) of an intransitive verb, the Agent (A) of a transitive verb, and/or the Patient (P) of a transitive verb. In addition to marking core argument plurality, it may also mark event plurality (E). The presence of monoexponential verbal plurals may be optional or obligatory, and they may be marked directly on the verb or elsewhere on the clause (through a second-position clitic, a required auxiliary, reduplication, etc.). In some cases, the same monoexponential verbal plural also occurs on other parts of speech, such as (pro)nouns, adjectives, or adpositions.[^1]
+This feature set investigates monoexponential verbal plurals, which we define as plural (and collective) agreement markers that are formally separate or separable from person markers. The presence of these markers, depending on the language, may be restricted to a single syntactic role or may cover a range: the Single argument (S) of an intransitive verb, the Agent (A) of a transitive verb, and/or the Patient (P) of a transitive verb. In addition to marking core argument plurality, it may also mark event plurality (E). The presence of monoexponential verbal plurals may be optional or obligatory, and they may be marked directly on the verb or elsewhere on the clause (through a second-position clitic, a required auxiliary, reduplication, etc.). In some cases, the same monoexponential verbal plural also occurs on other parts of speech, such as (pro)nouns, adjectives, or adpositions.[^1]
 
 ### Third person plural separated from the person paradigm
 In order for a verbal plural marker to be considered monoexponential, it needs to indicate only plurality (i.e. no portmanteau markers of person and number are considered).[^2] However, there is a complication around the 3rd person plural, as many languages mark a 3rd person singular with a null morpheme and 1st and 2nd persons (singular and plural) overtly. In such a system, a morpheme that indicates 3rd plural could be analyzed as either a joint person-number marker (3pl) or a monoexponential plural, for which an interpretation of 1pl or 2pl is blocked by the presence of separate person markers. To be consistent across language, we have made the following analytical decision: if a plural marker is completely separate from the person marking paradigm (e.g. by appearing in a different slot) and only has a 3rd person plural interpretation, we have considered these as monoexponential plural markers, regardless of the rest of the system, while documenting the peculiarity in the remarks. Tapieté \[tapi1253\] (Tupian; Argentina, Bolivia & Paraguay) exemplifies such a case: the markers indexing person and number are prefixes, while -reta, though it marks only 3rd person plural, is a suffix. (See also Ese Ejja \[esee1248\] (Pano-Tacanan; Bolivia & Peru) further below).
@@ -261,9 +261,9 @@ There are eight possible shapes that a verbal plural morpheme can take in Nisga�
 &emsp;**{ NA | no | ; separated list of \[ S:\_frequency\_, A:\_frequency\_, P:\_frequency\_ \] }**
 
 #### P: Teko \[emer1243\] (Tupian; Guyana)
-Teko has three monoexponential verbal plural morphemes. We are going to discuss one of them here, while the other two will be discussed under question MonPl-05.
+Teko has three monoexponential verbal plural morphemes. We are going to discuss one of them here, while the other two will be discussed under MonPl-05.
 
-The plural clitic *-kom* has a variety of uses in Teko: it can pluralize nouns, pronouns, demonstratives, and also possessors, objects of postpositions and objects of verbs. It is this last function that is relevant for this questionnaire. When attaching to verbs, *-kom* pluralizes only the P argument[^4] (4). The clitic *-kom* is a loan from Cariban languages, where a morpheme komo has been reconstructed with the same range of functions ([Rose 2011](Source#cldf:rose2011emerillon): 111-116).
+The plural clitic *-kom* has a variety of uses in Teko: it can pluralize nouns, pronouns, demonstratives, and also possessors, objects of postpositions and objects of verbs. It is this last function that is relevant for this feature set. When attaching to verbs, *-kom* pluralizes only the P argument[^4] (4). The clitic *-kom* is a loan from Cariban languages, where a morpheme komo has been reconstructed with the same range of functions ([Rose 2011](Source#cldf:rose2011emerillon): 111-116).
 
 <style type="text/css">
 .tg  {border:none;border-collapse:collapse;border-spacing:0;}
@@ -735,7 +735,7 @@ Note that this is again the edge case mentioned in the introduction: 1st and 2nd
 
 &emsp;**{ NA | yes | no }**
 
-For this question, it is crucial to establish event (E) plurality in a context with singular arguments, as described in the [What? section](#what).
+For this feature, it is crucial to establish event (E) plurality in a context with singular arguments, as described in the [What? section](#what).
 
 #### no: Nuu-chah-nulth \[nuuc1236\] (Wakashan; Canada)
 
@@ -1301,8 +1301,8 @@ Nuu-chah-nulth just has the one monoexponential plural marker used to mark SAP p
 #### SAP & noun & pronoun & demonstrative: Tapieté \[tapi1253\] (Tupian; Argentina, Bolivia, Paraguay)
 The morpheme *-reta* which is optionally used to mark 3rd person plural on verbs (examples 1a-b and 6-8) is primarily used with nouns as a suffix with plural or collective meaning. It is also sometimes with pronouns and demonstratives ([González 2005](Source#cldf:gonzalez2005tapiete)).
 
-## Derived Questions
-Derived questions offer different views of the same data included in the base questions. Often, this is done to group together some states of multi-state questions, to capture specific similarities. In other cases, derived questions are designed so that they are independent from other questions used in the same computational analyses that assume feature independence,  e.g. the Bayesian software sBayes, which detects areal signal [Ranacher et al 2021](ranacher2021sbayes).
+## Derived Features
+Derived features offer different views of the same data included in the main features. Often, this is done to group together some states of multi-state features, to capture specific similarities. In other cases, derived features are designed so that they are independent from other features used in the same computational analyses that assume feature independence, e.g. the Bayesian software sBayes, which detects areal signal [Ranacher et al 2021](ranacher2021sbayes).
 
 ### [](ParameterTable#cldf:MonPl-03a)
 
@@ -1632,7 +1632,7 @@ The second hypothesis was also partially confirmed, with S/A/P (but not event) m
 
 [References](Source?cited_only#cldf:__all__)
 
-[^1]: A more exact term for monoexponential verbal plurals would be monoexponential non-NP plurals or even monoexponential non-exclusively NP plurals. We will use the term “monoexponential (verbal) plurals” for the sake of conciseness in this questionnaire.
+[^1]: A more exact term for monoexponential verbal plurals would be monoexponential non-NP plurals or even monoexponential non-exclusively NP plurals. We will use the term “monoexponential (verbal) plurals” for the sake of conciseness.
 
 [^2]: Note that all targeted morphemes are not strictly monoexponential, as most encode one (or several) particular syntactic role(s). We nevertheless consider them “monoexponential plurals” because the additional information about role is purely syntactic, while in the semantic domain, only number is specified.
 

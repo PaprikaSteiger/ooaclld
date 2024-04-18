@@ -1,4 +1,4 @@
-Questionnaire based on the work of [Rose (2013)](Source#cldf:rose2013genre) and [Rose (2015)](Source#cldf:rose2015gender).
+Feature set based on the work of [Rose (2013)](Source#cldf:rose2013genre) and [Rose (2015)](Source#cldf:rose2015gender).
 
 **Authors**: [Françoise Rose](Contributor#cldf:FR), [Marine Vuillermet](Contributor#cldf:MV)
 
