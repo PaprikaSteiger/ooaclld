@@ -61,7 +61,7 @@ def main(args):
     ):
         # reading the static page content into variable desc
         desc = None
-        descr_path = ds.directory / "docs" / (row["Name"].lower() + ".md")
+        descr_path = ds.directory / "docs" / (row["FeatureSetID"] + ".md")
         if descr_path.exists():
             desc = open(descr_path, encoding="utf8").read()
         fset = data.add(
