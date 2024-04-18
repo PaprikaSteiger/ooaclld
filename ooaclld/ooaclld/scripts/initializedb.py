@@ -72,7 +72,6 @@ def main(args):
             domains=row["Domain"],
             authors=";".join(data['Contributor'][cid].name for cid in row["Authors"]),
             contributors=";".join(data['Contributor'][cid].name for cid in row["Contributors"]),
-            filename=row["Filename"] or "",
             description=desc,
         )
         cnt = 0

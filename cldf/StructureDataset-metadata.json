@@ -293,11 +293,6 @@
                     {
                         "datatype": "string",
                         "required": false,
-                        "name": "Filename"
-                    },
-                    {
-                        "datatype": "string",
-                        "required": false,
                         "name": "Domain"
                     },
                     {
