@@ -1288,7 +1288,7 @@ Pilagá has a general plural suffix *-lo* which marks S/P plurality [Vidal (2001
 </tbody>
 </table>
 
-### [](ParameterTable#cldf:MonPl-01)
+### [](ParameterTable#cldf:MonPl-07)
 
 &emsp;**{ NA | ; separated list of morphemes with \[ SAPE & oblique & subordinate clause & noun & pronoun & adjective & demonstrative & numeral & particle & adposition & adverb \] }**
 
