@@ -135,16 +135,8 @@ Derived features offer different views of the same data included in the base fea
 ### [](ParameterTable#cldf:Lat-01a)
 
 &emsp;**{ yes | no }**
-	
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
+
+<table class="dconversion">
 <thead>
   <tr>
     <th class="tg-0lax"><span style="font-weight:bold;font-style:normal;text-decoration:none">yes</span></th>
@@ -164,16 +156,8 @@ This derived feature groups together all languages with some kind of lateral art
 ### [](ParameterTable#cldf:Lat-01b)
 
 &emsp;**{ yes | no }**
-	
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
+
+<table class="dconversion">
 <thead>
   <tr>
     <th class="tg-0lax"><span style="font-weight:bold;font-style:normal;text-decoration:none">yes</span></th>
@@ -194,15 +178,7 @@ This derived feature groups languages with a lateral that is only a lateral agai
 
 &emsp;**{ NA | laterals or glides | rhotic | n or d }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
+<table class="dconversion">
 <thead>
   <tr>
     <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">laterals or glides</span></th>
@@ -230,16 +206,8 @@ This derived feature conceptually pairs with Lat-01a, and expresses all the poss
 ### [](ParameterTable#cldf:Lat-02a)
 
 &emsp;**{ yes | no }**
-	
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
+
+<table class="dconversion">
 <thead>
   <tr>
     <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">yes</span></th>
@@ -260,15 +228,7 @@ This derived feature groups together languages with /l̥/ and /ɬ/ phonemes, on 
 
 &emsp;**{ NA | l̥ | ɬ }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
+<table class="dconversion">
 <thead>
   <tr>
     <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">l̥</span></th>
@@ -293,16 +253,7 @@ This derived feature recovers the phonetic details of which voiceless lateral a 
 
 &emsp;**{ yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
+<table class="dconversion">
 <thead>
   <tr>
     <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">yes</span></th>
@@ -323,16 +274,7 @@ This derived feature asks if there is any phonemic lateral affricate. Many langu
 
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
+<table class="dconversion">
 <thead>
   <tr>
     <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">yes</span></th>
@@ -357,16 +299,7 @@ This derived feature conditions the presence of /tɬ/ on the presence of any lat
 
 &emsp;**{ NA | yes | no }** 
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
+<table class="dconversion">
 <thead>
   <tr>
     <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">yes</span></th>

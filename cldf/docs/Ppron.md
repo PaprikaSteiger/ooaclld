@@ -50,17 +50,9 @@ Personal pronouns are a person paradigm that cannot co-occur with a noun phrase 
 #### yes: Kwak’wala \[kwak1269\] (Wakashan; Canada)
 Kwak’wala pronouns are enclitics (see Table 1) and they cannot co-occur with a noun phrase having the same referent [Littell (2016: 558)](Source#cldf:littell2016kwakwala).
 
+<div class="datainset">
 Table 1: Kwak’wala pronominal enclitics.
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table class="fulltable">
 <thead>
   <tr>
     <th class="tg-0lax"></th>
@@ -103,6 +95,7 @@ Table 1: Kwak’wala pronominal enclitics.
   </tr>
 </tbody>
 </table>
+</div>
 
 #### no: Karok \[karo1304\] (isolate; United States)
 There are two pronouns mentioned in [Garrett et al (2020: 13-15)](Source#cldf:garrett2020karok) *váa* and *uum*, which are transitioning into copulas. When used as pronouns they both refer to third person, but in their more copular function they may be used with other persons too. [Bright (1957)](Source#cldf:bright1957karok) does not mention free pronouns at all. We consider the indexing paradigm of Karok for all the main features of this feature set.
@@ -119,17 +112,9 @@ There are two pronouns mentioned in [Garrett et al (2020: 13-15)](Source#cldf:ga
 #### no: Seri \[seri1257\] (isolate; Mexico)
 In Seri, independent pronouns can be used for both singular and plural referents, while indexation distinguishes between singular and plural in first and second person (see Table 2, [Marlett 2009](Source#cldf:marlett2009seri): 539-540, 31). The paradigm selected for the main features is that of independent pronouns, but the additional number distinction in the indexation paradigm is explained in the remarks field of this feature.
 
-Table 2: Independent (simple) pronouns and verbal indexation in Seri ([Marlett 2009](Source#cldf:marlett2009seri): 539-540, 31). 
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<div class="datainset">
+Table 2: Independent (simple) pronouns and verbal indexation in Seri ([Marlett 2009](Source#cldf:marlett2009seri): 539-540, 31).
+<table class="fulltable">
 <thead>
   <tr>
     <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">person</span></th>
@@ -167,6 +152,7 @@ Table 2: Independent (simple) pronouns and verbal indexation in Seri ([Marlett 2
   </tr>
 </tbody>
 </table>
+</div>
 
 ### [](ParameterTable#cldf:Ppron-003)
 &emsp;**{ NA | yes | no }**
@@ -176,17 +162,9 @@ Table 2: Independent (simple) pronouns and verbal indexation in Seri ([Marlett 2
 #### yes: Highland Popoluca \[high1276\] (Mixe-Zoque; Mexico)
 The Highland Popoluca pronoun paradigm consists of three forms, one for each person (see Table 3), while the indexing paradigm of intransitive verbs consists of four forms, with an additional inclusive person (1+2) (see Table 4). The language has no plural marker for any of the grammatical persons. 
 
+<div class="datainset">
 Table 3: Pronouns in Highland Popoluca ([de Jong Boudreault 2009](Source#cldf:boudreault2009popoluca): 155) 
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table class="fulltable">
 <thead>
   <tr>
     <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">person</span></th>
@@ -208,18 +186,11 @@ Table 3: Pronouns in Highland Popoluca ([de Jong Boudreault 2009](Source#cldf:bo
   </tr>
 </tbody>
 </table>
+</div>
 
+<div class="datainset">
 Table 4: Absolutive indexation (proclitics) in Highland Popoluca ([de Jong Boudreault 2009](Source#cldf:boudreault2009popoluca): 396).
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table class="fulltable">
 <thead>
   <tr>
     <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">person</span></th>
@@ -245,6 +216,7 @@ Table 4: Absolutive indexation (proclitics) in Highland Popoluca ([de Jong Boudr
   </tr>
 </tbody>
 </table>
+</div>
 
 ## Features (main)
 ### [](ParameterTable#cldf:Ppron-01)
@@ -265,18 +237,9 @@ Another possible (but very rare) complication is that the language distinguishes
 #### NA: Pirahã \[pira1253\] (isolate; Brazil)
 The clusivity distinction is not applicable in Pirahã, since the independent pronouns for 1st and 2nd person only encode singular (see Table 5) and there is no pronoun for 1st and 2nd person plural. [Everett (1986: 281-282)](Source#cldf:everett1986piraha) mentions two ways to express 'we'[^1]: either with conjunction (example 1) or with the associative/comitative (example 2). 
 
+<div class="datainset">
 Table 5: Independent pronouns in Pirahã ([Everett 1986](Source#cldf:everett1986piraha)).
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0x09{background-color:#9b9b9b;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table class="fulltable">
 <thead>
   <tr>
     <th class="tg-0lax"></th>
@@ -301,15 +264,8 @@ Table 5: Independent pronouns in Pirahã ([Everett 1986](Source#cldf:everett1986
   </tr>
 </tbody>
 </table>
+</div>
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -335,14 +291,6 @@ Table 5: Independent pronouns in Pirahã ([Everett 1986](Source#cldf:everett1986
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -371,17 +319,9 @@ Table 5: Independent pronouns in Pirahã ([Everett 1986](Source#cldf:everett1986
 #### yes: Ese Ejja \[esee1248\] (Pano-Tacanan; Bolivia, Peru)
 Table 6 below shows that Ese Ejja has the independent pronouns ekwana, used when the speaker excludes the addressee, and eseya, used when they include them. 
 
+<div class="datainset">
 Table 6: Independent pronouns in Ese Ejja (adapted from [Vuillermet 2012](Source#cldf:vuillermet2012eseejja): 348).
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table class="fulltable">
 <thead>
   <tr>
     <th class="tg-0lax"></th>
@@ -409,6 +349,7 @@ Table 6: Independent pronouns in Ese Ejja (adapted from [Vuillermet 2012](Source
   </tr>
 </tbody>
 </table>
+</div>
 
 ### [](ParameterTable#cldf:Ppron-02)
 &emsp;**{ NA | yes | no }**
@@ -419,17 +360,9 @@ As seen in Table 5 [above](#na-pirahã-pira1253-isolate-brazil), the independent
 #### yes: Jaqaru \[jaqa1244\] (Aymaran; Peru)
 Jaqaru has number-indifferent pronouns, as can be seen in Table 7. 
 
+<div class="datainset">
 Table 7: Jaqaru independent pronouns ([Hardman 2000](Source#cldf:hardman2000jaqaru)).
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table class="fulltable">
 <thead>
   <tr>
     <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">person</span></th>
@@ -455,6 +388,7 @@ Table 7: Jaqaru independent pronouns ([Hardman 2000](Source#cldf:hardman2000jaqa
   </tr>
 </tbody>
 </table>
+</div>
 
 #### no: Kwak’wala \[kwak1269\] (Wakashan; Canada)
 As can be seen in Table 1 in the [Kwak’wala example](#yes-kwakwala-kwak1269-wakashan-canada) in Ppron-001, there are distinct forms for 1sg and 1pl exclusive, namely *=ən* and *=ənuʔx̌ʷ* respectively ([Littell 2016: 558](Source#cldf:littell2016kwakwala)).
@@ -472,17 +406,9 @@ As seen in Table 2 [above](#no-seri-seri1257-isolate-mexico), Seri has number-in
 #### no: Daga \[daga1275\] (Dagan; Papua New Guinea)
 Daga pronouns are shown in Table 8. The forms for 1sg and 1pl are distinct, ne vs nu ([Murane 1974](Source#cldf:murane1974daga): 34).
 
+<div class="datainset">
 Table 8: Daga pronouns
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table class="fulltable">
 <thead>
   <tr>
     <th class="tg-0lax"></th>
@@ -508,6 +434,7 @@ Table 8: Daga pronouns
   </tr>
 </tbody>
 </table>
+</div>
 
 ### [](ParameterTable#cldf:Ppron-04)
 &emsp;**{ NA | inclusive | exclusive | unified we | no }**
@@ -523,17 +450,9 @@ Ese Ejja \[eseʔeχa\] is an endonym and it resembles the form *ese(a)* '1incl'.
 
 In the literature, languages in which 1incl and 1excl forms have equally many number distinctions are known as '**minimal(-augmented)**' systems ([Cysouw 2003](Source#cldf:cysouw2003paradigmatic)). In other words, such systems consider 1+2 as a grammatical person just like 1st, 2nd or 3rd person: they have 4 grammatical persons in the minimal number. The augmented number refers to adding at least one 3rd person to these four grammatical persons. Tables 7 and 8 summarize this conceptualization: in Table 9 the augmented number is derived from the minimal with an “augmentizer” affix, while in Table 10 the minimal and augmented forms are not morphologically related.
 
+<div class="datainset">
 Table 9: Schematic Minimal-Augmented system with the augmented forms derived from minimal forms. 
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table class="fulltable">
 <thead>
   <tr>
     <th class="tg-0lax"></th>
@@ -564,18 +483,11 @@ Table 9: Schematic Minimal-Augmented system with the augmented forms derived fro
   </tr>
 </tbody>
 </table>
+</div>
 
+<div class="datainset">
 Table 10: Schematic Minimal-Augmented system with no morphological relationship between the two numbers
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table class="fulltable">
 <thead>
   <tr>
     <th class="tg-0lax"></th>
@@ -606,6 +518,7 @@ Table 10: Schematic Minimal-Augmented system with no morphological relationship 
   </tr>
 </tbody>
 </table>
+</div>
 
 ---
 
@@ -618,17 +531,9 @@ Finally, there are a few cases where 1incl has a dual and a plural, 1excl has a 
 #### yes: Nanti \[nant1250\] (Arawakan; Peru)
 Pronouns in Nanti, as described in [Michael (2008)](Source#cldf:michael2008nanti), look like a singular-plural system with a special 1st inclusive form (see Table 11). 
 
+<div class="datainset">
 Table 11: Topic pronouns in Nanti (adapted from [Michael 2008](Source#cldf:michael2008nanti): 372).
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table class="fulltable">
 <thead>
   <tr>
     <th class="tg-0lax"></th>
@@ -661,20 +566,13 @@ Table 11: Topic pronouns in Nanti (adapted from [Michael 2008](Source#cldf:micha
   </tr>
 </tbody>
 </table>
+</div>
 
 However, [Michael (2020)](Source#cldf:michael2020nantipc) confirms that the plural marker *-hegi* is optional, even for the first person inclusive *haro*. Therefore, the topic pronoun system can be reanalyzed as in (10b), since we do not consider optional plural marking. Since the 1st inclusive form can occur without the plural marker, it can be analyzed as a separate person, and the system of independent topic pronouns in Nanti is thus a minimal system (without an augmented number). This reanalysis of the topic pronouns is also mirrored by Nanti’s focus pronouns, which lack number differentiation altogether.
 
+<div class="datainset">
 Table 12: Nanti topic pronouns reanalyzed
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table class="fulltable">
 <thead>
   <tr>
     <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">person</span></th>
@@ -703,21 +601,14 @@ Table 12: Nanti topic pronouns reanalyzed
   </tr>
 </tbody>
 </table>
+</div>
 
 #### yes: Umpila \[umpi1239\] (Pama-Nyungan; Australia)
 The independent pronouns of Umpila can be analyzed as having singular, plural and dual number as in Table 13 below (adapted from [Cysouw 2003](Source#cldf:cysouw2003paradigmatic)).
 
+<div class="datainset">
 Table 13: Independent pronouns of Umpila.
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table class="fulltable">
 <thead>
   <tr>
     <th class="tg-0lax"></th>
@@ -751,20 +642,13 @@ Table 13: Independent pronouns of Umpila.
   </tr>
 </tbody>
 </table>
+</div>
 
 However, the 1incl dual is the only dual form not derived from the corresponding plural form with the addition of *-baʔamu*. The system could be better reanalyzed as minimal-augmented with a dual additional number as shown in Table 14 below. Such systems are referred to as partial-unit-augmented in [Cysouw (2003)](Source#cldf:cysouw2003paradigmatic).
 
+<div class="datainset">
 Table 14: Reanalyzed independent pronouns of Umpila.
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table class="fulltable">
 <thead>
   <tr>
     <th class="tg-0lax"></th>
@@ -800,21 +684,14 @@ Table 14: Reanalyzed independent pronouns of Umpila.
   </tr>
 </tbody>
 </table>
+</div>
 
 #### no: Lavukaleve \[lavu1241\] (isolate; Solomon Islands)
 The personal pronouns of Lavukaleve can be seen in Table 15 below. The dual and plural 1incl forms have the same morphological relationship as the 1excl dual and plural forms, the dual has an additional *-l* suffix. There is thus no indication that 1incl is a basic unit in the person system, as is the case for Umpila [above](#yes-umpila-umpi1239-pama-nyungan-australia).
 
+<div class="datainset">
 Table 15: Personal pronouns of Lavukaleve ([Terrill 2003](Source#cldf:terrill2003lavukaleve): 170).
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table class="fulltable">
 <thead>
   <tr>
     <th class="tg-0lax"></th>
@@ -842,21 +719,14 @@ Table 15: Personal pronouns of Lavukaleve ([Terrill 2003](Source#cldf:terrill200
   </tr>
 </tbody>
 </table>
+</div>
 
 #### no: Ngarinyin \[ngar1284\] (Worrorran; Australia)
 There is no evidence that the inclusive *ŋarun* in Ngarinyin represents a separate basic grammatical person: rather than having a distinct plural (or rather augmented form), the inclusive is available for both minimal and augmented configurations: 1+2 *and* 1+2+3.
 
+<div class="datainset">
 Table 16 Personal pronouns in Ngarinyin ([Rumsey 1978](Source#cldf:rumsey1978ungarinjin)).
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table class="fulltable">
 <thead>
   <tr>
     <th class="tg-0lax"></th>
@@ -894,6 +764,7 @@ Table 16 Personal pronouns in Ngarinyin ([Rumsey 1978](Source#cldf:rumsey1978ung
   </tr>
 </tbody>
 </table>
+</div>
 
 ### [](ParameterTable#cldf:Ppron-06)
 &emsp;**{ NA | 1excl/pl = 1sg + pl | 1excl/pl includes 1sg | no relation }**
@@ -909,17 +780,9 @@ For this feature, we have aligned the first person exclusive (in languages with 
 #### 1excl/pl = 1sg + pl: Ese Ejja \[esee1248\] (Pano-Tacanan; Bolivia, Peru)
 The Ese Ejja personal pronoun system has a plural morpheme used for both 1st and 2nd person, *-kwana~-kiana* (see Table 17). When applied to the 2nd person it yields 2nd person plural, but when applied to 1st person it yields 1st person exclusive:
 
+<div class="datainset">
 Table 17: Ese Ejja personal pronouns (adapted from [Vuillermet 2012](Source#cldf:vuillermet2012eseejja): 342)
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table class="fulltable">
 <thead>
   <tr>
     <th class="tg-0lax"></th>
@@ -948,21 +811,14 @@ Table 17: Ese Ejja personal pronouns (adapted from [Vuillermet 2012](Source#cldf
   </tr>
 </tbody>
 </table>
+</div>
 
 #### 1excl/pl includes 1sg: Karitiâna \[kari1311\] (Tupian; Brazil)
 In Karitiâna, the 1excl form contains the 1sg form, as can be seen in Table 18, but without a plural marker. Instead, the plural morpheme *-jxa* is used to derive the inclusive.
 
+<div class="datainset">
 Table 18: Karitiâna pronouns
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table class="fulltable">
 <thead>
   <tr>
     <th class="tg-0lax"></th>
@@ -990,6 +846,7 @@ Table 18: Karitiâna pronouns
   </tr>
 </tbody>
 </table>
+</div>
 
 #### no relation: Ngarinyin \[ngar1284\] (Worrorran; Australia)
 As can be seen in Table 16 [above](#no-ngarinyin-ngar1284-worrorran-australia), there is no morphological relationship between the 1sg form *ŋin* and the 1excl form *njarun*.
@@ -997,17 +854,9 @@ As can be seen in Table 16 [above](#no-ngarinyin-ngar1284-worrorran-australia), 
 #### ?: Garrwa \[gara1269\] (Garrwan; Australia)
 The nominative stem of Garrwa pronouns can be seen in Table 19 ([Mushin 2012](Source#cldf:mushin2012garrwa): 85). The 1st singular pronoun *nga-yu* (the root is *nga-* according to the source) is partially included in the 1excl dual form *ngali(ya)*, while the 1excl plural form *nurru* seems morphologically unrelated. Since dual and plural follow different patterns here, we code this language as &lt;?&gt; following the Dual note above.
 
+<div class="datainset">
 Table 19: nominative stem of Garrwa pronouns ([Mushin 2012](Source#cldf:mushin2012garrwa): 85)
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table class="fulltable">
 <thead>
   <tr>
     <th class="tg-0lax"></th>
@@ -1041,6 +890,7 @@ Table 19: nominative stem of Garrwa pronouns ([Mushin 2012](Source#cldf:mushin20
   </tr>
 </tbody>
 </table>
+</div>
 
 ### [](ParameterTable#cldf:Ppron-07)
 &emsp;**{ NA | 1incl = 1sg + pl | 1incl includes 1sg | no relation }**
@@ -1093,24 +943,13 @@ As can be seen in Table 6 [above](#yes-ese-ejja-esee1248-pano-tacanan-bolivia-pe
 ## Derived Features
 ### [](ParameterTable#cldf:Ppron-01a)
 &emsp;**{ NA | yes | no }**
-	
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">NA</th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Ppron-01 is &lt;NA&gt; AND Ppron-003 is &lt;NA&gt;</span></th>
-  </tr>
-</thead>
+
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">NA</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Ppron-01 is &lt;NA&gt; AND Ppron-003 is &lt;NA&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">yes</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Ppron-01 is &lt;yes&gt; </span>OR Ppron-003 is &lt;yes&gt;</td>
@@ -1127,23 +966,12 @@ This feature unites all languages that have an inclusive-exclusive distinction i
 ### [](ParameterTable#cldf:Ppron-04a)
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">NA</th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Ppron-04 is &lt;ΝΑ&gt;</span></th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">NA</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Ppron-04 is &lt;ΝΑ&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">yes</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Ppron-04 is &lt;inclusive&gt; OR &lt;unified we&gt; OR &lt;exclusive&gt;</span></td>
@@ -1160,23 +988,12 @@ There was no attested case of an endonym being related to the 1st person exclusi
 ### [](ParameterTable#cldf:Ppron-06a)
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">NA</th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Ppron-06 is &lt;NA&gt;</span></th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">NA</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Ppron-06 is &lt;NA&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">yes</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Ppron-06 is &lt;1excl or pl is 1sg plus pl&gt;  OR &lt;1excl or pl includes 1sg&gt;</span></td>
@@ -1193,23 +1010,12 @@ This feature groups all languages that have shared morphology between 1st person
 ### [](ParameterTable#cldf:Ppron-06b)
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">NA</th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Ppron-06 is &lt;NA&gt; OR &lt;no relation&gt;</span></th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">NA</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Ppron-06 is &lt;NA&gt; OR &lt;no relation&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">yes</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Ppron-06 is &lt;1excl or pl is 1sg plus pl&gt;</span></td>
@@ -1226,23 +1032,12 @@ This feature separates the languages with a &lt;yes&gt; state from the previous 
 ### [](ParameterTable#cldf:Ppron-07a)
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">NA</th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Ppron-07 is &lt;NA&gt;</span></th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">NA</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Ppron-07 is &lt;NA&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">yes</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Ppron-07 is &lt;1incl is 1sg plus pl&gt; OR &lt;1incl includes 1sg&gt;</span></td>
@@ -1259,23 +1054,12 @@ This feature groups all languages that have shared morphology between 1st person
 ### [](ParameterTable#cldf:Ppron-07b)
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">NA</th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Ppron-07 is &lt;NA&gt; OR &lt;no relation&gt;</span></th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">NA</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Ppron-07 is &lt;NA&gt; OR &lt;no relation&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">yes</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Ppron-07 is &lt;1incl is 1sg plus pl&gt;</span></td>
@@ -1292,23 +1076,12 @@ This feature separates the languages with a &lt;yes&gt; state from the previous 
 ### [](ParameterTable#cldf:Ppron-08a)
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">NA</th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Ppron-02 is &lt;yes&gt; OR &lt;NA&gt;</span></th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">NA</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Ppron-02 is &lt;yes&gt; OR &lt;NA&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">yes</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Ppron-02 is &lt;no&gt; AND Ppron-08 is &lt;yes&gt;</span></td>
@@ -1325,23 +1098,12 @@ Since it is vanishingly rare to have a number distinction in 2nd and 3rd person 
 ### [](ParameterTable#cldf:Ppron-09a)
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">NA</th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Ppron-09 is &lt;NA&gt; OR </span>Ppron-08a is &lt;yes&gt; OR &lt;NA&gt;</th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">NA</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Ppron-09 is &lt;NA&gt; OR </span>Ppron-08a is &lt;yes&gt; OR &lt;NA&gt;</td>
+  </tr>
   <tr>
     <td class="tg-1wig">yes</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Ppron-09 is &lt;yes&gt; AND Ppron-08a is &lt;no&gt;</span></td>

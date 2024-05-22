@@ -15,14 +15,6 @@ Feature set based on the work of [Rose (2013)](Source#cldf:rose2013genre) and [R
 ## What?
 [Rose (2015: 531)](Source#cldf:rose2015gender) defines **gender indexicality** as “a formal distinction depending on the gender of the speech-act participants\[. It\] is distinct from grammatical gender, which indicates the gender of a referent. Gender indexicality can be found in sentences where neither the speaker nor the addressee is involved as a participant in the event.” Languages displaying this phenomenon consequently have genderlects. The three examples below contrast how women vs men speakers say ‘tree’ in Karajá \[kara1500\] (Nuclear-Macro-Je; Brazil), ‘yes’ in Eastern Bolivian Guaraní \[east2555\] (Tupian; Argentina, Bolivia, Paraguay), and ‘his house’ in Mojeño Trinitario \[trin1278\] (Arawakan; Bolivia).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -35,7 +27,7 @@ Feature set based on the work of [Rose (2013)](Source#cldf:rose2013genre) and [R
 <tbody>
   <tr>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(1)</span></td>
-    <td class="tg-0lax" colspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Karajá (<a class=”Source” href=”../sources/ribeiro2012karaja”>Ribeiro (2012: 131)</a>)</span></td>
+    <td class="tg-0lax" colspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Karajá (<a class=”Source” href=”../sources/ribeiro2012karaja”>Ribeiro 2012: 131</a>)</span></td>
   </tr>
   <tr>
     <td class="tg-0lax"></td>
@@ -45,7 +37,7 @@ Feature set based on the work of [Rose (2013)](Source#cldf:rose2013genre) and [R
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(2)</span></td>
-    <td class="tg-0lax" colspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Eastern Bolivian Guaraní (<a class=”Source” href=”../sources/giannecchini1898chacoboliviano”>Giannecchini (1996 [1898]: 306, 310)</a>)</span></td>
+    <td class="tg-0lax" colspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Eastern Bolivian Guaraní (<a class=”Source” href=”../sources/giannecchini1898chacoboliviano”>Giannecchini 1996 [1898]: 306, 310</a>)</span></td>
   </tr>
   <tr>
     <td class="tg-0lax"></td>
@@ -55,7 +47,7 @@ Feature set based on the work of [Rose (2013)](Source#cldf:rose2013genre) and [R
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(3)</span></td>
-    <td class="tg-0lax" colspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Mojeño Trinitario (<a class=”Source” href=”../sources/rose2013generolectos”>Rose (2013: 119)</a>)</span></td>
+    <td class="tg-0lax" colspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Mojeño Trinitario (<a class=”Source” href=”../sources/rose2013generolectos”>Rose 2013: 119</a>)</span></td>
   </tr>
   <tr>
     <td class="tg-0lax"></td>
@@ -84,14 +76,6 @@ While most parameters existed in the previous literature, the (inter)subjectivit
 #### *Type I. Speaker*
 The following examples show that in Garifuna \[gari1256\] (Arawakan; Belize, Guatemala, Honduras, Nicaragua; [de Pury Toumi 2003](Source#cldf:depury2003viceversa)), women speakers use the first word of each pair, while men use the second word.
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -109,14 +93,6 @@ The following examples show that in Garifuna \[gari1256\] (Arawakan; Belize, Gua
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -137,14 +113,6 @@ The following examples show that in Garifuna \[gari1256\] (Arawakan; Belize, Gua
 #### *Type II. Addressee*
 In Basque \[basq1248\] (isolate; Spain, France), speakers use the first form in (6) to address a familiar woman, and the second a familiar man ([Alberdi 1995: 276](Source#cldf:alberdi1995development)).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -171,14 +139,6 @@ In Basque \[basq1248\] (isolate; Spain, France), speakers use the first form in 
 #### *Type III. Both speaker & addressee*
 This last case is much rarer. In Yana \[yana1271\] (isolate; United States; [Sapir 1929 \[1963\]](Source#cldf:sapir1963yana)), the lexemes used for ‘quail’ and ‘acorn’ depend on the gender of both the speaker and the addressee: *sika·ka* and *yuna* in (7a) are only used by men speakers to men addressees, and in all other cases (i.e. men to women, women to men, women to women), including mixed audience, *sika·khA* and *yuh* in (7b) are used.
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -237,14 +197,6 @@ Note that all attested Type III systems, also known as “relational gender” s
 #### *Type IV. Mixed systems*
 We added a fourth type, where different items participate in different types of genderlects. In Tupinambá \[tupi1273\] (Tupian; South America), several lexical items differ according to the gender of the speaker (Type I), and a couple of items are restricted to men speakers with  men addressees (Type III).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -329,20 +281,11 @@ In all these cases, there are **no genderlects**.
 
 In Karajá (Nuclear-Macro-Je), two different lexemes translated as ‘cry’ refer to two different gendered activities: “The women cry or chant daily if a child is traveling or hurt. Women also cry for a period of a lunar month: the death chant. In contrast, men cry only during the death chant and even then less than the women” ([Fortune and Fortune 1975](Source#cldf:fortune1975karaja)). As an alternation based on the gender of the **argument** of a verb (rather than that of the speaker or addressee), these do not count as a case of genderlect.
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-z9od{font-size:12px;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
     <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(9)</span></th>
-    <th class="tg-z9od"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">KARAJÁ</span></th>
+    <th class="tg-z9od"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Karajá</span></th>
     <th class="tg-0lax"></th>
   </tr>
 </thead>
@@ -362,14 +305,6 @@ In Karajá (Nuclear-Macro-Je), two different lexemes translated as ‘cry’ ref
 
 In (10), the three Ese Ejja \[esee1248\] (Pano-Tacanan; Bolivia, Peru) kin terms index the gender of the ego, i.e. of the person on which the kinship relationship is based, not that of the speaker or addressee. 
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -429,14 +364,6 @@ All the phonetic/phonological phenomena must occur below the level of utterance.
 #### yes: Guarayo \[guar1292\] (Tupian; Bolivia) 
 Guarayo displays genderlect distinction at the phonetic level: the same phoneme is realized differently in the different lects ([Hoeller 1932: 2](Source#cldf:hoeller1932grammatik)).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -451,14 +378,6 @@ Guarayo displays genderlect distinction at the phonetic level: the same phoneme 
 #### yes: Karajá \[kara1500\] (Nuclear Macro-Je; Brazil) 
 The Karajá genderlects have different phonological inventories: the velar stop phoneme is absent from the men speech ([Ribeiro 2012:131](Source#cldf:ribeiro2012karaja)).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -483,14 +402,6 @@ The Karajá genderlects have different phonological inventories: the velar stop 
 #### yes: Creek \[cree1270\] (Muskogean; United States) 
 Archaic Creek forms, preserved in tales where a female character is talking, are a case where a phonological rule applies in a prosodically-defined position within the phrase. “Women's forms end in a long vowel with a falling pitch-stress while the corresponding men’s forms shift the stress to the penultimate syllable, altering it to a high pitch-stress, and in addition shorten the long vowel and add /s/. If the shortened vowel is /i/, it is often dropped altogether” ([Haas 1944](Source#cldf:haas1944koasati): 145-146).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -525,14 +436,6 @@ Archaic Creek forms, preserved in tales where a female character is talking, are
 #### yes: Kadiwéu \[kadi1248\] (Guaicuruan; Brazil) 
 In Kadiwéu ([Sandalo 2011](Source#cldf:sandalo2011estratificacao), non-noble men use binary moraic feet (14a), noble men ternary moraic feet (14b), and noble women binary syllabic feet (copying vowels to fill the syllabic pattern, 14c)).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>

@@ -16,15 +16,8 @@ A typology of tone and accent systems is made difficult by the lack of a shared 
 
 This feature set takes the approach that pitch-accent systems exist and can be identified by certain criteria, and that they exist on a continuum of possible acoustic correlates with stress-accent systems. On one end, amplitude is the sole salient feature of the accentual system, and on the other, pitch. Rarely, the salient feature of an accent system can be duration. In most cases, languages use both amplitude and pitch to mark prominence, but with only one of these two being the most salient or primary phonemic marker. Even languages which are often treated as exemplars of one system will in fact have multiple acoustic correlates of the other. Stress-accent languages tend to have higher pitch on accented syllables, as in Arabic \[arab1395\] (Afro-Asiatic; world) ([De Jong and Zawaydeh 1999](Source#cldf:dejong1999stress)), and pitch-accent languages often have greater amplitude on accented syllables, but secondary to the primary acoustic correlate of accent. A sketch of the differences and similarities between tone and prominence systems can be seen in Table 1.
 
+<div class="fulltable">
 Table 1. Prototypical characteristics of Tone vs Prominence systems
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -52,6 +45,7 @@ Table 1. Prototypical characteristics of Tone vs Prominence systems
   </tr>
 </tbody>
 </table>
+</div>
 
 Although tone and prominence are sometimes treated separately, a number of pitch-accent languages are described as having “emergent” or “privative” tone systems ([Hyman 2001](Source#cldf:hyman2001privative)). Likewise some typical tonal languages such as Shanghainese \[shan1293\] (Sino-Tibetan; China) have been described as having a system similar to pitch-accent, once tone-spreading sandhi is taken into account ([Roberts 2019](Source#cldf:roberts2019intonational)). While this survey makes the assumption that prominence and tone systems are distinguishable, by tracking the primary (and secondary) phonetic correlates of stress, we encode sufficient detail about the overlap between the two systems (i.e., both can make use of pitch). Thus, languages coded as having tone systems and languages coded as having pitch-accent systems can be grouped together by their shared contrastive use of autosegmental pitch, an analysis in line with Hyman ([Hyman 2009](Source#cldf:hyman2009tonaltypology)), in which any contrastive use of pitch at the lexical level falls under the category of “tone”. However, pitch-accent languages can also be separated from tone (and grouped with stress-accent languages) according to the presence of a prominence system (regardless of its primary acoustical correlate). This detailed coding schema allows some of the blurriness between tone and pitch-accent to be captured. Cross-cutting between the categories of tone and prominence also creates a formal way to capture the hypothesis that tonal languages may influence the phonetics of stress systems by moving them in the direction of using pitch. 
 
@@ -150,16 +144,9 @@ An example of a more constrained accent system is Northern Emberá, which has a 
 
 &emsp;*[Northern Emberá] stress tends to be ultimate on words in isolation but penultimate on suffixed words. This is an area for further study in the NE languages.*([Mortensen 1999](Source#cldf:mortensen1999northernembera): 7)
 
-The accentual system found in Emberá is a **stress-accent** system, with amplitude as the primary feature of prominence. While the accent system is generally predictable, marked exceptions do exist for a small set of verbs. Only a few of these are given in the grammar, shown below:
+The accentual system found in Emberá is a **stress-accent** system, with amplitude as the primary feature of prominence. While the accent system is generally predictable, marked exceptions do exist for a small set of verbs. Only a few of these are given in the grammar ([Mortensen 1999](Source#cldf:mortensen1999northernembera)), shown below:
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
+<div class="fulltable">
 <table class="tg">
 <thead>
   <tr>
@@ -180,10 +167,11 @@ The accentual system found in Emberá is a **stress-accent** system, with amplit
     <td class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none">awásʰia</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">‘carried it on his back’</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none">awasʰía</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">‘was given to doing that’</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">&lt;a class=”Source” href=”../sources/mortensen1999northernembera”&gt;Mortensen (1999)&lt;/a&gt;</span><br></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">‘was given to doing that’</span></td>
   </tr>
 </tbody>
 </table>
+</div>
 
 Due to the very few exceptions to the rules governing stress placement as outlined in the grammar, Emberá is coded as non-contrastive. This is keeping in line with the guidance for coding in such cases given above, namely that the system is overwhelmingly predictable, and exceptions are explicitly stated as uncommon. Compare this to a system such as Japanese, where accent placement is described as lexically specified, and attempts to determine rules governing placement of accent can only account for some cases of placement but not for the system as a whole ([Kawahara 2015](Source#cldf:kawahara2015phonology)).
 
@@ -264,23 +252,12 @@ In Krongo, as in many other African languages, there is no difference in phonati
 ### [](ParameterTable#cldf:ToneProm-09a)
 &emsp;**{ yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">yes</th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if ToneProm-03 is &lt;yes&gt; OR ToneProm-09 is &lt;yes&gt;</span></th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">yes</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if ToneProm-03 is &lt;yes&gt; OR ToneProm-09 is &lt;yes&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">no</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if (ToneProm-03 is &lt;no&gt; OR ToneProm-03 is &lt;NA&gt;) AND ToneProm-09 is &lt;no&gt;</span></td>
@@ -291,23 +268,12 @@ In Krongo, as in many other African languages, there is no difference in phonati
 ### [](ParameterTable#cldf:ToneProm-09b)
 &emsp;**{ yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">yes</th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if ToneProm-03 is &lt;yes&gt; AND ToneProm-04 is &lt;contrastive&gt; </span>OR ToneProm-09 is &lt;yes&gt;</th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">yes</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if ToneProm-03 is &lt;yes&gt; AND ToneProm-04 is &lt;contrastive&gt; </span>OR ToneProm-09 is &lt;yes&gt;</td>
+  </tr>
   <tr>
     <td class="tg-1wig">no</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if (ToneProm-03 is &lt;no&gt; OR ToneProm-03 is &lt;NA&gt; OR (ToneProm-03 is &lt;yes&gt; AND ToneProm-04 is &lt;non-contrastive&gt;)) </span>AND ToneProm-09 is &lt;no&gt;</td>
@@ -318,23 +284,12 @@ In Krongo, as in many other African languages, there is no difference in phonati
 ### [](ParameterTable#cldf:ToneProm-01a)
 &emsp;**{ NA | contrastive | non-contrastive }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">contrastive</th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if ToneProm-04 is &lt;contrastive&gt; OR ToneProm-06 is &lt;contrastive&gt; OR ToneProm-08 is &lt;contrastive&gt;</span></th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">contrastive</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if ToneProm-04 is &lt;contrastive&gt; OR ToneProm-06 is &lt;contrastive&gt; OR ToneProm-08 is &lt;contrastive&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">non-contrastive</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if ToneProm-04 is &lt;non-contrastive&gt; OR ToneProm-06 is &lt;non-contrastive&gt; OR ToneProm-08 is &lt;non-contrastive&gt; AND ToneProm-04 is not &lt;contrastive&gt; AND ToneProm-06 is not &lt;contrastive&gt; AND ToneProm-08 is not &lt;contrastive&gt;</span></td>

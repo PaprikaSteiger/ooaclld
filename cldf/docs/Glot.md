@@ -69,16 +69,7 @@ The same considerations applied to glottalized nasal and glottalized liquid segm
 ### [](ParameterTable#cldf:Glot-01q)
 &emsp;**{ yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
+<table class="dconversion">
 <thead>
   <tr>
     <th class="tg-1wig">yes</th>
@@ -96,16 +87,7 @@ The same considerations applied to glottalized nasal and glottalized liquid segm
 ### [](ParameterTable#cldf:Glot-04a)
 &emsp;**{ yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
+<table class="dconversion">
 <thead>
   <tr>
     <th class="tg-1wig">yes</th>
@@ -123,16 +105,7 @@ The same considerations applied to glottalized nasal and glottalized liquid segm
 ### [](ParameterTable#cldf:Glot-04b)
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
+<table class="dconversion">
 <thead>
   <tr>
     <th class="tg-1wig">yes</th>
@@ -154,16 +127,7 @@ The same considerations applied to glottalized nasal and glottalized liquid segm
 ### [](ParameterTable#cldf:Glot-03a)
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
+<table class="dconversion">
 <thead>
   <tr>
     <th class="tg-1wig">yes</th>
@@ -187,16 +151,7 @@ This derived feature is identical to Glot-03 except that all the languages witho
 ### [](ParameterTable#cldf:Glot-04c)
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
+<table class="dconversion">
 <thead>
   <tr>
     <th class="tg-1wig">yes</th>
@@ -220,16 +175,7 @@ This derived feature is identical to Glot-04 except that all the languages witho
 ### [](ParameterTable#cldf:Glot-05a) 
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
+<table class="dconversion">
 <thead>
   <tr>
     <th class="tg-1wig">yes</th>
@@ -253,16 +199,7 @@ This derived feature is identical to Glot-05 except that all the languages witho
 ### [](ParameterTable#cldf:Glot-06a)
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
+<table class="dconversion">
 <thead>
   <tr>
     <th class="tg-1wig">yes</th>

@@ -152,14 +152,6 @@ Nanti has approximately 25 underived adjectives, mainly restricted to the semant
 
 Tonkawa has predicative adjectives, which readily (and perhaps typically) are incorporated into the noun as a suffix ([Wier 2016](Source#cldf:wier2016tonkawa): 31). When an adjective is not incorporated, it can appear in either order, but N-Attr is the most typical (1). Incidentally, when the adjective is incorporated, the order is the same (2) ([Wier 2016](Source#cldf:wier2016tonkawa): 32).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -167,7 +159,7 @@ Tonkawa has predicative adjectives, which readily (and perhaps typically) are in
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">no-noto·-n</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">we·ʔis-pax</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">naxc-an-ʔa·-la</span></th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">wixwan-tak</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent"><span style="font-weight:700;font-style:italic;text-decoration:none;color:#000;background-color:transparent">wixwan</span>-tak</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ye·la-k-laknoʔo</span></th>
   </tr>
 </thead>
@@ -187,14 +179,6 @@ Tonkawa has predicative adjectives, which readily (and perhaps typically) are in
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -231,14 +215,6 @@ In the case where the open class of nouns is possessed through a classifier cons
 
 Both orders are possible in Alsea-Yaquina possession, but possessors typically occur before the possessed noun, with an agreeing element occuring on the possessed noun ([Buckley 1989](Source#cldf:buckley1989alsea): 22)
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -266,14 +242,6 @@ Both orders are possible in Alsea-Yaquina possession, but possessors typically o
 
 The possessor in Nanti follows the possessed noun, which receives a possessive prefix, as exemplified below ([Michael 2008](Source#cldf:michael2008nanti): 318, Michael p.c.).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -303,16 +271,7 @@ The possessor in Nanti follows the possessed noun, which receives a possessive p
 ### [](ParameterTable#cldf:WO-01a)
 &emsp;**{ yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
+<table class="dconversion">
 <tbody>
   <tr>
     <td class="tg-1wig">no</td>
@@ -328,23 +287,12 @@ The possessor in Nanti follows the possessed noun, which receives a possessive p
 ### [](ParameterTable#cldf:WO-01b)
 &emsp;**{ NA | S>V | V>S }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">NA</th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;no dominant order&gt;</span></th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">NA</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;no dominant order&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">S&gt;V</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;SVO&gt; OR &lt;SOV&gt; OR &lt;OSV&gt; OR &lt;V-last&gt;</span></td>
@@ -359,23 +307,12 @@ The possessor in Nanti follows the possessed noun, which receives a possessive p
 ### [](ParameterTable#cldf:WO-01c)
 &emsp;**{ NA | S>O | O>S }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">NA</th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;no dominant order&gt;</span></th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">NA</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;no dominant order&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">S&gt;O</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;SVO&gt; OR &lt;SOV&gt; OR &lt;VSO&gt;</span></td>
@@ -390,23 +327,12 @@ The possessor in Nanti follows the possessed noun, which receives a possessive p
 ### [](ParameterTable#cldf:WO-01d)
 &emsp;**{ NA | V>O | O>V }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">NA</th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;no dominant order&gt;</span></th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">NA</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;no dominant order&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">V&gt;O</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;SVO&gt; OR &lt;VSO&gt; OR &lt;VOS&gt; OR &lt;V-first&gt;</span></td>
@@ -421,23 +347,12 @@ The possessor in Nanti follows the possessed noun, which receives a possessive p
 ### [](ParameterTable#cldf:WO-01e)
 &emsp;**{ V-first | S-first | O-first | no dominant order }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">no dominant order</th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;no dominant order&gt;</span></th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">no dominant order</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;no dominant order&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">V-first</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;VSO&gt; OR &lt;VOS&gt; OR &lt;V-first&gt;</span></td>
@@ -456,23 +371,12 @@ The possessor in Nanti follows the possessed noun, which receives a possessive p
 ### [](ParameterTable#cldf:WO-01f)
 &emsp;**{ NA | SVO | SOV }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">NA</th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01e is &lt;O-first&gt; OR &lt;V-first&gt; OR &lt;NA&gt;</span></th>
-  </tr>
-</thead>
 <tbody>
+  <tr>
+    <td class="tg-1wig">NA</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01e is &lt;O-first&gt; OR &lt;V-first&gt; OR &lt;NA&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">SVO</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;SVO&gt;</span></td>
@@ -487,23 +391,12 @@ The possessor in Nanti follows the possessed noun, which receives a possessive p
 ### [](ParameterTable#cldf:WO-01g)
 &emsp;**{ NA | VSO | VOS }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">NA</th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01e is &lt;S-first&gt; OR &lt;O-first&gt; OR &lt;NA&gt;</span></th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">NA</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01e is &lt;S-first&gt; OR &lt;O-first&gt; OR &lt;NA&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">VSO</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;VSO&gt;</span></td>
@@ -518,23 +411,12 @@ The possessor in Nanti follows the possessed noun, which receives a possessive p
 ### [](ParameterTable#cldf:WO-01h)
 &emsp;**{ NA | OVS | OSV }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">NA</th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01e is &lt;S-first&gt; OR &lt;V-first&gt; OR &lt;NA&gt;</span></th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">NA</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01e is &lt;S-first&gt; OR &lt;V-first&gt; OR &lt;NA&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">OVS</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;OVS&gt;</span></td>

@@ -45,14 +45,6 @@ Nanti has a class of approximately 25 underived adjectives, which differ from th
 
 Although described as a subclass of verbs on account of their ability to be used predicatively with verbal morphology, the adjective class in Bauni can appear pre-nominally in a noun phrase, without inflection, in which case they are interpreted as attributively modifying the head noun, or can serve as the head of the NP ([Corris 2006](Source#cldf:corris2006grammar): 112,142-143). They can also be used predicatively, but this syntactic behavior distinguishes them from other verbs. Another analysis could even fully separate the two categories, simply stating that adjectives take verbal morphology when being used predicatively. On the basis of this differentiation, we treat the attributive class in Bauni as forming its own category. Both predicative and attributive uses are given for *páko* ‘big’ in (1) and (2) below, from [Corris (2006: 112)](Source#cldf:corris2006grammar).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -72,14 +64,6 @@ Although described as a subclass of verbs on account of their ability to be used
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -111,14 +95,6 @@ There is a small, closed class of 13 to 20 attributives in Eyak which attach suf
 
 [Everett (1986: 272-275)](Source#cldf:everett1986piraha) states explicitly that there is little ground on which to separate adjectives from adverbs, as generally speaking the same class of words can modify either nouns or verbs. This is exemplified for the modifier *xaibogí* ‘fast’, repeated below. Though this particular adjective can also be used adverbially in English, it is a small category of the English adjectives which can be used to modify verbs, while in Pirahã it is apparently the rule.
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -142,14 +118,6 @@ There is a small, closed class of 13 to 20 attributives in Eyak which attach suf
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -238,15 +206,7 @@ Derived features offer different views of the same data included in the main fea
 
 ### [](ParameterTable#cldf:Attr-01a)
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
+<table class="dconversion">
 <thead>
   <tr>
     <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">modifier pos</span></th>

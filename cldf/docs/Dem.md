@@ -783,12 +783,12 @@ Our results on distance distinctions (Dem-001) align with [Diessel](Source#cldf:
 
 <div class="datainset">
 Table 3: Distance distinctions in the ATLAs sample
-<table class="datatable tg">
+<table class="datatable">
 <thead>
   <tr>
-    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Distance distinctions</span></th>
-    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Languages</span></th>
-    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Percent of sample</span></th>
+    <th class="tg-0lax">Distance distinctions</th>
+    <th class="tg-0lax">Languages</th>
+    <th class="tg-0lax">Percent of sample</th>
   </tr>
 </thead>
 <tbody>

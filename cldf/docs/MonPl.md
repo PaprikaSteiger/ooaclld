@@ -10,14 +10,6 @@ This feature set investigates monoexponential verbal plurals, which we define as
 ### Third person plural separated from the person paradigm
 In order for a verbal plural marker to be considered monoexponential, it needs to indicate only plurality (i.e. no portmanteau markers of person and number are considered).[^2] However, there is a complication around the 3rd person plural, as many languages mark a 3rd person singular with a null morpheme and 1st and 2nd persons (singular and plural) overtly. In such a system, a morpheme that indicates 3rd plural could be analyzed as either a joint person-number marker (3pl) or a monoexponential plural, for which an interpretation of 1pl or 2pl is blocked by the presence of separate person markers. To be consistent across language, we have made the following analytical decision: if a plural marker is completely separate from the person marking paradigm (e.g. by appearing in a different slot) and only has a 3rd person plural interpretation, we have considered these as monoexponential plural markers, regardless of the rest of the system, while documenting the peculiarity in the remarks. Tapieté \[tapi1253\] (Tupian; Argentina, Bolivia & Paraguay) exemplifies such a case: the markers indexing person and number are prefixes, while -reta, though it marks only 3rd person plural, is a suffix. (See also Ese Ejja \[esee1248\] (Pano-Tacanan; Bolivia & Peru) further below).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;
-  padding:10px 5px;word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -95,15 +87,8 @@ For the purposes of this survey, we are interested in morphemes that mark event 
 #### yes: Pipil \[pipi1250\] (Uto-Aztecan; El Salvador)
 The Pipil person indexation system has a suffix -t which accompanies all plural subjects. It thus has a monoexponential plural marker that is used for the S and A roles [Campbell 1985](campbell1985pipil).
 
+<div class="datainset">
 Table 1. Subject indexation in Pipil.
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -134,6 +119,7 @@ Table 1. Subject indexation in Pipil.
   </tr>
 </tbody>
 </table>
+</div>
 
 
 #### yes: Tapieté \[tapi1253\] (Tupian; Argentina, Bolivia, Paraguay)
@@ -142,15 +128,8 @@ The morpheme *-reta* in Tapieté exemplifies the edge case mentioned in the intr
 #### no: Central Kanuri \[cent2050\] (Saharan; Cameroon, Niger, Nigeria, Sudan, Chad)
 Central Kanuri has an *-a-* morpheme which marks the plurality of 1st and 2nd person in the P role, but not 3rd person ([Hutchison 1981](Source#cldf:hutchison1981kanuri)).
 
+<div class="datainset">
 Table 2. Subject indexation for person and number in Central Kanuri
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -177,19 +156,11 @@ Table 2. Subject indexation for person and number in Central Kanuri
   </tr>
 </tbody>
 </table>
-
+</div>
 
 #### no: Aleut \[aleu1260\] (Eskimo-Aleut; United States)
 Aleut has a suffix -ngis that indicates argument plurality of 3rd person A or P. However, it is in a paradigm with other person-number combinations (1sg.A+pl.P), so it does not meet our definition of a monoexponential plural ([Leer 1991](leer1991aleut): 170). 
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;
-  padding:5px 5px;word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -213,14 +184,6 @@ Aleut has a suffix -ngis that indicates argument plurality of 3rd person A or P.
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;
-  padding:5px 5px;word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -265,14 +228,6 @@ Teko has three monoexponential verbal plural morphemes. We are going to discuss 
 
 The plural clitic *-kom* has a variety of uses in Teko: it can pluralize nouns, pronouns, demonstratives, and also possessors, objects of postpositions and objects of verbs. It is this last function that is relevant for this feature set. When attaching to verbs, *-kom* pluralizes only the P argument[^4] (4). The clitic *-kom* is a loan from Cariban languages, where a morpheme komo has been reconstructed with the same range of functions ([Rose 2011](Source#cldf:rose2011emerillon): 111-116).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;
-  padding:5px 5px;word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -300,14 +255,6 @@ the single argument is necessarily plural (and necessarily 3rd person) when *-ka
 the corresponding form with no *-ka* (in 5b) could still refer to 3rd person plural, but also to any other person and number;
 to mark person (and number), there are (non-obligatory) second position clitics (5c and  5d) in the language for 1st and 2nd but not for 3rd person ([Vuillermet 2012](Source#cldf:vuillermet2012eseejja): 374-375).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;
-  padding:10px 5px;word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -330,14 +277,6 @@ to mark person (and number), there are (non-obligatory) second position clitics 
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -360,14 +299,6 @@ to mark person (and number), there are (non-obligatory) second position clitics 
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -392,14 +323,6 @@ to mark person (and number), there are (non-obligatory) second position clitics 
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -428,14 +351,6 @@ to mark person (and number), there are (non-obligatory) second position clitics 
 #### no: Tapieté \[tapi1253\] (Tupian; Argentina, Bolivia, Paraguay)
 As illustrated in examples (6)-(8), the monoexponential verbal plural marker of Tapieté can indicate plurality of S, A, or P arguments ([González 2005](Source#cldf:gonzalez2005tapiete): 34, 102, 191). 
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;
-  padding:10px 5px;word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -457,14 +372,6 @@ As illustrated in examples (6)-(8), the monoexponential verbal plural marker of 
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;
-  padding:10px 5px;word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -488,14 +395,6 @@ As illustrated in examples (6)-(8), the monoexponential verbal plural marker of 
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;
-  padding:10px 5px;word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -524,14 +423,6 @@ In some languages a monoexponential plural marker can be used to mark the plural
 #### yes: Movima \[movi1243\] (isolate; Bolivia)
 In Movima, the monoexponential plural marker indicates S or E plurality with intransitive verbs, and P or E plurality with transitive verbs ([Haude 2006](Source#cldf:haude2006movima): 434, 405):
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -551,15 +442,6 @@ In Movima, the monoexponential plural marker indicates S or E plurality with int
 </tbody>
 </table>
 
-
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -582,14 +464,6 @@ In Movima, the monoexponential plural marker indicates S or E plurality with int
 #### yes: Teko \[emer1243\] (Tupian; French Guiana)
 Apart from the plural marker -kom indicating plurality of the P argument, which was mentioned in (4) under MonPl-03, Teko has two more monoexponential verbal plural markers, both indicating S and A plurality (subject plurality): the verbal clause clitic -(o)ŋ and the morpheme *kupa*[^5] ([Rose 2011](Source#cldf:rose2011emerillon): 105-111). Examples with both transitive and intransitive verbs for both morphemes are given in (11-14).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;
-  padding:5px 5px;word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -604,19 +478,11 @@ Apart from the plural marker -kom indicating plurality of the P argument, which 
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
-    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">'They</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">  love me.'</span></td>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘They</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">  love me.’</span></td>
   </tr>
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -631,19 +497,11 @@ Apart from the plural marker -kom indicating plurality of the P argument, which 
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
-    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">'They</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> speak now.'</span></td>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘They</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> speak now.’</span></td>
   </tr>
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -660,19 +518,11 @@ Apart from the plural marker -kom indicating plurality of the P argument, which 
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
-    <td class="tg-0lax" colspan="2"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">'They</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> are sleeping.'</span></td>
+    <td class="tg-0lax" colspan="2"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘They</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> are sleeping.’</span></td>
   </tr>
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -693,18 +543,11 @@ Apart from the plural marker -kom indicating plurality of the P argument, which 
   </tr>
 </tbody>
 </table>
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
+
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">eʔi-te-we</span></th>
     <th class="tg-0lax"><span style="font-weight:700;font-style:italic;text-decoration:none;color:#000;background-color:transparent">kupa</span><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">-o</span></th>
@@ -723,7 +566,7 @@ Apart from the plural marker -kom indicating plurality of the P argument, which 
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
-    <td class="tg-0lax" colspan="5"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">“Grandmother, loosen (free) our canoe, that we can go”, </span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">they</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> say (the monsters). <a class=”Source” href=”../sources/rose2023pc”>Rose (2023)</a>
+    <td class="tg-0lax" colspan="5"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘ “Grandmother, loosen (free) our canoe, that we can go”, </span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">they</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> say (the monsters).’ <a class=”Source” href=”../sources/rose2023pc”>Rose (2023)</a>
 </span></td>
   </tr>
 </tbody>
@@ -741,14 +584,6 @@ For this feature, it is crucial to establish event (E) plurality in a context wi
 
 Nuu-chah-nulth has a suffix *=ʔał* which may indicate plurality of S (15), A (16) or P (17) arguments ([Inman 2021](Source#cldf:inman2021nuuchahnulth): 118-119).[^6] Because this marker can be used for both the A and P roles, its interpretation can be syntactically ambiguous, though in context the interpretation is typically clear.
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -769,14 +604,6 @@ Nuu-chah-nulth has a suffix *=ʔał* which may indicate plurality of S (15), A (
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -798,14 +625,6 @@ Nuu-chah-nulth has a suffix *=ʔał* which may indicate plurality of S (15), A (
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -832,14 +651,6 @@ Note also that E plurality exists in the language, but it is done via reduplicat
 
 Karok has a suffix *-va* which can target S, P, or E plurality. When used on an intransitive, it can indicate either a plural S (18) or an iterative event (19), while when used on a transitive it may indicate a plural P (20) or an iterative event (21). Data is from [Bright (1957: 92-93)](Source#cldf:bright1957karok), cited in [Mithun](Source#cldf:mithun1988karok) ([1988](Source#cldf:mithun1988karok): 215-216).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -867,14 +678,6 @@ Karok has a suffix *-va* which can target S, P, or E plurality. When used on an 
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -902,14 +705,6 @@ Karok has a suffix *-va* which can target S, P, or E plurality. When used on an 
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;
-  padding:5px 5px;word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -937,14 +732,6 @@ Karok has a suffix *-va* which can target S, P, or E plurality. When used on an 
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -983,14 +770,6 @@ SAP: Nanti \[nant1250\] (Arawakan; Peru)
 
 In Nanti, there is a plural suffix that can indicate the plurality of either A or P, as well as that of S, as illustrated with a transitive verb in (22) and an intransitive verb in (23) (examples from [Michael 2008](Source#cldf:michael2008nanti): 260, 317).
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -1010,14 +789,6 @@ In Nanti, there is a plural suffix that can indicate the plurality of either A o
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -1045,14 +816,6 @@ In Nanti, there is a plural suffix that can indicate the plurality of either A o
 
 The Shipibo-Konibo plural marker *-kan* marks the plurality of S (24) or A (25), depending on the transitivity of the verb in which it occurs [Valenzuela (2003: 521, 660)](Source#cldf:valenzuela2003shipibokonibo).
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -1082,14 +845,6 @@ The Shipibo-Konibo plural marker *-kan* marks the plurality of S (24) or A (25),
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -1143,14 +898,6 @@ Valenzuela remarks on the peculiarity of a highly ergatively aligned language ha
 
 Pilagá has a general plural suffix *-lo* which marks S/P plurality [Vidal (2001:164f.)](Source#cldf:vidal2001pilaga).
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -1182,14 +929,6 @@ Pilagá has a general plural suffix *-lo* which marks S/P plurality [Vidal (2001
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -1216,14 +955,6 @@ Pilagá has a general plural suffix *-lo* which marks S/P plurality [Vidal (2001
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -1255,14 +986,6 @@ Pilagá has a general plural suffix *-lo* which marks S/P plurality [Vidal (2001
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -1308,22 +1031,12 @@ Derived features offer different views of the same data included in the main fea
 
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></th>
-    <th class="tg-0lax">if MonPl-01 is &lt;no&gt;</th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;no&gt;</td>
+  </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">yes</span></td>
     <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-03 contains &lt;S&gt;</td>
@@ -1338,22 +1051,12 @@ Derived features offer different views of the same data included in the main fea
 
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></th>
-    <th class="tg-0lax">if MonPl-01 is &lt;no&gt;</th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;no&gt;</td>
+  </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">yes</span></td>
     <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-03 contains &lt;A&gt;</td>
@@ -1369,22 +1072,12 @@ Derived features offer different views of the same data included in the main fea
 
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></th>
-    <th class="tg-0lax">if MonPl-01 is &lt;no&gt;</th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;no&gt;</td>
+  </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">yes</span></td>
     <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-03 contains &lt;P&gt;</td>
@@ -1400,22 +1093,12 @@ Derived features offer different views of the same data included in the main fea
 
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></th>
-    <th class="tg-0lax">if MonPl-01 is &lt;no&gt;</th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;no&gt;</td>
+  </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">yes</span></td>
     <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-06 contains &lt;SA&gt;</td>
@@ -1431,22 +1114,12 @@ Derived features offer different views of the same data included in the main fea
 
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></th>
-    <th class="tg-0lax">if MonPl-01 is &lt;no&gt;</th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;no&gt;</td>
+  </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">yes</span></td>
     <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-06 contains &lt;SP&gt;</td>
@@ -1462,22 +1135,12 @@ Derived features offer different views of the same data included in the main fea
 
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></th>
-    <th class="tg-0lax">if MonPl-01 is &lt;no&gt;</th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;no&gt;</td>
+  </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">yes</span></td>
     <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-06 contains &lt;SAP&gt;</td>
@@ -1493,22 +1156,12 @@ Derived features offer different views of the same data included in the main fea
 
 &emsp;**{ NA | None | ; separated list of \[ noun, pronoun, adjective, demonstrative, other \] }**
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></th>
-    <th class="tg-0lax">if MonPl-01 is &lt;no&gt;</th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;no&gt;</td>
+  </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">None</span></td>
     <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-07 does not contain &lt;noun&gt; or &lt;pronoun&gt; or &lt;adjective&gt; or &lt;demonstrative&gt; or &lt;numeral&gt; or &lt;particle&gt; or &lt;adposition&gt; or &lt;adverb&gt;</td>
@@ -1540,22 +1193,12 @@ Derived features offer different views of the same data included in the main fea
 
 &emsp;**{ NA | ; separated list of \[ S, A, P, SA, SP, SAP \] }**
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></th>
-    <th class="tg-0lax">if MonPl-01 is &lt;no&gt;</th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;no&gt;</td>
+  </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">S</span></td>
     <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-07 contains &lt;S&gt;</td>
@@ -1587,22 +1230,12 @@ Derived features offer different views of the same data included in the main fea
 
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></th>
-    <th class="tg-0lax">if MonPl-01 is &lt;no&gt;</th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">NA</span></td>
+    <td class="tg-0lax">if MonPl-01 is &lt;no&gt;</td>
+  </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">yes</span></td>
     <td class="tg-0lax">if MonPl-01 is &lt;yes&gt; and MonPl-07 contains &lt;noun&gt;</td>
