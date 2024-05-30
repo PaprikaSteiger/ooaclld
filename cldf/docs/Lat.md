@@ -130,7 +130,6 @@ Northern Yukaghir has an palatalized lateral, Romanized as l’, which contrasts
 Despite its other lateral phonemes, Cherokee lacks a palatal lateral ([Montgomery-Anderson 2008](Source#cldf:montgomeryanderson2008cherokee): 33).
 
 ## Derived features
-Derived features offer different views of the same data included in the base features. Often, this is done to group together some states of multi-state features, to capture specific similarities. In other cases, derived features are designed so that they are independent from other features used in the same computational analyses that assume feature independence, e.g. the Bayesian software sBayes, which detects areal signal ([Ranacher et al 2021](Source#cldf:ranacher2021sbayes)).
 
 ### [](ParameterTable#cldf:Lat-01a)
 
@@ -251,7 +250,7 @@ This derived feature recovers the phonetic details of which voiceless lateral a 
 
 ### [](ParameterTable#cldf:Lat-04a)
 
-&emsp;**{ yes | no }**
+&emsp;**{ NA | yes | no }**
 
 <table class="dconversion">
 <thead>
@@ -265,10 +264,14 @@ This derived feature recovers the phonetic details of which voiceless lateral a 
     <td class="tg-1wig">no</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-04 is &lt;no&gt; AND Lat-05 is &lt;no&gt;</span></td>
   </tr>
+  <tr>
+    <td class="tg-1wig">NA</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-03 is &lt;no&gt;</span></td>
+  </tr>
 </tbody>
 </table>
 
-This derived feature asks if there is any phonemic lateral affricate. Many languages of the Pacific Northwest have the ejective affricate, but not the plain one.
+This derived feature asks if there is any phonemic lateral affricate, if there is a lateral fricative. Many languages of the Pacific Northwest have the ejective affricate, but not the plain one.
 
 ### [](ParameterTable#cldf:Lat-04b)
 
@@ -288,7 +291,7 @@ This derived feature asks if there is any phonemic lateral affricate. Many langu
   </tr>
   <tr>
     <td class="tg-1wig">NA</td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-04a is &lt;no&gt;</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-04a is &lt;no&gt; OR &lt;NA&gt;</span></td>
   </tr>
 </tbody>
 </table>
@@ -313,7 +316,7 @@ This derived feature conditions the presence of /tɬ/ on the presence of any lat
   </tr>
   <tr>
     <td class="tg-1wig">NA</td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-04a is &lt;no&gt;</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Lat-04a is &lt;no&gt; OR &lt;NA&gt;</span></td>
   </tr>
 </tbody>
 </table>

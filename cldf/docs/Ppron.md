@@ -687,7 +687,7 @@ Table 14: Reanalyzed independent pronouns of Umpila.
 </div>
 
 #### no: Lavukaleve \[lavu1241\] (isolate; Solomon Islands)
-The personal pronouns of Lavukaleve can be seen in Table 15 below. The dual and plural 1incl forms have the same morphological relationship as the 1excl dual and plural forms, the dual has an additional *-l* suffix. There is thus no indication that 1incl is a basic unit in the person system, as is the case for Umpila [above](#yes-umpila-umpi1239-pama-nyungan-australia).
+The personal pronouns of Lavukaleve can be seen in Table 15 below (note that Lavukaleve does not have any 3rd person pronouns, for which demonstratives are used instead). The dual and plural 1incl forms have the same morphological relationship as the 1excl dual and plural forms, the dual has an additional *-l* suffix. There is thus no indication that 1incl is a basic unit in the person system, as is the case for Umpila [above](#yes-umpila-umpi1239-pama-nyungan-australia).
 
 <div class="datainset">
 Table 15: Personal pronouns of Lavukaleve ([Terrill 2003](Source#cldf:terrill2003lavukaleve): 170).

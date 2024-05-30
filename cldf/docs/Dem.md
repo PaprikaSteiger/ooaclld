@@ -709,6 +709,7 @@ Krongo demonstratives encode only distance, and not altitude ([Reh 1985](Source#
   </tr>
 </tbody>
 </table>
+
 ### [](ParameterTable#cldf:Dem-01b)
 &emsp;**{ NA | 2 | more than 2 }**
 
@@ -728,6 +729,7 @@ Krongo demonstratives encode only distance, and not altitude ([Reh 1985](Source#
   </tr>
 </tbody>
 </table>
+
 ### [](ParameterTable#cldf:Dem-01c)
 &emsp;**{ NA | up to 3 | more than 3 }**
 
@@ -756,6 +758,7 @@ Krongo demonstratives encode only distance, and not altitude ([Reh 1985](Source#
   </tr>
 </tbody>
 </table>
+
 ### [](ParameterTable#cldf:Dem-01d)
 &emsp;**{ NA | up to 4 | more than 4 }**
 
@@ -775,6 +778,7 @@ Krongo demonstratives encode only distance, and not altitude ([Reh 1985](Source#
   </tr>
 </tbody>
 </table>
+
 ## Results
 
 The presence of a demonstrative paradigm in the adnominal function is extremely common, and all exceptions in our sample are from South America (Dem-001). Three of the five languages which use a pronominal demonstrative to notionally modify the noun are Cariban languages from the northern Amazon. Only nine languages lack a pronominal demonstrative paradigm altogether (Dem-002), and only three languages express different semantic properties between their adnominal and pronominal demonstratives (Dem-003).

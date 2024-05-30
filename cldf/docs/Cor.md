@@ -75,6 +75,194 @@ We have not asked about retroflex affricates because there were only two languag
 
 Coding for the presence of a voiced /ʐ/ as distinct and separate from voiceless /ʂ/ (when a voicing distinction was not considered for other segments) arose from encountering this phoneme more frequently than expected in our Amazonian sample, and wanting to capture this, if it was an areal phenomenon. A possible mechanism for the development of /ʐ/ (separately form /ʂ/) is the spirantization of a rhotic.
 
+## Derived features
+
+### [](ParameterTable#cldf:Cor-01a)
+&emsp;**{ 1 | more than 1 }**
+
+<table class="dconversion">
+<tbody>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">1</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Cor-01 = 1</span></td>
+  </tr>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">more than 1</span></td>
+    <td class="tg-0lax">if Cor-01 ≥ 2</td>
+  </tr>
+</tbody>
+</table>
+
+### [](ParameterTable#cldf:Cor-01b)
+&emsp;**{ up to 2 | more than 2 }**
+
+<table class="dconversion">
+<tbody>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">up to 2</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Cor-01 ≤ 2</span></td>
+  </tr>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">more than 2</span></td>
+    <td class="tg-0lax">if Cor-01 ≥ 3</td>
+  </tr>
+</tbody>
+</table>
+
+### [](ParameterTable#cldf:Cor-02a)
+&emsp;**{ yes | no }**
+
+<table class="dconversion">
+<tbody>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">yes</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Cor-02 ≥ 1</span></td>
+  </tr>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">no</span></td>
+    <td class="tg-0lax">if Cor-02 = 0</td>
+  </tr>
+</tbody>
+</table>
+
+### [](ParameterTable#cldf:Cor-02b)
+&emsp;**{ 1 | more than 1 }**
+
+<table class="dconversion">
+<tbody>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">up to 1</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Cor-02 ≤ 1</span></td>
+  </tr>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">more than 1</span></td>
+    <td class="tg-0lax">if Cor-02 ≥ 2</td>
+  </tr>
+</tbody>
+</table>
+
+
+### [](ParameterTable#cldf:Cor-02c)
+&emsp;**{ up to 2 | more than 2 }**
+
+<table class="dconversion">
+<tbody>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">up to 2</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Cor-02 ≤ 2</span></td>
+  </tr>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">more than 2</span></td>
+    <td class="tg-0lax">if Cor-02 ≥ 3</td>
+  </tr>
+</tbody>
+</table>
+
+### [](ParameterTable#cldf:Cor-02d)
+&emsp;**{ up to 3 | more than 3 }**
+
+<table class="dconversion">
+<tbody>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">up to 3</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Cor-02 ≤ 3</span></td>
+  </tr>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">more than 3</span></td>
+    <td class="tg-0lax">if Cor-02 ≥ 4</td>
+  </tr>
+</tbody>
+</table>
+
+### [](ParameterTable#cldf:Cor-03a)
+&emsp;**{ yes | no }**
+
+<table class="dconversion">
+<tbody>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">yes</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Cor-03 ≥ 1</span></td>
+  </tr>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">no</span></td>
+    <td class="tg-0lax">if Cor-03 = 0</td>
+  </tr>
+</tbody>
+</table>
+
+### [](ParameterTable#cldf:Cor-03b)
+&emsp;**{ 1 | more than 1 }**
+
+<table class="dconversion">
+<tbody>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">up to 1</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Cor-03 ≤ 1</span></td>
+  </tr>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">more than 1</span></td>
+    <td class="tg-0lax">if Cor-03 ≥ 2</td>
+  </tr>
+</tbody>
+</table>
+
+
+### [](ParameterTable#cldf:Cor-03c)
+&emsp;**{ up to 2 | more than 2 }**
+
+<table class="dconversion">
+<tbody>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">up to 2</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Cor-03 ≤ 2</span></td>
+  </tr>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">more than 2</span></td>
+    <td class="tg-0lax">if Cor-03 ≥ 3</td>
+  </tr>
+</tbody>
+</table>
+
+### [](ParameterTable#cldf:Cor-04a)
+&emsp;**{ NA | yes | no }**
+
+<table class="dconversion">
+<tbody>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">NA</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Cor-01 = 1</span></td>
+  </tr>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">yes</span></td>
+    <td class="tg-0lax">if Cor-01 ≥ 2 AND Cor-04 is &lt;yes&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">no</span></td>
+    <td class="tg-0lax">if Cor-01 ≥ 2 AND Cor-04 is &lt;no&gt;</td>
+  </tr>
+</tbody>
+</table>
+
+### [](ParameterTable#cldf:Cor-07a)
+&emsp;**{ NA | yes | no }**
+
+<table class="dconversion">
+<tbody>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">NA</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if Cor-03 = 1</span></td>
+  </tr>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">yes</span></td>
+    <td class="tg-0lax">if Cor-03 ≥ 2 AND Cor-07 is &lt;yes&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">no</span></td>
+    <td class="tg-0lax">if Cor-03 ≥ 2 AND Cor-07 is &lt;no&gt;</td>
+  </tr>
+</tbody>
+</table>
+
 ## Results
 The presence of more than one place of articulation for coronal consonants ([Cor-01](../parameters/Cor-01)) is for the most part geographically constrained, occurring with the most frequency in Australia, the Indian subcontinent, and in California and the American Southwest. Several languages in South America also have more than one place of coronal articulation, but their distribution is highly scattered. The presence of retroflex plosives ([Cor-04](../parameters/Cor-04)) occurs only in a subset of the languages with more than one coronal plosive, as we found no language with a retroflex phoneme that lacked a non-retroflex one.
 

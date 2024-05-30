@@ -5,7 +5,7 @@
 [TOC]
 
 ## What?
-This feature set encompasses some of the common typological questions about syntactic word order: the relative orders of subject, object, and verb in an unmarked matrix declarative transitive clause,[^1,^2] the ordering of attributive and noun, and the ordering of genitive (or possessor) and (possessed) noun ([Greenberg 1963](Source#cldf:greenberg1963universals), [Dryer 2013a](Source#cldf:dryer2013wals81), [Dryer 2013b](Source#cldf:dryer2013wals86), [Dryer 2013c](Source#cldf:dryer2013wals87), [Krasnoukhova 2016](Source#cldf:krasnoukhova2016sailsnp)). Each of these language-wide comparanda have their own difficulties and must be defined narrowly to ensure cross-linguistic comparability.
+This feature set encompasses some of the common typological questions about syntactic word order: the relative orders of subject, object, and verb in an unmarked matrix declarative transitive clause,[^1]<sup>,</sup>[^2] the ordering of attributive and noun, and the ordering of genitive (or possessor) and (possessed) noun ([Greenberg 1963](Source#cldf:greenberg1963universals), [Dryer 2013a](Source#cldf:dryer2013wals81), [Dryer 2013b](Source#cldf:dryer2013wals86), [Dryer 2013c](Source#cldf:dryer2013wals87), [Krasnoukhova 2016](Source#cldf:krasnoukhova2016sailsnp)). Each of these language-wide comparanda have their own difficulties and must be defined narrowly to ensure cross-linguistic comparability.
 
 In particular, the order of subject, object, and verb is fraught with issues, as has been pointed out by many previous researchers. Some of these problems are:
 
