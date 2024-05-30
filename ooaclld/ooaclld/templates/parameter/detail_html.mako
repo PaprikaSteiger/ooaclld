@@ -30,7 +30,9 @@
         </%util:well>
     </div>
 </div>
+% if ctx.id != 'MonPl-07':
 ${request.get_map('parameter', dt=values_dt).render()}
+% endif
 ${values_dt.render()}
 
 
