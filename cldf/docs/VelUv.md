@@ -42,26 +42,15 @@ Though it distinguishes velar and uvular voiceless stops, Pilagá lacks any such
 ### [](ParameterTable#cldf:VelUv-01a)
 &emsp;**{ yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-km2t{border-color:#ffffff;font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-zv4m{border-color:#ffffff;text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-km2t">yes</th>
-    <th class="tg-zv4m">if VelUv-01 is &lt;yes&gt; OR VelUv-02 is &lt;yes&gt;</th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
   <tr>
-    <td class="tg-km2t">no</td>
-    <td class="tg-zv4m">if VelUv-01 is &lt;no&gt; AND VelUv-02 is &lt;no&gt;</td>
+    <td class="tg-1wig">yes</td>
+    <td class="tg">if VelUv-01 is &lt;yes&gt; OR VelUv-02 is &lt;yes&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">no</td>
+    <td class="tg">if VelUv-01 is &lt;no&gt; AND VelUv-02 is &lt;no&gt;</td>
   </tr>
 </tbody>
 </table>
@@ -71,23 +60,12 @@ This derived feature groups together all languages which have any distinction be
 ### [](ParameterTable#cldf:VelUv-02a)
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">NA</th>
-    <th class="tg-0lax">if VelUv-01 is &lt;no&gt;</th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">NA</td>
+    <td class="tg-0lax">if VelUv-01 is &lt;no&gt;</td>
+  </tr>
   <tr>
     <td class="tg-1wig">yes</td>
     <td class="tg-0lax">if VelUv-01 is &lt;yes&gt; AND VelUv-02 is &lt;yes&gt;</td>

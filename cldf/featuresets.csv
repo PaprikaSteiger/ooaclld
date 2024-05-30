@@ -1,18 +1,18 @@
-FeatureSetID,Name,Domain,Authors,Contributors,Filename
-Appr,Apprehensional Morphology,Morphosyntax,MV,MV;DP;KPVD,
-Attr,Attributive Modifiers,Morphosyntax,DI,NCP;MV;NJM,
-Cor,Coronal Consonants,Phonology,DI;KPVD,,
-Dem,Demonstratives,Morphosyntax,DI;MV,DI;MV;NCP;AG;NJM;KPVD,
-Gend,Categorical Genderlects,Morphosyntax,FR;MV,FR;MV;NCP;DI;OCD,
-Glot,Glottalized Consonants,Phonology,DI;KPVD,DI;KPVD;NCP;MV;AG,
-Lat,Laterals,Phonology,KPVD;DI,KPVD;DI;NCP;MV;AG;SH,
-MonPl,Monoexponential Verbal Plurals,Morphosyntax,MV;DI;NCP;BB,MV;DI;NCP;SH;AG;BB,
-NounPoss,Noun Possession Classes,Moprhosyntax,DI;NCP;BB,DI;NCP;BB;TH;AM,
-Ppron,Personal Pronouns,Moprhosyntax,NCP;DI;MV;BB,NCP;DI;MV;BB;AG;KPVD;NJM,
-SgPl,Sg-Pl verb stem alternation,Morphosyntax,DI;MV,DI;MV;BB;SH;AG,
-SocCaus,Sociative Causation,Morphosyntax,MV;FR,MV;FR;OCD;RL,
-Syll,Syllable Structure,Phonology,SE,SE;MV;NCP;DI,
-ToneProm,Tone and Prominence,Phonology,KPVD,KPVD;AG,
-VelUv,Velar-Uvular distinction,Phonology,DI,DI;KPVD;NCP;MV;AG,
-WO,Word Order,Morphosyntax,DI,DI;NCP;MV;NJM,
-Align,Morphological Alignment,Morphosyntax,AWM;DI;MV;NCP;BB,AWM;DI;MV;NCP;HT;BB;AN,
+FeatureSetID,Name,Domain,Authors,Contributors
+Appr,Apprehensional morphology,Morphosyntax,MV,MV;DP;KPVD
+Attr,Attributive modifiers,Morphosyntax,DI,NCP;MV;NJM
+Cor,Coronal consonants,Phonology,DI;KPVD,NCP;MV;SH;NJM
+Dem,Demonstratives,Morphosyntax,DI;MV,DI;MV;NCP;AG;NJM;KPVD
+Gend,Categorical genderlects,Morphosyntax,FR;MV,FR;MV;NCP;DI;OCD
+Glot,Glottalized consonants,Phonology,DI;KPVD,DI;KPVD;NCP;MV;AG
+Lat,Lateral consonants,Phonology,KPVD;DI,KPVD;DI;NCP;MV;AG;SH
+MonPl,Monoexponential verbal plurals,Morphosyntax,MV;DI;NCP;BB,MV;DI;NCP;SH;AG;BB
+NounPoss,Noun possession classes,Moprhosyntax,DI;NCP;BB,DI;NCP;BB;TH;AM
+Ppron,Personal pronouns,Moprhosyntax,NCP;DI;MV;BB,NCP;DI;MV;BB;AG;KPVD;NJM
+SgPl,Singular-plural verb stem alternation,Morphosyntax,DI;MV,DI;MV;BB;SH;AG
+SocCaus,Sociative causation,Morphosyntax,MV;FR,MV;FR;OCD;RL
+Syll,Syllable structure,Phonology,SE,SE;MV;NCP;DI
+ToneProm,Tone and word-level prominence (accent),Phonology,KPVD,KPVD;AG
+VelUv,Velar-uvular distinction,Phonology,DI,DI;KPVD;NCP;MV;AG
+WO,Word order,Morphosyntax,DI,DI;NCP;MV;NJM
+Align,Morphological alignment,Morphosyntax,AWM;DI;MV;NCP;BB,AWM;DI;MV;NCP;HT;BB;AN

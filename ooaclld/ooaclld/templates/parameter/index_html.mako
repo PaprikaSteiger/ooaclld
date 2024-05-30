@@ -5,7 +5,7 @@
 <%! from ooaclld.models import OOAParameter %>
 <h2>Features</h2>
 <p>
-    Those are the OOA features
+    A feature is a single structural property, and every feature belongs to some feature set capturing a particular typological domain. Each feature is coded for the entire ATLAs language sample, and may be single-valued, multi-valued, or give frequency information.
 </p>
 <div class="clearfix"> </div>
 ${ctx.render()}

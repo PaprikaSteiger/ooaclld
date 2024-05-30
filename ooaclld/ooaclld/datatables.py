@@ -130,7 +130,7 @@ class Languages(datatables.Languages):
         return [
             AtlasIdCol(self, "ID", sTitle="Glottocode", sClass="left", model_col=OOALanguage.id),
             LinkCol(self, "Name", sClass="left", model_col=OOALanguage.name),
-            Col(self, "Family", sTitle="Family Name", model_col=OOALanguage.family_name, sClass="left"),
+            Col(self, "Family", sTitle="Family", model_col=OOALanguage.family_name, sClass="left"),
             Col(self, "Macroarea", model_col=OOALanguage.macroarea, sClass="left"),
             #Col(self, 'Latitude', model_col=OOALanguage.latitude),
             #Col(self, 'Longitude', model_col=OOALanguage.longitude),
@@ -171,11 +171,18 @@ class Values(datatables.Values):
             ]
         if self.language:
             return [
+                LinkCol(
+                     self, 
+                     "Parameter ID", 
+                     sTitle="Feature ID", 
+                     sClass="left", 
+                     model_col=OOAValue.parameter, 
+                     get_object = lambda i: i.valueset.parameter),
                 #IdCol(self, "Id", sTitle="Value ID", sClass="left"),
                 LinkCol(
                     self,
                     "Feature ID",
-                    sTitle="Feature ID",
+                    sTitle="Feature",
                     model_col=OOAParameter.id,
                     sClass="left",
                     get_object=lambda i: i.valueset.parameter,

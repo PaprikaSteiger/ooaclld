@@ -61,7 +61,7 @@ def main(args):
     ):
         # reading the static page content into variable desc
         desc = None
-        descr_path = ds.directory / "docs" / (row["Name"].lower() + ".md")
+        descr_path = ds.directory / "docs" / (row["FeatureSetID"] + ".md")
         if descr_path.exists():
             desc = open(descr_path, encoding="utf8").read()
         fset = data.add(
@@ -72,7 +72,6 @@ def main(args):
             domains=row["Domain"],
             authors=";".join(data['Contributor'][cid].name for cid in row["Authors"]),
             contributors=";".join(data['Contributor'][cid].name for cid in row["Contributors"]),
-            filename=row["Filename"] or "",
             description=desc,
         )
         cnt = 0
@@ -198,6 +197,7 @@ def main(args):
                 code_id=row["CodeID"],
                 value=row["Value"],
                 remark=row["Remark"],
+                parameter=row["ParameterID"],
                 coder=";".join(row["Coder"]),
             )
 

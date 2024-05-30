@@ -1,3 +1,56 @@
+.datainset {
+  margin: 15px 0 15px 0;
+}
+.tg, .dconversion, .datatable, .fulltable {
+  border:none;
+  border-collapse:collapse;
+  border-spacing:0;
+}
+.tg td, .dconversion td, .datatable td, .fulltable td {
+  border-color:black;
+  border-style:solid;
+  border-width:0px;
+  font-size:14px;
+  overflow:hidden;
+  padding:5px 5px;
+  word-break:normal;
+}
+.tg th, .dconversion th, .datatable th, .fulltable th {
+  border-color:black;
+  border-style:solid;
+  border-width:0px;
+  font-size:14px;
+  font-weight:normal;
+  overflow:hidden;
+  padding:5px 5px;
+  word-break:normal;
+  text-align:left;
+}
+.tg-0lax {
+  text-align:left;
+  vertical-align:top
+}
+.tg-1wig {
+  font-weight:bold;
+  text-align:left;
+  vertical-align:top
+}
+.dconversion {
+  margin-left: 2em;
+}
+.datatable, .fulltable {
+  margin-top:5px;
+  margin-bottom:20px;
+}
+.datatable th {
+  border-width:0 0 1px 0;
+}
+.fulltable th {
+  border-width:1px;
+}
+.fulltable td {
+  border-width:1px;
+}
 div.toc {
   position: sticky;
   width: 100%;
@@ -763,6 +816,7 @@ h2.question {
 }
 h3 {
   font-size: 24.5px;
+  
   color: #002199;
 }
 h4 {

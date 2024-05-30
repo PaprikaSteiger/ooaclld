@@ -25,6 +25,10 @@ Some of the data for this feature set were obtained directly from the PHOIBLE da
 
 Afterwards, 19 automatically extracted languages were checked against grammars for accuracy, which yielded an acceptable error rate. Other discrepancies found in the data or cases where more recent sources have become available were corrected opportunistically while coding for other features. Such corrections are marked by “contra-PHOIBLE” in the remark field of the database.
 
+Some of the states of this feature set were obtained  directly from data present in the PHOIBLE database. The entire PHOIBLE database was downloaded (version 2.0, downloaded January 27, 2020), and an R script was written to process it searching for glottalized consonants. For every language in our sample, the set of inventories was searched for orthographic glottalizations of all varieties (for example, for the bilabial series, /pʼ/, /pˀ/, /ˀp/, /ɓ/, /ɓ̥/), and if such a phoneme contrasted with a non-glottalized phoneme (/p/, /b/), the relevant feature was coded as &lt;yes&gt;. If there was no such contrast, it was coded as &lt;no&gt;.
+
+After this extraction, 19 automatically coded languages were checked against grammars for accuracy, for both this feature and other derived phonological features. In this review, fewer than 5% of errors were found, so the other extracted values were accepted. Any further errors were corrected opportunistically when coding for other features, and corrections were entered with the remark “contra-PHOIBLE”.
+
 ## Features
 ### [](ParameterTable#cldf:Glot-01)
 &emsp;**{ yes | no }**
@@ -65,16 +69,7 @@ The same considerations applied to glottalized nasal and glottalized liquid segm
 ### [](ParameterTable#cldf:Glot-01q)
 &emsp;**{ yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
+<table class="dconversion">
 <thead>
   <tr>
     <th class="tg-1wig">yes</th>
@@ -92,16 +87,7 @@ The same considerations applied to glottalized nasal and glottalized liquid segm
 ### [](ParameterTable#cldf:Glot-04a)
 &emsp;**{ yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
+<table class="dconversion">
 <thead>
   <tr>
     <th class="tg-1wig">yes</th>
@@ -119,16 +105,7 @@ The same considerations applied to glottalized nasal and glottalized liquid segm
 ### [](ParameterTable#cldf:Glot-04b)
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
+<table class="dconversion">
 <thead>
   <tr>
     <th class="tg-1wig">yes</th>
@@ -150,16 +127,7 @@ The same considerations applied to glottalized nasal and glottalized liquid segm
 ### [](ParameterTable#cldf:Glot-03a)
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
+<table class="dconversion">
 <thead>
   <tr>
     <th class="tg-1wig">yes</th>
@@ -183,16 +151,7 @@ This derived feature is identical to Glot-03 except that all the languages witho
 ### [](ParameterTable#cldf:Glot-04c)
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
+<table class="dconversion">
 <thead>
   <tr>
     <th class="tg-1wig">yes</th>
@@ -216,16 +175,7 @@ This derived feature is identical to Glot-04 except that all the languages witho
 ### [](ParameterTable#cldf:Glot-05a) 
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
+<table class="dconversion">
 <thead>
   <tr>
     <th class="tg-1wig">yes</th>
@@ -249,16 +199,7 @@ This derived feature is identical to Glot-05 except that all the languages witho
 ### [](ParameterTable#cldf:Glot-06a)
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
+<table class="dconversion">
 <thead>
   <tr>
     <th class="tg-1wig">yes</th>
@@ -278,11 +219,6 @@ This derived feature is identical to Glot-05 except that all the languages witho
 </table>
 
 This derived feature is identical to Glot-06 except that all the languages without any glottalized resonants at all are coded as &lt;NA&gt;. This is done to maintain statistical independence between Glot-04a and Glot-06a.
-
-## Automatic Extraction from PHOIBLE
-Some of the states of this feature set were obtained  directly from data present in the PHOIBLE database. The entire PHOIBLE database was downloaded (version 2.0, downloaded January 27, 2020), and an R script was written to process it searching for glottalized consonants. For every language in our sample, the set of inventories was searched for orthographic glottalizations of all varieties (for example, for the bilabial series, /pʼ/, /pˀ/, /ˀp/, /ɓ/, /ɓ̥/), and if such a phoneme contrasted with a non-glottalized phoneme (/p/, /b/), the relevant feature was coded as &lt;yes&gt;. If there was no such contrast, it was coded as &lt;no&gt;.
-
-After this extraction, 19 automatically coded languages were checked against grammars for accuracy, for both this feature and other derived phonological features. In this review, fewer than 5% of errors were found, so the other extracted values were accepted. Any further errors were corrected opportunistically when coding for other features, and corrections were entered with the remark “contra-PHOIBLE”.
 
 ## Results
 Glottalized plosives ([Glot-01](../parameters/Glot-01)) are overwhelmingly found in North America, along the west coast, in the North American Pueblos, in parts of the North American Southeast, and in Central America (excluding Mixe-Zoquean and Otomanguean languages, and many of their close neighbors). Outside of North America, they are found in the Caucasus and much of the East African Rift Valley, and in some languages in South America without a clear areal pattern. Glottalized affricates ([Glot-02](../parameters/Glot-02)) and fricatives ([Glot-03](../parameters/Glot-03)) largely occur in a subset of these languages, with glottalized fricatives being very rare. Nearly all glottalized resonants ([Glot-04](../parameters/Glot-04), [Glot-05](../parameters/Glot-05), and [Glot-06](../parameters/Glot-06)) occur in a subset of the languages which have glottalized plosives, and almost all of them are in North America.

@@ -5,7 +5,7 @@
 [TOC]
 
 ## What?
-This feature set encompasses some of the common typological questions about syntactic word order: the relative orders of subject, object, and verb in an unmarked matrix declarative transitive clause,[^1,^2] the ordering of attributive and noun, and the ordering of genitive (or possessor) and (possessed) noun ([Greenberg 1963](Source#cldf:greenberg1963universals), [Dryer 2013a](Source#cldf:dryer2013wals81), [Dryer 2013b](Source#cldf:dryer2013wals86), [Dryer 2013c](Source#cldf:dryer2013wals87), [Krasnoukhova 2016](Source#cldf:krasnoukhova2016sailsnp)). Each of these language-wide comparanda have their own difficulties and must be defined narrowly to ensure cross-linguistic comparability.
+This feature set encompasses some of the common typological questions about syntactic word order: the relative orders of subject, object, and verb in an unmarked matrix declarative transitive clause,[^1]<sup>,</sup>[^2] the ordering of attributive and noun, and the ordering of genitive (or possessor) and (possessed) noun ([Greenberg 1963](Source#cldf:greenberg1963universals), [Dryer 2013a](Source#cldf:dryer2013wals81), [Dryer 2013b](Source#cldf:dryer2013wals86), [Dryer 2013c](Source#cldf:dryer2013wals87), [Krasnoukhova 2016](Source#cldf:krasnoukhova2016sailsnp)). Each of these language-wide comparanda have their own difficulties and must be defined narrowly to ensure cross-linguistic comparability.
 
 In particular, the order of subject, object, and verb is fraught with issues, as has been pointed out by many previous researchers. Some of these problems are:
 
@@ -42,7 +42,7 @@ The order of attributive and noun (sometimes simply called adjective and noun) r
 - two or more dedicated syntactic categories of adjectives, each with different word orders;
 - no dedicated syntactic category of adjectives, with property concepts being encoded by nouns, verbs, bound elements, or a generic modifier class.
 
-The comparative concept we chose, and for which the term “attributive” is reserved in this questionnaire, is the category of basic, qualificational property concepts, with a primary preference for the category which is dedicated to modifying nouns (if one exists), and a secondary preference for the lexically open class.
+The comparative concept we chose, and for which the term “attributive” is reserved in this feature set, is the category of basic, qualificational property concepts, with a primary preference for the category which is dedicated to modifying nouns (if one exists), and a secondary preference for the lexically open class.
 
 The class must include basic lexical terms, which means that they are underived. The class must also be qualificational, which means we definitionally exclude numerals and quantificational adjectives. When these properties are not enough to select a single lexical class in a language, we prefer the class dedicated to modifying nouns, meaning that when there is a closed class of adjectives, we select this over the open class of non-adjective property concepts. In most cases where a language lacks a clear class of adjectives, attributives are drawn from the class of verbs or a subclass of verbs (as mentioned in [Dryer 2013c](Source#cldf:dryer2013wals87)). The syntactic category to which the attributive class belongs is recorded in the [Attributives](Attr) feature set.
 
@@ -111,17 +111,17 @@ Warlpiri, like Russian, has flexible word order, but unlike Russian it has no ba
 There has been some recent work claiming the word order of Warlpiri is more constrained than it appears. [Legate (2002: Chapter 4)](Source#cldf:legate2002warlpiri) argues that Warlpiri has “an articulated left periphery” which hosts topic and focus, which must be used in an obligatory and non-random manner. However, this is not a structure that makes reference to the status of verbal arguments (properties like subject and object), and so it cannot be categorized as a language that has any basic order of its S, V, and O elements.
 
 ### Extracting data from WALS
-Some data for this question was extracted from WALS chapters 81, 86, and 87 ([Dryer 2013a](Source#cldf:dryer2013wals81), [Dryer 2013b](Source#cldf:dryer2013wals86), [Dryer 2013c](Source#cldf:dryer2013wals87)) using custom R scripts. For ATLAs languages that were also present in one of these chapters, values were extracted directly from the WALS data. Basic transitive clause order (WO-01) was extracted from WALS 81, but given the differences in our typologization, all cases of &lt;No dominant word order&gt; were reviewed manually by checking grammars and changed appropriately. The order of attributive and noun (WO-02) was extracted from WALS 86, and given the differences in our typologization, all cases of &lt;Only internally-headed relative clauses&gt; were also reviewed manually and changed appropriately. Finally, the order of possessor and possessed noun was extracted from WALS 87. There was no difference in typological definitions in this last case, but WALS values were checked opportunistically as the coding of another of our feature set proceeded, namely [Noun Possession Classes](NounPoss).
+Some data for this feature set was extracted from WALS chapters 81, 86, and 87 ([Dryer 2013a](Source#cldf:dryer2013wals81), [Dryer 2013b](Source#cldf:dryer2013wals86), [Dryer 2013c](Source#cldf:dryer2013wals87)) using custom R scripts. For ATLAs languages that were also present in one of these chapters, values were extracted directly from the WALS data. Basic transitive clause order (WO-01) was extracted from WALS 81, but given the differences in our typologization, all cases of &lt;No dominant word order&gt; were reviewed manually by checking grammars and changed appropriately. The order of attributive and noun (WO-02) was extracted from WALS 86, and given the differences in our typologization, all cases of &lt;Only internally-headed relative clauses&gt; were also reviewed manually and changed appropriately. Finally, the order of possessor and possessed noun was extracted from WALS 87. There was no difference in typological definitions in this last case, but WALS values were checked opportunistically as the coding of another of our feature set proceeded, namely [Noun Possession Classes](NounPoss).
 
-## Questionnaire
+## Features
 ### [](ParameterTable#cldf:WO-01)
 &emsp;**{ no dominant order | SVO | SOV | VSO | OVS | OSV | VOS | V-first | V-last | S-last }**
 
-The definition of “basic” transitive clauses, for the purposes of this question, is given in the What? section above, with details about specific types of problems in determining the basic word order given in the [How? section](#how).
+The definition of “basic” transitive clauses, for the purposes of this feature, is given in the What? section above, with details about specific types of problems in determining the basic word order given in the [How? section](#how).
 
-The number of possible states for this question is rather large and encompasses all claims about complete and partial word orders found in the grammars consulted for this survey. The partial word orders encountered during coding were V-first, V-last, and S-last (the latter only in Hanis, [Frachtenberg 1922](Source#cldf:frachtenberg1922hanis): 414). There are other conceivable partially restricted orders such as “O-last” or “S-first”, but these were not encountered.
+The number of possible states for this feature is rather large and encompasses all claims about complete and partial word orders found in the grammars consulted for this survey. The partial word orders encountered during coding were V-first, V-last, and S-last (the latter only in Hanis, [Frachtenberg 1922](Source#cldf:frachtenberg1922hanis): 414). There are other conceivable partially restricted orders such as “O-last” or “S-first”, but these were not encountered.
 
-This question was designed to be mostly compatible with [SAILS NP2](https://sails.clld.org/parameters/NP2#5/1.746/289.565) and partially compatible with [WALS chapter 81](https://wals.info/chapter/81), from which some data was extracted (and then checked for consistency with our definitions, especially for “no dominant order”). Where this question departs from these other databases is in allowing for the partial orders V-first, V-last and S-last.
+This feature was designed to be mostly compatible with [SAILS NP2](https://sails.clld.org/parameters/NP2#5/1.746/289.565) and partially compatible with [WALS chapter 81](https://wals.info/chapter/81), from which some data was extracted (and then checked for consistency with our definitions, especially for “no dominant order”). Where this feature departs from these other databases is in allowing for the partial orders V-first, V-last and S-last.
 
 #### V-first: Alsea-Yaquina \[alse1251\] (isolate; United States)
 
@@ -134,9 +134,9 @@ Alsea-Yaquina has relatively flexible word order and the earliest account states
 ### [](ParameterTable#cldf:WO-02)
 &emsp;**{ Attr-N | N-Attr | no dominant order }**
 
-The “attributive” category for this question is described in the [What? section](#what) above: the class of basic, qualificational property concepts, preferentially the category dedicated to modifying nouns, and preferentially the lexically open class.
+The “attributive” category for this feature is described in the [What? section](#what) above: the class of basic, qualificational property concepts, preferentially the category dedicated to modifying nouns, and preferentially the lexically open class.
 
-The definitions for this question are by design mostly compatible with [Dryer (2013c)](Source#cldf:dryer2013wals87), from which we imported some data, with the exception of Dryer’s “internally-headed relative clauses”. While Dryer assigns these internally-headed relative clauses their own distinct state, we have narrowly focused on surface word order, and encoded such cases according to the order of the attributive element and the head noun. This decision belies a potential comparative problem: the order of a head noun and a direct attributive modifier (the **be.beautiful(-ADJVZ)** dog) is perhaps not directly comparative with a head noun and a verbal modifier which is inside a relative clause (the dog, **which be.beautiful**). Ideally, modifiers which must be in a relative clause would receive their own state (such as &lt;NA&gt;). However, we did not collect the data to distinguish between these cases, and the determination of whether there is a relative clause or not (especially if the relative clause is headless) can be quite complex and even indeterminate. Therefore, this question has only targeted the surface order of the attributive and head noun, even though we acknowledge this may not be the most ideal encoding.
+The definitions for this feature are by design mostly compatible with [Dryer (2013c)](Source#cldf:dryer2013wals87), from which we imported some data, with the exception of Dryer’s “internally-headed relative clauses”. While Dryer assigns these internally-headed relative clauses their own distinct state, we have narrowly focused on surface word order, and encoded such cases according to the order of the attributive element and the head noun. This decision belies a potential comparative problem: the order of a head noun and a direct attributive modifier (the **be.beautiful(-ADJVZ)** dog) is perhaps not directly comparative with a head noun and a verbal modifier which is inside a relative clause (the dog, **which be.beautiful**). Ideally, modifiers which must be in a relative clause would receive their own state (such as &lt;NA&gt;). However, we did not collect the data to distinguish between these cases, and the determination of whether there is a relative clause or not (especially if the relative clause is headless) can be quite complex and even indeterminate. Therefore, this feature has only targeted the surface order of the attributive and head noun, even though we acknowledge this may not be the most ideal encoding.
 
 In addition, some languages incorporate the noun and the attributive into a single word rather than expressing them independently, a phenomenon which typically correlates with attributives expressed as a verb. Analogous to how we have treated internally-headed relative clauses, we have again coded only the surface order of the attributive and noun. A complex example of such a case is described below for Tonkawa \[tonk1249\] (isolate; US).
 
@@ -152,14 +152,6 @@ Nanti has approximately 25 underived adjectives, mainly restricted to the semant
 
 Tonkawa has predicative adjectives, which readily (and perhaps typically) are incorporated into the noun as a suffix ([Wier 2016](Source#cldf:wier2016tonkawa): 31). When an adjective is not incorporated, it can appear in either order, but N-Attr is the most typical (1). Incidentally, when the adjective is incorporated, the order is the same (2) ([Wier 2016](Source#cldf:wier2016tonkawa): 32).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -167,7 +159,7 @@ Tonkawa has predicative adjectives, which readily (and perhaps typically) are in
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">no-noto·-n</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">we·ʔis-pax</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">naxc-an-ʔa·-la</span></th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">wixwan-tak</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent"><span style="font-weight:700;font-style:italic;text-decoration:none;color:#000;background-color:transparent">wixwan</span>-tak</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ye·la-k-laknoʔo</span></th>
   </tr>
 </thead>
@@ -187,14 +179,6 @@ Tonkawa has predicative adjectives, which readily (and perhaps typically) are in
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -217,7 +201,7 @@ Tonkawa has predicative adjectives, which readily (and perhaps typically) are in
 ### [](ParameterTable#cldf:WO-03)
 &emsp;**{ NA | PSSR-PSSD | PSSD-PSSR | no dominant order }**
 
-As described in the [What? section](#what), there may be different orders for different possession constructions and/or different noun possession classes. We code for the open class of nouns (sometimes called the alienable class), and if the relative frequencies of available constructions are known, we prefer the most common one. If only information about pronominal possession is available, then this question is coded as unknown &lt;?&gt;.
+As described in the [What? section](#what), there may be different orders for different possession constructions and/or different noun possession classes. We code for the open class of nouns (sometimes called the alienable class), and if the relative frequencies of available constructions are known, we prefer the most common one. If only information about pronominal possession is available, then this feature is coded as unknown &lt;?&gt;.
 
 The state &lt;no dominant order&gt; refers to a single construction which has both orderings or when the grammar explicitly says that two constructions with different orders are equally common or basic. In cases where two different constructions exist for the default class with different orderings of possessor and possessed noun and there is no indication of which is more frequent or basic, we have opted to code this as &lt;?&gt;.
 
@@ -231,14 +215,6 @@ In the case where the open class of nouns is possessed through a classifier cons
 
 Both orders are possible in Alsea-Yaquina possession, but possessors typically occur before the possessed noun, with an agreeing element occuring on the possessed noun ([Buckley 1989](Source#cldf:buckley1989alsea): 22)
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -266,14 +242,6 @@ Both orders are possible in Alsea-Yaquina possession, but possessors typically o
 
 The possessor in Nanti follows the possessed noun, which receives a possessive prefix, as exemplified below ([Michael 2008](Source#cldf:michael2008nanti): 318, Michael p.c.).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -299,20 +267,11 @@ The possessor in Nanti follows the possessed noun, which receives a possessive p
 </tbody>
 </table>
 
-## Derived Questions
+## Derived Features
 ### [](ParameterTable#cldf:WO-01a)
 &emsp;**{ yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
+<table class="dconversion">
 <tbody>
   <tr>
     <td class="tg-1wig">no</td>
@@ -328,23 +287,12 @@ The possessor in Nanti follows the possessed noun, which receives a possessive p
 ### [](ParameterTable#cldf:WO-01b)
 &emsp;**{ NA | S>V | V>S }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">NA</th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;no dominant order&gt;</span></th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">NA</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;no dominant order&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">S&gt;V</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;SVO&gt; OR &lt;SOV&gt; OR &lt;OSV&gt; OR &lt;V-last&gt;</span></td>
@@ -359,23 +307,12 @@ The possessor in Nanti follows the possessed noun, which receives a possessive p
 ### [](ParameterTable#cldf:WO-01c)
 &emsp;**{ NA | S>O | O>S }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">NA</th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;no dominant order&gt;</span></th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">NA</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;no dominant order&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">S&gt;O</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;SVO&gt; OR &lt;SOV&gt; OR &lt;VSO&gt;</span></td>
@@ -390,23 +327,12 @@ The possessor in Nanti follows the possessed noun, which receives a possessive p
 ### [](ParameterTable#cldf:WO-01d)
 &emsp;**{ NA | V>O | O>V }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">NA</th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;no dominant order&gt;</span></th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">NA</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;no dominant order&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">V&gt;O</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;SVO&gt; OR &lt;VSO&gt; OR &lt;VOS&gt; OR &lt;V-first&gt;</span></td>
@@ -421,23 +347,12 @@ The possessor in Nanti follows the possessed noun, which receives a possessive p
 ### [](ParameterTable#cldf:WO-01e)
 &emsp;**{ V-first | S-first | O-first | no dominant order }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">no dominant order</th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;no dominant order&gt;</span></th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">no dominant order</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;no dominant order&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">V-first</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;VSO&gt; OR &lt;VOS&gt; OR &lt;V-first&gt;</span></td>
@@ -456,23 +371,12 @@ The possessor in Nanti follows the possessed noun, which receives a possessive p
 ### [](ParameterTable#cldf:WO-01f)
 &emsp;**{ NA | SVO | SOV }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">NA</th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01e is &lt;O-first&gt; OR &lt;V-first&gt; OR &lt;NA&gt;</span></th>
-  </tr>
-</thead>
 <tbody>
+  <tr>
+    <td class="tg-1wig">NA</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01e is &lt;O-first&gt; OR &lt;V-first&gt; OR &lt;NA&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">SVO</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;SVO&gt;</span></td>
@@ -487,23 +391,12 @@ The possessor in Nanti follows the possessed noun, which receives a possessive p
 ### [](ParameterTable#cldf:WO-01g)
 &emsp;**{ NA | VSO | VOS }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">NA</th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01e is &lt;S-first&gt; OR &lt;O-first&gt; OR &lt;NA&gt;</span></th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">NA</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01e is &lt;S-first&gt; OR &lt;O-first&gt; OR &lt;NA&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">VSO</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;VSO&gt;</span></td>
@@ -518,23 +411,12 @@ The possessor in Nanti follows the possessed noun, which receives a possessive p
 ### [](ParameterTable#cldf:WO-01h)
 &emsp;**{ NA | OVS | OSV }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">NA</th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01e is &lt;S-first&gt; OR &lt;V-first&gt; OR &lt;NA&gt;</span></th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">NA</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01e is &lt;S-first&gt; OR &lt;V-first&gt; OR &lt;NA&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">OVS</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">if WO-01 is &lt;OVS&gt;</span></td>

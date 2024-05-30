@@ -8,14 +8,6 @@
 
 **Singular-plural verbal stem alternation** (henceforth **Sg-Pl alternation**) is present in a language if there are any **lexically specific sets** of verbal stems whose distribution can be determined solely by the **number of an argument** (S, A or P). In example (1), the shape of the verbs expressing ‘die’ in Yaqui \[yaqu1251\] (Uto-Aztecan; Mexico, United States) changes depending on the number of participants involved in the event, *muuku-* with a singular participant, and *koko-* with a plural participant ([Lindenfeld 1973](Source#cldf:lindenfeld1973yaqui): 52):
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -46,15 +38,7 @@
   </tr>
 </tbody>
 </table>
- 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
+
 <table class="tg">
 <thead>
   <tr>
@@ -82,18 +66,11 @@
 </table>
 
 ### Form: (root) suppletion & (limited) regular pattern
-We chose the term **singular-plural verbal *stem* alternation** because formally our definition encompasses two types of *lexically restricted* alternation: **root suppletion**, and **limited regular patterns**. Both patterns are exemplified in Wari’ \[wari1268\] (Chapacuran; Brazil; [Birchal et al 2023](Source#cldf:birchalletal2024wari)), where some verbal alternations are **suppletive** (14 pairs) and some use a **(lexically) restricted morpheme** (27 pairs), as illustrated in Table 1.
+We chose the term **singular-plural verbal *stem* alternation** because formally our definition encompasses two types of *lexically restricted* alternation: **root suppletion**, and **limited regular patterns**. Both patterns are exemplified in Wari’ \[wari1268\] (Chapacuran; Brazil; [Birchall et al in review](Source#cldf:birchalletal2024wari)), where some verbal alternations are **suppletive** (14 pairs) and some use a **(lexically) restricted morpheme** (27 pairs), as illustrated in Table 1.
 
+<div class="datainset">
 Table 1: Some verbal pairs formed by suppletion and by limited regular pattern in Wari’ (Chapacuran)
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table class="fulltable">
 <thead>
   <tr>
     <th class="tg-0lax" colspan="3"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Root suppletion</span></th>
@@ -143,6 +120,7 @@ Table 1: Some verbal pairs formed by suppletion and by limited regular pattern i
   </tr>
 </tbody>
 </table>
+</div>
 
 **Root suppletion** (henceforth **suppletion**) is when the verb roots are fully suppletive, as with  *muuku ~ koko* 'die’ in Yaqui (Uto-Aztecan) in (1), or where no pattern is recognizable across multiple verb pairs. A **lexically limited regular pattern** (henceforth **regular pattern**) is when verb stems alternate by some segmentable but unproductive morphology, including reduplication. Our definition requires that the alternation be ***lexically restricted***. An example of *semantically restricted* morphology, which is definitionally excluded from this survey, is the morpheme *koo* in Magdalena Peñasco Mixtec \[magd1235\] (Otomanguean; Mexico), which marks a plural subject only for verbs of Motion ([Erickson de Hollenbach 2013](Source#cldf:erickson2013mixtecomagdalena): 48).[^1]
 
@@ -160,16 +138,9 @@ Note that in some cases, a probable diachronic link is not easily retrievable, a
 ### Semantics
 Semantically, our comparative concept of Sg-Pl alternation excludes *event* number, and only targets *participant* number. Not only are participant and event number theoretically separable, but there are languages which encode the two separately. This is the case in Seri \[seri1257\] (isolate; Mexico; [Marlett 1981](Source#cldf:marlett1981seri): 96, 224), where different morphological processes encode event number (repetition) and participant number independently, giving rise to a four-way distinction for most verb forms. The full morphology governing these forms is quite complex, but event and participant number can be marked by affixation processes alone (as in ‘talk about’, Table 2) or by affixation and suppletion (as in ‘go to’, Table 3).[^2]
 
+<div class="datainset">
 Table 2: The verb ‘talk about’ in Seri (isolate)
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table class="fulltable">
 <thead>
   <tr>
     <th class="tg-0lax"></th>
@@ -190,17 +161,11 @@ Table 2: The verb ‘talk about’ in Seri (isolate)
   </tr>
 </tbody>
 </table>
+</div>
 
+<div class="datainset">
 Table 3: The verb ‘go to’ in Seri (isolate)
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table class="fulltable">
 <thead>
   <tr>
     <th class="tg-0lax"></th>
@@ -221,6 +186,7 @@ Table 3: The verb ‘go to’ in Seri (isolate)
   </tr>
 </tbody>
 </table>
+</div>
 
 These categories are conceptually different, and we only consider participant number in our comparative concept. This definition also entails that we exclude cases where additional semantic factors distinguish the verbs. As defined by ([Mithun 2022](Source#cldf:mithun2022together)), this means that alternating verbs must be “basic-level terms” and not in a synchronic hypernym/hyponym relationship (even if, as Mithun suggests, some verb pairs originate from a historic hypernym/hyponym relationship).
 
@@ -228,16 +194,9 @@ An example of a verbal pair that fails to meet this criterion is English *kill ~
 
 Another type of alternation that we exclude definitionally is suppletion that encodes person *along* with number. In Table 4, the conjugation of the verb ‘eat’ in Malinaltepec Me’phaa \[mali1285\] (Otomanguean; Mexico; [Suárez 1983](Source#cldf:suarez1983malinaltepec): 160) does not count as Sg-Pl stem alternation. Though the paradigm shares the same stem amongst all plural subjects, the forms for singular subjects change based on person.
 
+<div class="datainset">
 Table 4: The verb ‘eat’ in Malinaltepec Me’phaa (Otomanguean)
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table class="fulltable">
 <thead>
   <tr>
     <th class="tg-0lax"></th>
@@ -263,6 +222,7 @@ Table 4: The verb ‘eat’ in Malinaltepec Me’phaa (Otomanguean)
   </tr>
 </tbody>
 </table>
+</div>
 
 ## How?
 Each language in the sample was coded for the 22 features detailed below, which target:
@@ -299,14 +259,6 @@ If &lt;no&gt; to SgPl-01, then the state is e NA for all other features, except 
 #### yes: Hokkaido Ainu \[ainu1240\] (Ainu; Japan)
 According to [Nakagawa (2022)](Source#cldf:nakagawa2022numberainu), some verb forms in Hokkaido Ainu are suppletive (2), and others have an *-n/-p* alternation for sg/pl (3).
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -332,7 +284,7 @@ According to [Nakagawa (2022)](Source#cldf:nakagawa2022numberainu), some verb fo
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">c.</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ek ~ arki</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘come’,</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘come’</span></td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
@@ -373,14 +325,6 @@ According to [Nakagawa (2022)](Source#cldf:nakagawa2022numberainu), some verb fo
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -440,14 +384,6 @@ The presence of two alternating pairs that follow the same pattern is sufficient
 #### no common pattern: Shipibo-Conibo \[ship1254\] (Pano-Tacanan; Peru)
 According to [Valenzuela (2003: 150)](Source#cldf:valenzuela2003shipibokonibo), Shipibo-Conibo has two Sg-Pl alternating verb pairs, and they are fully suppletive.
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -471,7 +407,7 @@ According to [Valenzuela (2003: 150)](Source#cldf:valenzuela2003shipibokonibo), 
 Yuracaré has an atypical regular formation: 4 (out of 11) plural roots are built from the reduplication of the first syllable: *letu ~ lele* ‘sit down’, *chittu ~ chitchi* ‘cross’, *wita ~ wiwi* ‘arrive’, *sheta ~ sheshe* ‘sit down’. 
 
 #### yes: Ingush \[ingu1240\] (Nakh-Daghestanian; Georgia, Russia) 
-Nichols ([Nichols 2011](Source#cldf:nichols2011ingush): 313) describes 23 Sg-Pl pairs whose "main formations are suppletion, ablaut of stem vowel, and change of stem-final *-ll* to *-xk*". 
+Nichols ([2011](Source#cldf:nichols2011ingush): 313) describes 23 Sg-Pl pairs whose "main formations are suppletion, ablaut of stem vowel, and change of stem-final *-ll* to *-xk*". 
 
 ### [](ParameterTable#cldf:SgPl-03)
 &emsp;**{ NA | \_number\_ }**
@@ -479,14 +415,6 @@ Nichols ([Nichols 2011](Source#cldf:nichols2011ingush): 313) describes 23 Sg-Pl 
 #### 4: Kwaza \[kwaz1243\] (isolate; Brazil)
 For four verb pairs, [van der Voort (2004: 384)](Source#cldf:voort2004kwaza) notices "obscure reduplication patterns" illustrated in example (5). 
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -524,18 +452,11 @@ For four verb pairs, [van der Voort (2004: 384)](Source#cldf:voort2004kwaza) not
 </table>
 
 #### 18: Ingush \[ingu1240\] (Nakh-Daghestanian; Georgia, Russia)  
-Nichols ([Nichols 2011](Source#cldf:nichols2011ingush): 313f) describes a total of 23 Sg-Pl alternating pairs among the present, nominalized and converb verbal forms. We only considered the forms in the present and ignored the other, non-verbal derivations, resulting in 21 pairs. Out of these 21 pairs, 18 display regular patterns, distributed over 8 distinct stem modifications, as illustrated in Table 5, which includes ablaut, changes in stem-final consonants, and sometimes both. Three pairs, given at the end of the table, are suppletive.
+Nichols ([2011](Source#cldf:nichols2011ingush): 313f) describes a total of 23 Sg-Pl alternating pairs among the present, nominalized and converb verbal forms. We only considered the forms in the present and ignored the other, non-verbal derivations, resulting in 21 pairs. Out of these 21 pairs, 18 display regular patterns, distributed over 8 distinct stem modifications, as illustrated in Table 5, which includes ablaut, changes in stem-final consonants, and sometimes both. Three pairs, given at the end of the table, are suppletive.
 
+<div class="datainset">
 Table 5. Ingush alternating verb stems for Present
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table class="fulltable">
 <thead>
   <tr>
     <th class="tg-0lax"></th>
@@ -678,6 +599,7 @@ Table 5. Ingush alternating verb stems for Present
   </tr>
 </tbody>
 </table>
+</div>
 
 #### NA: Shipibo-Conibo \[ship1254\] (Pano-Tacanan; Peru)
 As exemplified in (4) above, Shipibo-Conibo only has two suppletive verb pairs, and no regular pattern ([Valenzuela 2003](Source#cldf:valenzuela2003shipibokonibo): 150).
@@ -691,14 +613,6 @@ According to [Heath (1984: 488f)](Source#cldf:heath1984functional), Wubuy only h
 #### yes: Kwaza \[kwaz1243\] (isolate; Brazil)
 Kwaza displays suppletive verb pairs ([Voort 2004](Source#cldf:voort2004kwaza): 387).  
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -756,14 +670,6 @@ The only alternating verb pairs reported by [Valenzuela (2003: 150)](Source#cldf
 #### transitive: Esselen \[esse1238\] (isolate; United States)
 Esselen has only one Sg-Pl alternating verb pair, the transitive verb ‘bring’ ([Shaul 2019](Source#cldf:shaul2019esselen): 350).
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -786,14 +692,6 @@ In Kwaza, all suppletive pairs are intransitive, but some regular patterns are t
 #### yes: Hokkaido Ainu \[ainu1240\] (Ainu; Japan)
 Ainu has two verb pairs expressing Posture ([Nakagawa 2022](Source#cldf:nakagawa2022numberainu)).
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -816,14 +714,6 @@ Ainu has two verb pairs expressing Posture ([Nakagawa 2022](Source#cldf:nakagawa
 #### yes: Kwaza \[kwaz1243\] (isolate; Brazil)
 Kwaza has two verb pairs expressing Posture ([van der Voort 2004](Source#cldf:voort2004kwaza): 385)
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -898,14 +788,6 @@ The verb ‘exist’ has been listed in the Other category, unless it is encoded
 #### location; expected: Hokkaido Ainu \[ainu1240\] (Ainu; Japan)
 According to [Nakagawa (2022)](Source#cldf:nakagawa2022numberainu), the other salient semantics are the following:
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -925,20 +807,12 @@ According to [Nakagawa (2022)](Source#cldf:nakagawa2022numberainu), the other sa
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0lax"></th>
+    <th class="tg-0lax">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">b.</span></th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Expected</span></th>
+    <th class="tg-0lax">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Expected</span></th>
     <th class="tg-0lax"></th>
   </tr>
 </thead>
@@ -955,14 +829,6 @@ According to [Nakagawa (2022)](Source#cldf:nakagawa2022numberainu), the other sa
 #### location; other: Kwaza \[kwaz1243\] (isolate; Brazil)
 According to [van der Voort (2004: 384f)](Source#cldf:voort2004kwaza), the other salient semantics are the following:
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -981,14 +847,6 @@ According to [van der Voort (2004: 384f)](Source#cldf:voort2004kwaza), the other
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -1102,14 +960,6 @@ In Imonda, either A or P arguments may be pluralized, depending on the verb pair
 #### P: Yuracaré \[yura1255\] (isolate; Bolivia)
 [van Gijn (2006: 191-192)](Source#cldf:vangijn2006yurakare) has two transitive alternating verb pairs, and they encode the number of the P argument.
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -1131,15 +981,7 @@ In Imonda, either A or P arguments may be pluralized, depending on the verb pair
   </tr>
 </tbody>
 </table>
- 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
+
 <table class="tg">
 <thead>
   <tr>
@@ -1161,15 +1003,7 @@ In Imonda, either A or P arguments may be pluralized, depending on the verb pair
   </tr>
 </tbody>
 </table>
- 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
+
 <table class="tg">
 <thead>
   <tr>
@@ -1205,14 +1039,6 @@ In Yuracaré ([van Gijn 2006](Source#cldf:vangijn2006yurakare): 191-192), the se
 - SG-PL for (at least) Motion verbs ‘go’, ‘go in’, ‘arrive’,  and ‘go across’, whose distribution is explicitly described: “singular subjects trigger singular stems and plural participants trigger plural stems.”
 - other verbs like ‘fall’ alternate according to a PAUCAL-MANY distinction: in (13), the subject ‘two books’ is still compatible with a singular verb stem.
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
 <table class="tg" style="undefined;table-layout: fixed; width: 438px">
 <colgroup>
 <col style="width: 36px">
@@ -1249,15 +1075,6 @@ In Yuracaré ([van Gijn 2006](Source#cldf:vangijn2006yurakare): 191-192), the se
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-f8tv{border-color:inherit;font-style:italic;text-align:left;vertical-align:top}
-</style>
 <table class="tg" style="undefined;table-layout: fixed; width: 438px">
 <colgroup>
 <col style="width: 36px">
@@ -1306,14 +1123,6 @@ Despite most examples being described as SG/DU/PL in [Rice (1989: 790f)](Source#
 #### INDIVIDUAL-COLLECTIVE: Nuu-chah-nulth \[nuuc1236\] (Wakashan; Canada)
 Nuu-chah-nulth has clear Sg-Pl alternation for several of its verbs, and without the additional information described below, we would preferentially code the number distinction as SG-PL. However, corpus data leads us to believe that the distinction is rather INDIVIDUAL-COLLECTIVE, as the putative “singular” verbs can occasionally be used with plural participants, specifically in contexts of non-collective action. An example of this can be found with the verb pair *mat- ~ hu-* ‘fly’ in [Sapir and Swadesh (1955: 13, 32)](Source#cldf:sapir1955nootka2), in which a group of geese first fly together as a collective (*hu-*) and then, later in the story, fly in a disorganized and individual manner (*mat-*) due to being blinded (14).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -1336,18 +1145,10 @@ Nuu-chah-nulth has clear Sg-Pl alternation for several of its verbs, and without
   </tr>
 </tbody>
 </table>
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></th>
     <th class="tg-0lax"></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʔuyi</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʔuunuuƛ</span></th>
@@ -1359,8 +1160,8 @@ Nuu-chah-nulth has clear Sg-Pl alternation for several of its verbs, and without
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"></span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"></span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">at.a.time</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">because</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">big/very</span></td>
@@ -1370,36 +1171,20 @@ Nuu-chah-nulth has clear Sg-Pl alternation for several of its verbs, and without
   </tr>
 </tbody>
 </table>
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
     <td class="tg-0lax" colspan="4"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘There were so many geese flying up from the beach that it made a loud sound.’</span></td>
   </tr>
 </thead>
 </table>
- 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
+
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">b.</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʔink-R&lt;c&gt;L.sawiƛ=!aƛ</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">maamaati</span></th>
@@ -1408,7 +1193,7 @@ Nuu-chah-nulth has clear Sg-Pl alternation for several of its verbs, and without
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"></span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">fire-at.eyes.PF=NOW</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">bird</span></td>
@@ -1416,18 +1201,10 @@ Nuu-chah-nulth has clear Sg-Pl alternation for several of its verbs, and without
   </tr>
 </tbody>
 </table>
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></th>
     <th class="tg-0lax"></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">saya=ʔii</span></th>
     <th class="tg-0lax"><span style="font-weight:700;font-style:italic;text-decoration:none;color:#000;background-color:transparent">mat</span><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">-aa</span></th>
@@ -1437,7 +1214,7 @@ Nuu-chah-nulth has clear Sg-Pl alternation for several of its verbs, and without
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"></span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">far=go.to</span></td>
     <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">fly.SG</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">-CONT</span></td>
@@ -1446,18 +1223,10 @@ Nuu-chah-nulth has clear Sg-Pl alternation for several of its verbs, and without
   </tr>
 </tbody>
 </table>
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></th>
     <th class="tg-0lax"></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʔink-R&lt;c&gt;L.sawiƛ=!aƛ=qa</span></th>
   </tr>
@@ -1470,18 +1239,10 @@ Nuu-chah-nulth has clear Sg-Pl alternation for several of its verbs, and without
   </tr>
 </tbody>
 </table>
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
     <td class="tg-0lax" colspan="4"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘The birds, blinded by the fires, were unable to fly far.’</span></td>
   </tr>
@@ -1498,14 +1259,6 @@ Elements encoding number only (i.e. monoexponential plurals) are excluded. Eleme
 #### yes: Hokkaido Ainu \[ainu1240\] (Ainu)
 The causative has two forms: *-(r)e~te* for singular causees, and *-(y)ar* for plural ones ([Shibatani 1999](Source#cldf:shibatani1990japan): 48-49).
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -1549,14 +1302,6 @@ The causative has two forms: *-(r)e~te* for singular causees, and *-(y)ar* for p
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -1609,7 +1354,7 @@ The imperfective narrative has a Sg and a Pl form, *nĩgnĩ ~ nỹgnĩ* ([Gonça
 For [Mithun (1988: 214)](Source#cldf:mithun1988karok), “the primary function of stem alternation is not to enumerate entities, but to quantify the effect of actions, states, and events” (see also [Durie 1986](Source#cldf:durie1986number) and [Veselinova 2013](Source#cldf:veselinova2013wals)). Consequently, we expected the marking of Sg-Pl alternation to sometimes also mark iterativity and event repetition.
 
 #### yes: Wari’ \[wari1268\] (Chapacuran)
-The verbal pairs that alternate via regular pattern sometimes can indicate event repetition, although proper suppletion only signifies participant number ([Birchal et al 2023](Source#cldf:birchalletal2024wari)).
+The verbal pairs that alternate via regular pattern sometimes can indicate event repetition, although proper suppletion only signifies participant number ([Birchall et al in review](Source#cldf:birchalletal2024wari)).
 
 #### no: Shipibo-Conibo \[ship1254\] (Pano-Tacanan; Peru)
 The verbal pairs in Shipibo-Conibo only signify the number of participants involved and transitivity ([Valenzuela 2003](Source#cldf:valenzuela2003shipibokonibo): 150).
@@ -1637,22 +1382,12 @@ Nuu-chah-nulth has a restricted set of adjectives that have singular and plural 
 ### [](ParameterTable#cldf:SgPl-01a)
 &emsp;**{ Sg-Pl | Sg-Pl and irregular MonPl | irregular MonPl | none }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">Sg-Pl</span></th>
-    <th class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-01 is &lt;yes&gt; and MonPl.01  is &lt;no&gt;</span></th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">Sg-Pl</span></td>
+    <td class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-01 is &lt;yes&gt; and MonPl.01  is &lt;no&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">Sg-Pl and irregular MonPl</span></td>
     <td class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-01 is &lt;yes&gt; and MonPl.01 is &lt;yes&gt;</span></td>
@@ -1671,23 +1406,12 @@ Nuu-chah-nulth has a restricted set of adjectives that have singular and plural 
 ### [](ParameterTable#cldf:SgPl-16a)
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">yes</th>
-    <th class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-16 is &lt;unergative&gt; or &lt;both&gt;</span></th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">yes</td>
+    <td class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-16 is &lt;unergative&gt; or &lt;both&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">no</td>
     <td class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-16 is &lt;unaccusative&gt;</span></td>
@@ -1702,23 +1426,12 @@ Nuu-chah-nulth has a restricted set of adjectives that have singular and plural 
 ### [](ParameterTable#cldf:SgPl-16b)
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg dconversion">
-<thead>
-  <tr>
-    <th class="tg-1wig">yes</th>
-    <th class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-16 is &lt;unaccusative&gt; or &lt;both&gt;</span></th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">yes</td>
+    <td class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-16 is &lt;unaccusative&gt; or &lt;both&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">no</td>
     <td class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-16 is &lt;unergative&gt;</span></td>
@@ -1733,23 +1446,12 @@ Nuu-chah-nulth has a restricted set of adjectives that have singular and plural 
 ### [](ParameterTable#cldf:SgPl-19a)
 &emsp;**{ NA | yes | no }**
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-1wig">yes</th>
-    <th class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-19 contains &lt;SG-DU-PL&gt; or &lt;SG-PAUCAL-PL&gt;</span></th>
-  </tr>
-</thead>
+<table class="dconversion">
 <tbody>
+  <tr>
+    <td class="tg-1wig">yes</td>
+    <td class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-19 contains &lt;SG-DU-PL&gt; or &lt;SG-PAUCAL-PL&gt;</span></td>
+  </tr>
   <tr>
     <td class="tg-1wig">no</td>
     <td class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-19 does not contain &lt;SG-DU-PL&gt; or &lt;SG-PAUCAL-PL&gt;</span></td>
@@ -1785,7 +1487,7 @@ Similarly, much of the literature expects a correlation between participant numb
 ## References
 [References](Source?cited_only#cldf:__all__)
 
-[^1]: At least in Magdalena Peñasco Mixtec, this semantic restriction appears to be motivated by the historical origin of koo from koyo ‘pour’, or metaphorically ‘movement in a group, pouring out’ ([Erickson de Hollenbach 2013](Source#cldf:erickson2013mixtecomagdalena): 151).
+[^1]: At least in Magdalena Peñasco Mixtec, this semantic restriction appears to be motivated by the historical origin of *koo* from *koyo* ‘pour’, or metaphorically ‘movement in a group, pouring out’ ([Erickson de Hollenbach 2013](Source#cldf:erickson2013mixtecomagdalena): 151).
 
 [^2]: Note that in Table 2, suffixes encode both participant and event number. In Table 3, suffixes again encode both participant and event number, but root alternation encodes participant number only.
 

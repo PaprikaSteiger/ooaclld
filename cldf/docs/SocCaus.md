@@ -13,14 +13,6 @@ Sociative causation is a particular type of causation where the causer not only 
 
 The three subtypes are illustrated in (1), where the basic causative in Japanese \[nucl1643\] (Japonic; [Shibatani and Pardeshi 2022:100](Source#cldf:shibatani2002causative)) can be used to express all three subtypes of sociative causation.[^1]
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -124,15 +116,6 @@ The three subtypes are illustrated in (1), where the basic causative in Japanese
 
 [Shibatani and Pardeshi 2022:99](Source#cldf:shibatani2002causative) mention the possibility of having markers dedicated to sociative causation, like the sociative causative *ha-* in Alamblak (2a), which exists independently from the direct and indirect causatives, *ka-* (2b) and *hay-* (2c), respectively (adapted from [Bruce 1984](Source#cldf:bruce1984alamblak): 155-156).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-8zwo{font-style:italic;text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -270,15 +253,6 @@ In (2) above, [Bruce (1984: 155-156)](Source#cldf:bruce1984alamblak) contrasts t
 #### no: Japanese \[nucl1643\] (Japonic)
 Example (1) above shows that the marker *se-* can express the three semantic subtypes of sociative causation identified by [Shibatani and Pardeshi (2022: 102)](Source#cldf:shibatani2002causative). But *se-* is also a general causative marker: in (3a-b), the causer certainly makes the causee do the action but does not need to participate in it ([Shibatani and Pardeshi 2022: 87](Source#cldf:shibatani2002causative)).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-8zwo{font-style:italic;text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -352,16 +326,6 @@ The sociative causative marker *-ha* only encodes sociative causation, as illust
 #### special CAUSEE: Eastern Panjabic \[east2727\] (Indo-European; Bangladesh, India, Pakistan)
 The sociative causative is conveyed by the regular causative marker, but the causee is encoded in a special way. As can be seen in (4b), there is an extra accusative/dative marker on the causee, which is absent in the regular causative meaning illustrated in (4a) ([Khokhlova 2003](Source#cldf:khokhlova2003secondcausative), cited in [Guillaume and Rose 2007](Source#cldf:guillaume2007sociativecausative)).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-6t3r{font-style:italic;font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-8zwo{font-style:italic;text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -438,15 +402,6 @@ The sociative causative is conveyed by the regular causative marker, but the cau
 #### DIR-and-INDIR-CAUS: Apalai \[apal1257\] (Cariban; Brazil)
 Sociative causation is conveyed by a combination of the direct causative marker with the indirect causative marker in Apalai ([Koehn and Koehn 1986: 49-51](Source#cldf:koehn1986apalai), cited in [Guillaume and Rose 2007](Source#cldf:guillaume2007sociativecausative)).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-8zwo{font-style:italic;text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -541,14 +496,6 @@ Sociative causation is conveyed by a combination of the direct causative marker 
 #### CAUS-and-APPL: Ese Ejja \[esee1248\] (Pano-Tacanan; Bolivia and Peru)
 Ese Ejja expresses sociative causation with the transparent combination of the causative marker *-mee* ([Vuillermet 2012: 509](Source#cldf:vuillermet2012eseejja)), illustrated in (6a), and the comitative applicative *-sawa*, illustrated in (6b). 
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -632,15 +579,6 @@ Ese Ejja expresses sociative causation with the transparent combination of the c
 
 Note that in other languages, a similar combination might not necessarily encode sociative causation. For instance in Yimas, this same combination gives rise to a caused event with an additional causee (in the dative), rather than involving the causer in the caused event.
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-8zwo{font-style:italic;text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -669,14 +607,6 @@ Note that in other languages, a similar combination might not necessarily encode
 #### CAUS-and-other: Nande \[nand1264\] (Bantu; Democratic Republic of the Congo and Uganda)
 Sociative causation is conveyed by the combination of a causative marker plus another marker that is not another causative or applicative marker. This state is heterogeneous in comparison to the previous ones, since the second morpheme can have different functions across languages. For instance, [Schneider-Zioga and Mutaka (2019: 281)](Source#cldf:schneiderzioga2019helping) describe a sociative causative construction in Nande (aka Kinande) that combines a (direct) causative marker and a middle marker[^4] that synchronically conveys a sociative causative meaning exclusively.
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -739,15 +669,6 @@ Note that it is possible for a language (e.g. Yanomami, as discussed in [Perri F
 #### DIR.CAUS: Nanti \[nant1250\] (Arawakan; Peru)
 The &lt;DIR.CAUS&gt; state indicates that indicates that sociative causation can be conveyed by a **general causative** marker or by a marker of **direct causation** (if the language shows a formal distinction between direct and indirect causation). In Nanti ([Michael 2008](Source#cldf:michael2008nanti): 280), the "agent causation" morpheme *ogi* mostly expresses direct causation (9a), but can also express sociative causation (9b).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-8zwo{font-style:italic;text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -810,15 +731,6 @@ Sociative causation can be conveyed by an indirect causative marker (if the lang
 
 Nanti (Arawakan) also has an indirect causative marker called “influential causation” ([Michael 2008](Source#cldf:michael2008nanti): 284), illustrated in (10). When discussing its semantics, Michael mentions a situation where a causer "bring\[s\] about \[a causee\]'s departure by accompanying them", i.e. a typical sociative causative meaning. (No glossed example illustrates the sociative causative semantics.)
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-8zwo{font-style:italic;text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -855,15 +767,6 @@ Nanti (Arawakan) also has an indirect causative marker called “influential cau
 #### REC: Bedja \[beja1238\] (Afro-Asiatic; Egypt, Eritrea and Sudan)
 Sociative causation can be conveyed by a reciprocal marker, as in Bedja ([Roper 1928](Source#cldf:roper1928handbook): 73, cited in [Guillaume and Rose 2007](Source#cldf:guillaume2007sociativecausative)).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-8zwo{font-style:italic;text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -924,15 +827,6 @@ Sociative causation can be conveyed by a reciprocal marker, as in Bedja ([Roper 
 #### APPL: Sikuani \[guah1255\] (Guahiboan; Colombia and Venezuela)
 Sociative causation can be conveyed by an applicative marker. In (12a), the Sikuani applicative marker has an instrumental meaning, while in (12b) the same marker expresses sociative causation ([Queixalós 2002](Source#cldf:queixalos2002causative): 320-321).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-8zwo{font-style:italic;text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -999,15 +893,6 @@ Sociative causation can be conveyed by an applicative marker. In (12a), the Siku
 #### COPART: Yuracaré \[yura1255\] (isolate; Bolivia)
 Sociative causation can be conveyed by a co-participative marker. [Creissels and Nouguier-Voisin](Source#cldf:creissels2008valencychanging) define co-participation "as applying to constructions that imply a plurality of participants in the event they refer to without assigning them distinct roles." The cooperative marker in Yuracaré ([van Gijn 2006](Source#cldf:vangijn2006yurakare): 150) may express co-participation only (13a) or sociative causation (13b). This morpheme contrasts with the (dedicated) sociative causative construction (called "comitative object" by [van Gijn (2006: 149-150)](Source#cldf:vangijn2006yurakare)), which systematically expresses sociative causation (13c).
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-f8tv{border-color:inherit;font-style:italic;text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -1083,15 +968,6 @@ This state applies if none of the above states is appropriate. The morpheme(s) u
 
 In Garrwa, the suffix *-kunu* associated with the causative -mba creates caused motion verbs from verbs of motions or other verbs, often but not always with a sociative causative interpretation (14a vs. 14b; [Mushin 2012](Source#cldf:mushin2012garrwa): 178-179).
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;
-  word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-8zwo{font-style:italic;text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
