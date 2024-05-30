@@ -197,7 +197,6 @@ def main(args):
                 code_id=row["CodeID"],
                 value=row["Value"],
                 remark=row["Remark"],
-                parameter=row["ParameterID"],
                 coder=";".join(row["Coder"]),
             )
 
