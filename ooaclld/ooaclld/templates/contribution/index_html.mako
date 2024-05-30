@@ -5,7 +5,7 @@
 <%block name="title">Feature Sets</%block>
 <h2>Feature Sets</h2>
 <p>
-    Those are the OOA Feature Sets. INSERT MORE TEXT HERE.
+    Feature sets are collections of typological features that together capture linguistic variation within a typological domain. The typological domain covered, motivation for its inclusion in the database, a full list of associated features, and results of the study are given in each feature set description.
 </p>
 <div class="clearfix"> </div>
 ${ctx.render()}
