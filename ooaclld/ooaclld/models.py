@@ -62,16 +62,15 @@ class OOAParameter(CustomModelMixin, common.Parameter):
 
     question = Column(Unicode)
     datatype = Column(Unicode)
-    #visualization = Column(Unicode)
 
 
 @implementer(interfaces.IValue)
 class OOAValue(CustomModelMixin, common.Value):
     pk = Column(Integer, ForeignKey("value.pk"), primary_key=True)
-
     remark = Column(Unicode)
     value = Column(Unicode)
     code_id = Column(Unicode)
+    parameter = Column(Integer, ForeignKey("parameter.pk"))
     # TODO: Maybe add a relationship to contributors
     coder = Column(Unicode)
 
