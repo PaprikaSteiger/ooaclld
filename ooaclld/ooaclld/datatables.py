@@ -1,7 +1,7 @@
 from sqlalchemy.orm import joinedload, contains_eager, subqueryload
 
 from clld.web import datatables
-from clld.web.datatables.base import Col, LinkCol, DetailsRowLinkCol, DataTable
+from clld.web.datatables.base import Col, LinkCol, DetailsRowLinkCol, DataTable, IdCol
 from clld.web.datatables.base import RefsCol as BaseRefsCol
 from clld.web.datatables.value import ValueNameCol
 from clld.db.meta import DBSession
@@ -171,19 +171,19 @@ class Values(datatables.Values):
             ]
         if self.language:
             return [
-                LinkCol(
+                IdCol(
                      self, 
                      "Parameter ID", 
                      sTitle="Feature ID", 
                      sClass="left", 
-                     model_col=OOAValue.parameter, 
-                     get_object = lambda i: i.valueset.parameter),
+                     model_col=OOAParameter.id,
+                     get_object=lambda i: i.valueset.parameter),
                 #IdCol(self, "Id", sTitle="Value ID", sClass="left"),
                 LinkCol(
                     self,
                     "Feature ID",
                     sTitle="Feature",
-                    model_col=OOAParameter.id,
+                    model_col=OOAParameter.name,
                     sClass="left",
                     get_object=lambda i: i.valueset.parameter,
                 ),
