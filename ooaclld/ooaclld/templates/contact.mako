@@ -1,4 +1,5 @@
 <%inherit file="home_comp.mako"/>
+<%block name="title">Contact</%block>
 
 <h3>${_('Contact')} ${h.contactmail(req)}</h3>
 <div class="well">

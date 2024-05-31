@@ -1,6 +1,6 @@
 <%inherit file="home_comp.mako"/>
 <%namespace name="util" file="util.mako"/>
-
+<%block name="title">Credits</%block>
 
 <h3>Acknowledgements</h3>
 

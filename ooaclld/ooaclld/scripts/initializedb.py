@@ -24,9 +24,10 @@ def main(args):
     data = Data()
     data.add(
         common.Dataset,
-        ooaclld.__name__,
-        id=ooaclld.__name__,
-        domain="ooaclld",
+        "ATLAs",
+        name="ATLAs",
+        id="atlas",
+        domain="the-url-we-will-use",
         publisher_name="TODO_ PUBLISHER",
         publisher_place="TODO_ PUBLISHER_ PLace",
         publisher_url="http://www.shh.mpg.de",
@@ -35,7 +36,7 @@ def main(args):
             "license_icon": "cc-by.png",  # TODO: replace with custome one
             "license_name": "Creative Commons Attribution 4.0 International License",
         },
-        description="TODO: DESCRIPTION AS IN APICS: THE ATLAS OF PIDGIN..."
+        description="Areal Typology of Languages of the Americas"
     )
     DBSession.flush()
     lrefs = collections.defaultdict(set)

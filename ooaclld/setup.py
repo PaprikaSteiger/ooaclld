@@ -2,9 +2,9 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name="ooaclld",
+    name="ATLAs",
     version="0.0",
-    description="ooaclld",
+    description="Areal Typology of Languages of the Americas",
     classifiers=[
         "Programming Language :: Python",
         "Framework :: Pyramid",

@@ -3,7 +3,7 @@
 <%! active_menu_item = "parameters" %>
 <%! from ooaclld.models import OOAValue %>
 <% values_dt = request.get_datatable('values', OOAValue, parameter=ctx) %>
-<%block name="title">${ctx.name}</%block>
+<%block name="title">${ctx.id}</%block>
 
 
 <div class="row-fluid">
