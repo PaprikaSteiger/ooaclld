@@ -4,8 +4,6 @@
 <%block name="title">Values</%block>
 
 <h2>Features</h2>
-<p>
-    Those are the OOA values
-</p>
+
 <div class="clearfix"> </div>
 ${ctx.render()}
