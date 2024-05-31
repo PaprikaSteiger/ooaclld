@@ -3,7 +3,7 @@
 <%! active_menu_item = "parameters" %>
 <%! from ooaclld.models import OOAValue %>
 <% values_dt = request.get_datatable('values', OOAValue, parameter=ctx) %>
-<%block name="title">${ctx.name}</%block>
+<%block name="title">${ctx.id}</%block>
 
 
 <div class="row-fluid">
@@ -24,11 +24,13 @@
         <div>${h.alt_representations(req, ctx, doc_position='right', exclude=['snippet.html'])|n}</div>
     </div>
     <p></p>
+    % if ctx.id != 'MonPl-07':
     <div class="span4">
         <%util:well title="Values">
             ${u.value_table(ctx, request)}
         </%util:well>
     </div>
+    % endif
 </div>
 % if ctx.id != 'MonPl-07':
 ${request.get_map('parameter', dt=values_dt).render()}

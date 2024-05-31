@@ -4,10 +4,10 @@
 ## define app-level blocks:
 ##
 <%block name="header">
-    <div id="header" class="container-fluid" style="background-repeat: no-repeat; background-image: url(${request.static_url('ooaclld:static/banner.png')})">
-        <h1>
-            <a href="${request.route_url('dataset')}">${request.dataset.description}</a>
-        </h1>
+    <div id="header" class="container-fluid">
+        <a href="${request.route_url('dataset')}" id="banner-img">
+            <img src=${request.static_url('ooaclld:static/banner.png')} />
+        </a>
     </div>
 </%block>
 

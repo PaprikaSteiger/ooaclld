@@ -52,6 +52,23 @@ class AtlasIdCol(LinkCol):
             return icontains(self.model_col, qs)
 
 
+class AtlasAuthorsCol(Col):
+    __kw__ = {'bSearchable': False, 'bSortable': False}
+
+    def format(self, item):
+        return HTML.ul(
+            *[HTML.li(link(
+                self.dt.req, c.contribution)) for c in item.contribution_assocs if c.primary])
+
+class AtlasContributionsCol(Col):
+    __kw__ = {'bSearchable': False, 'bSortable': False}
+
+    def format(self, item):
+        return HTML.ul(
+            *[HTML.li(link(
+                self.dt.req, c.contribution)) for c in item.contribution_assocs if not c.primary])
+
+
 class ContributorsCol(Col):
     def format(self, item):
         req = self.dt.req
@@ -112,16 +129,11 @@ class Features(datatables.Parameters):
 
 class Featuresets(datatables.Contributions):
     def col_defs(self):
-        #cols = datatables.Contributions.col_defs(self)
         return [
             AtlasIdCol(self, "FeatureSet ID", sTitle="ID", model_col=OOAFeatureSet.id, sClass="left"),
             LinkCol(self, "Name", sTitle="Name", model_col=OOAFeatureSet.name, sClass="left"),
-            #Col(self, "Domains", model_col=OOAFeatureSet.domains, sClass="left"),
-            # ] + cols[:-1] + cols[-1:]
             AuthorsCol(self, "Authors", model_col=OOAFeatureSet.authors),
             ContributorsCol(self, "Contributors"),
-            # Col(self, 'Contributors', model_col=OOAFeatureSet.contributors, sClass='left'),
-            # Col(self, 'Filename', model_col=OOAFeatureSet.filename, sClass='left'),
         ]
 
 
@@ -132,8 +144,6 @@ class Languages(datatables.Languages):
             LinkCol(self, "Name", sClass="left", model_col=OOALanguage.name),
             Col(self, "Family", sTitle="Family", model_col=OOALanguage.family_name, sClass="left"),
             Col(self, "Macroarea", model_col=OOALanguage.macroarea, sClass="left"),
-            #Col(self, 'Latitude', model_col=OOALanguage.latitude),
-            #Col(self, 'Longitude', model_col=OOALanguage.longitude),
         ]
 
 
@@ -171,7 +181,7 @@ class Values(datatables.Values):
             ]
         if self.language:
             return [
-                IdCol(
+                AtlasIdCol(
                      self, 
                      "Parameter ID", 
                      sTitle="Feature ID", 
@@ -202,6 +212,8 @@ class Contributors(datatables.Contributors):
             #    self, "Contributor ID", sTitle="Contributor ID", model_col=common.Contributor.id, sClass="left"
             #),
             LinkCol(self, "Name", model_col=common.Contributor.name, sClass="left"),
+            AtlasAuthorsCol(self, "Author"),
+            AtlasContributionsCol(self, "Contributor"),
         ]
 
 

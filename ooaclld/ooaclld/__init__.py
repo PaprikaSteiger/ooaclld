@@ -86,7 +86,7 @@ def render_parameter(req, objid, table, session, ids=None, **kw):
 
 def main(global_config, **settings):
     """This function returns a Pyramid WSGI application."""
-    settings["route_patterns"] = {}
+    settings["route_patterns"] = { 'credits': '/about/credits'}
     settings['clld_markdown_plugin'] = {
         'model_map': {
             'ValueTable': common.ValueSet,
