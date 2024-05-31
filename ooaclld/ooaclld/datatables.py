@@ -171,7 +171,7 @@ class Values(datatables.Values):
             ]
         if self.language:
             return [
-                IdCol(
+                AtlasIdCol(
                      self, 
                      "Parameter ID", 
                      sTitle="Feature ID", 
