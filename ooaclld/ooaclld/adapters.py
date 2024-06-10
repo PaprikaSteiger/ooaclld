@@ -2,6 +2,7 @@ from clld import interfaces
 from clld.web.adapters import GeoJsonParameter
 from clld.db.meta import DBSession
 from clld.db.models import common
+from clldutils.svg import pie, data_url
 from sqlalchemy.orm import joinedload
 
 
@@ -13,9 +14,14 @@ class GeoJsonFeature(GeoJsonParameter):
             yield vs
 
     def feature_properties(self, ctx, req, valueset):
-        return {
+        res = {
             'values': list(valueset.values),
             'label': valueset.language.name}
+        if valueset.parameter.id == 'Cor-02':
+            val = valueset.values[0]
+            if val.domainelement and val.domainelement.jsondata.get('icon'):
+                res['icon'] = data_url(pie([1], [val.domainelement.jsondata['icon']], width=5*int(val.value or 0)))
+        return res
 
     def featurecollection_properties(self, ctx, req):
         marker = req.registry.getUtility(interfaces.IMapMarker)
