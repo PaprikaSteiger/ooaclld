@@ -19,8 +19,6 @@ class GeoJsonFeature(GeoJsonParameter):
             'values': list(valueset.values),
             'label': valueset.language.name}
         if valueset.parameter.datatype == 'integer':
-            #print(set([x.values[0] for x in ctx.valuesets]))
-            #print(ctx.valuesets[1].values[0].value)
             vals = sorted(set([vs.values[0].value for vs in ctx.valuesets if vs.values[0].value is not None]))
             min_val = 2.7
             scale_factor = 8 / len(vals)
