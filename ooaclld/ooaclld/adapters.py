@@ -2,7 +2,8 @@ from clld import interfaces
 from clld.web.adapters import GeoJsonParameter
 from clld.db.meta import DBSession
 from clld.db.models import common
-from clldutils.svg import pie, data_url
+from clldutils.svg import data_url, style
+from ooaclld.util import ATLAsPie
 from sqlalchemy.orm import joinedload
 
 
@@ -17,10 +18,18 @@ class GeoJsonFeature(GeoJsonParameter):
         res = {
             'values': list(valueset.values),
             'label': valueset.language.name}
-        if valueset.parameter.id == 'Cor-02':
+        if valueset.parameter.datatype == 'integer':
+            #print(set([x.values[0] for x in ctx.valuesets]))
+            #print(ctx.valuesets[1].values[0].value)
+            vals = sorted(set([vs.values[0].value for vs in ctx.valuesets if vs.values[0].value is not None]))
+            min_val = 2.7
+            scale_factor = 8 / len(vals)
+            size_dict = dict()
+            for i in range(0, len(vals)):
+                size_dict[vals[i]] = min_val + scale_factor * i
             val = valueset.values[0]
             if val.domainelement and val.domainelement.jsondata.get('icon'):
-                res['icon'] = data_url(pie([1], [val.domainelement.jsondata['icon']], width=5*int(val.value or 0)))
+                res['icon'] = data_url(ATLAsPie([1], [val.domainelement.jsondata['icon']], width=size_dict[val.value], opacity=0.65))
         return res
 
     def featurecollection_properties(self, ctx, req):
