@@ -228,14 +228,14 @@ Table 4: The verb ‘eat’ in Malinaltepec Me’phaa (Otomanguean)
 Each language in the sample was coded for the 22 features detailed below, which target:
 - the presence of singular-plural stem alternation (SgPl-01);
 - the form of the alternation (SgPl-02-05); 
-- its syntactic alignment (SgPl-18);
+- its syntactic alignment (SgPl-17);
 - the semantics of alternating verb pairs (SgPl-06; 08-14; 16; 19; 21);
 - the transitivity status of alternating verb pairs (SgPl-07);
-- the associated properties of the plural elements (SgPl-15, SgPl-17); 
-- the presence of alternating verbal morphology (SgPl-20);
-- and the presence of Sg-Pl alternation in adjectives[^3] (SgPl-22).
+- the associated properties of the plural elements (SgPl-15); 
+- the presence of alternating verbal morphology (SgPl-19);
+- and the presence of Sg-Pl alternation in adjectives[^3] (SgPl-21).
 
-Individual verb pairs were, in addition, entered into a separate spreadsheet. Each entry in this database is a single verbal pair, and includes the meaning of the pair, the type of alternation (suppletion or regular pattern, and bi- or tripartite pattern, see features SgPl-02, SgPl-04, and SgPl-19), a field for comments, and the identification code of the language the pair occurs in. Additional columns for semantic categorization were added post-hoc, based on a semantic gestalt that arose from the table.
+Individual verb pairs were, in addition, entered into a separate spreadsheet. Each entry in this database is a single verbal pair, and includes the meaning of the pair, the type of alternation (suppletion or regular pattern, and bi- or tripartite pattern, see features SgPl-02, SgPl-04, and SgPl-18), a field for comments, and the identification code of the language the pair occurs in. Additional columns for semantic categorization were added post-hoc, based on a semantic gestalt that arose from the table.
 
 ## Why?
 The phenomenon of singular-plural stem alternation was probably first mentioned by [Boas (1911: 381)](Source#cldf:boas1911tsimishian) in his Tsimshian sketch under the term “irregular plural”, but little attention was paid to the phenomenon until the 1980s. Several crosslinguistic works on verbal number have appeared since: 
@@ -251,7 +251,7 @@ All studies including North American language data emphasize its overwhelming pr
 ### [](ParameterTable#cldf:SgPl-01)
 &emsp;**{ yes | no }**
 
-If &lt;no&gt; to SgPl-01, then the state is e NA for all other features, except for SgPl-20.
+If &lt;no&gt; to SgPl-01, then the state is e NA for all other features, except for SgPl-19.
 
 #### no: Garrwa \[gara1269\] (Garrwan; Australia)
 [Mushin (2012)](Source#cldf:mushin2012garrwa) reports no Sg-Pl stem alternation.
@@ -781,7 +781,7 @@ We have listed in the remarks the verb pairs according to the following semantic
 - property (property concept semantics, e.g. ‘be small’, ‘be kind’)
 - other (none of the above)
 
-Note that this feature is restricted to the list of alternating **verbs**. This means that if adjectives formed a distinct part of speech category, they were not listed under Property in this feature, but in SgPl-22. 
+Note that this feature is restricted to the list of alternating **verbs**. This means that if adjectives formed a distinct part of speech category, they were not listed under Property in this feature, but in SgPl-21. 
 
 The verb ‘exist’ has been listed in the Other category, unless it is encoded by a Posture verb, like *t̓á· ~ wán* ‘to sit, to exist’ in Nisga'a ([Tarpent 1983](Source#cldf:tarpent1983morphophonemics): 199-200), or by a Location verb, like *an ~ oka* ‘be, exist’ in Hokkaido Ainu ([Nakagawa 2022](Source#cldf:nakagawa2022numberainu)). Such existential verbs have been listed in the Posture and Location categories respectively, so as to not be counted twice.
 
@@ -934,18 +934,7 @@ The only pairs (‘come' and ‘go') are unergative ([Valenzuela 2003](Source#cl
 #### both: North Slavey \[nort2942\] (Athabaskan-Eyak-Tlingit; Canada)
 The list reported in [Rice (1989: 790f)](Source#cldf:rice1989slave) includes both unergative intransitive verb pairs like ‘be seated’, ‘go (controlled)’ and ‘swim’, as well as unaccusative ones like ‘go (non-controlled)’, ‘fall’, ‘sleep’ and ‘die’.
 
-### [](ParameterTable#cldf:SgPl-17)
-&emsp;**{ NA | yes | no }**
-
-Shipibo-Conibo turned out to be the only language in our sample for which plural intransitive verbs could be used transitively.
-
-#### yes: Shipibo-Conibo \[ship1254\] (Pano-Tacanan; Peru)
-[Valenzuela (2003: 150)](Source#cldf:valenzuela2003shipibokonibo) reports that the two intransitive plural stems (of the only two alternating pairs), namely ‘come’ and ‘go’, are also used as transitive verbs to express ‘bring’ and ‘take, carry’, respectively.
-
-#### NA: Garrwa \[gara1269\] (Garrwan)
-[Mushin (2012: 180f)](Source#cldf:mushin2012garrwa) reports no Sg-Pl stem alternation.
-
-### [](ParameterTable#cldf:SgPl-18)
+### [](ParameterTable#cldf:SgPl-1-17)
 &emsp;**{ NA | A | P | either | both }** 
 
 **&lt;either&gt;** signifies that the plural argument depends on the verb, i.e. it is always A for some verbs and always P for other verbs.
@@ -1029,7 +1018,7 @@ In Imonda, either A or P arguments may be pluralized, depending on the verb pair
 #### A: Seri \[seri1257\] (isolate; Mexico)
 [Marlett (1981: 89-107, 220)](Source#cldf:marlett1981seri) reports that *-Qaχš  ~ -Qakx* ‘hit with stick’ has irregular root suppletion for form 3 (plural subject, singular action) and for form 4 (plural subject, pluractional), which means that it has one verb that suppletes for A, while all other suppletive verb pairs are intransitive.
 
-### [](ParameterTable#cldf:SgPl-19)
+### [](ParameterTable#cldf:SgPl-18)
 &emsp;**{ NA | ; separated list of [ SG-PL, PAUCAL-MANY, INDIVIDUAL-COLLECTIVE, SG-DU-PL, SG-PAUCAL-PL ] }** 
 
 The semantics of number is often left unmentioned in grammatical descriptions, and the differentiation between singular-plural and individual-collective number are often uninvestigated. The semantics of number were determined only through remarks in the grammar specifically dealing with these words, and not a reanalysis of the lexicon, with a bias for a singular-plural distinction, if no detailed description of number was present.
@@ -1251,10 +1240,10 @@ Nuu-chah-nulth has clear Sg-Pl alternation for several of its verbs, and without
 
 Note that the determination we have made about the number semantics of Nuu-chah-nulth Sg-Pl alternation was only possible due to our access to a large corpus.
 
-### [](ParameterTable#cldf:SgPl-20) 
+### [](ParameterTable#cldf:SgPl-19) 
 &emsp;**{ yes | no }**
 
-Elements encoding number only (i.e. monoexponential plurals) are excluded. Elements encoding an extra semantic distinction like person are also excluded. The verbal morphology targeted by SgPl-20 is, for instance, the Ainu pair of causative forms *-re* ‘CAUS.SG’ ~ *-yar* ‘CAUS.PL’ (see below). 
+Elements encoding number only (i.e. monoexponential plurals) are excluded. Elements encoding an extra semantic distinction like person are also excluded. The verbal morphology targeted by SgPl-19 is, for instance, the Ainu pair of causative forms *-re* ‘CAUS.SG’ ~ *-yar* ‘CAUS.PL’ (see below). 
 
 #### yes: Hokkaido Ainu \[ainu1240\] (Ainu)
 The causative has two forms: *-(r)e~te* for singular causees, and *-(y)ar* for plural ones ([Shibatani 1999](Source#cldf:shibatani1990japan): 48-49).
@@ -1348,7 +1337,7 @@ The causative has two forms: *-(r)e~te* for singular causees, and *-(y)ar* for p
 #### yes: Kaingang \[kain1272\] (Nuclear-Macro-Je)
 The imperfective narrative has a Sg and a Pl form, *nĩgnĩ ~ nỹgnĩ* ([Gonçalves 2011](Source#cldf:goncalves2011kaingang): 235).
 
-### [](ParameterTable#cldf:SgPl-21)
+### [](ParameterTable#cldf:SgPl-20)
 &emsp;**{ NA | yes | no }**
 
 For [Mithun (1988: 214)](Source#cldf:mithun1988karok), “the primary function of stem alternation is not to enumerate entities, but to quantify the effect of actions, states, and events” (see also [Durie 1986](Source#cldf:durie1986number) and [Veselinova 2013](Source#cldf:veselinova2013wals)). Consequently, we expected the marking of Sg-Pl alternation to sometimes also mark iterativity and event repetition.
@@ -1359,7 +1348,7 @@ The verbal pairs that alternate via regular pattern sometimes can indicate event
 #### no: Shipibo-Conibo \[ship1254\] (Pano-Tacanan; Peru)
 The verbal pairs in Shipibo-Conibo only signify the number of participants involved and transitivity ([Valenzuela 2003](Source#cldf:valenzuela2003shipibokonibo): 150).
 
-### [](ParameterTable#cldf:SgPl-22)
+### [](ParameterTable#cldf:SgPl-21)
 &emsp;**{ NA | yes | property concept verbs | no }**
 
 Frequent suppletive adjectives are ‘small’, ‘long’, ‘short’, ‘tall’, ‘extreme’, ‘ugly’, ‘sick’, ‘dead’ ([Booker 1982](Source#cldf:booker1982karok)). In cases where no suppletive adjectives were mentioned in the grammar and a dictionary was available, we checked in the dictionary for these adjectives, to confirm that there was no suppletion. As with verbs, we considered a restricted set of adjectives with an irregular Sg-Pl morphology as long as the set was not semantically restricted.
@@ -1443,22 +1432,22 @@ Nuu-chah-nulth has a restricted set of adjectives that have singular and plural 
 </tbody>
 </table>
 
-### [](ParameterTable#cldf:SgPl-19a)
+### [](ParameterTable#cldf:SgPl-18a)
 &emsp;**{ NA | yes | no }**
 
 <table class="dconversion">
 <tbody>
   <tr>
     <td class="tg-1wig">yes</td>
-    <td class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-19 contains &lt;SG-DU-PL&gt; or &lt;SG-PAUCAL-PL&gt;</span></td>
+    <td class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-18 contains &lt;SG-DU-PL&gt; or &lt;SG-PAUCAL-PL&gt;</span></td>
   </tr>
   <tr>
     <td class="tg-1wig">no</td>
-    <td class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-19 does not contain &lt;SG-DU-PL&gt; or &lt;SG-PAUCAL-PL&gt;</span></td>
+    <td class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-18 does not contain &lt;SG-DU-PL&gt; or &lt;SG-PAUCAL-PL&gt;</span></td>
   </tr>
   <tr>
     <td class="tg-1wig">NA</td>
-    <td class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-19 is &lt;NA&gt;</span></td>
+    <td class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-18 is &lt;NA&gt;</span></td>
   </tr>
 </tbody>
 </table>
@@ -1468,13 +1457,13 @@ This section is a summary of our findings for the survey on the ATLAs sample, (f
 
 **Distribution**: Our data show that the phenomenon is fairly frequent around the world, in about a third of the languages. Confirming previous studies, SgPl stem alternation ([SgPl-01](../parameters/SgPl-01)) is overwhelmingly present in North America, in over half (52%) of the 115 North American languages in our sample. Less expectedly, South America is the macroregion with the lowest percentage of cases (17%), but a cluster of languages around the Brazilian state of Rondônia (part of the proposed Guaporé-Mamoré linguistic area ([Crevels and van der Voort (2008)](Source#cldf:crevels2008guaporemamore)) stands out as a hotspot of Sg-Pl alternation. Coastal eastern Papunesia is another strong language cluster displaying the phenomenon.
 
-**Typological tendencies**: Most languages displaying the phenomenon have a handful of alternating verb pairs ([SgPl-02](../parameters/SgPl-02) & [04](../parameters/SgPl-04)), and their number distinction overwhelmingly contrasts singular vs plural ([SgPl-19](../parameters/SgPl-19)). (Individual vs collective semantics are however plausibly underrepresented in existing grammatical descriptions.) The data confirmed previous works ([Kinkade 1981](Source#cldf:kinkade1981salish); [Booker 1982](Source#cldf:booker1982karok); [Durie 1986](Source#cldf:durie1986number); [Mithun 1988](Source#cldf:mithun1988karok); [Veselinova 2006](Source#cldf:veselinova2006suppletion), [Veselinova 2013](Source#cldf:veselinova2013wals); [Krasnoukhova 2022](Source#cldf:krasnoukhova2022number)) that the verb pair semantics primarily target Motion Events ([Talmy 1972](Source#cldf:talmy1972semantic)) and the following five verbs ‘die’, ‘kill’, ‘cry’, ‘sleep’ and ‘eat’ ([SgPl-06](../parameters/SgPl-06); only six languages do not). Our detailed investigation further showed that semantically specific verbs spread across close neighboring languages, and reveal highly local areas of SgPl alternation across North America, as well the two local areas mentioned above in South America and Papunesia ([SgPl-06](../parameters/SgPl-07), [08](../parameters/SgPl-09), [10](../parameters/SgPl-10) & [12](../parameters/SgPl-12)). 
+**Typological tendencies**: Most languages displaying the phenomenon have a handful of alternating verb pairs ([SgPl-02](../parameters/SgPl-02) & [04](../parameters/SgPl-04)), and their number distinction overwhelmingly contrasts singular vs plural ([SgPl-18](../parameters/SgPl-18)). (Individual vs collective semantics are however plausibly underrepresented in existing grammatical descriptions.) The data confirmed previous works ([Kinkade 1981](Source#cldf:kinkade1981salish); [Booker 1982](Source#cldf:booker1982karok); [Durie 1986](Source#cldf:durie1986number); [Mithun 1988](Source#cldf:mithun1988karok); [Veselinova 2006](Source#cldf:veselinova2006suppletion), [Veselinova 2013](Source#cldf:veselinova2013wals); [Krasnoukhova 2022](Source#cldf:krasnoukhova2022number)) that the verb pair semantics primarily target Motion Events ([Talmy 1972](Source#cldf:talmy1972semantic)) and the following five verbs ‘die’, ‘kill’, ‘cry’, ‘sleep’ and ‘eat’ ([SgPl-06](../parameters/SgPl-06); only six languages do not). Our detailed investigation further showed that semantically specific verbs spread across close neighboring languages, and reveal highly local areas of SgPl alternation across North America, as well the two local areas mentioned above in South America and Papunesia ([SgPl-06](../parameters/SgPl-07), [08](../parameters/SgPl-09), [10](../parameters/SgPl-10) & [12](../parameters/SgPl-12)). 
 
-Most languages have alternating intransitive verb pairs only, or both intransitive and transitive ones ([SgPl-07](../parameters/SgPl-07)). If the verb pair is transitive, its number value targets the P argument ([SgPl-18](../parameters/SgPl-18)). Often described as impossible in the literature, we still found five languages with transitive-only verb pairs, and also five (almost non-overlapping) languages whose number value targets the A argument.
+Most languages have alternating intransitive verb pairs only, or both intransitive and transitive ones ([SgPl-07](../parameters/SgPl-07)). If the verb pair is transitive, its number value targets the P argument ([SgPl-17](../parameters/SgPl-17)). Often described as impossible in the literature, we still found five languages with transitive-only verb pairs, and also five (almost non-overlapping) languages whose number value targets the A argument.
 
-We (wrongly) expected that languages which lack Sg-Pl stem alternation would also lack such alternating suffixes ([SgPl-20](../parameters/SgPl-20)). One reason for this is that we thought that such suffixes would be grammaticalized from Sg-Pl stems. However, this feature was coded for all languages, irrespective of their state in SgPl-01, and the results show that these two phenomena are not as intertwined as we expected.
+We (wrongly) expected that languages which lack Sg-Pl stem alternation would also lack such alternating suffixes ([SgPl-19](../parameters/SgPl-19)). One reason for this is that we thought that such suffixes would be grammaticalized from Sg-Pl stems. However, this feature was coded for all languages, irrespective of their state in SgPl-01, and the results show that these two phenomena are not as intertwined as we expected.
 
-Similarly, much of the literature expects a correlation between participant number and event number. However, we did not find very many languages in which the same form was used to mark both participant number and aspect ([SgPl-21](../parameters/SgPl-21)).
+Similarly, much of the literature expects a correlation between participant number and event number. However, we did not find very many languages in which the same form was used to mark both participant number and aspect ([SgPl-20](../parameters/SgPl-20)).
 
 ## Contributions
 **Conceptualization**: [David Inman](Contributor#cldf:DI), [Marine Vuillermet](Contributor#cldf:MV)
@@ -1491,6 +1480,6 @@ Similarly, much of the literature expects a correlation between participant numb
 
 [^2]: Note that in Table 2, suffixes encode both participant and event number. In Table 3, suffixes again encode both participant and event number, but root alternation encodes participant number only.
 
-[^3]: SgPl-22 is about alternation in adjectives, but only if it is also present in verbs. As a result, if alternation occurs only in a part of speech distinct from verbs, namely adjectives, then it is not reported in this feature set.
+[^3]: SgPl-21 is about alternation in adjectives, but only if it is also present in verbs. As a result, if alternation occurs only in a part of speech distinct from verbs, namely adjectives, then it is not reported in this feature set.
 
 [^4]: Note that there is a strong preference in Nuu-chah-nulth for anti-agreement, i.e. to indicate plural only once per referent. It is unusual for these plural adjectives to co-occur with plural marking on the noun, and thus a full list of all alternating adjectives remains elusive.

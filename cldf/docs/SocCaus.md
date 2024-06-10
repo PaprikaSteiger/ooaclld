@@ -114,7 +114,7 @@ The three subtypes are illustrated in (1), where the basic causative in Japanese
 </tbody>
 </table>
 
-[Shibatani and Pardeshi 2022:99](Source#cldf:shibatani2002causative) mention the possibility of having markers dedicated to sociative causation, like the sociative causative *ha-* in Alamblak (2a), which exists independently from the direct and indirect causatives, *ka-* (2b) and *hay-* (2c), respectively (adapted from [Bruce 1984](Source#cldf:bruce1984alamblak): 155-156).
+[Shibatani and Pardeshi 2022:99](Source#cldf:shibatani2002causative) mention the possibility of having markers dedicated to sociative causation, like the sociative causative *ha-* in Alamblak [alam1246] (Sepik; Papua New Guinea) in (2a), which exists independently from the direct and indirect causatives, *ka-* in (2b) and *hay-* in (2c), respectively (adapted from [Bruce 1984](Source#cldf:bruce1984alamblak): 155-156).
 
 <table class="tg">
 <thead>
@@ -493,7 +493,7 @@ Sociative causation is conveyed by a combination of the direct causative marker 
 </tbody>
 </table>
 
-#### CAUS-and-APPL: Ese Ejja \[esee1248\] (Pano-Tacanan; Bolivia and Peru)
+#### CAUS-and-APPL: Ese Ejja \[esee1248\] (Pano-Tacanan; Bolivia, Peru)
 Ese Ejja expresses sociative causation with the transparent combination of the causative marker *-mee* ([Vuillermet 2012: 509](Source#cldf:vuillermet2012eseejja)), illustrated in (6a), and the comitative applicative *-sawa*, illustrated in (6b). 
 
 <table class="tg">
@@ -604,7 +604,7 @@ Note that in other languages, a similar combination might not necessarily encode
 </tbody>
 </table>
 
-#### CAUS-and-other: Nande \[nand1264\] (Bantu; Democratic Republic of the Congo and Uganda)
+#### CAUS-and-other: Nande \[nand1264\] (Bantu; Democratic Republic of the Congo, Uganda)
 Sociative causation is conveyed by the combination of a causative marker plus another marker that is not another causative or applicative marker. This state is heterogeneous in comparison to the previous ones, since the second morpheme can have different functions across languages. For instance, [Schneider-Zioga and Mutaka (2019: 281)](Source#cldf:schneiderzioga2019helping) describe a sociative causative construction in Nande (aka Kinande) that combines a (direct) causative marker and a middle marker[^4] that synchronically conveys a sociative causative meaning exclusively.
 
 <table class="tg">
@@ -647,8 +647,16 @@ This semantic feature is exploratory and only targets the \[+/- motion\] paramet
 ### [](ParameterTable#cldf:SocCaus-05)
 &emsp;**{ NA | intransitive | transitive | both }**
 
+[Guillaume and Rose (2010)](Source#cldf:guillaume2010sociativecausative) observe that the sociative causative construction in Teko [emer1243] (Tupian; French Guiana) is only available with intransitive verb roots, while the one in Cavineña [cavi1250] (Pano-Takanan; Bolivia) is available with both intransitive and transitive roots. In our sample, no language has the construction only attested with transitive roots. 
+
 ### [](ParameterTable#cldf:SocCaus-06)
 &emsp;**{ NA | animate | inanimate | both }**
+
+This question checks whether the construction is attested 
+- with animate causees only, as in Ese Ejja [esee1248] (Pano-Takanan; Bolivia, Peru);
+- with inanimate causees only (not attested in our sample);
+- or with both, as in Karo [karo1305] (Tupian, Brazil).
+
 
 ### [](ParameterTable#cldf:SocCaus-07)
 &emsp;**{ ; separated list of \[ DIR.CAUS, INDIR.CAUS, REC, APPL, COPART, other \] }**
@@ -890,8 +898,8 @@ Sociative causation can be conveyed by an applicative marker. In (12a), the Siku
 </tbody>
 </table>
 
-#### COPART: Yuracaré \[yura1255\] (isolate; Bolivia)
-Sociative causation can be conveyed by a co-participative marker. [Creissels and Nouguier-Voisin](Source#cldf:creissels2008valencychanging) define co-participation "as applying to constructions that imply a plurality of participants in the event they refer to without assigning them distinct roles." The cooperative marker in Yuracaré ([van Gijn 2006](Source#cldf:vangijn2006yurakare): 150) may express co-participation only (13a) or sociative causation (13b). This morpheme contrasts with the (dedicated) sociative causative construction (called "comitative object" by [van Gijn (2006: 149-150)](Source#cldf:vangijn2006yurakare)), which systematically expresses sociative causation (13c).
+#### COPART: Yurakaré \[yura1255\] (isolate; Bolivia)
+Sociative causation can be conveyed by a co-participative marker. [Creissels and Nouguier-Voisin](Source#cldf:creissels2008valencychanging) define co-participation "as applying to constructions that imply a plurality of participants in the event they refer to without assigning them distinct roles." The cooperative marker in Yurakaré ([van Gijn 2006](Source#cldf:vangijn2006yurakare): 150) may express co-participation only (13a) or sociative causation (13b). This morpheme contrasts with the (dedicated) sociative causative construction (called "comitative object" by [van Gijn (2006: 149-150)](Source#cldf:vangijn2006yurakare)), which systematically expresses sociative causation (13c).
 
 <table class="tg">
 <thead>
@@ -1022,7 +1030,7 @@ Dedicated constructions in South America are present across families, with a hig
 
 Formally, most dedicated sociative causative constructions in our survey use a sociative causative morpheme rather than a combination of morphemes or a specific causee marker. Non-dedicated constructions fall in the types previously described [Guillaume and Rose (2007)](Source#cldf:guillaume2007sociativecausative). 
 
-As for the semantic observations, the results remain exploratory as the information was frequently too scarce in the sources. In some grammars, like the one of Teko ([Rose 2011](Source#cldf:rose2011emerillon)) or Yurakaré ([van Gijn 2006](Source#cldf:vangijn2006yurakare)), many illustrating examples were available, allowing for a reliable account of the productivity of the morpheme with different semantic verb types. In others, like the one of Krenak ([Seki 2004](Source#cldf:seki2004krenak)) or Ese Ejja ([Vuillermet 2012](Source#cldf:vuillermet2012eseejja)), examples were scarce and did not allow us to be categorical about apparent gaps. Ungrammaticality of specific semantic combinations was very rarely mentioned. Our observations below could still be used as guidelines for future studies.
+As for the semantic observations, the results remain exploratory as the information was frequently too scarce in the sources. In some grammars, like the one of Teko ([Rose 2011](Source#cldf:rose2011emerillon)) or Yurakaré ([van Gijn 2006](Source#cldf:vangijn2006yurakare)), many illustrating examples were available, allowing for a reliable account of the productivity of the morpheme with different semantic verb types. In others, like the one of Borum [kren1239] (Nuclear-Macro-Je; Brazil) ([Seki 2004](Source#cldf:seki2004krenak)) or Ese Ejja ([Vuillermet 2012](Source#cldf:vuillermet2012eseejja)), examples were scarce and did not allow us to be categorical about apparent gaps. Ungrammaticality of specific semantic combinations was very rarely mentioned. Our observations below could still be used as guidelines for future studies.
 
 We observed that motion verbs are well attested with dedicated sociative causative constructions. The data also confirm [Shibatani and Pardeshi](Source#cldf:shibatani2002causative)'s ([2022: 99](Source#cldf:shibatani2002causative)) observation that sociative causation expressions are preferentially used with intransitive verbs: all languages display the sociative causative construction with intransitive verbs, and nine of them exclusively with such verbs. In addition, the South American geographic distribution of the transitivity status of the verbs attested in the target construction ([SocCaus-05](../parameters/SocCaus-05)) splits along an East-West divide: the six easternmost languages display sociative causative constructions with intransitive verbs only, while the nine westernmost languages display constructions with both intransitive and transitive verbs. A very similar divide occurs with constructions involving animate causees only vs both animate and inanimate causees. Both animates and inanimates appear in the sociative causative constructions of the six easternmost languages (plus two more western languages), while only animate causees appear in the six westernmost languages 
 

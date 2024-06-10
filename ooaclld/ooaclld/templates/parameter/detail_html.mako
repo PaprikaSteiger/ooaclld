@@ -24,7 +24,7 @@
         <div>${h.alt_representations(req, ctx, doc_position='right', exclude=['snippet.html'])|n}</div>
     </div>
     <p></p>
-    % if ctx.id != 'MonPl-07':
+    % if ctx.id != 'MonPl-06':
     <div class="span4">
         <%util:well title="Values">
             ${u.value_table(ctx, request)}
@@ -32,7 +32,7 @@
     </div>
     % endif
 </div>
-% if ctx.id != 'MonPl-07':
+% if ctx.id != 'MonPl-06':
 ${request.get_map('parameter', dt=values_dt).render()}
 % endif
 ${values_dt.render()}
