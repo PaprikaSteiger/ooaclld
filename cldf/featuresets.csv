@@ -9,7 +9,7 @@ Lat,Lateral consonants,Phonology,KPVD;DI,KPVD;DI;NCP;MV;AG;SH
 MonPl,Monoexponential verbal plurals,Morphosyntax,MV;DI;NCP;BB,MV;DI;NCP;SH;AG;BB
 NounPoss,Noun possession classes,Moprhosyntax,DI;NCP;BB,DI;NCP;BB;TH;AM
 Ppron,Personal pronouns,Moprhosyntax,NCP;DI;MV;BB,NCP;DI;MV;BB;AG;KPVD;NJM
-SgPl,Singular-plural verb stem alternation,Morphosyntax,DI;MV,DI;MV;BB;SH;AG
+SgPl,Singular-plural verb stem alternation,Morphosyntax,DI;MV,DI;MV;BB;SH;AG;DP;NJM;NCP;KPVD
 SocCaus,Sociative causation,Morphosyntax,MV;FR,MV;FR;OCD;RL
 Syll,Syllable structure,Phonology,SE,SE;MV;NCP;DI
 ToneProm,Tone and word-level prominence (accent),Phonology,KPVD,KPVD;AG

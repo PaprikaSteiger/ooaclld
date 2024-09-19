@@ -123,12 +123,6 @@ def main(args):
             family_id=row["Family_ID"],
             language_id=row["Language_ID"],
             family_name=row["Family_Name"],
-            balanced=row["Isolates_Balanced_Sample"],
-            isolates=row["Isolates_Sample"],
-            american=row["American_Sample"],
-            world=row["Worldwide_Sample"],
-            north_america="North_America_25_Sample",
-            noun=row["Noun_Poss_Sample"],
         )
     DBSession.flush()
 

@@ -168,11 +168,6 @@
                         "name": "Derived"
                     },
                     {
-                        "datatype": "string",
-                        "required": false,
-                        "name": "Map"
-                    },
-                    {
                     	"datatype": "json",
                     	"required": false,
                     	"name": "datatype"
@@ -403,30 +398,6 @@
                     {
                         "datatype": "string",
                         "name": "Language_ID"
-                    },
-                    {
-                        "datatype": "boolean",
-                        "name": "American_Sample"
-                    },
-                    {
-                        "datatype": "boolean",
-                        "name": "North_America_25_Sample"
-                    },
-                    {
-                        "datatype": "boolean",
-                        "name": "Worldwide_Sample"
-                    },
-                     {
-                        "datatype": "boolean",
-                        "name": "Isolates_Sample"
-                    },
-                    {
-                        "datatype": "boolean",
-                        "name": "Isolates_Balanced_Sample"
-                    },
-                    {
-                        "datatype": "boolean",
-                        "name": "Noun_Poss_Sample"
                     }
                 ],
                 "primaryKey": [
