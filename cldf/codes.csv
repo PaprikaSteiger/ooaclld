@@ -1,43 +1,43 @@
 "CodeID","ParameterID","Description","icons"
-"no-marking_Align-01","Align-01","no marking","#f0c71c"
-"accusative_Align-01","Align-01","accusative","#0d6ecf"
-"ergative_Align-01","Align-01","ergative","#df3d3b"
-"overt-neutral_Align-01","Align-01","overt neutral","#1ca784"
-"tripartite_Align-01","Align-01","tripartite","#2eff00"
-"horizontal_Align-01","Align-01","horizontal","#604271"
-"sensitive_Align-01","Align-01","sensitive","#e43bb0"
+"no-marking_Align-01","Align-01","no marking","#f0c700"
+"accusative_Align-01","Align-01","accusative","#1c70d0"
+"ergative_Align-01","Align-01","ergative","#db3235"
+"overt-neutral_Align-01","Align-01","overt neutral","#22a584"
+"tripartite_Align-01","Align-01","tripartite","#42fd00"
+"horizontal_Align-01","Align-01","horizontal","#56426c"
+"sensitive_Align-01","Align-01","sensitive","#df35aa"
 "?_Align-01","Align-01","?",
 "UNCODED_Align-01","Align-01","UNCODED",
 "ERROR_Align-01","Align-01","ERROR",
-"no-marking_Align-01a","Align-01a","no marking","#22a47f"
-"accusative_Align-01a","Align-01a","accusative","#1c6ccd"
-"ergative_Align-01a","Align-01a","ergative","#e84040"
-"overt-neutral_Align-01a","Align-01a","overt neutral","#e038ad"
-"tripartite_Align-01a","Align-01a","tripartite","#d000fd"
-"horizontal_Align-01a","Align-01a","horizontal","#553d68"
-"sensitive_Align-01a","Align-01a","sensitive","#40fd00"
-"no-majority_Align-01a","Align-01a","no majority","#eec700"
+"no-marking_Align-01a","Align-01a","no marking","#16a07e"
+"accusative_Align-01a","Align-01a","accusative","#2270d2"
+"ergative_Align-01a","Align-01a","ergative","#e74042"
+"overt-neutral_Align-01a","Align-01a","overt neutral","#df3dad"
+"tripartite_Align-01a","Align-01a","tripartite","#d10dfe"
+"horizontal_Align-01a","Align-01a","horizontal","#564266"
+"sensitive_Align-01a","Align-01a","sensitive","#2aff0d"
+"no-majority_Align-01a","Align-01a","no majority","#f3cb0d"
 "?_Align-01a","Align-01a","?",
 "UNCODED_Align-01a","Align-01a","UNCODED",
 "ERROR_Align-01a","Align-01a","ERROR",
-"no-marking_Align-01b","Align-01b","no marking","#26a681"
-"accusative_Align-01b","Align-01b","accusative","#2e70d3"
-"ergative_Align-01b","Align-01b","ergative","#e54040"
-"overt-neutral_Align-01b","Align-01b","overt neutral","#e23dad"
-"tripartite_Align-01b","Align-01b","tripartite","#d100ff"
-"horizontal_Align-01b","Align-01b","horizontal","#5c3d5f"
-"sensitive_Align-01b","Align-01b","sensitive","#5afe00"
-"no-majority_Align-01b","Align-01b","no majority","#efc70d"
+"no-marking_Align-01b","Align-01b","no marking","#26a784"
+"accusative_Align-01b","Align-01b","accusative","#1c6dce"
+"ergative_Align-01b","Align-01b","ergative","#e13538"
+"overt-neutral_Align-01b","Align-01b","overt neutral","#e740b2"
+"tripartite_Align-01b","Align-01b","tripartite","#c916fb"
+"horizontal_Align-01b","Align-01b","horizontal","#634276"
+"sensitive_Align-01b","Align-01b","sensitive","#5cfe0d"
+"no-majority_Align-01b","Align-01b","no majority","#f1c800"
 "?_Align-01b","Align-01b","?",
 "UNCODED_Align-01b","Align-01b","UNCODED",
 "ERROR_Align-01b","Align-01b","ERROR",
-"no-marking_Align-02","Align-02","no marking","#f2c922"
-"accusative_Align-02","Align-02","accusative","#006ace"
-"ergative_Align-02","Align-02","ergative","#dd3832"
-"overt-neutral_Align-02","Align-02","overt neutral","#1ca482"
-"tripartite_Align-02","Align-02","tripartite","#00fe1c"
-"horizontal_Align-02","Align-02","horizontal","#584060"
-"sensitive_Align-02","Align-02","sensitive","#e33baf"
+"no-marking_Align-02","Align-02","no marking","#f2c916"
+"accusative_Align-02","Align-02","accusative","#166cd1"
+"ergative_Align-02","Align-02","ergative","#e4403b"
+"overt-neutral_Align-02","Align-02","overt neutral","#2aa583"
+"tripartite_Align-02","Align-02","tripartite","#40ff16"
+"horizontal_Align-02","Align-02","horizontal","#53406d"
+"sensitive_Align-02","Align-02","sensitive","#e43bb0"
 "?_Align-02","Align-02","?",
 "UNCODED_Align-02","Align-02","UNCODED",
 "ERROR_Align-02","Align-02","ERROR",
@@ -46,48 +46,48 @@
 "?_Align-03","Align-03","?",
 "UNCODED_Align-03","Align-03","UNCODED",
 "ERROR_Align-03","Align-03","ERROR",
-"no-marking_Align-04","Align-04","no marking","#f2c800"
-"accusative_Align-04","Align-04","accusative","#1c72d4"
-"ergative_Align-04","Align-04","ergative","#e74047"
-"overt-neutral_Align-04","Align-04","overt neutral","#26a682"
-"tripartite_Align-04","Align-04","tripartite","#16fc00"
-"horizontal_Align-04","Align-04","horizontal","#5f4071"
-"sensitive_Align-04","Align-04","sensitive","#e33bad"
+"no-marking_Align-04","Align-04","no marking","#f0c800"
+"accusative_Align-04","Align-04","accusative","#1c6cd0"
+"ergative_Align-04","Align-04","ergative","#df3b38"
+"overt-neutral_Align-04","Align-04","overt neutral","#2aa782"
+"tripartite_Align-04","Align-04","tripartite","#16fa1c"
+"horizontal_Align-04","Align-04","horizontal","#5a426c"
+"sensitive_Align-04","Align-04","sensitive","#e338ab"
 "NA_Align-04","Align-04","NA",
 "?_Align-04","Align-04","?",
 "UNCODED_Align-04","Align-04","UNCODED",
 "ERROR_Align-04","Align-04","ERROR",
 "NA_Align-04a","Align-04a","NA",
-"no-marking_Align-04a","Align-04a","no marking","#0da782"
-"accusative_Align-04a","Align-04a","accusative","#0d6dce"
-"ergative_Align-04a","Align-04a","ergative","#db3238"
-"overt-neutral_Align-04a","Align-04a","overt neutral","#dd35a9"
-"tripartite_Align-04a","Align-04a","tripartite","#d216ff"
-"horizontal_Align-04a","Align-04a","horizontal","#60456d"
-"sensitive_Align-04a","Align-04a","sensitive","#32fe1c"
-"no-majority_Align-04a","Align-04a","no majority","#f1ca0d"
+"no-marking_Align-04a","Align-04a","no marking","#0da17e"
+"accusative_Align-04a","Align-04a","accusative","#1c70d3"
+"ergative_Align-04a","Align-04a","ergative","#de3b38"
+"overt-neutral_Align-04a","Align-04a","overt neutral","#de38aa"
+"tripartite_Align-04a","Align-04a","tripartite","#cd00ff"
+"horizontal_Align-04a","Align-04a","horizontal","#56426e"
+"sensitive_Align-04a","Align-04a","sensitive","#49ff1c"
+"no-majority_Align-04a","Align-04a","no majority","#f0ca1c"
 "?_Align-04a","Align-04a","?",
 "UNCODED_Align-04a","Align-04a","UNCODED",
 "ERROR_Align-04a","Align-04a","ERROR",
 "NA_Align-04b","Align-04b","NA",
-"no-marking_Align-04b","Align-04b","no marking","#0d9c7c"
-"accusative_Align-04b","Align-04b","accusative","#2276d7"
-"ergative_Align-04b","Align-04b","ergative","#e74042"
-"overt-neutral_Align-04b","Align-04b","overt neutral","#e53daf"
-"tripartite_Align-04b","Align-04b","tripartite","#ca0dfa"
-"horizontal_Align-04b","Align-04b","horizontal","#634271"
-"sensitive_Align-04b","Align-04b","sensitive","#1cfe00"
-"no-majority_Align-04b","Align-04b","no majority","#f1c916"
+"no-marking_Align-04b","Align-04b","no marking","#1ca982"
+"accusative_Align-04b","Align-04b","accusative","#006ed1"
+"ergative_Align-04b","Align-04b","ergative","#e3383d"
+"overt-neutral_Align-04b","Align-04b","overt neutral","#df35aa"
+"tripartite_Align-04b","Align-04b","tripartite","#ca16fd"
+"horizontal_Align-04b","Align-04b","horizontal","#653b71"
+"sensitive_Align-04b","Align-04b","sensitive","#16fe00"
+"no-majority_Align-04b","Align-04b","no majority","#f1c800"
 "?_Align-04b","Align-04b","?",
 "UNCODED_Align-04b","Align-04b","UNCODED",
 "ERROR_Align-04b","Align-04b","ERROR",
-"no-marking_Align-05","Align-05","no marking","#f7ce22"
-"accusative_Align-05","Align-05","accusative","#3272d4"
-"ergative_Align-05","Align-05","ergative","#dd3832"
-"overt-neutral_Align-05","Align-05","overt neutral","#1ca181"
-"tripartite_Align-05","Align-05","tripartite","#0dff00"
-"horizontal_Align-05","Align-05","horizontal","#633871"
-"sensitive_Align-05","Align-05","sensitive","#e338af"
+"no-marking_Align-05","Align-05","no marking","#f4ce1c"
+"accusative_Align-05","Align-05","accusative","#2673d5"
+"ergative_Align-05","Align-05","ergative","#d9322a"
+"overt-neutral_Align-05","Align-05","overt neutral","#2aa27f"
+"tripartite_Align-05","Align-05","tripartite","#0dfe0d"
+"horizontal_Align-05","Align-05","horizontal","#583b6e"
+"sensitive_Align-05","Align-05","sensitive","#e23baf"
 "NA_Align-05","Align-05","NA",
 "?_Align-05","Align-05","?",
 "UNCODED_Align-05","Align-05","UNCODED",
@@ -97,48 +97,48 @@
 "?_Align-06","Align-06","?",
 "UNCODED_Align-06","Align-06","UNCODED",
 "ERROR_Align-06","Align-06","ERROR",
-"no-marking_Align-07","Align-07","no marking","#f7ce1c"
-"accusative_Align-07","Align-07","accusative","#1673d1"
-"ergative_Align-07","Align-07","ergative","#df3840"
-"overt-neutral_Align-07","Align-07","overt neutral","#2aa381"
-"tripartite_Align-07","Align-07","tripartite","#3bfe00"
-"horizontal_Align-07","Align-07","horizontal","#5c3b65"
-"sensitive_Align-07","Align-07","sensitive","#e740b1"
+"no-marking_Align-07","Align-07","no marking","#f1cc16"
+"accusative_Align-07","Align-07","accusative","#0d75d5"
+"ergative_Align-07","Align-07","ergative","#e53d3d"
+"overt-neutral_Align-07","Align-07","overt neutral","#2aa784"
+"tripartite_Align-07","Align-07","tripartite","#16fd0d"
+"horizontal_Align-07","Align-07","horizontal","#604779"
+"sensitive_Align-07","Align-07","sensitive","#e235ad"
 "NA_Align-07","Align-07","NA",
 "?_Align-07","Align-07","?",
 "UNCODED_Align-07","Align-07","UNCODED",
 "ERROR_Align-07","Align-07","ERROR",
 "NA_Align-07a","Align-07a","NA",
-"no-marking_Align-07a","Align-07a","no marking","#22a782"
-"accusative_Align-07a","Align-07a","accusative","#1c75d7"
-"ergative_Align-07a","Align-07a","ergative","#ea4045"
-"overt-neutral_Align-07a","Align-07a","overt neutral","#df2ea9"
-"tripartite_Align-07a","Align-07a","tripartite","#c800fa"
-"horizontal_Align-07a","Align-07a","horizontal","#4f4269"
-"sensitive_Align-07a","Align-07a","sensitive","#35fb00"
-"no-majority_Align-07a","Align-07a","no majority","#f0c700"
+"no-marking_Align-07a","Align-07a","no marking","#16a783"
+"accusative_Align-07a","Align-07a","accusative","#0070d4"
+"ergative_Align-07a","Align-07a","ergative","#dd3835"
+"overt-neutral_Align-07a","Align-07a","overt neutral","#e038ac"
+"tripartite_Align-07a","Align-07a","tripartite","#cd0dff"
+"horizontal_Align-07a","Align-07a","horizontal","#5f386a"
+"sensitive_Align-07a","Align-07a","sensitive","#49ff00"
+"no-majority_Align-07a","Align-07a","no majority","#f2ca00"
 "?_Align-07a","Align-07a","?",
 "UNCODED_Align-07a","Align-07a","UNCODED",
 "ERROR_Align-07a","Align-07a","ERROR",
 "NA_Align-07b","Align-07b","NA",
-"no-marking_Align-07b","Align-07b","no marking","#2ea786"
-"accusative_Align-07b","Align-07b","accusative","#2275d7"
-"ergative_Align-07b","Align-07b","ergative","#e03d38"
-"overt-neutral_Align-07b","Align-07b","overt neutral","#e540af"
-"tripartite_Align-07b","Align-07b","tripartite","#ce00fe"
-"horizontal_Align-07b","Align-07b","horizontal","#5c3b6c"
-"sensitive_Align-07b","Align-07b","sensitive","#00f91c"
-"no-majority_Align-07b","Align-07b","no majority","#f6cd32"
+"no-marking_Align-07b","Align-07b","no marking","#26a281"
+"accusative_Align-07b","Align-07b","accusative","#2673d4"
+"ergative_Align-07b","Align-07b","ergative","#e44035"
+"overt-neutral_Align-07b","Align-07b","overt neutral","#df3baa"
+"tripartite_Align-07b","Align-07b","tripartite","#cd0dfb"
+"horizontal_Align-07b","Align-07b","horizontal","#603b66"
+"sensitive_Align-07b","Align-07b","sensitive","#2eff0d"
+"no-majority_Align-07b","Align-07b","no majority","#f6ce22"
 "?_Align-07b","Align-07b","?",
 "UNCODED_Align-07b","Align-07b","UNCODED",
 "ERROR_Align-07b","Align-07b","ERROR",
-"no-marking_Align-08","Align-08","no marking","#ecc400"
-"accusative_Align-08","Align-08","accusative","#0d76d5"
-"ergative_Align-08","Align-08","ergative","#e2403b"
-"overt-neutral_Align-08","Align-08","overt neutral","#1ca381"
-"tripartite_Align-08","Align-08","tripartite","#60ff0d"
-"horizontal_Align-08","Align-08","horizontal","#5c3b71"
-"sensitive_Align-08","Align-08","sensitive","#df3baa"
+"no-marking_Align-08","Align-08","no marking","#f0cb1c"
+"accusative_Align-08","Align-08","accusative","#1c72d4"
+"ergative_Align-08","Align-08","ergative","#e94040"
+"overt-neutral_Align-08","Align-08","overt neutral","#22a27e"
+"tripartite_Align-08","Align-08","tripartite","#42ff16"
+"horizontal_Align-08","Align-08","horizontal","#65456d"
+"sensitive_Align-08","Align-08","sensitive","#e235ac"
 "NA_Align-08","Align-08","NA",
 "?_Align-08","Align-08","?",
 "UNCODED_Align-08","Align-08","UNCODED",
@@ -265,21 +265,21 @@
 "UNCODED_Appr-11","Appr-11","UNCODED",
 "ERROR_Appr-11","Appr-11","ERROR",
 "NA_Appr-12","Appr-12","NA",
-"a_Appr-12","Appr-12","a","#0071d5"
-"f_Appr-12","Appr-12","f","#fed6cd"
-"a-f_Appr-12","Appr-12","a & f","#db3538"
-"p_Appr-12","Appr-12","p","#5a550d"
-"a-p_Appr-12","Appr-12","a & p","#e440b2"
-"f-p_Appr-12","Appr-12","f & p","#16dbfd"
-"a-f-p_Appr-12","Appr-12","a & f & p","#603b71"
-"t_Appr-12","Appr-12","t","#fb911c"
-"a-t_Appr-12","Appr-12","a & t","#cd0dfd"
-"f-t_Appr-12","Appr-12","f & t","#bbf075"
-"a-f-t_Appr-12","Appr-12","a & f & t","#32a882"
-"p-t_Appr-12","Appr-12","p & t","#e99bff"
-"a-p-t_Appr-12","Appr-12","a & p & t","#00fc16"
-"f-p-t_Appr-12","Appr-12","f & p & t","#812e16"
-"a-f-p-t_Appr-12","Appr-12","a & f & p & t","#f3c90d"
+"a_Appr-12","Appr-12","a","#1c71d6"
+"f_Appr-12","Appr-12","f","#ffb1b0"
+"a-f_Appr-12","Appr-12","a & f","#e23d3b"
+"p_Appr-12","Appr-12","p","#dbe0f4"
+"a-p_Appr-12","Appr-12","a & p","#e43daf"
+"f-p_Appr-12","Appr-12","f & p","#0ddeff"
+"a-f-p_Appr-12","Appr-12","a & f & p","#5a426e"
+"t_Appr-12","Appr-12","t","#fd962e"
+"a-t_Appr-12","Appr-12","a & t","#cb0dfb"
+"f-t_Appr-12","Appr-12","f & t","#bbef7c"
+"a-f-t_Appr-12","Appr-12","a & f & t","#32a883"
+"p-t_Appr-12","Appr-12","p & t","#e29bfc"
+"a-p-t_Appr-12","Appr-12","a & p & t","#45fd00"
+"f-p-t_Appr-12","Appr-12","f & p & t","#685a00"
+"a-f-p-t_Appr-12","Appr-12","a & f & p & t","#f4cd22"
 "?_Appr-12","Appr-12","?",
 "UNCODED_Appr-12","Appr-12","UNCODED",
 "ERROR_Appr-12","Appr-12","ERROR",
@@ -823,48 +823,48 @@
 "UNCODED_MonPl-05e","MonPl-05e","UNCODED",
 "ERROR_MonPl-05e","MonPl-05e","ERROR",
 "NA_MonPl-06","MonPl-06","NA",
-"s-a-p-noun_MonPl-06","MonPl-06","sap & noun","#fb0026"
-"s-a-p_MonPl-06","MonPl-06","sap","#267989"
-"s-a-p-e-adjective-noun_MonPl-06","MonPl-06","sape & adjective & noun","#dded00"
-"s_MonPl-06","MonPl-06","s","#ce0dfd"
-"a_MonPl-06","MonPl-06","a","#1c70d1"
-"p_MonPl-06","MonPl-06","p","#584071"
-"s-p_MonPl-06","MonPl-06","sp","#b6ecde"
-"s-a_MonPl-06","MonPl-06","sa","#604f16"
-"s-p-noun_MonPl-06","MonPl-06","sp & noun","#93512e"
-"s-a-pronoun-subordinate-clause_MonPl-06","MonPl-06","sa & pronoun & subordinate clause","#dae2b4"
-"s-a-p-e_MonPl-06","MonPl-06","sape","#c99f5d"
-"s-a-p-e-noun_MonPl-06","MonPl-06","sape & noun","#9c0098"
-"s-a-adjective-noun_MonPl-06","MonPl-06","sa & adjective & noun","#c66c0d"
-"s-p-e-adjective-noun_MonPl-06","MonPl-06","spe & adjective & noun","#e6e47d"
-"s-a-noun_MonPl-06","MonPl-06","sa & noun","#1cfea3"
-"s-a-demonstrative-noun-pronoun_MonPl-06","MonPl-06","sa & demonstrative & noun & pronoun","#912649"
-"s-a-p-noun-pronoun_MonPl-06","MonPl-06","sap & noun & pronoun","#a8b1f8"
-"p-adposition-demonstrative-noun-pronoun_MonPl-06","MonPl-06","p & adposition & demonstrative & noun & pronoun","#f5cd26"
-"s-a-p-demonstrative-noun-pronoun_MonPl-06","MonPl-06","sap & demonstrative & noun & pronoun","#22fbed"
-"s-p-e_MonPl-06","MonPl-06","spe","#fec5fa"
-"s-a-p-pronoun_MonPl-06","MonPl-06","sap & pronoun","#9b848a"
-"s-noun_MonPl-06","MonPl-06","s & noun","#e99bfe"
-"s-a-e-adverb-noun-pronoun_MonPl-06","MonPl-06","sae & adverb & noun & pronoun","#761cad"
-"s-e-noun_MonPl-06","MonPl-06","se & noun","#22bc00"
-"p-oblique_MonPl-06","MonPl-06","p & oblique","#e03bac"
-"s-a-e_MonPl-06","MonPl-06","sae","#fe0091"
-"p-e_MonPl-06","MonPl-06","pe","#4ffe00"
-"s-a-e-noun_MonPl-06","MonPl-06","sae & noun","#fc1ced"
-"s-p-noun-pronoun_MonPl-06","MonPl-06","sp & noun & pronoun","#a7f51c"
-"s-adjective_MonPl-06","MonPl-06","s & adjective","#fdb9b8"
-"s-a-demonstrative-noun_MonPl-06","MonPl-06","sa & demonstrative & noun","#5d00ff"
-"s-a-adjective_MonPl-06","MonPl-06","sa & adjective","#daddf8"
-"s-a-p-adposition-noun-numeral-particle-pronoun_MonPl-06","MonPl-06","sap & adposition & noun & numeral & particle & pronoun","#fe768f"
-"s-p-adjective-noun_MonPl-06","MonPl-06","sp & adjective & noun","#9e77fe"
-"s-a-p-adjective-noun_MonPl-06","MonPl-06","sap & adjective & noun","#bb69a2"
-"s-adjective-noun_MonPl-06","MonPl-06","s & adjective & noun","#22dafd"
-"s-a-p-e-adjective-adposition-adverb-demonstrative-noun-numeral-oblique-particle-pronoun-subordinate-clause_MonPl-06","MonPl-06","sape & adjective & adposition & adverb & demonstrative & noun & numeral & oblique & particle & pronoun & subordinate clause","#3b6d16"
-"s-demonstrative-noun-pronoun_MonPl-06","MonPl-06","s & demonstrative & noun & pronoun","#80af00"
-"a-demonstrative-noun-pronoun_MonPl-06","MonPl-06","a & demonstrative & noun & pronoun","#e64040"
-"p-demonstrative-noun-pronoun_MonPl-06","MonPl-06","p & demonstrative & noun & pronoun","#2ea784"
-"s-e_MonPl-06","MonPl-06","se","#a3f2a5"
-"s-p-e-noun_MonPl-06","MonPl-06","spe & noun","#0d7db3"
+"s-a-p-noun_MonPl-06","MonPl-06","sap & noun","#fe779a"
+"s-a-p_MonPl-06","MonPl-06","sap","#007587"
+"s-a-p-e-adjective-noun_MonPl-06","MonPl-06","sape & adjective & noun","#a62aa1"
+"s_MonPl-06","MonPl-06","s","#d116ff"
+"a_MonPl-06","MonPl-06","a","#226ed1"
+"p_MonPl-06","MonPl-06","p","#563d6e"
+"s-p_MonPl-06","MonPl-06","sp","#7ecfd1"
+"s-a_MonPl-06","MonPl-06","sa","#695d0d"
+"s-p-noun_MonPl-06","MonPl-06","sp & noun","#a37cff"
+"s-a-pronoun-subordinate-clause_MonPl-06","MonPl-06","sa & pronoun & subordinate clause","#f8008a"
+"s-a-p-e_MonPl-06","MonPl-06","sape","#93bbfc"
+"s-a-p-e-noun_MonPl-06","MonPl-06","sape & noun","#764240"
+"s-a-adjective-noun_MonPl-06","MonPl-06","sa & adjective & noun","#fa900d"
+"s-p-e-adjective-noun_MonPl-06","MonPl-06","spe & adjective & noun","#98f0af"
+"s-a-noun_MonPl-06","MonPl-06","sa & noun","#6616fb"
+"s-a-demonstrative-noun-pronoun_MonPl-06","MonPl-06","sa & demonstrative & noun & pronoun","#00fca5"
+"s-a-p-noun-pronoun_MonPl-06","MonPl-06","sap & noun & pronoun","#c9864b"
+"p-adposition-demonstrative-noun-pronoun_MonPl-06","MonPl-06","p & adposition & demonstrative & noun & pronoun","#f2c800"
+"s-a-p-demonstrative-noun-pronoun_MonPl-06","MonPl-06","sap & demonstrative & noun & pronoun","#16fce8"
+"s-p-e_MonPl-06","MonPl-06","spe","#265635"
+"s-a-p-pronoun_MonPl-06","MonPl-06","sap & pronoun","#858480"
+"s-noun_MonPl-06","MonPl-06","s & noun","#8a262a"
+"s-a-e-adverb-noun-pronoun_MonPl-06","MonPl-06","sae & adverb & noun & pronoun","#d3e8c2"
+"s-e-noun_MonPl-06","MonPl-06","se & noun","#e2e900"
+"p-oblique_MonPl-06","MonPl-06","p & oblique","#e03dab"
+"s-a-e_MonPl-06","MonPl-06","sae","#7700ad"
+"p-e_MonPl-06","MonPl-06","pe","#16ff1c"
+"s-a-e-noun_MonPl-06","MonPl-06","sae & noun","#fe22eb"
+"s-p-noun-pronoun_MonPl-06","MonPl-06","sp & noun & pronoun","#f6002a"
+"s-adjective_MonPl-06","MonPl-06","s & adjective","#ffc4c0"
+"s-a-demonstrative-noun_MonPl-06","MonPl-06","sa & demonstrative & noun","#d8dffc"
+"s-a-adjective_MonPl-06","MonPl-06","sa & adjective","#eba3ff"
+"s-a-p-adposition-noun-numeral-particle-pronoun_MonPl-06","MonPl-06","sap & adposition & noun & numeral & particle & pronoun","#0d981c"
+"s-p-adjective-noun_MonPl-06","MonPl-06","sp & adjective & noun","#fbc2ee"
+"s-a-p-adjective-noun_MonPl-06","MonPl-06","sap & adjective & noun","#b36391"
+"s-adjective-noun_MonPl-06","MonPl-06","s & adjective & noun","#1cddfe"
+"s-a-p-e-adjective-adposition-adverb-demonstrative-noun-numeral-oblique-particle-pronoun-subordinate-clause_MonPl-06","MonPl-06","sape & adjective & adposition & adverb & demonstrative & noun & numeral & oblique & particle & pronoun & subordinate clause","#fcdd9b"
+"s-demonstrative-noun-pronoun_MonPl-06","MonPl-06","s & demonstrative & noun & pronoun","#bbf17a"
+"a-demonstrative-noun-pronoun_MonPl-06","MonPl-06","a & demonstrative & noun & pronoun","#dc3532"
+"p-demonstrative-noun-pronoun_MonPl-06","MonPl-06","p & demonstrative & noun & pronoun","#169f7a"
+"s-e_MonPl-06","MonPl-06","se","#9d9f16"
+"s-p-e-noun_MonPl-06","MonPl-06","spe & noun","#8b73c4"
 "?_MonPl-06","MonPl-06","?",
 "UNCODED_MonPl-06","MonPl-06","UNCODED",
 "ERROR_MonPl-06","MonPl-06","ERROR",
@@ -989,15 +989,15 @@
 "?_NounPoss-07","NounPoss-07","?",
 "UNCODED_NounPoss-07","NounPoss-07","UNCODED",
 "ERROR_NounPoss-07","NounPoss-07","ERROR",
-"PSSR_NounPoss-08","NounPoss-08","PSSR","#4dff00"
-"PSSD_NounPoss-08","NounPoss-08","PSSD","#e438ad"
-"PSSR-PSSD_NounPoss-08","NounPoss-08","PSSR-PSSD","#ce0dfe"
-"LINKER_NounPoss-08","NounPoss-08","LINKER","#f1c80d"
-"JUXT_NounPoss-08","NounPoss-08","JUXT","#5d3d69"
-"CLAUSE_NounPoss-08","NounPoss-08","CLAUSE","#dc3238"
-"CLASS_NounPoss-08","NounPoss-08","CLASS","#1c6ecf"
-"NULL_NounPoss-08","NounPoss-08","NULL","#16a37e"
-"UNKNOWN_NounPoss-08","NounPoss-08","UNKNOWN","#fcaaa8"
+"PSSR_NounPoss-08","NounPoss-08","PSSR","#16fb00"
+"PSSD_NounPoss-08","NounPoss-08","PSSD","#e842b6"
+"PSSR-PSSD_NounPoss-08","NounPoss-08","PSSR-PSSD","#ce00fe"
+"LINKER_NounPoss-08","NounPoss-08","LINKER","#f1ca16"
+"JUXT_NounPoss-08","NounPoss-08","JUXT","#5f4063"
+"CLAUSE_NounPoss-08","NounPoss-08","CLAUSE","#e94245"
+"CLASS_NounPoss-08","NounPoss-08","CLASS","#0d71d0"
+"NULL_NounPoss-08","NounPoss-08","NULL","#26a381"
+"UNKNOWN_NounPoss-08","NounPoss-08","UNKNOWN","#ffaaa3"
 "?_NounPoss-08","NounPoss-08","?",
 "UNCODED_NounPoss-08","NounPoss-08","UNCODED",
 "ERROR_NounPoss-08","NounPoss-08","ERROR",
@@ -1021,45 +1021,45 @@
 "UNCODED_NounPoss-08c","NounPoss-08c","UNCODED",
 "ERROR_NounPoss-08c","NounPoss-08c","ERROR",
 "NA_NounPoss-09","NounPoss-09","NA",
-"PSSR_NounPoss-09","NounPoss-09","PSSR","#2afc0d"
-"PSSD_NounPoss-09","NounPoss-09","PSSD","#e038a9"
-"PSSR-PSSD_NounPoss-09","NounPoss-09","PSSR-PSSD","#d01cfc"
-"LINKER_NounPoss-09","NounPoss-09","LINKER","#f2ca0d"
-"JUXT_NounPoss-09","NounPoss-09","JUXT","#5a3d73"
-"CLAUSE_NounPoss-09","NounPoss-09","CLAUSE","#e43d3b"
-"CLASS_NounPoss-09","NounPoss-09","CLASS","#0d70d3"
-"NULL_NounPoss-09","NounPoss-09","NULL","#2ea583"
-"UNKNOWN_NounPoss-09","NounPoss-09","UNKNOWN","#ffb9b8"
+"PSSR_NounPoss-09","NounPoss-09","PSSR","#16fd16"
+"PSSD_NounPoss-09","NounPoss-09","PSSD","#e942b3"
+"PSSR-PSSD_NounPoss-09","NounPoss-09","PSSR-PSSD","#cb0dff"
+"LINKER_NounPoss-09","NounPoss-09","LINKER","#f2cb0d"
+"JUXT_NounPoss-09","NounPoss-09","JUXT","#663b6d"
+"CLAUSE_NounPoss-09","NounPoss-09","CLAUSE","#e2383b"
+"CLASS_NounPoss-09","NounPoss-09","CLASS","#2276d5"
+"NULL_NounPoss-09","NounPoss-09","NULL","#2aa886"
+"UNKNOWN_NounPoss-09","NounPoss-09","UNKNOWN","#ffaeaa"
 "?_NounPoss-09","NounPoss-09","?",
 "UNCODED_NounPoss-09","NounPoss-09","UNCODED",
 "ERROR_NounPoss-09","NounPoss-09","ERROR",
 "NA_NounPoss-10","NounPoss-10","NA",
-"PSSR_NounPoss-10","NounPoss-10","PSSR","#1cfe16"
-"PSSD_NounPoss-10","NounPoss-10","PSSD","#e542ae"
-"PSSR-PSSD_NounPoss-10","NounPoss-10","PSSR-PSSD","#cb0dfb"
-"LINKER_NounPoss-10","NounPoss-10","LINKER","#f2ca0d"
-"JUXT_NounPoss-10","NounPoss-10","JUXT","#5d3d60"
-"CLAUSE_NounPoss-10","NounPoss-10","CLAUSE","#e33b40"
-"CLASS_NounPoss-10","NounPoss-10","CLASS","#0d72d0"
-"NULL_NounPoss-10","NounPoss-10","NULL","#26a47e"
-"UNKNOWN_NounPoss-10","NounPoss-10","UNKNOWN","#ffaaa3"
+"PSSR_NounPoss-10","NounPoss-10","PSSR","#22ff00"
+"PSSD_NounPoss-10","NounPoss-10","PSSD","#e842b3"
+"PSSR-PSSD_NounPoss-10","NounPoss-10","PSSR-PSSD","#cf00fd"
+"LINKER_NounPoss-10","NounPoss-10","LINKER","#f1cb16"
+"JUXT_NounPoss-10","NounPoss-10","JUXT","#5a3b69"
+"CLAUSE_NounPoss-10","NounPoss-10","CLAUSE","#df3b3d"
+"CLASS_NounPoss-10","NounPoss-10","CLASS","#2670d0"
+"NULL_NounPoss-10","NounPoss-10","NULL","#26a783"
+"UNKNOWN_NounPoss-10","NounPoss-10","UNKNOWN","#fdb2b0"
 "?_NounPoss-10","NounPoss-10","?",
 "UNCODED_NounPoss-10","NounPoss-10","UNCODED",
 "ERROR_NounPoss-10","NounPoss-10","ERROR",
 "NA_NounPoss-11","NounPoss-11","NA",
-"Noun_NounPoss-11","NounPoss-11","Noun","#add8fe"
-"NULL_NounPoss-11","NounPoss-11","NULL","#6e5d1c"
-"SPECIAL_MARKER_NounPoss-11","NounPoss-11","SPECIAL_MARKER","#bbf083"
-"ARTICLE_NounPoss-11","NounPoss-11","ARTICLE","#ffa6a2"
-"1SG_NounPoss-11","NounPoss-11","1SG","#664073"
-"1PL_NounPoss-11","NounPoss-11","1PL","#e43b3b"
-"1INCL_NounPoss-11","NounPoss-11","1INCL","#0d6acd"
-"3_NounPoss-11","NounPoss-11","3","#f3cb22"
-"3SG_NounPoss-11","NounPoss-11","3SG","#e43bb2"
-"3SG-N_NounPoss-11","NounPoss-11","3SG.N","#c500f9"
-"3SG-M_NounPoss-11","NounPoss-11","3SG.M","#3bfd16"
+"Noun_NounPoss-11","NounPoss-11","Noun","#f6dbd5"
+"NULL_NounPoss-11","NounPoss-11","NULL","#1cdcff"
+"SPECIAL_MARKER_NounPoss-11","NounPoss-11","SPECIAL_MARKER","#b9f179"
+"ARTICLE_NounPoss-11","NounPoss-11","ARTICLE","#86400d"
+"1SG_NounPoss-11","NounPoss-11","1SG","#5f3d70"
+"1PL_NounPoss-11","NounPoss-11","1PL","#df3838"
+"1INCL_NounPoss-11","NounPoss-11","1INCL","#166ed2"
+"3_NounPoss-11","NounPoss-11","3","#f6cc2a"
+"3SG_NounPoss-11","NounPoss-11","3SG","#e43daf"
+"3SG-N_NounPoss-11","NounPoss-11","3SG.N","#d100ff"
+"3SG-M_NounPoss-11","NounPoss-11","3SG.M","#0dff00"
 "3-INAN_NounPoss-11","NounPoss-11","3.INAN",
-"3-INDEF_NounPoss-11","NounPoss-11","3.INDEF","#1ca583"
+"3-INDEF_NounPoss-11","NounPoss-11","3.INDEF","#22a380"
 "?_NounPoss-11","NounPoss-11","?",
 "UNCODED_NounPoss-11","NounPoss-11","UNCODED",
 "ERROR_NounPoss-11","NounPoss-11","ERROR",
@@ -1624,13 +1624,13 @@
 "?_SocCaus-06","SocCaus-06","?",
 "UNCODED_SocCaus-06","SocCaus-06","UNCODED",
 "ERROR_SocCaus-06","SocCaus-06","ERROR",
-"_SocCaus-07","SocCaus-07","","#1669d1"
-"dir-caus_SocCaus-07","SocCaus-07","dir-caus","#f5cb0d"
-"indir-caus_SocCaus-07","SocCaus-07","indir-caus","#2ea381"
-"rec_SocCaus-07","SocCaus-07","rec","#0dfc00"
-"appl_SocCaus-07","SocCaus-07","appl","#e44042"
-"copart_SocCaus-07","SocCaus-07","copart","#634272"
-"other_SocCaus-07","SocCaus-07","other","#e53bad"
+"_SocCaus-07","SocCaus-07","","#0d6ed4"
+"dir-caus_SocCaus-07","SocCaus-07","dir-caus","#f5cc22"
+"indir-caus_SocCaus-07","SocCaus-07","indir-caus","#1ca37e"
+"rec_SocCaus-07","SocCaus-07","rec","#53fe00"
+"appl_SocCaus-07","SocCaus-07","appl","#e3423b"
+"copart_SocCaus-07","SocCaus-07","copart","#604075"
+"other_SocCaus-07","SocCaus-07","other","#e43dae"
 "?_SocCaus-07","SocCaus-07","?",
 "UNCODED_SocCaus-07","SocCaus-07","UNCODED",
 "ERROR_SocCaus-07","SocCaus-07","ERROR",
@@ -1700,13 +1700,13 @@
 "UNCODED_ToneProm-01a","ToneProm-01a","UNCODED",
 "ERROR_ToneProm-01a","ToneProm-01a","ERROR",
 "NA_ToneProm-02","ToneProm-02","NA",
-"amplitude_ToneProm-02","ToneProm-02","amplitude","#1671d5"
-"duration_ToneProm-02","ToneProm-02","duration","#16a783"
-"amplitude-duration_ToneProm-02","ToneProm-02","amplitude & duration","#e84047"
-"pitch_ToneProm-02","ToneProm-02","pitch","#62fe00"
-"amplitude-pitch_ToneProm-02","ToneProm-02","amplitude & pitch","#f5cc16"
-"duration-pitch_ToneProm-02","ToneProm-02","duration & pitch","#e135ab"
-"amplitude-duration-pitch_ToneProm-02","ToneProm-02","amplitude & duration & pitch","#553d6c"
+"amplitude_ToneProm-02","ToneProm-02","amplitude","#2a6dd1"
+"duration_ToneProm-02","ToneProm-02","duration","#2aa786"
+"amplitude-duration_ToneProm-02","ToneProm-02","amplitude & duration","#e23b3d"
+"pitch_ToneProm-02","ToneProm-02","pitch","#2eff26"
+"amplitude-pitch_ToneProm-02","ToneProm-02","amplitude & pitch","#eec500"
+"duration-pitch_ToneProm-02","ToneProm-02","duration & pitch","#e640b1"
+"amplitude-duration-pitch_ToneProm-02","ToneProm-02","amplitude & duration & pitch","#603868"
 "?_ToneProm-02","ToneProm-02","?",
 "UNCODED_ToneProm-02","ToneProm-02","UNCODED",
 "ERROR_ToneProm-02","ToneProm-02","ERROR",
@@ -1829,17 +1829,17 @@
 "?_VelUv-02a","VelUv-02a","?",
 "UNCODED_VelUv-02a","VelUv-02a","UNCODED",
 "ERROR_VelUv-02a","VelUv-02a","ERROR",
-"no-dominant-order_WO-01","WO-01","no dominant order","#166dd3"
-"svo_WO-01","WO-01","svo","#3bfe00"
-"sov_WO-01","WO-01","sov","#e33daf"
-"vso_WO-01","WO-01","vso","#bdef7d"
-"ovs_WO-01","WO-01","ovs","#f6cb1c"
-"osv_WO-01","WO-01","osv","#e43b42"
-"vos_WO-01","WO-01","vos","#1cd8fd"
-"v-first_WO-01","WO-01","v-first","#ce16ff"
-"v-last_WO-01","WO-01","v-last","#fbb4b4"
-"s-last_WO-01","WO-01","s-last","#26a582"
-"other_WO-01","WO-01","other","#514069"
+"no-dominant-order_WO-01","WO-01","no dominant order","#166cce"
+"svo_WO-01","WO-01","svo","#00ff1c"
+"sov_WO-01","WO-01","sov","#e742b2"
+"vso_WO-01","WO-01","vso","#bbf37e"
+"ovs_WO-01","WO-01","ovs","#f1ca0d"
+"osv_WO-01","WO-01","osv","#dc382e"
+"vos_WO-01","WO-01","vos","#22dcff"
+"v-first_WO-01","WO-01","v-first","#cb1cfc"
+"v-last_WO-01","WO-01","v-last","#fdb9b8"
+"s-last_WO-01","WO-01","s-last","#16a480"
+"other_WO-01","WO-01","other","#583b6e"
 "?_WO-01","WO-01","?",
 "UNCODED_WO-01","WO-01","UNCODED",
 "ERROR_WO-01","WO-01","ERROR",

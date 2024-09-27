@@ -822,12 +822,13 @@ h2.question {
 }
 h3 {
   font-size: 24.5px;
-  
+  margin: 0;
   color: #002199;
 }
 h4 {
   font-size: 17.5px;
-  margin: 20px 0;
+  margin: 0 0 20px 0;
+  padding-top: 35px;
   color: #011769;
 }
 h5 {

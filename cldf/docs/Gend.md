@@ -27,7 +27,7 @@ Feature set based on the work of [Rose (2013)](Source#cldf:rose2013genre) and [R
 <tbody>
   <tr>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(1)</span></td>
-    <td class="tg-0lax" colspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Karajá (<a class=”Source” href=”../sources/ribeiro2012karaja”>Ribeiro 2012: 131</a>)</span></td>
+    <td class="tg-0lax" colspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Karajá (<a class="Source" href="../sources/ribeiro2012karaja">Ribeiro 2012: 131</a>)</span></td>
   </tr>
   <tr>
     <td class="tg-0lax"></td>
@@ -37,7 +37,7 @@ Feature set based on the work of [Rose (2013)](Source#cldf:rose2013genre) and [R
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(2)</span></td>
-    <td class="tg-0lax" colspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Eastern Bolivian Guaraní (<a class=”Source” href=”../sources/giannecchini1898chacoboliviano”>Giannecchini 1996 [1898]: 306, 310</a>)</span></td>
+    <td class="tg-0lax" colspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Eastern Bolivian Guaraní (<a class="Source" href="../sources/giannecchini1898chacoboliviano">Giannecchini 1996 [1898]: 306, 310</a>)</span></td>
   </tr>
   <tr>
     <td class="tg-0lax"></td>
@@ -47,7 +47,7 @@ Feature set based on the work of [Rose (2013)](Source#cldf:rose2013genre) and [R
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(3)</span></td>
-    <td class="tg-0lax" colspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Mojeño Trinitario (<a class=”Source” href=”../sources/rose2013generolectos”>Rose 2013: 119</a>)</span></td>
+    <td class="tg-0lax" colspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Mojeño Trinitario (<a class="Source" href="../sources/rose2013generolectos">Rose 2013: 119</a>)</span></td>
   </tr>
   <tr>
     <td class="tg-0lax"></td>

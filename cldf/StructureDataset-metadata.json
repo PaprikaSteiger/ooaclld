@@ -155,7 +155,7 @@
                     {
                         "datatype": "string",
                         "required": false,
-                        "name": "PossibleValues"
+                        "name": "PossibleStates"
                     },
                     {
                         "datatype": "string",

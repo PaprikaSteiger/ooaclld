@@ -1,4 +1,4 @@
-"ParameterID","FeatureSet","Name","Question","PossibleValues","datatype","Derived"
+"ParameterID","FeatureSet","Name","Question","PossibleStates","datatype","Derived"
 "Align-01","Align","Noun exemplar alignments","What are the exemplar alignments of nouns?","; separated list of [ no marking:_frequency_ , accusative:_frequency_ , ergative:_frequency_ , overt neutral:_frequency_ , tripartite:_frequency_ , horizontal:_frequency_ , sensitive:_frequency_ ]","""frequency""","FALSE"
 "Align-01a","Align","Noun exemplar simple majority","What is the simple majority alignment in exemplar scenarios of nouns?","no marking | accusative | ergative | overt neutral | tripartite | horizontal | sensitive | no majority","""single-valued""","TRUE"
 "Align-01b","Align","Noun exemplar simple majority: not local","What is the simple majority alignment in exemplar scenarios for nouns, if local scenarios are excluded?","no marking | accusative | ergative | overt neutral | tripartite | horizontal | sensitive | no majority","""single-valued""","TRUE"
