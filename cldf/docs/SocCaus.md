@@ -520,7 +520,7 @@ Ese Ejja expresses sociative causation with the transparent combination of the c
   <tr>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky" colspan="2">‘Make the children go collect (the banana)!’ (<a class=”Source” href=”../sources/vuillermet2012eseejja”>Vuillermet 2012: 509</a>)</td>
+    <td class="tg-0pky" colspan="2">‘Make the children go collect (the banana)!’ (<a class="Source" href="../sources/vuillermet2012eseejja">Vuillermet 2012: 509</a>)</td>
   </tr>
 </tbody>
 </table>
@@ -583,7 +583,7 @@ Note that in other languages, a similar combination might not necessarily encode
 <thead>
   <tr>
     <th class="tg-0lax">(7)</th>
-    <th class="tg-0lax" colspan="2">Yimas (Lower Sepik-Ramu; Papua New Guinea; <a class=”Source” href=”../sources/foley1991yimas”>Foley 1991</a>: 303)</th>
+    <th class="tg-0lax" colspan="2">Yimas (Lower Sepik-Ramu; Papua New Guinea; <a class="Source" href="../sources/foley1991yimas">Foley 1991</a>: 303)</th>
   </tr>
 </thead>
 <tbody>

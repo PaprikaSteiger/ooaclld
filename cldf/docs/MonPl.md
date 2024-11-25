@@ -14,7 +14,7 @@ In order for a verbal plural marker to be considered monoexponential, it needs t
 <thead>
   <tr>
     <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(1)</span></th>
-    <th class="tg-0lax" colspan="4"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Tapieté (Tupian; <a class=”Source” href=”../sources/gonzalez2005tapiete”>Gonzáles 2005</a>: 102,34)</span></th>
+    <th class="tg-0lax" colspan="4"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Tapieté (Tupian; <a class="Source" href="../sources/gonzalez2005tapiete">Gonzáles 2005</a>: 102,34)</span></th>
   </tr>
 </thead>
 <tbody>
@@ -36,6 +36,26 @@ In order for a verbal plural marker to be considered monoexponential, it needs t
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax" colspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘And </span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">they</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> already know me also.’ </span></td>
+  </tr>
+</tbody>
+</table>
+
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0lax">&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">b.</span></th>
+    <th class="tg-0lax"><span style="font-weight:700;font-style:italic;text-decoration:none;color:#000;background-color:transparent">a</span><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">-mbo’e-po-yɨ-</span><span style="font-weight:700;font-style:italic;text-decoration:none;color:#000;background-color:transparent">reta</span><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">-kwi</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">.</span></th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1SG.ACTIVE</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">-teach-FUT-FRQ-</span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">PL</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">-DISTFUT</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘I will teach </span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">them</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> again.’ </span></td>
   </tr>
 </tbody>
 </table>
@@ -799,7 +819,7 @@ Apart from the plural marker -kom indicating plurality of the P argument, which 
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> </span></td>
-    <td class="tg-0lax" colspan="5"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘ “Grandmother, loosen (free) our canoe, that we can go”, </span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">they</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> say (the monsters).’ <a class=”Source” href=”../sources/rose2023pc”>Rose (2023)</a>
+    <td class="tg-0lax" colspan="5"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘ “Grandmother, loosen (free) our canoe, that we can go”, </span><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">they</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> say (the monsters).’ <a class="Source" href="../sources/rose2023pc">Rose (2023)</a>
 </span></td>
   </tr>
 </tbody>

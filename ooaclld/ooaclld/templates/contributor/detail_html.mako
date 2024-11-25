@@ -2,7 +2,15 @@
 <%namespace name="util" file="../util.mako"/>
 <%! active_menu_item = "contributors" %>
 <%block name="title">${ctx.name}</%block>
-
+<% has_authorship = False %>
+<% has_contributor = False %>
+% for c in ctx.contribution_assocs:
+	% if c.primary:
+	    <% has_authorship = True %>
+    % else:
+        <% has_contributor = True %>
+    % endif
+%endfor
 
 <h2>${ctx.name}
 
@@ -12,8 +20,6 @@
 
 % endif
 </h2>
-${type(ctx.contribution_assocs[0])}
-hello
 % if ctx.description:
 <p>${ctx.description}</p>
 % endif
@@ -38,18 +44,26 @@ hello
     ${util.data(ctx, with_dl=False)}
 </dl>
 
-<h3>${_('Contributions')}</h3>
 <ul>
-<h4>Author:</h4>
+% if has_authorship:
+<h3>Author:</h3>
+    <ul>
     % for c in ctx.contribution_assocs:
         % if c.primary:
             <li>${h.link(request, c.contribution)}</li>
         % endif
     % endfor
-<h4>Contributor:</h4>
+    </ul>
+    <br/>
+% endif
+% if has_contributor:
+<h3>Contributor:</h3>
+    <ul>
     % for c in ctx.contribution_assocs:
         % if not c.primary:
             <li>${h.link(request, c.contribution)}</li>
         % endif
     % endfor
+    </ul>
 </ul>
+% endif

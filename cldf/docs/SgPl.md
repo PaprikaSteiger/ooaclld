@@ -66,7 +66,7 @@
 </table>
 
 ### Form: (root) suppletion & (limited) regular pattern
-We chose the term **singular-plural verbal *stem* alternation** because formally our definition encompasses two types of *lexically restricted* alternation: **root suppletion**, and **limited regular patterns**. Both patterns are exemplified in Wari’ \[wari1268\] (Chapacuran; Brazil; [Birchall et al in review](Source#cldf:birchalletal2024wari)), where some verbal alternations are **suppletive** (14 pairs) and some use a **(lexically) restricted morpheme** (27 pairs), as illustrated in Table 1.
+We chose the term **singular-plural verbal *stem* alternation** because formally our definition encompasses two types of *lexically limited* alternation: **root suppletion**, and **limited regular patterns**. Both patterns are exemplified in Wari’ \[wari1268\] (Chapacuran; Brazil; [Birchall et al in review](Source#cldf:birchalletal2024wari)), where some verbal alternations are **suppletive** (14 pairs) and some use a **(lexically) limited morpheme** (27 pairs), as illustrated in Table 1.
 
 <div class="datainset">
 Table 1: Some verbal pairs formed by suppletion and by limited regular pattern in Wari’ (Chapacuran)
@@ -122,7 +122,7 @@ Table 1: Some verbal pairs formed by suppletion and by limited regular pattern i
 </table>
 </div>
 
-**Root suppletion** (henceforth **suppletion**) is when the verb roots are fully suppletive, as with  *muuku ~ koko* 'die’ in Yaqui (Uto-Aztecan) in (1), or where no pattern is recognizable across multiple verb pairs. A **lexically limited regular pattern** (henceforth **regular pattern**) is when verb stems alternate by some segmentable but unproductive morphology, including reduplication. Our definition requires that the alternation be ***lexically restricted***. An example of *semantically restricted* morphology, which is definitionally excluded from this survey, is the morpheme *koo* in Magdalena Peñasco Mixtec \[magd1235\] (Otomanguean; Mexico), which marks a plural subject only for verbs of Motion ([Erickson de Hollenbach 2013](Source#cldf:erickson2013mixtecomagdalena): 48).[^1]
+**Root suppletion** (henceforth **suppletion**) is when the verb roots are fully suppletive, as with  *muuku ~ koko* 'die’ in Yaqui (Uto-Aztecan) in (1), or where no pattern is recognizable across multiple verb pairs. A **lexically limited regular pattern** (henceforth **regular pattern**) is when verb stems alternate by some segmentable but unproductive morphology, including reduplication. Our definition requires that the alternation be ***lexically limited***. An example of *semantically limited* morphology, which is definitionally excluded from this survey, is the morpheme *koo* in Magdalena Peñasco Mixtec \[magd1235\] (Otomanguean; Mexico), which marks a plural subject only for verbs of Motion ([Erickson de Hollenbach 2013](Source#cldf:erickson2013mixtecomagdalena): 48).[^1]
 
 Note that the difference between regular pattern and suppletion is sometimes unclear, and can be considered as two ends of a continuum. In Western Keres \[west2632\] (Keresan, United States), many verb forms seem regular, but are not in their entirety: *-u̓:bəN ~ -**âaʔ**abəN ~ -**je̓e**bəN* ‘enter’ and *-jaʔac̓íN ~ -**âaʔ**ác̓iN ~ -**jée**dyuB* ‘arrive’ share the same dual prefix, but not quite the same plural prefix. Furthermore, the root for ‘enter’ is consistent across all numbers while that for ‘arrive’ is suppletive in the plural. [Miller (1965: 59)](Source#cldf:miller1965acoma) notes that “the \[phonological\] changes are \[sometimes\] so great that the [verb pairs] can be considered suppletive” and “there is \[...\] no clear-cut difference between irregular [our limited regular pattern] and suppletive changes.” We followed his analysis and considered all of these verbs suppletive (61, the highest number in our sample), since no pattern was synchronically straightforwardly retrievable.
 
@@ -226,16 +226,17 @@ Table 4: The verb ‘eat’ in Malinaltepec Me’phaa (Otomanguean)
 
 ## How?
 Each language in the sample was coded for the 22 features detailed below, which target:
-- the presence of singular-plural stem alternation (SgPl-01);
-- the form of the alternation (SgPl-02-05); 
-- its syntactic alignment (SgPl-17);
-- the semantics of alternating verb pairs (SgPl-06; 08-14; 16; 19; 21);
-- the transitivity status of alternating verb pairs (SgPl-07);
-- the associated properties of the plural elements (SgPl-15); 
-- the presence of alternating verbal morphology (SgPl-19);
-- and the presence of Sg-Pl alternation in adjectives[^3] (SgPl-21).
 
-Individual verb pairs were, in addition, entered into a separate spreadsheet. Each entry in this database is a single verbal pair, and includes the meaning of the pair, the type of alternation (suppletion or regular pattern, and bi- or tripartite pattern, see features SgPl-02, SgPl-04, and SgPl-18), a field for comments, and the identification code of the language the pair occurs in. Additional columns for semantic categorization were added post-hoc, based on a semantic gestalt that arose from the table.
+- the presence of singular-plural stem alternation ([SgPl-01](#sgpl-01-does-the-language-have-lexically-limited-sg-pl-stem-alternation-in-verbs));
+- the form of the alternation ([SgPl-02](#sgpl-02-if-yes-to-sgpl-01-is-there-a-regular-pattern-among-at-least-some-of-these-verbs-to-derive-the-plural-meaning); [03](#sgpl-03-if-yes-to-sgpl-02-how-many-verb-pairs-have-a-regular-pattern); [04](#sgpl-04-if-yes-to-sgpl-01-is-there-root-suppletion-among-at-least-some-of-the-verbs-to-derive-the-plural-meaning); [05](#sgpl-05-if-yes-to-sgpl-04-how-many-sg-pl-verb-pairs-are-suppletive)); 
+- its syntactic alignment ([SgPl-17](#sgpl-17-if-transitive-pairs-are-attested-in-the-language-ie-if-transitive-or-both-to-sgpl-07-which-argument-is-plural));
+- the semantics of alternating verb pairs ([SgPl-06](#sgpl-06-if-yes-to-sgpl-04-is-at-least-some-of-this-root-suppletion-associated-with-the-expected-semantics-posture-motion-diesleepeatcrykill); [08](#sgpl-08-if-yes-to-sgpl-01-does-any-pair-involve-the-semantics-of-spontaneous-or-caused-posture); [09](#sgpl-09-if-yes-to-sgpl-04-how-many-verb-pairs-of-spontaneous-or-caused-posture-are-suppletive); [10](#sgpl-10-if-yes-to-sgpl-01-does-any-pair-involve-the-semantics-of-spontaneous-or-caused-motion); [11](#sgpl-11-if-yes-to-sgpl-04-how-many-verbs-pairs-of-spontaneous-or-caused-motion-are-suppletive); [12](#sgpl-12-if-yes-to-sgpl01-what-other-salient-semantics-apart-from-posture-and-motion-is-present-in-this-list-of-verbs-both-in-regular-and-suppletive-alternation); [13](#sgpl-13-if-yes-to-sgpl-04-how-many-verb-pairs-with-suppletive-alternations-are-from-cry-die-kill-sleep-and-eat); [14](#sgpl-14-if-yes-to-sgpl-01-how-many-verb-pairs-with-suppletive-alternations-are-different-from-cry-die-kill-sleep-and-eat-posture-and-motion); [16](#sgpl-16-if-intransitive-pairs-are-attested-in-the-language-ie-if-intransitive-or-both-to-sgpl-07-what-kind-of-intransitive-verbs-have-the-sg-pl-alternation); [18](#sgpl-18-if-yes-to-sgpl-01-what-are-the-number-semantics-of-the-sg-pl-contrast); [20](sgpl-20-if-yes-to-sgpl-01-can-the-pairs-also-mark-aspectual-meanings-like-pluractionality-aspect-iterativity));
+- the transitivity status of alternating verb pairs ([SgPl-07](#sgpl-07-if-yes-to-sgpl-01-do-the-verb-pairs-involve-intransitive-roots-only-transitive-roots-only-or-both));
+- the associated properties of the plural elements ([SgPl-15](#sgpl-15-if-yes-to-sgpl-01-do-multiple-different-sg-verbs-share-a-pl-verb-form-eg-sg-sit-sg-lie-share-a-plural-sitlie)); 
+- the presence of alternating verbal morphology ([SgPl-19](#sgpl-19-does-the-language-have-inflectional-or-derivational-verbal-morphology-affixes-clitics-or-auxiliaries-with-a-distinct-plural-form-elements-only-encoding-number-are-excluded));
+- and the presence of Sg-Pl alternation in adjectives[^3] ([SgPl-21](#sgpl-21-if-yes-to-sgpl-01-does-the-language-have-a-lexically-limited-sg-pl-stem-alternation-in-adjectives)).
+
+Individual verb pairs were, in addition, entered into a separate spreadsheet. Each entry in this database is a single verbal pair, and includes the meaning of the pair, the type of alternation (suppletion or regular pattern, and bi- or tripartite pattern, see features [SgPl-02](#sgpl-02-if-yes-to-sgpl-01-is-there-a-regular-pattern-among-at-least-some-of-these-verbs-to-derive-the-plural-meaning), [SgPl-04](#sgpl-04-if-yes-to-sgpl-01-is-there-root-suppletion-among-at-least-some-of-the-verbs-to-derive-the-plural-meaning), and [SgPl-18](#sgpl-18-if-yes-to-sgpl-01-what-are-the-number-semantics-of-the-sg-pl-contrast)), a field for comments, and the identification code of the language the pair occurs in. Additional columns for semantic categorization were added post-hoc, based on a semantic gestalt that arose from the table.
 
 ## Why?
 The phenomenon of singular-plural stem alternation was probably first mentioned by [Boas (1911: 381)](Source#cldf:boas1911tsimishian) in his Tsimshian sketch under the term “irregular plural”, but little attention was paid to the phenomenon until the 1980s. Several crosslinguistic works on verbal number have appeared since: 
@@ -251,7 +252,7 @@ All studies including North American language data emphasize its overwhelming pr
 ### [](ParameterTable#cldf:SgPl-01)
 &emsp;**{ yes | no }**
 
-If &lt;no&gt; to SgPl-01, then the state is e NA for all other features, except for SgPl-19.
+If &lt;no&gt; to SgPl-01, then the state is &lt;NA&gt; for all other features, except for [SgPl-19](#sgpl-19-does-the-language-have-inflectional-or-derivational-verbal-morphology-affixes-clitics-or-auxiliaries-with-a-distinct-plural-form-elements-only-encoding-number-are-excluded).
 
 #### no: Garrwa \[gara1269\] (Garrwan; Australia)
 [Mushin (2012)](Source#cldf:mushin2012garrwa) reports no Sg-Pl stem alternation.
@@ -374,7 +375,7 @@ According to [Nakagawa (2022)](Source#cldf:nakagawa2022numberainu), some verb fo
 </table>
 
 #### yes: Ingush \[ingu1240\] (Nakh-Daghestanian; Georgia, Russia)
-According to [Nichols (2011: 313)](Source#cldf:nichols2011ingush), "a few verbs undergo agreement with the number of the S/O". (See Table 5 in SgPl-03 below for a list.)
+According to [Nichols (2011: 313)](Source#cldf:nichols2011ingush), "a few verbs undergo agreement with the number of the S/O". (See Table 5 in [SgPl-03](#sgpl-03-if-yes-to-sgpl-02-how-many-verb-pairs-have-a-regular-pattern) below for a list.)
 
 ### [](ParameterTable#cldf:SgPl-02)
 &emsp;**{ NA | yes | no common pattern }**
@@ -689,6 +690,9 @@ In Kwaza, all suppletive pairs are intransitive, but some regular patterns are t
 ### [](ParameterTable#cldf:SgPl-08)
 &emsp;**{ NA | yes | no }**
 
+We intentionally group together Spontaneous and Caused posture (as well as both types of motion) verbs, and investigate separately the transitivity status of the alternating pairs ([SgPl-17](#sgpl-17-if-transitive-pairs-are-attested-in-the-language-ie-if-transitive-or-both-to-sgpl-07-which-argument-is-plural)), since we don't want to mix semantic and syntactic categorization. As a matter of fact although spontaneous vs caused motion semantics often align with intransitive vs transitive motion verbs, there are discrepancies. In some languages, the verb ‘go across’ is syntactically transitive (with the entity being crossed encoded as a direct object), yet semantically, it is nevertheless a spontaneous motion event. Spontaneous and Caused posture (and motion) are not distinguished in this question, but they are separated in the associated verb list.
+
+
 #### yes: Hokkaido Ainu \[ainu1240\] (Ainu; Japan)
 Ainu has two verb pairs expressing Posture ([Nakagawa 2022](Source#cldf:nakagawa2022numberainu)).
 
@@ -781,7 +785,7 @@ We have listed in the remarks the verb pairs according to the following semantic
 - property (property concept semantics, e.g. ‘be small’, ‘be kind’)
 - other (none of the above)
 
-Note that this feature is restricted to the list of alternating **verbs**. This means that if adjectives formed a distinct part of speech category, they were not listed under Property in this feature, but in SgPl-21. 
+Note that this feature is restricted to the list of alternating **verbs**. This means that if adjectives formed a distinct part of speech category, they were not listed under Property in this feature, but in [SgPl-21](#sgpl-21-if-yes-to-sgpl-01-does-the-language-have-a-lexically-limited-sg-pl-stem-alternation-in-adjectives). 
 
 The verb ‘exist’ has been listed in the Other category, unless it is encoded by a Posture verb, like *t̓á· ~ wán* ‘to sit, to exist’ in Nisga'a ([Tarpent 1983](Source#cldf:tarpent1983morphophonemics): 199-200), or by a Location verb, like *an ~ oka* ‘be, exist’ in Hokkaido Ainu ([Nakagawa 2022](Source#cldf:nakagawa2022numberainu)). Such existential verbs have been listed in the Posture and Location categories respectively, so as to not be counted twice.
 
@@ -934,7 +938,7 @@ The only pairs (‘come' and ‘go') are unergative ([Valenzuela 2003](Source#cl
 #### both: North Slavey \[nort2942\] (Athabaskan-Eyak-Tlingit; Canada)
 The list reported in [Rice (1989: 790f)](Source#cldf:rice1989slave) includes both unergative intransitive verb pairs like ‘be seated’, ‘go (controlled)’ and ‘swim’, as well as unaccusative ones like ‘go (non-controlled)’, ‘fall’, ‘sleep’ and ‘die’.
 
-### [](ParameterTable#cldf:SgPl-1-17)
+### [](ParameterTable#cldf:SgPl-17)
 &emsp;**{ NA | A | P | either | both }** 
 
 **&lt;either&gt;** signifies that the plural argument depends on the verb, i.e. it is always A for some verbs and always P for other verbs.
@@ -1351,12 +1355,12 @@ The verbal pairs in Shipibo-Conibo only signify the number of participants invol
 ### [](ParameterTable#cldf:SgPl-21)
 &emsp;**{ NA | yes | property concept verbs | no }**
 
-Frequent suppletive adjectives are ‘small’, ‘long’, ‘short’, ‘tall’, ‘extreme’, ‘ugly’, ‘sick’, ‘dead’ ([Booker 1982](Source#cldf:booker1982karok)). In cases where no suppletive adjectives were mentioned in the grammar and a dictionary was available, we checked in the dictionary for these adjectives, to confirm that there was no suppletion. As with verbs, we considered a restricted set of adjectives with an irregular Sg-Pl morphology as long as the set was not semantically restricted.
+Frequent suppletive adjectives are ‘small’, ‘long’, ‘short’, ‘tall’, ‘extreme’, ‘ugly’, ‘sick’, ‘dead’ ([Booker 1982](Source#cldf:booker1982karok)). In cases where no suppletive adjectives were mentioned in the grammar and a dictionary was available, we checked in the dictionary for these adjectives, to confirm that there was no suppletion. As with verbs, we considered a limited set of adjectives with an irregular Sg-Pl morphology as long as the set was not semantically limited.
 
 If a language uses verbs to express such concepts and those verbs alternate according to number, then we coded &lt;property concept verbs&gt;, a special case which allowed us to separately track Sg-Pl alternation in a distinct adjective class (&lt;yes&gt;), as well as its presence in property words, regardless of their part-of-speech (&lt;yes&gt; and &lt;property concept verbs&gt;).
 
 #### no: Grass Koiari \[gras1249\] (Koiaran, Papua New Guinea)
-In Grass Koiari, some adjectives have a specific plural form achieved by reduplication. However, all DIMENSION, AGE and VALUE adjectives are targets of this reduplication phenomenon, which is semantically (not lexically) restricted and thus is excluded from our definition of Sg-Pl alternation ([Dutton 2003](Source#cldf:dutton2003dictionary): 339; [Dutton 1996](Source#cldf:dutton1996grammar): 43).
+In Grass Koiari, some adjectives have a specific plural form achieved by reduplication. However, all DIMENSION, AGE and VALUE adjectives are targets of this reduplication phenomenon, which is semantically (not lexically) limited and thus is excluded from our definition of Sg-Pl alternation ([Dutton 2003](Source#cldf:dutton2003dictionary): 339; [Dutton 1996](Source#cldf:dutton1996grammar): 43).
 
 #### property concept verbs: Krongo \[kron1241\] (Kadugli-Krongo, Sudan)
 In Krongo, several property verbs are sensitive to number: ‘be short’, ‘be pointy’, ‘be short’, ‘be pointy’, ‘be dull’, ‘be big/tall’, ‘be big/fat’, ‘be large’, ‘be narrow’, ‘be half full’, ‘be empty.’
@@ -1365,7 +1369,7 @@ In Krongo, several property verbs are sensitive to number: ‘be short’, ‘be
 Wari’ is an edge case, as it has many verbs that display Sg-Pl alternation, including verbs with property semantics, e.g. ‘be stuck’, ‘be afraid’, ‘be far away’, ‘be alone’, etc. However, it also has one adjective that displays suppletion, which means ‘big/tall’ when used predicatively, and ‘old’ when used attributively. Logically both &lt;yes&gt; and &lt;property concept verbs&gt; are correct but mutually exclusive states. We coded Wari’ as a &lt;yes&gt;, and noted in the remarks that several stative verbs display Property semantics.
 
 #### yes: Nuu-chah-nulth \[nuuc1236\] (Wakashan; Canada)
-Nuu-chah-nulth has a restricted set of adjectives that have singular and plural forms, drawn from a large inventory of irregular plural marking for nouns. These are *ʔiiḥ ~ ʔaʔiiḥ* ‘big’, *ƛaʔuu ~ ƛaƛuu* ‘other’, *ƛuł ~ ƛutƛuuł* ‘good’, *maquuł ~ maatquuḥ* ‘blind’, *kʷisḥii ~ kʷiy̓aasḥi* ‘different’, *kʷatyiik ~ kʷay̓aatyik* ‘heavy’, *cumaa ~ cucum* ‘full’, and perhaps a few others ([Inman 2021](Source#cldf:inman2021nuuchahnulth)). Most adjectives however do not have plural forms.[^4]
+Nuu-chah-nulth has a limited set of adjectives that have singular and plural forms, drawn from a large inventory of irregular plural marking for nouns. These are *ʔiiḥ ~ ʔaʔiiḥ* ‘big’, *ƛaʔuu ~ ƛaƛuu* ‘other’, *ƛuł ~ ƛutƛuuł* ‘good’, *maquuł ~ maatquuḥ* ‘blind’, *kʷisḥii ~ kʷiy̓aasḥi* ‘different’, *kʷatyiik ~ kʷay̓aatyik* ‘heavy’, *cumaa ~ cucum* ‘full’, and perhaps a few others ([Inman 2021](Source#cldf:inman2021nuuchahnulth)). Most adjectives however do not have plural forms.[^4]
 
 ## Derived features
 ### [](ParameterTable#cldf:SgPl-01a)
@@ -1375,22 +1379,40 @@ Nuu-chah-nulth has a restricted set of adjectives that have singular and plural 
 <tbody>
   <tr>
     <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">Sg-Pl</span></td>
-    <td class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-01 is &lt;yes&gt; and MonPl.01  is &lt;no&gt;</span></td>
+    <td class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-01 is &lt;yes&gt; and MonPl-01 is &lt;no&gt;</span></td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">Sg-Pl and irregular MonPl</span></td>
-    <td class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-01 is &lt;yes&gt; and MonPl.01 is &lt;yes&gt;</span></td>
+    <td class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-01 is &lt;yes&gt; and MonPl-01 is &lt;yes&gt;</span></td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">irregular MonPl</span></td>
-    <td class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-01 is &lt;no&gt; and MonPl.01 is &lt;no&gt;</span></td>
+    <td class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-01 is &lt;no&gt; and MonPl-01 is &lt;no&gt;</span></td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">none</span></td>
-    <td class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-01 is &lt;no&gt; and MonPl.01 is &lt;no&gt;</span></td>
+    <td class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-01 is &lt;no&gt; and MonPl-01 is &lt;no&gt;</span></td>
   </tr>
 </tbody>
 </table>
+
+### [](ParameterTable#cldf:SgPl-01b)
+&emsp;**{ yes | no }**
+
+<table class="dconversion">
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">yes</span></td>
+    <td class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-01 is &lt;yes&gt; or SgPl-19 is &lt;yes&gt;</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:700;font-style:normal;text-decoration:none">Sg-Pl and irregular MonPl</span></td>
+    <td class="tg-0lax"><span style="font-style:normal;text-decoration:none">if SgPl-01 is &lt;no&gt; and SgPl-19 is &lt;no&gt;</span></td>
+  </tr>
+</tbody>
+</table>
+
+This feature unites languages with Sg-Pl alternation in lexical verbs and languages with Sg-Pl alternation in verbal morphology. The data suggest that these two phenomena are diachronically linked. Indeed, in our sample only 6 languages display Sg-Pl alternation in verbal morphology only, while the 27 other languages which have it display Sg-Pl alternation in both lexical verbs and verbal morphology. In addition, in several cases, the alternating verbal morphology clearly comes from alternating verb roots, as in Yaqui, where the associated motion morpheme *-sime ~ -saka* was grammaticalized from the verb pair for ‘go’ *síme ~ sáka* ([Dedrick and Casad](Source#cldf:dedrick1999sonora) (1999:293-294).
 
 ### [](ParameterTable#cldf:SgPl-16a)
 &emsp;**{ NA | yes | no }**

@@ -1,4 +1,4 @@
-Feature set adapted and extended from [Maddieson 2013](Source#cldf:maddieson2013wals8).
+Feature set adapted and extended from [Maddieson (2013)](Source#cldf:maddieson2013wals8).
 
 **Authors**: [David Inman](Contributor#cldf:DI), [Kellen Parker Van Dam](Contributor#cldf:KPVD)
 

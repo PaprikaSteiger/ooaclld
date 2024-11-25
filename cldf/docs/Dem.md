@@ -2,7 +2,7 @@ Questionnaire based on the work of [Krasnoukhova (2012)](Source#cldf:krasnoukhov
 
 **Authors**: [David Inman](Contributor#cldf:DI), [Marine Vuillermet](Contributor#cldf:MV)
 
-**Acknowledgements**: [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Kellen Parker van Dam](Contributor#cldf:KPVD), [Anna Graff](Contributor#cldf:AG), [Nora Muheim](Contributor#cldf:NJM)
+**Acknowledgements**: [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Kellen Parker van Dam](Contributor#cldf:KPVD), [Anna Graff](Contributor#cldf:AG), [Nora Muheim](Contributor#cldf:NJM), [Diana Krasovskaya](Contributor#cldf:DK)
 
 [TOC]
 
@@ -37,7 +37,7 @@ Formally, adnominal demonstratives can be realized as free or bound words. In se
   </tr>
   <tr>
     <td class="tg-0lax"></td>
-    <td class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘standing people’ (<a class=”Source” href="../sources/crevels2012itonama">Crevels 2012</a>: 252)</span></td>
+    <td class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘standing people’ (<a class="Source" href="../sources/crevels2012itonama">Crevels 2012</a>: 252)</span></td>
   </tr>
 </tbody>
 </table>
@@ -831,7 +831,7 @@ Other semantic features are more geographically constrained. Visibility distinct
 
 **Conceptualization**: [David Inman](Contributor#cldf:DI), [Marine Vuillermet](Contributor#cldf:MV)
 
-**Data collection**: [David Inman](Contributor#cldf:DI), [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Marine Vuillermet](Contributor#cldf:MV), [Anna Graff](Contributor#cldf:AG), [Nora Muheim](Contributor#cldf:NJM)
+**Data collection**: [David Inman](Contributor#cldf:DI), [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Marine Vuillermet](Contributor#cldf:MV), [Anna Graff](Contributor#cldf:AG), [Nora Muheim](Contributor#cldf:NJM), [Diana Krasovskaya](Contributor#cldf:DK)
 
 **Supervision of data collection**: [David Inman](Contributor#cldf:DI), [Marine Vuillermet](Contributor#cldf:MV), [Kellen Parker van Dam](Contributor#cldf:KPVD), [Natalia Chousou-Polydouri](Contributor#cldf:NCP)
 
