@@ -1,6 +1,6 @@
 **Authors**: [David Inman](Contributor#cldf:DI), [Kellen Parker van Dam](Contributor#cldf:KPVD)
 
-**Acknowledgements**: [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Marine Vuillermet](Contributor#cldf:MV), [Selma Hardegger](Contributor#cldf:SH), [Nora Muheim](Contributor#cldf:NJM)
+**Acknowledgements**: [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Marine Vuillermet](Contributor#cldf:MV), [Selma Hardegger](Contributor#cldf:SH), [Nora Muheim](Contributor#cldf:NJM), [Diana Krasovskaya](Contributor#cldf:DK)
 
 [TOC]
 
@@ -273,7 +273,7 @@ The presence of dental stops ([Cor-05](../parameters/Cor-05)) shows some degree 
 ## Contributions
 **Conceptualization**: [David Inman](Contributor#cldf:DI), [Kellen Parker van Dam](Contributor#cldf:KPVD)
 
-**Data collection**: [David Inman](Contributor#cldf:DI), [Kellen Parker van Dam](Contributor#cldf:KPVD), [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Marine Vuillermet](Contributor#cldf:MV), [Nora Muheim](Contributor#cldf:NJM), [Selma Hardegger](Contributor#cldf:SH)
+**Data collection**: [David Inman](Contributor#cldf:DI), [Kellen Parker van Dam](Contributor#cldf:KPVD), [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Marine Vuillermet](Contributor#cldf:MV), [Nora Muheim](Contributor#cldf:NJM), [Selma Hardegger](Contributor#cldf:SH), [Diana Krasovskaya](Contributor#cldf:DK)
 
 **Supervision of data collection**: [David Inman](Contributor#cldf:DI), [Natalia Chousou-Polydouri](Contributor#cldf:NCP)
 

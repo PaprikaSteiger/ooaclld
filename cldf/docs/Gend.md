@@ -2,13 +2,7 @@ Feature set based on the work of [Rose (2013)](Source#cldf:rose2013genre) and [R
 
 **Authors**: [Françoise Rose](Contributor#cldf:FR), [Marine Vuillermet](Contributor#cldf:MV)
 
-**Acknowledgements**: [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Oscar Cocaud-Degrève](Contributor#cldf:OCD), [Kellen Parker van Dam](Contributor#cldf:KPVD), [David Inman](Contributor#cldf:DI), [David Timothy Perrot](Contributor#cldf:DP)
-
-**Conceptualization**: [Françoise Rose](Contributor#cldf:FR), [Marine Vuillermet](Contributor#cldf:MV)
-
-**Data collection**: [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Kellen Parker van Dam](Contributor#cldf:KPVD), [Oscar Cocaud-Degrève](Contributor#cldf:OCD), [Anna Graff](Contributor#cldf:AG), [David Inman](Contributor#cldf:DI), [Diana Krasovskaya](Contributor#cldf:DK), [David Timothy Perrot](Contributor#cldf:DP), [Françoise Rose](Contributor#cldf:FR), [Marine Vuillermet](Contributor#cldf:MV)
-
-**Supervision of data collection**: [Françoise Rose](Contributor#cldf:FR), [Marine Vuillermet](Contributor#cldf:MV)
+**Acknowledgements**: [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Oscar Cocaud-Degrève](Contributor#cldf:OCD), [Kellen Parker van Dam](Contributor#cldf:KPVD), [David Inman](Contributor#cldf:DI), [David Timothy Perrot](Contributor#cldf:DP), [Diana Krasovskaya](Contributor#cldf:DK)
 
 [TOC]
 
@@ -516,6 +510,15 @@ With regard to the domains targeted in the grammar, genderlects primarily target
 A little over half of the genderlects surveyed encode the speaker gender (54%). Those encoding the addressee gender are the second most frequent (19%). Genderlects encoding jointly the speaker and addressee gender ('both' systems, Haas Type III) or mixed (depending on the gender indexing element) are equally less frequent (12% each), but still represent together a quarter of all types. Interestingly, our sample shows drastic differences inside vs.outside the Americas: systems based on the speaker gender are much more frequent in the Americas, while systems based on the addressee genders or on both the speaker and addressee genders are much more frequent outside the Americas. These figures need to be confirmed with a larger sample outside the Americas.
 
 Gender indexicality seems to be highly associated with (inter)subjectivity: 84% of languages with categorical genderlects display gender indexicality exclusively in (inter)subjective elements. This figure is particularly high, especially if we take into account the fact that the (inter)subjectivity parameter is not relevant for genderlects in the phonological domain.
+
+## Contributions
+
+**Conceptualization**: [Françoise Rose](Contributor#cldf:FR), [Marine Vuillermet](Contributor#cldf:MV)
+
+**Data collection**: [Natalia Chousou-Polydouri](Contributor#cldf:NCP), [Kellen Parker van Dam](Contributor#cldf:KPVD), [Oscar Cocaud-Degrève](Contributor#cldf:OCD), [Anna Graff](Contributor#cldf:AG), [David Inman](Contributor#cldf:DI), [Diana Krasovskaya](Contributor#cldf:DK), [David Timothy Perrot](Contributor#cldf:DP), [Françoise Rose](Contributor#cldf:FR), [Marine Vuillermet](Contributor#cldf:MV), [Diana Krasovskaya](Contributor#cldf:DK)
+
+**Supervision of data collection**: [Françoise Rose](Contributor#cldf:FR), [Marine Vuillermet](Contributor#cldf:MV)
+
 
 ## References
 [References](Source?cited_only#cldf:__all__)

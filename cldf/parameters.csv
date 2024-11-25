@@ -21,7 +21,7 @@
 "Align-14","Align","Portmanteau indexing","If both A and P can be indexed (i.e. if <yes> to Align.13), are there person portmanteaus?","NA | yes | no","""single-valued""","FALSE"
 "Align-15","Align","Coargument sensitivity location","Is there any coargument sensitivity that is not exclusively due to person portmanteaus, and if so where?","no | indexing | flagging | both","""single-valued""","FALSE"
 "Align-15a","Align","Coargument sensitivity presence","Is there coargument sensitivity that is not due exclusively to portmanteaus?","yes | no","""single-valued""","TRUE"
-"Align-16","Align","Direct-inverse marking","If co-argument sensitivity exists in indexing and it is not only due to portmanteaus (i.e. <indexing> or <both> to Align.15), is there direct/inverse marking in some scenarios?","NA | yes | no","""single-valued""","FALSE"
+"Align-16","Align","Direct-inverse marking","If co-argument sensitivity exists in indexing and it is not only due to portmanteaus (i.e. not <no> to Align.15), is there direct/inverse marking in some scenarios?","NA | yes | no","""single-valued""","FALSE"
 "Appr-01","Appr","Apprehensional morphology","Does the language have apprehensional morphology?","yes | no","""single-valued""","FALSE"
 "Appr-02","Appr","Apprehensive","If <yes> to Appr-01, can (at least one of) the apprehensional construction(s) express the apprehensive function?","yes | no | NA","""single-valued""","FALSE"
 "Appr-03","Appr","Apprehensive grammatical persons","If <yes> to Appr-02, which grammatical persons are attested in the subject role (S or A) with the apprehensive?","NA | [ 1 , 2 , 3 ]","""multi-valued""","FALSE"
