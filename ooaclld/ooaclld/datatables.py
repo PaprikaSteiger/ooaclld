@@ -208,13 +208,12 @@ class Values(datatables.Values):
 class Contributors(datatables.Contributors):
     def col_defs(self):
         return [
-            #IdCol(
-            #    self, "Contributor ID", sTitle="Contributor ID", model_col=common.Contributor.id, sClass="left"
-            #),
             LinkCol(self, "Name", model_col=common.Contributor.name, sClass="left"),
             AtlasAuthorsCol(self, "Author"),
             AtlasContributionsCol(self, "Contributor"),
         ]
+    def base_query(self, query):
+        return query.filter(common.Contributor.id != 'auto')
 
 
 def includeme(config):
