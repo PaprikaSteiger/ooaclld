@@ -40,7 +40,6 @@ class GeoJsonFeature(GeoJsonParameter):
             ]
         }
         return res
-        #TODO: HERE it s decided what is passed to the mapmarker as context
 
 def includeme(config):
     config.register_adapter(GeoJsonFeature, interfaces.IParameter)

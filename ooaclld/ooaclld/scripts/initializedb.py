@@ -155,8 +155,6 @@ def main(args):
             language_pk=lpk,
             parameter_pk=data["OOAParameter"][pid.replace(".", "-")].pk,
             contribution_pk=data["OOAFeatureSet"][current_contribution].pk,
-            # TODO: check that all values in the same valueset have the same source. If not, discuss with david
-            #source=" & ".join(row['Source']),
         )
         vsrefs = set()
         for row in rows:
@@ -165,11 +163,6 @@ def main(args):
                     sid, desc = pycldf.Sources.parse(s)
                     if sid not in all_sources:
                         continue
-                    # try:
-                    #     s_, descr = srcdescr.search(s).groups()
-                    # except AttributeError:
-                    #     s_ = s
-                    #     descr = ''
                     spk = data['Source'][sid].pk
                     if spk not in vsrefs:
                         data.add(
@@ -187,7 +180,6 @@ def main(args):
                 row["ID"],
                 id=row["ID"],
                 valueset=vs,
-                # Todo: not all values have a code id
                 domainelement_pk=data["DomainElement"][row["CodeID"].replace(".", "-")].pk,
                 code_id=row["CodeID"],
                 value=row["Value"],

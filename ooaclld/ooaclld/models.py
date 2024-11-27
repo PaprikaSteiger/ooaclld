@@ -70,7 +70,6 @@ class OOAValue(CustomModelMixin, common.Value):
     remark = Column(Unicode)
     value = Column(Unicode)
     code_id = Column(Unicode)
-    # TODO: Maybe add a relationship to contributors
     coder = Column(Unicode)
 
     def __str__(self):

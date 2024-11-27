@@ -16,16 +16,10 @@ class OaaMapMarker(MapMarker):
         ))
 
     def __call__(self, ctx, req):
-        #if IValueSet.providedBy(ctx):
         if IDomainElement.providedBy(ctx):
-            # if req.matched_route.name == 'valueset' and not ctx.parameter.multivalued:
-            #     return self.pie((100, ctx.values[0].domainelement.jsondata['color']))
             slices = Counter()
-            # for v in ctx.values:
-            #
-            #len(ctx.values)
             icon = ctx.jsondata['icon']
-            if icon :#and icon.startswith("#"):
+            if icon :
                 for value in ctx.values:
                     slices[icon] += value.frequency or 1
 
@@ -40,7 +34,6 @@ class OaaMapMarker(MapMarker):
             return self.pie(*[(v, k) for k, v in slices.most_common()])
 
         if IValue.providedBy(ctx):
-            # TODO: It seems only the value i want to block land here... (NA, ERROR, ?)
             slices = Counter()
             icon = ctx.domainelement.jsondata['icon']
             if icon and icon.startswith("#"):
