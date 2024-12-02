@@ -47,7 +47,6 @@ class OOAFeatureSet(CustomModelMixin, common.Contribution):
     featureset_id = Column(Unicode)
     domains = Column(Unicode)
     authors = Column(Unicode)
-    # contributor = relationship(common.Contributor)
     contributors = Column(Unicode)
     filename = Column(Unicode)
 

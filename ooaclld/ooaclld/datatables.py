@@ -155,8 +155,7 @@ class AtlasValueNameCol(ValueNameCol):
 
 
 class Values(datatables.Values):
-    #__constraints__ = [OOAParameter, OOALanguage]
-
+    
     def base_query(self, query):
         query = datatables.Values.base_query(self, query)
         if self.parameter:
@@ -188,7 +187,6 @@ class Values(datatables.Values):
                      sClass="left", 
                      model_col=OOAParameter.id,
                      get_object=lambda i: i.valueset.parameter),
-                #IdCol(self, "Id", sTitle="Value ID", sClass="left"),
                 LinkCol(
                     self,
                     "Feature ID",

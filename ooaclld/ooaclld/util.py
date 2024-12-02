@@ -57,7 +57,6 @@ def value_table(ctx, req):
         HTML.td('%s' % len(langs), class_='right')))
 
     parts = []
-    # if ctx.multivalued:
     parts.append(HTML.thead(
         HTML.tr(*[HTML.th(s, class_='right')
                   for s in [' ', '             ', 'exclusive', 'partial', 'all']]))

@@ -76,8 +76,8 @@ def main(args):
             description=desc,
         )
         cnt = 0
-        # TOdo: fix this issue in the data, then remove this part of the code
-        # the problem is that an author cannot be as well a contributor
+        # In CLLD, an author cannot also be a contributor
+        # However, we have kept this structure of double-listing in the underlying CLDF
         authors = set(row["Authors"])
         contrib = set(row["Contributors"])
         row["Contributors"] = list(contrib - authors)
@@ -102,10 +102,8 @@ def main(args):
             id=row["ParameterID"],
             name=row["Name"],
             featureset_pk=data["OOAFeatureSet"][row["FeatureSet"]].pk,
-            featureset_name=row["FeatureSet"],  # TODO: delete that row
             question=row["Question"],
             datatype=row["datatype"],
-            #visualization=row["VisualizationOnly"],
         )
     DBSession.flush()
 
@@ -133,8 +131,8 @@ def main(args):
         for i, row in enumerate(rows, start=1):
             data.add(
                 common.DomainElement,
-                row["CodeID"],#.replace(".", "").replace("]", ""),
-                id=row["CodeID"],#.replace(".", "").replace("]", ""),
+                row["CodeID"],
+                id=row["CodeID"],
                 description=row["Description"],
                 name=row['Description'],
                 number=i,

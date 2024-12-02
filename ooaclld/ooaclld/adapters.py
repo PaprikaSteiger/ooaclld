@@ -10,7 +10,6 @@ from sqlalchemy.orm import joinedload
 class GeoJsonFeature(GeoJsonParameter):
     def feature_iterator(self, ctx, req):
         for vs in DBSession.query(common.ValueSet).filter(common.ValueSet.parameter_pk == ctx.pk).options(
-                #joinedload(common.ValueSet.values),
                 joinedload(common.ValueSet.language)):
             yield vs
 
